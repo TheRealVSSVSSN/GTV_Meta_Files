@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<CWeaponModelInfo__InitDataList>
+	<InitDatas>
+		
+		<!-- ### Hatchet ### -->
+		<Item>
+		  <modelName>w_me_hatchet</modelName>
+		  <txdName>w_me_hatchet</txdName>
+		  <ptfxAssetName>null</ptfxAssetName>
+		  <lodDist value="50"/>
+		</Item>
+
+		<!-- ### Rail Gun ### -->
+		<Item>
+			<modelName>w_ar_railgun</modelName>
+			<txdName>w_ar_railgun</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		<Item>
+			<modelName>w_ar_railgun_mag1</modelName>
+			<txdName>w_ar_railgun_mag1</txdName>
+			<ptfxAssetName>null</ptfxAssetName>
+			<lodDist value="50"/>
+		</Item>
+		
+	</InitDatas>
+</CWeaponModelInfo__InitDataList>

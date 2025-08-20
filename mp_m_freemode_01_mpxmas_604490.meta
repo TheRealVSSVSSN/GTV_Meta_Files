@@ -1,0 +1,2481 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+	<pedName>mp_m_freemode_01</pedName>
+	<dlcName>mp_m_xmas_03</dlcName>
+	<fullDlcName>mp_m_freemode_01_mp_m_xmas_03</fullDlcName>
+	<eCharacter>SCR_CHAR_MULTIPLAYER</eCharacter>
+	<creatureMetaData>MP_CreatureMetadata_mpxmas_604490</creatureMetaData>
+	
+	<pedOutfits>
+		<Item>
+		  <lockHash>CU_XMAS3_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_X3M_U_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS3_M_OUTFIT_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="176" />
+		  <includedPedComponents>
+			<Item>
+	          <nameHash>DLC_MP_HEIST_M_TORSO_31_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_LEGS_0_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_LOWR</eCompType>
+	        </Item>
+			<Item>
+				<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+				<enumValue value="0" />
+				<eCompType>PV_COMP_FEET</eCompType>
+			</Item>
+			<Item>
+				<nameHash>0</nameHash>
+				<enumValue value="240" />
+				<eCompType>PV_COMP_ACCS</eCompType>
+			</Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_JBIB_0_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </includedPedComponents>
+		  <includedPedProps />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS3_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_X3M_U_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS3_M_OUTFIT_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="176" />
+		  <includedPedComponents>
+			<Item>
+	          <nameHash>DLC_MP_HEIST_M_TORSO_31_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_LEGS_0_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_LOWR</eCompType>
+	        </Item>
+			<Item>
+				<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+				<enumValue value="0" />
+				<eCompType>PV_COMP_FEET</eCompType>
+			</Item>
+			<Item>
+				<nameHash>0</nameHash>
+				<enumValue value="240" />
+				<eCompType>PV_COMP_ACCS</eCompType>
+			</Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_JBIB_0_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </includedPedComponents>
+		  <includedPedProps />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS3_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_X3M_U_0_2</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS3_M_OUTFIT_2</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="176" />
+		  <includedPedComponents>
+			<Item>
+	          <nameHash>DLC_MP_HEIST_M_TORSO_42_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_LEGS_0_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_LOWR</eCompType>
+	        </Item>
+			<Item>
+				<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+				<enumValue value="0" />
+				<eCompType>PV_COMP_FEET</eCompType>
+			</Item>
+			<Item>
+				<nameHash>0</nameHash>
+				<enumValue value="240" />
+				<eCompType>PV_COMP_ACCS</eCompType>
+			</Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS3_M_JBIB_0_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </includedPedComponents>
+		  <includedPedProps />
+		</Item>
+	</pedOutfits>
+	
+	<pedComponents>
+		
+		<!-- Santa boots -->
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_FEET_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_FEET</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<!-- Santa suit -->
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_0_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_0_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<!-- Pyjama pants -->
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_4</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_5</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="5" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_6</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="6" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_7</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="7" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_8</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="8" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_9</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="9" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_10</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="10" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_11</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="11" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_12</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="12" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_13</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="13" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_14</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="14" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_LEGS_1_15</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>	
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_LOWR</eCompType>
+			<textureIndex value="15" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<!-- Santa suit -->
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="14" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_0_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_0_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="14" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_0_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SANTA_SUIT</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_0_2</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_FEET_0_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="14" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<!-- Pyjamas -->
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_1</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_2</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_3</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_3</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_4</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_4</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_4</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_5</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_5</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_5</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="5" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_6</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_6</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_6</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="6" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_7</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_7</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_7</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="7" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_8</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_8</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_8</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="8" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_9</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_9</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_9</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="9" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_10</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_10</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_10</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="10" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_11</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_11</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_11</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="11" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_12</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_12</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_12</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="12" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_13</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_13</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_13</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="13" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_14</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_14</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_14</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="14" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_U_1_15</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_JBIB_1_15</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="153" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SILK_PYJAMAS</tagNameHash>
+				</Item>
+				<Item>
+					<tagNameHash>LONG_SLEEVE</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents>
+				<Item>
+					<nameHash>DLC_MP_XMAS3_M_LEGS_1_15</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_LOWR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>DLC_MP_APA_M_FEET_1_0</nameHash>
+					<enumValue value="0" />
+					<eCompType>PV_COMP_FEET</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="6" />
+					<eCompType>PV_COMP_UPPR</eCompType>
+				</Item>
+				<Item>
+					<nameHash>0</nameHash>
+					<enumValue value="240" />
+					<eCompType>PV_COMP_ACCS</eCompType>
+				</Item>
+			</forcedComponents>
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_JBIB</eCompType>
+			<textureIndex value="15" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_0_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_0_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_0_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_0_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_0_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_1_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_1_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_1_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_1_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_1_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_1_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="1" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_2_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_2_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_2_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_2_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_2_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_2_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="2" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_3</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_4</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_4</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="4" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_3_5</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_3_5</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="3" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="5" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_4_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_4_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_4_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_4_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="4" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_5_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_5_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_5_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_5_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_5_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_5_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="5" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_6_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_6_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_6_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_6_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_6_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_6_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="6" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_7_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_7_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_7_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_7_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_7_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_7_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="7" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_8_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_8_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_8_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_8_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_8_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_8_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="8" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_9_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_9_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_9_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_9_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_9_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_9_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_9_3</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_9_3</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="9" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="3" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_10_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_10_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="10" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_11_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_11_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="11" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_11_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_11_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="11" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_11_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_11_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="11" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_12_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_12_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="12" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_12_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_12_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="12" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_12_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_12_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="12" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_13_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_13_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="13" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_13_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_13_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="13" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_13_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_13_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="13" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_14_0</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_14_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="14" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_14_1</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_14_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="14" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_XMAS3_MASKS</lockHash>
+			<cost value="0" />
+			<textLabel>CLO_X3M_B_14_2</textLabel>
+			<uniqueNameHash>DLC_MP_XMAS3_M_BERD_14_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="0" />
+			<scriptSaveData value="0" />
+			<restrictionTags>
+				<Item>
+					<tagNameHash>SHRINK_HEAD</tagNameHash>
+				</Item>
+			</restrictionTags>
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="14" />
+			<eCompType>PV_COMP_BERD</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+		
+		<!-- PED_COMP_TORSO -->
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_TORSO_0_0</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_UPPR</eCompType>
+			<textureIndex value="0" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_TORSO_0_1</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_UPPR</eCompType>
+			<textureIndex value="1" />
+			<isInOutfit value="false" />
+		</Item>
+		<Item>
+			<lockHash>CU_BEAST_CLOTHES</lockHash>
+			<cost value="0" />
+			<textLabel />
+			<uniqueNameHash>DLC_MP_XMAS3_M_TORSO_0_2</uniqueNameHash>
+			<eShopEnum>CLO_SHOP_LOW</eShopEnum>
+			<locate value="-99" />
+			<scriptSaveData value="0" />
+			<restrictionTags />
+			<forcedComponents />
+			<variantComponents />
+			<variantProps />
+			<drawableIndex value="0" />
+			<localDrawableIndex value="0" />
+			<eCompType>PV_COMP_UPPR</eCompType>
+			<textureIndex value="2" />
+			<isInOutfit value="false" />
+		</Item>
+	</pedComponents>
+	<pedProps>
+	</pedProps>
+</ShopPedApparel>

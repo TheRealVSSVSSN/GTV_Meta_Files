@@ -1,0 +1,2709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CAgitatedResponses>
+	<Responses>
+		<Item key="Coward">
+			<TalkResponse>
+				<Audio>
+					<Context>GENERIC_INSULT_MED</Context>
+					<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+				</Audio>
+			</TalkResponse>
+			<FollowUps>
+				<Item key="DONT_IGNORE_ME">
+					<Audio>
+						<Context>DONT_IGNORE_ME_INSULT</Context>
+						<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+					</Audio>
+				</Item>
+			</FollowUps>
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<Reactions>
+						<Item>HandleSwimming</Item>
+						<Item>HandleNoPavementHarassed</Item>
+						<Item>HandleNoPavement</Item>
+						<Item>HandleTerritoryIntrusion</Item>
+						<Item>EvaluateDueToProvoked</Item>
+						<Item>WalkAway</Item>
+						<Item>HurryAway</Item>
+					</Reactions>
+				</Item>
+				<Item key="HandleForcedAudioFailure">
+					<Action type="CAgitatedActionMulti">
+						<Actions>
+							<Action type="CAgitatedActionIgnoreForcedAudioFailures" />
+							<Action type="CAgitatedActionFear">
+								<Min value="1.0" />
+							</Action>
+						</Actions>
+					</Action>
+					<Flags>UseWhenForcedAudioFails</Flags>
+					<Reactions>
+						<Item>HandleForcedAudioFailure</Item>
+					</Reactions>
+				</Item>
+				<Item key="Evaluate">
+					<Reactions>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>DodgedVehicle</Item>
+						<Item>Harassed</Item>
+						<Item>Loitering</Item>
+						<Item>WalkAwayDueToFear</Item>
+						<Item>HurryAwayDueToFear</Item>
+						<Item>RunAwayDueToFear</Item>
+						<Item>BumpedInVehicle</Item>
+						<Item>Griefing</Item>
+						<Item>ThreatenToCallPolice</Item>
+						<Item>WalkAwayDueToUsingScenario</Item>
+						<Item>HurryAwayDueToUsingScenario</Item>
+						<Item>Ignore</Item>
+					</Reactions>
+				</Item>
+				<Item key="Face">
+					<Action type="CAgitatedActionMulti">
+						<Actions>
+							<Item type="CAgitatedActionConditional">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+								<Action type="CAgitatedScenarioNormalCowardExit" />
+							</Item>
+							<Item type="CAgitatedActionFace" />
+						</Actions>
+					</Action>
+					<Reactions>
+						<Item>RestartFaceDueToScenario</Item>
+						<Item>RestartFaceDueToNoAction</Item>
+						<Item>NoPavementThreatenToCallPolice</Item>
+						<Item>HurryAwayDueToCantCallPolice</Item>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>WalkAwayDueToTimeout</Item>
+						<Item>HurryAwayDueToTimeout</Item>
+						<Item>ResumeDueToDistance</Item>
+					</Reactions>
+				</Item>
+				<Item key="CallingPolice">
+					<Reactions>
+						<Item>HurryAwayAfterCallingPolice</Item>
+						<Item>RunAwayDueToHostility</Item>
+					</Reactions>
+				</Item>
+				<Item key="HurryAwayNoPavement">
+					<Action type="CAgitatedActionHurryAway" />
+					<Reactions>
+						<Item>RunAwayDueToHostility</Item>
+					</Reactions>
+				</Item>
+				<Item key="NoPavementWait">
+					<Reactions>
+						<Item>NoPavementCallPoliceTimeout</Item>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>ResumeDueToDistance</Item>
+					</Reactions>
+				</Item>
+				<Item key="Ignore">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsWandering" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsGettingUp" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsAvoiding" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Item type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Item>
+									<Item type="CAgitatedActionFace" />
+									<Item type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionOr">
+											<Conditions>
+												<Condition type="CAgitatedConditionIsLastAgitationApplied">
+													<Type>AT_Bumped</Type>
+												</Condition>
+												<Condition type="CAgitatedConditionIsLastAgitationApplied">
+													<Type>AT_BumpedByVehicle</Type>
+												</Condition>
+											</Conditions>
+										</Condition>
+										<Action type="CAgitatedActionSay">
+											<Say>
+												<Audio>
+													<Context>GENERIC_WHATEVER</Context>
+													<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+												</Audio>
+												<Flags>IgnoreForcedFailure WaitForExistingAudioToFinish WaitUntilFacing</Flags>
+											</Say>
+										</Action>
+									</Item>
+									<Item type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsLastAgitationApplied">
+											<Type>AT_DodgedVehicle</Type>
+										</Condition>
+										<Action type="CAgitatedActionSay">
+											<Say>
+												<Audio>
+													<Context>GENERIC_INSULT_HIGH</Context>
+													<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+												</Audio>
+												<Flags>IgnoreForcedFailure WaitForExistingAudioToFinish WaitUntilFacing</Flags>
+											</Say>
+										</Action>
+									</Item>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartIgnoreDueToNoAction</Item>
+						<Item>FinishDueToTimeout</Item>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>WalkAwayDueToTimeout</Item>
+						<Item>HurryAwayDueToTimeout</Item>
+						<Item>EscalateDueToInactivity</Item>
+						<Item>IgnoreProvokedDueToUsingScenario</Item>
+						<Item>EvaluateDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="BumpedInVehicle">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionFace" />
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>FinishDueToTimeout</Item>
+					</Reactions>
+				</Item>
+				<Item key="Harassed">
+					<Reactions>
+						<Item>FinishDueToTimeoutAfterHarassed</Item>
+						<Item>WalkAwayDueToProvokedAfterHarassed</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>DONT_IGNORE_ME</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="HarassedNoPavement">
+					<Reactions>
+						<Item>FinishDueToTimeoutAfterHarassed</Item>
+						<Item>NoPavementProgressDueToProvoked</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>DONT_IGNORE_ME</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="WalkAway">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+							<Action type="CAgitatedActionMakeAggressiveDriver" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsFleeing" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionCanWalkAway"/>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Action>
+									<Action type="CAgitatedActionFlee">
+										<MoveBlendRatio value="1.0" />
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartWalkAwayDueToScenario</Item>
+						<Item>RestartWalkAwayDueToNoAction</Item>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>IgnoreProvokedDueToUsingScenario</Item>
+						<Item>RunAwayDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="HurryAway">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+							<Action type="CAgitatedActionMakeAggressiveDriver" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsHurryingAway" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionCanHurryAway"/>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Action>
+									<Action type="CAgitatedActionHurryAway" />
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartHurryAwayDueToScenario</Item>
+						<Item>RestartHurryAwayDueToNoAction</Item>
+						<Item>RunAwayDueToHostility</Item>
+						<Item>IgnoreProvokedDueToUsingScenario</Item>
+						<Item>RunAwayDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="RunAway">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFleeing" />
+							<Action type="CAgitatedActionSetFleeMoveBlendRatio">
+								<MoveBlendRatio value="1.75" />
+							</Action>
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Action>
+									<Action type="CAgitatedActionFlee">
+										<MoveBlendRatio value="1.75" />
+										<AmbientClips>HURRY</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartRunAwayDueToScenario</Item>
+						<Item>RestartRunAwayDueToNoAction</Item>
+						<Item>IgnoreProvokedDueToUsingScenario</Item>
+						<Item>SprintAwayDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="SwimAway">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFleeing" />
+							<Action type="CAgitatedActionSetFleeMoveBlendRatio">
+								<MoveBlendRatio value="1.75" />
+							</Action>
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Action>
+									<Action type="CAgitatedActionFlee">
+										<MoveBlendRatio value="1.75" />
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartRunAwayDueToScenario</Item>
+						<Item>RestartRunAwayDueToNoAction</Item>
+						<Item>IgnoreProvokedDueToUsingScenario</Item>
+						<Item>SprintAwayDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="SprintAway">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFleeing" />
+							<Action type="CAgitatedActionSetFleeMoveBlendRatio">
+								<MoveBlendRatio value="2.75" />
+							</Action>
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioNormalCowardExit" />
+									</Action>
+									<Action type="CAgitatedActionFlee">
+										<MoveBlendRatio value="2.75" />
+										<AmbientClips>HURRY</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartSprintAwayDueToScenario</Item>
+						<Item>RestartSprintAwayDueToNoAction</Item>
+					</Reactions>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="HandleForcedAudioFailure">
+					<State>Evaluate</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="HandleSwimming">
+					<Condition type="CAgitatedConditionIsSwimming" />
+					<Action type="CAgitatedSetWaterSurvivalTime">
+						<Time value="45.0f"/>
+					</Action>
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsUsingScenario" />
+						<Action type="CAgitatedScenarioNormalCowardExit" />
+					</ConditionalAction>
+					<State>SwimAway</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="HandleNoPavement">
+					<Condition type="CAgitatedConditionNot">
+						<Condition type="CAgitatedConditionOr">
+							<Conditions>
+								<Condition type="CAgitatedConditionIsInVehicle" />
+								<Condition type="CAgitatedConditionCanWalkAway" />
+							</Conditions>
+						</Condition>
+					</Condition>
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsUsingScenario" />
+						<Action type="CAgitatedScenarioNormalCowardExit" />
+					</ConditionalAction>
+					<State>Face</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="HandleTerritoryIntrusion">
+					<Condition type="CAgitatedConditionIsTerritoryIntruded" />
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsUsingScenario" />
+						<Action type="CAgitatedScenarioNormalCowardExit" />
+					</ConditionalAction>
+					<State>Face</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="NoPavementCallPoliceTimeout">
+					<Condition type="CAgitatedConditionOr">
+						<Conditions>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="2.0" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsProvoked" />
+						</Conditions>
+					</Condition>
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionAnd">
+							<Conditions>
+								<Condition type="CAgitatedConditionIsHash">
+									<Value>HasThreatenedToCallPolice</Value>
+								</Condition>
+								<Condition type="CAgitatedConditionCanCallPolice" />
+							</Conditions>
+						</Condition>
+						<Action type="CAgitatedActionCallPolice" />
+					</ConditionalAction>
+					<State>CallingPolice</State>
+					<Fear value="0.4" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="HurryAwayAfterCallingPolice">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="2.0f"/>
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsCallingPolice" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>HurryAwayNoPavement</State>
+					<Fear value="0.0" />
+					<Flags></Flags>
+				</Item>
+				<Item key="ResumeDueToDistance">
+					<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+						<Distance value="5.0" />
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="EvaluateDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsHash">
+							<Value>HasThreatenedToCallPolice</Value>
+						</Condition>
+						<Action type="CAgitatedActionMulti">
+							<Actions>
+								<Action type="CAgitatedActionReportCrime" />
+								<Action type="CAgitatedActionSetHash">
+									<Value>HasReportedCrime</Value>
+								</Action>
+							</Actions>
+						</Action>
+					</ConditionalAction>
+					<State>Evaluate</State>
+					<Fear value="0.4" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="DodgedVehicle">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsDodgedVehicle" />
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="Harassed">
+					<Condition type="CAgitatedConditionIsHarassed" />
+					<State>Harassed</State>
+				</Item>
+				<Item key="HandleNoPavementHarassed">
+					<Condition type="CAgitatedConditionIsHarassed" />
+					<State>HarassedNoPavement</State>
+				</Item>
+				<Item key="NoPavementProgressDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsUsingScenario" />
+						<Action type="CAgitatedScenarioNormalCowardExit" />
+					</ConditionalAction>
+					<State>Face</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="Loitering">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsLoitering" />
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="Ignore">
+					<State>Ignore</State>
+					<ConditionalSays>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsBumped" />
+									<Condition type="CAgitatedConditionWasRecentlyBumpedWhenStill" />
+								</Conditions>
+							</Condition>
+							<Say>
+								<Audio>
+									<Context>GENERIC_INSULT_MED</Context>
+									<Flags>ForcePlay AllowRepeat</Flags>
+								</Audio>
+								<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsBumped" />
+							<Say>
+								<Audio>
+									<Context>BUMP</Context>
+									<Flags>ForcePlay AllowRepeat</Flags>
+								</Audio>
+								<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsBumpedByVehicle" />
+							<Say>
+								<Audio>
+									<Context>DODGE</Context>
+									<Flags>ForcePlay AllowRepeat</Flags>
+								</Audio>
+								<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+							</Say>
+						</Item>
+						<Item>
+							<Say>
+								<Audio>
+									<Context>APOLOGY_NO_TROUBLE</Context>
+									<Flags>ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+					</ConditionalSays>
+				</Item>
+				<Item key="RestartIgnoreDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsWandering" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Ignore</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="EscalateDueToInactivity">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="2.0" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsWandering" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+									<Distance value="3.0" />
+								</Condition>
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAgitatorMovingAway" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Action type="CAgitatedActionApplyAgitation">
+						<Type>AT_Loitering</Type>
+					</Action>
+					<State>Evaluate</State>
+					<Fear value="0.4" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="ThreatenToCallPolice">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionCanCallPolice" />
+							<Condition type="CAgitatedConditionRandom">
+								<Chances value="0.15" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHash">
+									<Value>HasThreatenedToCallPolice</Value>
+								</Condition>
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHash">
+									<Value>HasReportedCrime</Value>
+								</Condition>
+							</Condition>
+							<Condition type="CAgitatedConditionIsInsulted" />
+						</Conditions>
+					</Condition>
+					<Action type="CAgitatedActionSetHash">
+						<Value>HasThreatenedToCallPolice</Value>
+					</Action>
+					<State>Ignore</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>CALL_COPS_THREAT</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="NoPavementThreatenToCallPolice">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionCanCallPolice" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHash">
+									<Value>HasThreatenedToCallPolice</Value>
+								</Condition>
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionTimeout">
+										<Time value="2.0" />
+									</Condition>
+									<Condition type="CAgitatedConditionIsProvoked" />
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Action type="CAgitatedActionSetHash">
+						<Value>HasThreatenedToCallPolice</Value>
+					</Action>
+					<State>NoPavementWait</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>CALL_COPS_THREAT</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="HurryAwayDueToCantCallPolice">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionCanCallPolice" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionTimeout">
+										<Time value="4.0" />
+									</Condition>
+									<Condition type="CAgitatedConditionIsProvoked" />
+									<Condition type="CAgitatedConditionAnd">
+										<Conditions>
+											<Condition type="CAgitatedConditionTimeout">
+												<Time value="1.0" />
+											</Condition>
+											<Condition type="CAgitatedConditionNot">
+												<Condition type="CAgitatedConditionIsOutsideDistance">
+													<Distance value="1.5" />
+												</Condition>
+											</Condition>
+										</Conditions>
+									</Condition>
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>HurryAwayNoPavement</State>
+					<Fear value="1.0" />
+				</Item>
+				<Item key="BumpedInVehicle">
+					<Condition type="CAgitatedConditionIsBumpedInVehicle" />
+					<State>BumpedInVehicle</State>
+					<Say>
+						<Audio>
+							<Context>CRASH_GENERIC</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="Griefing">
+					<Condition type="CAgitatedConditionIsGriefing" />
+					<State>Face</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_INSULT_MED</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure WaitUntilFacing</Flags>
+					</Say>
+				</Item>
+				<Item key="WalkAway">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionRandom">
+								<Chances value="0.5" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="WalkAwayDueToFear">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsFearful">
+								<Threshold value="0.75" />
+							</Condition>
+							<Condition type="CAgitatedConditionRandom">
+								<Chances value="0.5" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<ConditionalSay>
+						<Condition type="CAgitatedConditionNot">
+							<Condition type="CAgitatedConditionIsHash">
+								<Value>HasReportedCrime</Value>
+							</Condition>
+						</Condition>
+						<Say>
+							<Audio>
+								<Context>GENERIC_WHATEVER</Context>
+								<Flags>ForcePlay AllowRepeat</Flags>
+							</Audio>
+							<Flags>IgnoreForcedFailure</Flags>
+						</Say>
+					</ConditionalSay>
+				</Item>
+				<Item key="WalkAwayDueToProvokedAfterHarassed">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsProvoked" />
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+					<Fear value="1.0" />
+				</Item>
+				<Item key="WalkAwayDueToTimeout">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsWandering" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_Bumped</Type>
+									</Condition>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_BumpedByVehicle</Type>
+									</Condition>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_BumpedInVehicle</Type>
+									</Condition>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_Dodged</Type>
+									</Condition>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_Griefing</Type>
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="0.1" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+				</Item>
+				<Item key="WalkAwayDueToUsingScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionRandom">
+								<Chances value="0.5" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartWalkAwayDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartWalkAwayDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFleeing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WalkAway</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="RestartFaceDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>Face</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartFaceDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Face</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="IgnoreProvokedDueToUsingScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanWalkAway" />
+							<Condition type="CAgitatedConditionIsProvoked" />
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+						</Conditions>
+					</Condition>
+				</Item>
+				<Item key="HurryAway">
+					<Condition type="CAgitatedConditionCanHurryAway" />
+					<State>HurryAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="HurryAwayDueToFear">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsFearful">
+								<Threshold value="0.75" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<ConditionalSay>
+						<Condition type="CAgitatedConditionNot">
+							<Condition type="CAgitatedConditionIsHash">
+								<Value>HasReportedCrime</Value>
+							</Condition>
+						</Condition>
+						<Say>
+							<Audio>
+								<Context>GENERIC_WHATEVER</Context>
+								<Flags>ForcePlay AllowRepeat</Flags>
+							</Audio>
+							<Flags>IgnoreForcedFailure</Flags>
+						</Say>
+					</ConditionalSay>
+				</Item>
+				<Item key="HurryAwayDueToTimeout">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsWandering" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsLastAgitationApplied">
+										<Type>AT_DodgedVehicle</Type>
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="0.1" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+				</Item>
+				<Item key="HurryAwayDueToUsingScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="HurryAwayDueToProvoked">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsProvoked" />
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_WHATEVER</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartHurryAwayDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartHurryAwayDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionCanHurryAway" />
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHurryingAway" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>HurryAway</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="RunAwayDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<State>RunAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_FRIGHTENED_MED</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RunAwayDueToHostility">
+					<Condition type="CAgitatedConditionIsHostile" />
+					<State>RunAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>GENERIC_FRIGHTENED_MED</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartRunAwayDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>RunAway</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartRunAwayDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFleeing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>RunAway</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="RunAwayDueToFear">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsFearful">
+								<Threshold value="0.75" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>RunAway</State>
+					<ConditionalSay>
+						<Condition type="CAgitatedConditionNot">
+							<Condition type="CAgitatedConditionIsHash">
+								<Value>HasReportedCrime</Value>
+							</Condition>
+						</Condition>
+						<Say>
+							<Audio>
+								<Context>GENERIC_FRIGHTENED_MED</Context>
+								<Flags>ForcePlay AllowRepeat</Flags>
+							</Audio>
+							<Flags>IgnoreForcedFailure</Flags>
+						</Say>
+					</ConditionalSay>
+				</Item>
+				<Item key="SprintAwayDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked">
+						<IgnoreHostility value="true" />
+					</Condition>
+					<State>SprintAway</State>
+					<Fear value="1.0" />
+					<Say>
+						<Audio>
+							<Context>DISPUTE_FLEE</Context>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartSprintAwayDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>SprintAway</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartSprintAwayDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFleeing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>SprintAway</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="FinishDueToTimeout">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="3.0" />
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="FinishDueToTimeoutAfterHarassed">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="10.0" />
+					</Condition>
+					<State>Finish</State>
+				</Item>
+			</Reactions>
+		</Item>
+		<Item key="Confront">
+			<Flags>ProcessLeader</Flags>
+			<OnFootClipSets>
+				<Item>
+					<Condition type="CAgitatedConditionIsMale" />
+					<Name>move_m@brave@b</Name>
+					<Flags>DontReset</Flags>
+				</Item>
+			</OnFootClipSets>
+			<TalkResponses>
+				<Item>
+					<Audio>
+						<Context>GENERIC_INSULT_MED</Context>
+						<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+					</Audio>
+				</Item>
+				<Item>
+					<Audio>
+						<Context>GENERIC_FUCK_YOU</Context>
+						<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+					</Audio>
+				</Item>
+			</TalkResponses>
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<ConditionalAction>
+						<Condition type="CAgitatedConditionIsAgitatorArmed" />
+						<Action type="CAgitatedActionAnger">
+							<Add value="0.25" />
+						</Action>
+					</ConditionalAction>
+					<Reactions>
+						<Item>HandleSwimming</Item>
+						<Item>Ignore</Item>
+						<Item>EvaluateDueToProvoked</Item>
+						<Item>Evaluate</Item>
+					</Reactions>
+				</Item>
+				<Item key="HandleForcedAudioFailure">
+					<Action type="CAgitatedActionMulti">
+						<Actions>
+							<Action type="CAgitatedActionIgnoreForcedAudioFailures" />
+							<Action type="CAgitatedActionAnger">
+								<Min value="0.5" />
+							</Action>
+						</Actions>
+					</Action>
+					<Flags>UseWhenForcedAudioFails</Flags>
+					<Reactions>
+						<Item>HandleForcedAudioFailure</Item>
+					</Reactions>
+				</Item>
+				<Item key="Evaluate">
+					<Reactions>
+						<Item>CowardDueToCantFight</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>FightDueToAnger</Item>
+						<Item>ConfrontDueToAnger</Item>
+						<Item>ChallengeDueToAnger</Item>
+					</Reactions>
+				</Item>
+				<Item key="Coward">
+					<Action type="CAgitatedActionChangeResponse">
+						<Response>Coward</Response>
+					</Action>
+				</Item>
+				<Item key="Help">
+					<Action type="CAgitatedActionChangeResponse">
+						<Response>HelpWithConfront</Response>
+					</Action>
+				</Item>
+				<Item key="Ignore">
+					<Reactions>
+						<Item>FinishDueToTimeoutAfterIgnore</Item>
+						<Item>EvaluateDueToProvoked</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>DONT_IGNORE_ME</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Challenge">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+							<Action type="CAgitatedActionMakeAggressiveDriver" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsConfronting" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsLawEnforcement" />
+										<Action type="CAgitatedActionConfront">
+											<AmbientClips>BRAVE_IDLES</AmbientClips>
+										</Action>
+									</Action>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionNot">
+											<Condition type="CAgitatedConditionIsLawEnforcement" />
+										</Condition>
+										<Action type="CAgitatedActionFace">
+											<AmbientClips>BRAVE_IDLES</AmbientClips>
+										</Action>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>HelpDueToLeader</Item>
+						<Item>RestartChallengeDueToScenario</Item>
+						<Item>RestartChallengeDueToNoAction</Item>
+						<Item>VictoryDueToDistance</Item>
+						<Item>VictoryDueToInactivity</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>ConfrontDueToInactivity</Item>
+						<Item>EvaluateDueToProvoked</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>GENERIC_FUCK_YOU</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Confront">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsInVehicle" />
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsLawEnforcement" />
+									</Condition>
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsFlippingOff" />
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Action type="CAgitatedActionFlipOff">
+								<Time value="3.0" />
+							</Action>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsDrivingVehicle" />
+									<Condition type="CAgitatedConditionIsLawEnforcement" />
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsSirenOn" />
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Action type="CAgitatedActionTurnOnSiren">
+								<Time value="1.0" />
+							</Action>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsConfronting" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionConfront">
+										<AmbientClips>BRAVE_IDLES</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>HelpDueToLeader</Item>
+						<Item>RestartConfrontDueToScenario</Item>
+						<Item>RestartConfrontDueToNoAction</Item>
+						<Item>VictoryDueToDistance</Item>
+						<Item>VictoryDueToInactivity</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>FightDueToInactivity</Item>
+						<Item>EvaluateDueToProvoked</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>FIGHT</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Fight">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFighting" />
+							<Action type="CAgitatedActionSetHash">
+								<Value>HasStartedFighting</Value>
+							</Action>
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionFight" />
+									<Action type="CAgitatedActionSetHash">
+										<Value>HasStartedFighting</Value>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartFightDueToScenario</Item>
+						<Item>RestartFightDueToNoAction</Item>
+						<Item>VictoryDueToEnd</Item>
+						<Item>FinishDueToEnd</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>GENERIC_FUCK_YOU</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Victory">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsInVehicle" />
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionFace">
+								<AmbientClips>BRAVE_IDLES</AmbientClips>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Flags>ClearHostility</Flags>
+					<Reactions>
+						<Item>RestartVictoryDueToNoAction</Item>
+						<Item>EvaluateDueToProvoked</Item>
+						<Item>FinishDueToTimeout</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>GENERIC_FUCK_YOU</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="Evaluate">
+					<State>Evaluate</State>
+				</Item>
+				<Item key="HandleSwimming">
+					<Condition type="CAgitatedConditionIsSwimming" />
+					<State>Coward</State>
+				</Item>
+				<Item key="Ignore">
+					<Condition type="CAgitatedConditionIsHarassed" />
+					<State>Ignore</State>
+				</Item>
+				<Item key="EvaluateDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<State>Evaluate</State>
+					<Anger value="0.25" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="HandleForcedAudioFailure">
+					<State>Evaluate</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_INSULT_MED</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="CowardDueToCantFight">
+					<Condition type="CAgitatedConditionNot">
+						<Condition type="CAgitatedConditionCanFight" />
+					</Condition>
+					<State>Coward</State>
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="HelpDueToLeader">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionHasLeader" />
+							<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+								<Name>Confront</Name>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Help</State>
+				</Item>
+				<Item key="ChallengeDueToAnger">
+					<State>Challenge</State>
+					<ConditionalSays>
+						<Item>
+							<Condition type="CAgitatedConditionIsInsulted" />
+							<Say>
+								<Audios>
+									<Item>
+										<Context>GENERIC_FUCK_YOU</Context>
+										<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+									</Item>
+									<Item>
+										<Context>GENERIC_INSULT_MED</Context>
+										<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+									</Item>
+								</Audios>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsBumped" />
+									<Condition type="CAgitatedConditionIsDodged" />
+								</Conditions>
+							</Condition>
+							<Say>
+								<Audio>
+									<Context>PROVOKE_BUMPED_INTO</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsBumpedInVehicle" />
+							<Say>
+								<Audio>
+									<Context>PROVOKE_HIT_CAR</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsLoitering" />
+							<Say>
+								<Audio>
+									<Context>PROVOKE_STARING</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsFollowing" />
+							<Say>
+								<Audio>
+									<Context>PROVOKE_FOLLOWING</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsTerritoryIntruded" />
+							<Say>
+								<Audio>
+									<Context>PROVOKE_TRESPASS</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsIntervene" />
+									<Condition type="CAgitatedConditionWasLeaderHit" />
+									<Condition type="CAgitatedConditionHasContext">
+										<Context>HIT_WOMAN</Context>
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Say>
+								<Audio>
+									<Context>HIT_WOMAN</Context>
+									<Flags>IsInsulting</Flags>
+								</Audio>
+							</Say>
+						</Item>
+						<Item>
+							<Condition type="CAgitatedConditionIsProvoked" />
+							<Say>
+								<Audio>
+									<Context>PROVOKE_GENERIC</Context>
+									<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+								</Audio>
+							</Say>
+						</Item>
+					</ConditionalSays>
+				</Item>
+				<Item key="RestartChallengeDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>Challenge</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartChallengeDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsConfronting" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Challenge</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="ConfrontDueToInactivity">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="2.0" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAgitatorMovingAway" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+											<Distance value="1.0" />
+										</Condition>
+									</Condition>
+									<Condition type="CAgitatedConditionIsAgitatorInOurTerritory" />
+								</Conditions>
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsLastAgitationApplied">
+									<Type>AT_DodgedVehicle</Type>
+								</Condition>
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsLastAgitationApplied">
+									<Type>AT_HonkedAt</Type>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Action type="CAgitatedActionApplyAgitation">
+						<Type>AT_Loitering</Type>
+					</Action>
+					<State>Evaluate</State>
+					<Anger value="0.25" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="ConfrontDueToAnger">
+					<Condition type="CAgitatedConditionIsAngry">
+						<Threshold value="0.3" />
+					</Condition>
+					<State>Confront</State>
+					<Say>
+						<Audio>
+							<Context>CHALLENGE_THREATEN</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="RestartConfrontDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>Confront</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartConfrontDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsConfronting" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Confront</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="FightDueToInactivity">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="1.5" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAgitatorMovingAway" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+											<Distance value="1.0" />
+										</Condition>
+									</Condition>
+									<Condition type="CAgitatedConditionIsAgitatorInOurTerritory" />
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<Action type="CAgitatedActionApplyAgitation">
+						<Type>AT_Loitering</Type>
+					</Action>
+					<State>Evaluate</State>
+					<Anger value="0.25" />
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="FightDueToAnger">
+					<Condition type="CAgitatedConditionIsAngry">
+						<Threshold value="0.55" />
+					</Condition>
+					<State>Fight</State>
+					<Say>
+						<Audio>
+							<Context>FIGHT</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="FightDueToHostility">
+					<Condition type="CAgitatedConditionOr">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsHostile" />
+							<Condition type="CAgitatedConditionAnd">
+								<Conditions>
+									<Condition type="CAgitatedConditionWasUsingTerritorialScenario" />
+									<Condition type="CAgitatedConditionIsAgitatorEnteringVehicle" />
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Fight</State>
+					<Anger value="1.0" />
+					<Say>
+						<Audio>
+							<Context>FIGHT</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartFightDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>Fight</State>
+					<Flags>DontClearSay</Flags>
+				</Item>
+				<Item key="RestartFightDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFighting" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHash">
+									<Value>HasStartedFighting</Value>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Fight</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="VictoryDueToDistance">
+					<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+						<Distance value="5.0" />
+					</Condition>
+					<State>Victory</State>
+					<Say>
+						<Audio>
+							<Context>WON_DISPUTE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="VictoryDueToInactivity">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="3.5" />
+					</Condition>
+					<State>Victory</State>
+					<Say>
+						<Audio>
+							<Context>WON_DISPUTE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="VictoryDueToEnd">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInjured" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsAgitatorInjured" />
+									<Condition type="CAgitatedConditionNot">
+										<Condition type="CAgitatedConditionIsFighting" />
+									</Condition>
+								</Conditions>
+							</Condition>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="0.5" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Victory</State>
+					<Say>
+						<Audio>
+							<Context>WON_DISPUTE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="RestartVictoryDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsInVehicle" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Victory</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="FinishDueToEnd">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFighting" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsInjured" />
+						</Conditions>
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="FinishDueToTimeout">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="1.0" />
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="FinishDueToTimeoutAfterIgnore">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="10.0" />
+					</Condition>
+					<State>Finish</State>
+				</Item>
+			</Reactions>
+		</Item>
+		<Item key="HelpWithConfront">
+			<OnFootClipSets>
+				<Item>
+					<Condition type="CAgitatedConditionIsMale" />
+					<Name>move_m@brave@b</Name>
+					<Flags>DontReset</Flags>
+				</Item>
+			</OnFootClipSets>
+			<TalkResponses>
+				<Item>
+					<Audio>
+						<Context>GENERIC_INSULT_MED</Context>
+						<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+					</Audio>
+				</Item>
+				<Item>
+					<Audio>
+						<Context>GENERIC_FUCK_YOU</Context>
+						<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+					</Audio>
+				</Item>
+			</TalkResponses>
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<Reactions>
+						<Item>Ignore</Item>
+						<Item>Face</Item>
+					</Reactions>
+				</Item>
+				<Item key="Ignore">
+					<Reactions>
+						<Item>FinishDueToLeaderNotConfronting</Item>
+						<Item>FightDueToLeader</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>ConfrontDueToNoLeader</Item>
+						<Item>ConfrontDueToProvoked</Item>
+						<Item>FaceDueToLeader</Item>
+					</Reactions>
+				</Item>
+				<Item key="Face">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionFace">
+										<AmbientClips>BRAVE_IDLES</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Flags>UseWhenForcedAudioFails</Flags>
+					<Reactions>
+						<Item>RestartFaceDueToNoAction</Item>
+						<Item>FinishDueToLeaderNotConfronting</Item>
+						<Item>FightDueToLeader</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>ConfrontDueToNoLeader</Item>
+						<Item>ConfrontDueToProvoked</Item>
+						<Item>ListenToLeader</Item>
+					</Reactions>
+				</Item>
+				<Item key="WaitForLeaderToStopTalking">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionFace">
+										<AmbientClips>BRAVE_IDLES</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartWaitForLeaderToStopTalkingDueToNoAction</Item>
+						<Item>FinishDueToLeaderNotConfronting</Item>
+						<Item>FightDueToLeader</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>ConfrontDueToNoLeader</Item>
+						<Item>ConfrontDueToProvoked</Item>
+						<Item>DelayBeforeTalking</Item>
+					</Reactions>
+				</Item>
+				<Item key="WaitForDelay">
+					<ConditionalActions>
+						<Item>
+							<Condition type="CAgitatedConditionIsFacing" />
+						</Item>
+						<Item>
+							<Action type="CAgitatedActionMulti">
+								<Actions>
+									<Action type="CAgitatedActionConditional">
+										<Condition type="CAgitatedConditionIsUsingScenario" />
+										<Action type="CAgitatedScenarioExit" />
+									</Action>
+									<Action type="CAgitatedActionFace">
+										<AmbientClips>BRAVE_IDLES</AmbientClips>
+									</Action>
+								</Actions>
+							</Action>
+						</Item>
+					</ConditionalActions>
+					<Reactions>
+						<Item>RestartWaitForDelayDueToNoAction</Item>
+						<Item>FinishDueToLeaderNotConfronting</Item>
+						<Item>FightDueToLeader</Item>
+						<Item>FightDueToHostility</Item>
+						<Item>ConfrontDueToNoLeader</Item>
+						<Item>ConfrontDueToProvoked</Item>
+						<Item>ListenToLeader</Item>
+						<Item>ListenToFriendly</Item>
+						<Item>Talk</Item>
+					</Reactions>
+				</Item>
+				<Item key="Confront">
+					<Action type="CAgitatedActionChangeResponse">
+						<Response>Confront</Response>
+					</Action>
+				</Item>
+				<Item key="Fight">
+					<Action type="CAgitatedActionChangeResponse">
+						<Response>Confront</Response>
+						<State>Fight</State>
+					</Action>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="Ignore">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionHasLeader" />
+							<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+								<Name>Confront</Name>
+							</Condition>
+							<Condition type="CAgitatedConditionIsLeaderInState">
+								<State>Ignore</State>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Ignore</State>
+				</Item>
+				<Item key="Face">
+					<State>Face</State>
+				</Item>
+				<Item key="FaceDueToLeader">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionHasLeader" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionAnd">
+									<Conditions>
+										<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+											<Name>Confront</Name>
+										</Condition>
+										<Condition type="CAgitatedConditionIsLeaderInState">
+											<State>Ignore</State>
+										</Condition>
+									</Conditions>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Face</State>
+				</Item>
+				<Item key="RestartFaceDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Face</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="ListenToLeader">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsLeaderTalking" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsLeaderInState">
+									<State>Victory</State>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WaitForLeaderToStopTalking</State>
+				</Item>
+				<Item key="RestartWaitForLeaderToStopTalkingDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WaitForLeaderToStopTalking</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="DelayBeforeTalking">
+					<Condition type="CAgitatedConditionNot">
+						<Condition type="CAgitatedConditionIsLeaderTalking" />
+					</Condition>
+					<State>WaitForDelay</State>
+				</Item>
+				<Item key="RestartWaitForDelayDueToNoAction">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsStanding" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFacing" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsUsingRagdoll" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsGettingUp" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAvoiding" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>WaitForDelay</State>
+					<Flags>DontClearFlags DontClearSay</Flags>
+				</Item>
+				<Item key="ListenToFriendly">
+					<Condition type="CAgitatedConditionIsFriendlyTalking" />
+					<State>Face</State>
+				</Item>
+				<Item key="Talk">
+					<Condition type="CAgitatedConditionTimeout">
+						<MinTime value="0.3" />
+						<MaxTime value="0.6" />
+					</Condition>
+					<State>Face</State>
+					<Say>
+						<Audios>
+							<Item>
+								<Context>GENERIC_FUCK_YOU</Context>
+								<Flags>IsInsulting ForcePlay AllowRepeat IsIgnored</Flags>
+							</Item>
+							<Item>
+								<Context>PROVOKE_GENERIC</Context>
+								<Flags>IsInsulting ForcePlay AllowRepeat IsIgnored</Flags>
+							</Item>
+							<Item>
+								<Context>GENERIC_INSULT_MED</Context>
+								<Flags>IsInsulting ForcePlay AllowRepeat IsIgnored</Flags>
+							</Item>
+						</Audios>
+						<Flags>CanInterrupt</Flags>
+					</Say>
+				</Item>
+				<Item key="ConfrontDueToNoLeader">
+					<Condition type="CAgitatedConditionNot">
+						<Condition type="CAgitatedConditionHasLeader" />
+					</Condition>
+					<State>Confront</State>
+				</Item>
+				<Item key="ConfrontDueToProvoked">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsProvoked" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsHostile" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Confront</State>
+					<Flags>DontClearFlags</Flags>
+				</Item>
+				<Item key="FightDueToLeader">
+					<Condition type="CAgitatedConditionHasLeaderBeenFightingFor">
+						<MinTime value="0.350000" />
+						<MaxTime value="0.600000" />
+					</Condition>
+					<State>Fight</State>
+				</Item>
+				<Item key="FightDueToHostility">
+					<Condition type="CAgitatedConditionHasBeenHostileFor">
+						<MinTime value="0.350000" />
+						<MaxTime value="0.600000" />
+					</Condition>
+					<State>Fight</State>
+				</Item>
+				<Item key="FinishDueToLeaderNotConfronting">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionHasLeader" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsLeaderUsingResponse">
+									<Name>Confront</Name>
+								</Condition>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Finish</State>
+				</Item>
+			</Reactions>
+		</Item>
+		<Item key="FlashOfAnger">
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<Reactions>
+						<Item>InsultDueToProvoked</Item>
+					</Reactions>
+				</Item>
+				<Item key="Insult">
+					<Action type="CAgitatedActionFace" />
+					<Reactions>
+						<Item>FinishDueToProvoked</Item>
+						<Item>FinishDueToTimeout</Item>
+						<Item>FinishDueToDistance</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>GENERIC_INSULT_MED</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState UseWhenForcedAudioFails</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="InsultDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<State>Insult</State>
+					<Say>
+						<Audio>
+							<Context>GENERIC_INSULT_HIGH</Context>
+							<Flags>IsInsulting ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="FinishDueToProvoked">
+					<Condition type="CAgitatedConditionIsProvoked" />
+					<State>Finish</State>
+					<Say>
+						<Audio>
+							<Context>APOLOGY_NO_TROUBLE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="FinishDueToTimeout">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="5.0" />
+					</Condition>
+					<State>Finish</State>
+					<Say>
+						<Audio>
+							<Context>WON_DISPUTE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+				<Item key="FinishDueToDistance">
+					<Condition type="CAgitatedConditionIsOutsideClosestDistance">
+						<Distance value="30.0" />
+					</Condition>
+					<State>Finish</State>
+					<Say>
+						<Audio>
+							<Context>WON_DISPUTE</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+						<Flags>CanInterrupt IgnoreForcedFailure</Flags>
+					</Say>
+				</Item>
+			</Reactions>
+		</Item>
+		<Item key="Rant">
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<Reactions>
+						<Item>Rant</Item>
+					</Reactions>
+				</Item>
+				<Item key="Rant">
+					<Action type="CAgitatedActionFollow" />
+					<Reactions>
+						<Item>ResumeDueToTimeout</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>PED_RANT_RESP</Context>
+							<Flags>ForcePlay</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Resume">
+					<Action type="CAgitatedActionReset" />
+					<Reactions>
+						<Item>CommentDueToTimeout</Item>
+					</Reactions>
+					<TalkResponse>
+						<Audio>
+							<Context>PED_RANT_RESP</Context>
+							<Flags>ForcePlay</Flags>
+						</Audio>
+					</TalkResponse>
+				</Item>
+				<Item key="Comment">
+					<Action type="CAgitatedActionSayAgitator">
+						<Audio>
+							<Context>THATS_INTERESTING</Context>
+							<Flags>ForcePlay</Flags>
+						</Audio>
+					</Action>
+					<Reactions>
+						<Item>Finish</Item>
+					</Reactions>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState UseWhenForcedAudioFails</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="Rant">
+					<State>Rant</State>
+					<Say>
+						<Audio>
+							<Context>PED_RANT</Context>
+							<Flags>ForcePlay AllowRepeat</Flags>
+						</Audio>
+					</Say>
+				</Item>
+				<Item key="ResumeDueToTimeout">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="0.5" />
+					</Condition>
+					<State>Resume</State>
+				</Item>
+				<Item key="CommentDueToTimeout">
+					<Condition type="CAgitatedConditionTimeout">
+						<Time value="2.0" />
+					</Condition>
+					<State>Comment</State>
+				</Item>
+				<Item key="Finish">
+					<State>Finish</State>
+				</Item>
+			</Reactions>
+		</Item>
+		<Item key="Fight">
+			<States>
+				<Item key="Start">
+					<Flags>InitialState</Flags>
+					<Reactions>
+						<Item>Fight</Item>
+					</Reactions>
+				</Item>
+				<Item key="Fight">
+					<Action type="CAgitatedActionMulti">
+						<Actions>
+							<Action type="CAgitatedActionConditional">
+								<Condition type="CAgitatedConditionIsUsingScenario" />
+								<Action type="CAgitatedScenarioExit" />
+							</Action>
+							<Action type="CAgitatedActionFight" />
+						</Actions>
+					</Action>
+					<Reactions>
+						<Item>RestartFightDueToScenario</Item>
+						<Item>FinishDueToLeftTerritory</Item>
+						<Item>FinishDueToEnd</Item>
+					</Reactions>
+				</Item>
+				<Item key="Finish">
+					<Flags>FinalState</Flags>
+				</Item>
+			</States>
+			<Reactions>
+				<Item key="Fight">
+					<State>Fight</State>
+				</Item>
+				<Item key="RestartFightDueToScenario">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionIsUsingScenario" />
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsExitingScenario" />
+							</Condition>
+							<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+						</Conditions>
+					</Condition>
+					<State>Fight</State>
+				</Item>
+				<Item key="FinishDueToLeftTerritory">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsAgitatorInOurTerritory" />
+							</Condition>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsTargetDoingAMeleeMove" />
+							</Condition>
+							<Condition type="CAgitatedConditionTimeout">
+								<Time value="3.0" />
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="FinishDueToEnd">
+					<Condition type="CAgitatedConditionAnd">
+						<Conditions>
+							<Condition type="CAgitatedConditionNot">
+								<Condition type="CAgitatedConditionIsFighting" />
+							</Condition>
+							<Condition type="CAgitatedConditionOr">
+								<Conditions>
+									<Condition type="CAgitatedConditionIsInjured" />
+									<Condition type="CAgitatedConditionTimeout">
+										<Time value="1.0" />
+									</Condition>
+								</Conditions>
+							</Condition>
+						</Conditions>
+					</Condition>
+					<State>Finish</State>
+				</Item>
+				<Item key="Finish">
+					<State>Finish</State>
+				</Item>
+			</Reactions>
+		</Item>
+    <Item key="DogConfront">
+      <States>
+        <Item key="Start">
+          <Flags>InitialState</Flags>
+          <Reactions>
+            <Item>Face</Item>
+          </Reactions>
+        </Item>
+        <Item key="Face">
+			<Action type="CAgitatedActionMulti">
+				<Actions>
+					<Action type="CAgitatedActionConditional">
+						<Condition type="CAgitatedConditionIsUsingScenario" />
+						<Action type="CAgitatedScenarioExit" />
+					</Action>
+					<Action type="CAgitatedActionFace" />
+				</Actions>
+			</Action>
+			<Reactions>
+				<Item>RestartFaceDueToScenario</Item>
+				<Item>FinishDueToDistance</Item>
+				<Item>FightDueToTimeout</Item>
+          </Reactions>
+        </Item>
+        <Item key="Fight">
+          <Action type="CAgitatedActionFight" />
+          <Reactions>
+            <Item>FinishDueToDistance</Item>
+            <Item>FinishDueToEnd</Item>
+          </Reactions>
+        </Item>
+        <Item key="Finish">
+          <Flags>FinalState</Flags>
+        </Item>
+      </States>
+      <Reactions>
+        <Item key="Face">
+          <State>Face</State>
+        </Item>
+		<Item key="RestartFaceDueToScenario">
+			<Condition type="CAgitatedConditionAnd">
+				<Conditions>
+					<Condition type="CAgitatedConditionIsUsingScenario" />
+					<Condition type="CAgitatedConditionNot">
+						<Condition type="CAgitatedConditionIsExitingScenario" />
+					</Condition>
+					<Condition type="CAgitatedConditionIsReadyForScenarioResponse" />
+				</Conditions>
+			</Condition>
+			<State>Face</State>
+		</Item>
+        <Item key="FightDueToTimeout">
+          <Condition type="CAgitatedConditionTimeout">
+            <Time value="3.0" />
+          </Condition>
+          <State>Fight</State>
+        </Item>
+        <Item key="FinishDueToEnd">
+          <Condition type="CAgitatedConditionAnd">
+            <Conditions>
+              <Condition type="CAgitatedConditionNot">
+                <Condition type="CAgitatedConditionIsFighting" />
+              </Condition>
+              <Condition type="CAgitatedConditionOr">
+                <Conditions>
+                  <Condition type="CAgitatedConditionIsInjured" />
+                  <Condition type="CAgitatedConditionTimeout">
+                    <Time value="1.0" />
+                  </Condition>
+                </Conditions>
+              </Condition>
+            </Conditions>
+          </Condition>
+          <State>Finish</State>
+        </Item>
+        <Item key="FinishDueToDistance">
+          <Condition type="CAgitatedConditionAnd">
+            <Conditions>
+              <Condition type="CAgitatedConditionNot">
+                <Condition type="CAgitatedConditionIsTargetDoingAMeleeMove" />
+              </Condition>
+              <Condition type="CAgitatedConditionIsOutsideClosestDistance">
+                <Distance value="5.0" />
+              </Condition>
+            </Conditions>
+          </Condition>
+          <State>Finish</State>
+          <Say />
+        </Item>
+        <Item key="Finish">
+          <State>Finish</State>
+        </Item>
+      </Reactions>
+    </Item>
+	</Responses>
+</CAgitatedResponses>

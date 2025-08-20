@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<CPickupDataManager>
+  <pickupData>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_HATCHET</Name>
+      <Model>w_me_hatchet</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.000000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="0.500000" />
+      <GlowRange value="2.000000" />
+      <AttachmentBone>BONETAG_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnFoot ManualPickUp</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_MELEE</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_HATCHET</Item>
+        <Item>REWARD_STAT_WEAPON</Item>
+      </Rewards>
+    </Item>
+    <Item type="CPickupData">
+      <Name>PICKUP_WEAPON_RAILGUN</Name>
+      <Model>w_ar_railgun</Model>
+      <GenerationRange value="80.000000" />
+      <RegenerationTime value="60.000000" />
+      <CollectionRadius value="1.000000" />
+      <Scale value="1.000000" />
+      <LoopingAudioRef>NULL_SOUND</LoopingAudioRef>
+      <GlowRed value="1.000000" />
+      <GlowGreen value="0.225000" />
+      <GlowBlue value="0.000000" />
+      <GlowIntensity value="0.500000" />
+      <GlowRange value="2.000000" />
+      <AttachmentBone>BONETAG_ROOT</AttachmentBone>
+      <AttachmentOffset x="0.000000" y="0.000000" z="0.000000" />
+      <AttachmentRotation x="0.000000" y="0.000000" z="0.000000" />
+      <PickupFlags>CollectableOnFoot ManualPickUp</PickupFlags>
+      <OnFootPickupActions>
+        <Item>ACTION_GROUP_ONFOOT</Item>
+        <Item>ACTION_AUDIO_RIFLE</Item>
+      </OnFootPickupActions>
+      <InCarPickupActions />
+      <OnShotPickupActions />
+      <Rewards>
+        <Item>REWARD_WEAPON_RAILGUN</Item>
+        <Item>REWARD_AMMO_RAILGUN</Item>
+        <Item>REWARD_STAT_WEAPON</Item>
+      </Rewards>
+    </Item>
+   </pickupData>
+  <actionData/>
+  <rewardData>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_HATCHET</Name>
+      <WeaponRef>WEAPON_HATCHET</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardWeapon">
+      <Name>REWARD_WEAPON_RAILGUN</Name>
+      <WeaponRef>WEAPON_RAILGUN</WeaponRef>
+      <Equip value="false" />
+    </Item>
+	<Item type="CPickupRewardAmmo">
+      <Name>REWARD_AMMO_RAILGUN</Name>
+      <AmmoRef>AMMO_RAILGUN</AmmoRef>
+      <Amount value="1" />
+    </Item>
+  </rewardData>
+</CPickupDataManager>

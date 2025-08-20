@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CVehicleMetadataMgr>
+  <AnimRateSets>
+	<Item type="CAnimRateSet">
+		<Name>VALKYRIE_ANIM_RATE_SET</Name>
+		<NormalEntry>
+			<SPRate value="1.0"/>
+			<MPRate value="2.0"/>
+		</NormalEntry>
+		<AnimCombatEntry>
+			<SPRate value="1.0"/>
+			<MPRate value="2.0"/>
+		</AnimCombatEntry>
+		<NoAnimCombatEntry>
+			<SPRate value="1.5"/>
+			<MPRate value="2.0"/>
+		</NoAnimCombatEntry>
+		<ForcedEntry>
+			<SPRate value="1.2"/>
+			<MPRate value="1.35"/>
+		</ForcedEntry>
+		<CombatJackEntry>
+			<SPRate value="1.0"/>
+			<MPRate value="1.35"/>
+		</CombatJackEntry>
+		<NormalExit>
+			<SPRate value="1.0"/>
+			<MPRate value="1.35"/>
+		</NormalExit>
+		<NoAnimCombatExit>
+			<SPRate value="1.35"/>
+			<MPRate value="1.35"/>
+		</NoAnimCombatExit>
+	</Item>
+  </AnimRateSets>
+  <ClipSetMaps>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@ps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@ps@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@ps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit_front</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit_front</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit_rear</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit_rear</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@enter_exit_front</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@enter_exit_front</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@enter_exit_rear</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@enter_exit_rear</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>EXIT_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@enter_exit</ClipSetId>
+          <VarClipSetId>ExitVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+    <Item type="CClipSetMap">
+      <Name>INSIDE_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rds@base</ClipSetId>
+          <VarClipSetId>InsideVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+	<Item type="CClipSetMap">
+      <Name>ENTRY_CLIPSET_MAP_HELI_VALKYRIE_REAR_RIGHT_TURRET</Name>
+      <Maps>
+        <Item>
+          <ClipSetId>clipset@veh@valkyrie@rps@enter_exit</ClipSetId>
+          <VarClipSetId>EntryVarClipSet</VarClipSetId>
+          <ConditionFlags />
+          <InformationFlags />
+        </Item>
+      </Maps>
+    </Item>
+  </ClipSetMaps>
+  <VehicleCoverBoundOffsetInfos>
+    <Item type="CVehicleCoverBoundOffsetInfo">
+      <Name>VALKYRIE_COVER_OFFSET_INFO</Name>
+      <ExtraSideOffset value="0.100000" />
+      <ExtraForwardOffset value="1.100000" />
+      <ExtraBackwardOffset value="0.000000" />
+      <ExtraZOffset value="1.000000" />
+      <CoverBoundInfos>
+        <Item>
+          <Name>NOSE</Name>
+          <Position x="0.000000" y="3.800000" z="-0.500000" />
+          <Length value="2.500000" />
+          <Width value="2.060000" />
+          <Height value="1.500000" />
+          <ActiveBoundExclusions>
+            <Item>HARDPOINTS</Item>
+			<Item>BODY</Item>
+          </ActiveBoundExclusions>
+        </Item>
+        <Item>
+          <Name>CABIN</Name>
+          <Position x="0.000000" y="2.080000" z="-0.500000" />
+          <Length value="0.950000" />
+          <Width value="2.425000" />
+          <Height value="1.500000" />
+          <ActiveBoundExclusions>
+            <Item>HARDPOINTS</Item>
+			<Item>BODY</Item>
+          </ActiveBoundExclusions>
+        </Item>
+        <Item>
+          <Name>DOORS</Name>
+          <Position x="0.000000" y="1.225000" z="-1.000000" />
+          <Length value="0.770000" />
+          <Width value="2.425000" />
+          <Height value="0.900000" />
+          <ActiveBoundExclusions>
+            <Item>BODY</Item>
+          </ActiveBoundExclusions>
+        </Item>
+        <Item>
+          <Name>HARDPOINTS</Name>
+          <Position x="0.000000" y="-0.110000" z="-0.900000" />
+          <Length value="1.900000" />
+          <Width value="4.400000" />
+          <Height value="1.000000" />
+          <ActiveBoundExclusions>
+            <Item>NOSE</Item>
+            <Item>CABIN</Item>
+          </ActiveBoundExclusions>
+        </Item>
+        <Item>
+          <Name>BODY</Name>
+          <Position x="0.000000" y="-1.505000" z="-0.420000" />
+          <Length value="0.885000" />
+          <Width value="2.065000" />
+          <Height value="2.000000" />
+          <ActiveBoundExclusions>
+            <Item>NOSE</Item>
+            <Item>CABIN</Item>
+			<Item>DOORS</Item>
+          </ActiveBoundExclusions>
+        </Item>
+      </CoverBoundInfos>
+    </Item>
+  </VehicleCoverBoundOffsetInfos>	
+  <EntryAnimVariations>
+    <Item type="CEntryAnimVariations">
+      <Name>ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_FRONT</Name>
+      <Flags />
+      <Conditions />
+      <EntryAnims />
+      <JackingAnims />
+      <ExitAnims>
+        <Item type="CConditionalClipSet">
+          <ClipSet>clipset@veh@valkyrie@rds@skydive_front</ClipSet>
+          <AssociatedSpeech />
+          <Conditions />
+          <ActionFlags>IsSkyDive</ActionFlags>
+        </Item>
+      </ExitAnims>
+    </Item>
+    <Item type="CEntryAnimVariations">
+      <Name>ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_REAR</Name>
+      <Flags />
+      <Conditions />
+      <EntryAnims />
+      <JackingAnims />
+      <ExitAnims>
+        <Item type="CConditionalClipSet">
+          <ClipSet>clipset@veh@valkyrie@rds@skydive_rear</ClipSet>
+          <AssociatedSpeech />
+          <Conditions />
+          <ActionFlags>IsSkyDive</ActionFlags>
+        </Item>
+      </ExitAnims>
+    </Item>
+    <Item type="CEntryAnimVariations">
+      <Name>ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_FRONT</Name>
+      <Flags />
+      <Conditions />
+      <EntryAnims />
+      <JackingAnims />
+      <ExitAnims>
+        <Item type="CConditionalClipSet">
+          <ClipSet>clipset@veh@valkyrie@rps@skydive_front</ClipSet>
+          <AssociatedSpeech />
+          <Conditions />
+          <ActionFlags>IsSkyDive</ActionFlags>
+        </Item>
+      </ExitAnims>
+    </Item>
+    <Item type="CEntryAnimVariations">
+      <Name>ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_REAR</Name>
+      <Flags />
+      <Conditions />
+      <EntryAnims />
+      <JackingAnims />
+      <ExitAnims>
+        <Item type="CConditionalClipSet">
+          <ClipSet>clipset@veh@valkyrie@rps@skydive_rear</ClipSet>
+          <AssociatedSpeech />
+          <Conditions />
+          <ActionFlags>IsSkyDive</ActionFlags>
+        </Item>
+      </ExitAnims>
+    </Item>
+  </EntryAnimVariations>
+  <VehicleDriveByInfos>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_VALKYRIE_TURRET_LEFT</Name>
+      <MinAimSweepHeadingAngleDegs value="-88.000000" />
+      <MaxAimSweepHeadingAngleDegs value="88.0000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="-180.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos />
+      <DriveByCamera>V_HELI_REAR_LEFT_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro</DriveByFlags>
+    </Item>
+    <Item type="CVehicleDriveByInfo">
+      <Name>DRIVEBY_HELI_VALKYRIE_TURRET_RIGHT</Name>
+      <MinAimSweepHeadingAngleDegs value="-88.000000" />
+      <MaxAimSweepHeadingAngleDegs value="88.000000" />
+      <MinRestrictedAimSweepHeadingAngleDegs value="0.000000" />
+      <MaxRestrictedAimSweepHeadingAngleDegs value="180.000000" />
+      <MinSmashWindowAngleDegs value="0.000000" />
+      <MaxSmashWindowAngleDegs value="0.000000" />
+      <MaxSpeedParam value="0.500000" />
+      <MaxLongitudinalLeanBlendWeightDelta value="0.250000" />
+      <MaxLateralLeanBlendWeightDelta value="0.250000" />
+      <ApproachSpeedToWithinMaxBlendDelta value="1.000000" />
+      <SpineAdditiveBlendInDelay value="0.050000" />
+      <SpineAdditiveBlendInDurationStill value="0.150000" />
+      <SpineAdditiveBlendInDuration value="0.750000" />
+      <SpineAdditiveBlendOutDelay value="0.000000" />
+      <SpineAdditiveBlendOutDuration value="0.500000" />
+      <DriveByAnimInfos />
+      <DriveByCamera>V_HELI_REAR_RIGHT_AIM_CAMERA</DriveByCamera>
+      <DriveByFlags>DampenRecoil UseThreeAnimIntroOutro</DriveByFlags>
+    </Item>
+  </VehicleDriveByInfos>	
+  <VehicleSeatInfos>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_HELI_VALKYRIE_FRONT_LEFT</Name>
+      <SeatBoneName>seat_dside_f</SeatBoneName>
+      <ShuffleLink>SEAT_STANDARD_FRONT_RIGHT</ShuffleLink>
+      <RearSeatLink>SEAT_STANDARD_REAR_LEFT</RearSeatLink>
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat KeepOnHeadProp</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+    <Item type="CVehicleSeatInfo">
+      <Name>SEAT_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <SeatBoneName>seat_pside_f</SeatBoneName>
+      <ShuffleLink>SEAT_STANDARD_FRONT_LEFT</ShuffleLink>
+      <RearSeatLink>SEAT_STANDARD_REAR_RIGHT</RearSeatLink>
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>IsFrontSeat KeepOnHeadProp</SeatFlags>
+      <HairScale value="-0.2750000" />
+    </Item>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_HELI_VALKYRIE_TURRET_LEFT</Name>
+      <SeatBoneName>seat_dside_r2</SeatBoneName>
+      <ShuffleLink>SEAT_HELI_VALKYRIE_TURRET_RIGHT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>KeepOnHeadProp PedInSeatTargetable</SeatFlags>
+      <HairScale value="0.000000" />
+	  <ShuffleLink2 />
+    </Item>
+	<Item type="CVehicleSeatInfo">
+      <Name>SEAT_HELI_VALKYRIE_TURRET_RIGHT</Name>
+      <SeatBoneName>seat_pside_r2</SeatBoneName>
+      <ShuffleLink>SEAT_HELI_VALKYRIE_TURRET_LEFT</ShuffleLink>
+      <RearSeatLink />
+      <DefaultCarTask>TASK_DRIVE_WANDER</DefaultCarTask>
+      <SeatFlags>KeepOnHeadProp PedInSeatTargetable</SeatFlags>
+      <HairScale value="0.000000" />
+	  <ShuffleLink2 />
+    </Item>
+  </VehicleSeatInfos> 
+  <VehicleSeatAnimInfos>
+    <Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_FRONT_LEFT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT" />
+      <PanicClipSet>clipset@veh@valkyrie@ps@idle_panic</PanicClipSet>
+      <AgitatedClipSet />
+      <LowLODIdleAnim>HELI_FRONT_PS_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext />
+      <InVehicleMoveNetwork>VEHICLE_DEFAULT</InVehicleMoveNetwork>
+      <SeatAnimFlags>WeaponAttachedToLeftHand UseStandardInVehicleAnims HasPanicAnims PreventShuffleJack</SeatAnimFlags>
+      <SteeringSmoothing value="0.100000" />
+      <ExitToAimInfoName />
+      <MaleGestureClipSetId />
+      <FemaleGestureClipSetId />
+    </Item>
+	<Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HELI_VALKYRIE_TURRET_LEFT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_VALKYRIE_TURRET_LEFT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT" />
+      <PanicClipSet></PanicClipSet>
+      <AgitatedClipSet></AgitatedClipSet>
+	  <DuckedClipSet></DuckedClipSet>
+      <LowLODIdleAnim>VALKYRIE_TURRET_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_CAR_STANDARD</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_TURRET_SEATED</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown NoShunts</SeatAnimFlags>
+      <SteeringSmoothing value="0.040000" />
+      <ExitToAimInfoName></ExitToAimInfoName>
+      <MaleGestureClipSetId></MaleGestureClipSetId>
+      <FemaleGestureClipSetId></FemaleGestureClipSetId>
+    </Item>
+	<Item type="CVehicleSeatAnimInfo">
+      <Name>SEAT_ANIM_HELI_VALKYRIE_TURRET_RIGHT</Name>
+      <DriveByInfo ref="DRIVEBY_HELI_VALKYRIE_TURRET_RIGHT" />
+      <InsideClipSetMap ref="INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT" />
+      <PanicClipSet></PanicClipSet>
+      <AgitatedClipSet></AgitatedClipSet>
+	  <DuckedClipSet></DuckedClipSet>
+      <LowLODIdleAnim>VALKYRIE_TURRET_IDLE</LowLODIdleAnim>
+      <SeatAmbientContext>IN_CAR_STANDARD</SeatAmbientContext>
+      <InVehicleMoveNetwork>VEHICLE_TURRET_SEATED</InVehicleMoveNetwork>
+      <SeatAnimFlags>UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown NoShunts</SeatAnimFlags>
+      <SteeringSmoothing value="0.040000" />
+      <ExitToAimInfoName></ExitToAimInfoName>
+      <MaleGestureClipSetId></MaleGestureClipSetId>
+      <FemaleGestureClipSetId></FemaleGestureClipSetId>
+    </Item>
+  </VehicleSeatAnimInfos>
+  <VehicleEntryPointInfos>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_FRONT_LEFT</Name>
+      <DoorBoneName>door_dside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_dside_f</DoorHandleBoneName>
+      <WindowId>FRONT_LEFT</WindowId>
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+		<Item ref="SEAT_HELI_VALKYRIE_FRONT_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_LEFT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_LEFT</Item>
+      </BlockJackReactionSides>
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_FRONT_RIGHT</Name>
+      <DoorBoneName>door_pside_f</DoorBoneName>
+      <SecondDoorBoneName />
+      <DoorHandleBoneName>handle_pside_f</DoorHandleBoneName>
+      <WindowId>FRONT_RIGHT</WindowId>
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_HELI_VALKYRIE_FRONT_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="EXTRA_VEHICLE_POINTS_STD_RIGHT" />
+      <Flags>BlockJackReactionUntilJackerIsReady</Flags>
+      <BlockJackReactionSides>
+        <Item>SIDE_RIGHT</Item>
+      </BlockJackReactionSides>
+    </Item>  
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_FRONT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId />
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_HELI_VALKYRIE_TURRET_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+	<Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_REAR</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+      <WindowId />
+      <VehicleSide>SIDE_LEFT</VehicleSide>
+      <AccessableSeats>
+        <Item ref="SEAT_HELI_VALKYRIE_TURRET_LEFT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+      <BlockJackReactionSides />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_FRONT</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+       <WindowId />
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Seat ref="SEAT_HELI_VALKYRIE_TURRET_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+    </Item>
+    <Item type="CVehicleEntryPointInfo">
+      <Name>ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_REAR</Name>
+      <DoorBoneName />
+      <SecondDoorBoneName />
+      <DoorHandleBoneName />
+       <WindowId />
+      <VehicleSide>SIDE_RIGHT</VehicleSide>
+      <AccessableSeats>
+        <Seat ref="SEAT_HELI_VALKYRIE_TURRET_RIGHT" />
+      </AccessableSeats>
+      <VehicleExtraPointsInfo ref="NULL" />
+      <Flags />
+    </Item>
+  </VehicleEntryPointInfos>  
+  <VehicleEntryPointAnimInfos>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_VALKYRIE_FRONT_RIGHT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT" />
+      <ExitClipSetMap ref="EXIT_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.466000" y="-0.396000" z="-0.230100" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="1.570000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_HELICOPTER_ANNIHILATOR_FRONT_RIGHT" />
+    </Item>
+	 <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_FRONT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT" />
+      <ExitClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.170000" y="0.815000" z="0.054000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="2.150000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_FRONT" />
+    </Item>
+	 <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_REAR</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_LEFT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR" />
+      <ExitClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.150000" y="0.695000" z="0.054000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-2.250000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_REAR" />
+    </Item>
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_FRONT</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT" />
+      <ExitClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="-1.170000" y="0.815000" z="0.054000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="-2.150000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_FRONT" />
+    </Item> 
+    <Item type="CVehicleEntryPointAnimInfo">
+      <Name>ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_REAR</Name>
+      <CommonClipSetMap ref="COMMON_CLIPSET_MAP_TRUCK_RIGHT" />
+      <EntryClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR" />
+      <ExitClipSetMap ref="ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR" />
+      <AlternateTryLockedDoorClipId />
+      <AlternateForcedEntryClipId />
+      <AlternateJackFromOutSideClipId />
+      <AlternateBeJackedFromOutSideClipId />
+      <AlternateEntryPointClipSetId />
+      <EnterVehicleMoveNetwork>ENTER_VEHICLE_STD</EnterVehicleMoveNetwork>
+      <EntryTranslation x="1.150000" y="0.695000" z="0.054000" />
+      <OpenDoorTranslation x="0.000000" y="0.000000" />
+      <OpenDoorHeadingChange value="0.000000" />
+      <EntryHeadingChange value="2.250000" />
+      <ExtraZForWaterEntry value="0.000000" />
+      <EntryPointFlags>JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn</EntryPointFlags>
+      <EntryAnimVariations ref="ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_REAR" />
+    </Item> 
+  </VehicleEntryPointAnimInfos>
+  <VehicleLayoutInfos>
+    <Item type="CVehicleLayoutInfo">
+      <Name>LAYOUT_HELI_VALKYRIE</Name>
+      <Seats>
+        <Item>
+          <SeatInfo ref="SEAT_HELI_VALKYRIE_FRONT_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_HELI_VALKYRIE_FRONT_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_VALKYRIE_FRONT_RIGHT" />
+        </Item>
+		<Item>
+          <SeatInfo ref="SEAT_HELI_VALKYRIE_TURRET_LEFT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_VALKYRIE_TURRET_LEFT" />
+        </Item>
+        <Item>
+          <SeatInfo ref="SEAT_HELI_VALKYRIE_TURRET_RIGHT" />
+          <SeatAnimInfo ref="SEAT_ANIM_HELI_VALKYRIE_TURRET_RIGHT" />
+        </Item>
+      </Seats>
+      <EntryPoints>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_FRONT_LEFT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_LEFT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_FRONT_RIGHT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_VALKYRIE_FRONT_RIGHT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_FRONT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_FRONT" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_FRONT" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_FRONT" />
+        </Item>
+		<Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_REAR" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_REAR" />
+        </Item>
+        <Item>
+          <EntryPointInfo ref="ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_REAR" />
+          <EntryPointAnimInfo ref="ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_REAR" />
+        </Item>
+      </EntryPoints>
+      <LayoutFlags>StreamAnims UseFinerAlignTolerance Use2DBodyBlend</LayoutFlags>
+      <BicycleInfo ref="NULL" />
+	  <AnimRateSet ref="VALKYRIE_ANIM_RATE_SET" />
+      <HandsUpClipSetId>busted_vehicle_std</HandsUpClipSetId>
+      <SteeringWheelOffset x="0.000000" y="0.350000" z="0.320000" />
+    </Item>
+  </VehicleLayoutInfos> 
+</CVehicleMetadataMgr>

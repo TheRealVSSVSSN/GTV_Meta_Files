@@ -1,0 +1,814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TriggerEffect__TriggerEffectData>
+  <TriggerEffectLevelLow>
+    <FeedbackModeMappings>
+      <Item key="FEEDBACK_MODE_MOUNTED_WEAPON_AIM">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.900000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_LOW">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.700000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_FULL">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_FULL">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.900000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.700000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_HEAVY">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_MG">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_PISTOL">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_RIFLE">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SHOTGUN">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SMG">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SNIPER">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_STUNGUN">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+    </FeedbackModeMappings>
+    <WeaponModeMappings>
+      <Item key="GROUP_HEAVY">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_PISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_RIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_SHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_SMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_SNIPER">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_STUNGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="WEAPON_MODE_MOUNTED_ATTACK">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+    </WeaponModeMappings>
+  </TriggerEffectLevelLow>
+  <TriggerEffectLevelHigh>
+    <FeedbackModeMappings>
+      <Item key="FEEDBACK_MODE_MOUNTED_WEAPON_AIM">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.500000	
+          0.300000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_LOW">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.600000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_ACCELERATE</InputType>
+        <ResistanceStart value="0.700000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_FULL">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.500000	
+          0.500000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.100000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.300000	
+          0.300000	
+          0.200000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_FULL">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.700000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.400000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.300000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_BRAKE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.600000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_HIGH">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.800000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_LOW">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.600000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="FEEDBACK_MODE_VEH_REVERSE_HEALTH_MEDIUM">
+        <InputType>INPUT_VEH_BRAKE</InputType>
+        <ResistanceStart value="0.700000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_HEAVY">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.300000	
+          0.300000	
+          0.200000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_MG">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.300000	
+          0.200000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_PISTOL">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_RIFLE">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.200000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SHOTGUN">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.200000	
+          0.200000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SMG">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_SNIPER">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.200000	
+          0.300000	
+          0.200000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+      <Item key="GROUP_STUNGUN">
+        <InputType>INPUT_AIM</InputType>
+        <ResistanceStart value="0.370000" />
+        <ResistanceSet content="float_array">
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+          0.100000	
+        </ResistanceSet>
+      </Item>
+    </FeedbackModeMappings>
+    <WeaponModeMappings>
+      <Item key="GROUP_HEAVY">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.800000" />
+      </Item>
+      <Item key="GROUP_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.600000" />
+      </Item>
+      <Item key="GROUP_PISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="GROUP_RIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.300000" />
+      </Item>
+      <Item key="GROUP_SHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.300000" />
+      </Item>
+      <Item key="GROUP_SMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.200000" />
+      </Item>
+      <Item key="GROUP_SNIPER">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.500000" />
+      </Item>
+      <Item key="GROUP_STUNGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.100000" />
+      </Item>
+      <Item key="WEAPON_MODE_MOUNTED_ATTACK">
+        <InputType>INPUT_ATTACK</InputType>
+        <ResistanceStart value="0.200000" />
+        <ResistanceEnd value="0.700000" />
+        <Resistance value="0.900000" />
+      </Item>
+    </WeaponModeMappings>
+  </TriggerEffectLevelHigh>
+</TriggerEffect__TriggerEffectData>

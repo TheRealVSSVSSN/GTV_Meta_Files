@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<rage__ControlInput__ControlSettings>
+    <Mappings>
+	<Item>
+		<Input>INPUT_VEH_FLY_DUCK</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RDOWN</Item>
+		</Parameters>
+     </Item>
+	 
+	 <Item>
+            <Input>INPUT_REPLAY_START_STOP_RECORDING_SECONDARY</Input>
+            <Source>IOMS_PAD_DIGITALBUTTON</Source>
+            <Parameters>
+                <Item>RLEFT</Item>
+            </Parameters>
+        </Item>
+				
+		<!-- Replay Editor Pad inputs -->
+	<Item>
+		<Input>INPUT_REPLAY_MARKER_DELETE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RLEFT</Item>
+		</Parameters>
+	</Item>
+
+  <Item>
+    <Input>INPUT_REPLAY_CLIP_DELETE</Input>
+    <Source>IOMS_PAD_DIGITALBUTTON</Source>
+    <Parameters>
+      <Item>RUP</Item>
+    </Parameters>
+  </Item>
+      
+	<Item>
+		<Input>INPUT_REPLAY_PAUSE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RDOWN</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_REWIND</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>L1</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_FFWD</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R1</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_NEWMARKER</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RDOWN</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_SCREENSHOT</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LUP</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_ADVANCE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LRIGHT</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_BACK</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LLEFT</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_TOOLS</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LDOWN</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_RESTART</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>SELECT</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_SHOWHOTKEY</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LDOWN</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_CYCLEMARKERLEFT</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LLEFT</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_CYCLEMARKERRIGHT</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>LRIGHT</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_FOVINCREASE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R1</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_FOVDECREASE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>L1</Item>
+		</Parameters>
+	</Item>
+
+	<Item>
+		<Input>INPUT_REPLAY_SAVE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>START</Item>
+		</Parameters>
+	</Item>
+
+    <Item>
+      <Input>INPUT_REPLAY_PREVIEW_AUDIO</Input>
+      <Source>IOMS_PAD_DIGITALBUTTON</Source>
+      <Parameters>
+        <Item>R2</Item>
+      </Parameters>
+    </Item>
+      
+	<Item>
+		<Input>INPUT_REPLAY_HIDEHUD</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R3</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_FRONTEND_LEADERBOARD</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R1</Item>
+		</Parameters>
+	</Item>
+	<Item>
+		<Input>INPUT_FRONTEND_DELETE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RLEFT</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_FRONTEND_SOCIAL_CLUB</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>SELECT</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_FRONTEND_SOCIAL_CLUB_SECONDARY</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R1</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_VEH_DROP_PROJECTILE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RDOWN</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_CREATOR_LS</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>L3</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_CREATOR_RS</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>R3</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_CREATOR_LT</Input>
+		<Source>IOMS_PAD_ANALOGBUTTON</Source>
+		<Parameters>
+			<Item>L2_INDEX</Item>
+		</Parameters>
+		</Item>	
+	<Item>
+		<Input>INPUT_CREATOR_RT</Input>
+		<Source>IOMS_PAD_ANALOGBUTTON</Source>
+		<Parameters>
+			<Item>R2_INDEX</Item>
+		</Parameters>
+	</Item>
+	
+	<Item>
+		<Input>INPUT_CREATOR_DELETE</Input>
+		<Source>IOMS_PAD_DIGITALBUTTON</Source>
+		<Parameters>
+			<Item>RLEFT</Item>
+		</Parameters>
+	</Item>
+		<Item>
+            <Input>INPUT_WEAPON_WHEEL_LR</Input>
+            <Source>IOMS_PAD_AXIS</Source>
+            <Parameters>
+                <Item>IOM_AXIS_RX</Item>
+            </Parameters>
+        </Item>
+        <Item>
+            <Input>INPUT_WEAPON_WHEEL_UD</Input>
+            <Source>IOMS_PAD_AXIS</Source>
+            <Parameters>
+                <Item>IOM_AXIS_RY</Item>
+            </Parameters>
+        </Item>
+		<Item>
+			<Input>INPUT_RADIO_WHEEL_LR</Input>
+			<Source>IOMS_PAD_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_RX</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_RADIO_WHEEL_UD</Input>
+			<Source>IOMS_PAD_AXIS</Source>
+			<Parameters>
+				<Item>IOM_AXIS_RY</Item>
+			</Parameters>
+		</Item>
+		<Item>
+			<Input>INPUT_MAP_POI</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>RUP</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_FRONTEND_ENDSCREEN_EXPAND</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>RLEFT</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_CONTEXT_SECONDARY</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>LLEFT</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_REPLAY_SNAPMATIC_PHOTO</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>RLEFT</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_SWITCH_VISOR</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>LRIGHT</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_RESPAWN_FASTER</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>RDOWN</Item>
+			</Parameters>
+		</Item>
+
+		<Item>
+			<Input>INPUT_HUDMARKER_SELECT</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>R3</Item>
+			</Parameters>
+		</Item>
+		
+		<Item>
+			<Input>INPUT_EAT_SNACK</Input>
+			<Source>IOMS_PAD_DIGITALBUTTON</Source>
+			<Parameters>
+				<Item>LUP</Item>
+			</Parameters>
+		</Item>
+	</Mappings>
+</rage__ControlInput__ControlSettings>
