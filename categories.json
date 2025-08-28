@@ -1,0 +1,42 @@
+{
+  "audio": {
+    "filePatterns": ["audio"],
+    "rootTagPatterns": ["CAmbient", "Audio"]
+  },
+  "content": {
+    "filePatterns": ["content"],
+    "rootTagPatterns": ["Content"]
+  },
+  "mission": {
+    "filePatterns": ["mission", "heist"],
+    "rootTagPatterns": ["Mission"]
+  },
+  "ped": {
+    "filePatterns": ["ped"],
+    "rootTagPatterns": ["CPed"]
+  },
+  "props": {
+    "filePatterns": ["_props"],
+    "rootTagPatterns": ["CZonedAssets", "Props"]
+  },
+  "shop": {
+    "filePatterns": ["_shop"],
+    "rootTagPatterns": ["Shop"]
+  },
+  "trigger": {
+    "filePatterns": ["trigger"],
+    "rootTagPatterns": ["Trigger", "ControlInput"]
+  },
+  "vehicle": {
+    "filePatterns": ["vehicle", "car"],
+    "rootTagPatterns": ["CVehicle", "Vehicle"]
+  },
+  "weapon": {
+    "filePatterns": ["^weapon"],
+    "rootTagPatterns": ["CWeapon", "Weapon"]
+  },
+  "misc": {
+    "filePatterns": [],
+    "rootTagPatterns": []
+  }
+}
