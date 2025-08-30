@@ -7,7 +7,6 @@ Express microserver that finds `.meta` (XML) files in a directory, converts them
 ```sh
 # 1) Create project
 mkdir meta-json-microserver && cd $_
-# copy files from this README or your editor into place
 
 # 2) Install deps
 npm install
@@ -44,6 +43,11 @@ npm run start
 - JSON is pretty-printed with two-space indentation.
 - Set `AUTO_CONVERT_ON_START=true` to auto-run conversion on boot.
 
-## Environment
+## Daily automatic conversion
+The server can run a conversion once per day (overwriting existing JSON if the source changed).
+Configure in `.env`:
 
-See `.env.example`.
+```env
+DAILY_CONVERT_ENABLED=true
+DAILY_CONVERT_AT=02:00  # HH:MM in server's local time
+```
