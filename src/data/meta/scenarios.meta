@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<CScenarioInfoManager>
+  <Scenarios>
+    <Item type="CScenarioPlayAnimsInfo">
+      <Name>CODE_HUMAN_PATROL_1H</Name>
+      <PropName />
+      <Models ref="NULL" />
+      <BlockedModels ref="NULL" />
+      <SpawnProbability value="1.000000" />
+      <SpawnInterval value="0" />
+      <SpawnHistoryRange value="50.000000" />
+      <MaxNoInRange value="1" />
+      <PropEndOfLifeTimeoutMS value="60000" />
+      <Range value="30.000000" />
+      <SpawnPropIntroDict />
+      <SpawnPropIntroAnim />
+      <StationaryReactHash>CODE_HUMAN_COWER</StationaryReactHash>
+      <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000" />
+      <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000" />
+      <TimeTilPedLeaves value="-1.000000" />
+      <ChanceOfRunningTowards value="0.000000" />
+      <Flags>AllowEquippedWeapons BlockGestures  DoSimpleBlendoutForEvents IgnorePavementChecks PreciseUseTime QuickExitsFromHassling</Flags>
+      <Condition type="NULL" />
+      <ConditionalAnimsGroup>
+        <Name>CODE_HUMAN_PATROL</Name>
+        <ConditionalAnims>
+          <Item>
+            <Name>CODE_HUMAN_PATROL_1H</Name>
+            <PropSet />
+            <Flags />
+            <Probability value="100.000000" />
+            <SpecialConditionProbability value="0.000000" />
+            <SpecialCondition type="NULL" />
+            <NextIdleTime value="2.000000" />
+            <ChanceOfSpawningWithAnything value="0.330000" />
+            <BlendInDelta value="8.000000" />
+            <BlendOutDelta value="-8.000000" />
+            <GestureClipSetId />
+            <VFXData />
+            <VFXCullRange value="25.000000" />
+            <TransitionInfo type="NULL" />
+            <Conditions />
+            <LowLodBaseAnim />
+            <BaseAnims>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@1H@BASE</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </BaseAnims>
+            <Enters>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@1H@ENTER</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Enters>
+            <Exits>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@1H@EXIT</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Exits>
+            <Variations>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@1H@IDLE_A</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Variations>
+            <Reactions />
+            <PanicBaseAnims />
+            <PanicIntros />
+            <PanicOutros />
+            <PanicVariations />
+            <PanicExits />
+          </Item>
+        </ConditionalAnims>
+      </ConditionalAnimsGroup>
+      <CameraNameHash />
+      <IntroBlendInDuration value="0.500000" />
+      <OutroBlendInDuration value="0.500000" />
+      <OutroBlendOutDuration value="0.250000" />
+      <ImmediateExitBlendOutDuration value="0.500000" />
+      <PanicExitBlendInDuration value="0.125000" />
+      <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PedCapsuleRadiusOverride value="-1.000000" />
+      <ReassessGroundExitThreshold value="-1.000000" />
+      <FallExitThreshold value="-1.000000" />
+      <eLookAtImportance>HIGH</eLookAtImportance>
+      <SeatedOffset x="0.000000" y="0.000000" z="0.000000" />
+      <WanderScenarioToUseAfter />
+    </Item>
+    <Item type="CScenarioPlayAnimsInfo">
+      <Name>CODE_HUMAN_PATROL_2H</Name>
+      <PropName />
+      <Models ref="NULL" />
+      <BlockedModels ref="NULL" />
+      <SpawnProbability value="1.000000" />
+      <SpawnInterval value="0" />
+      <SpawnHistoryRange value="50.000000" />
+      <MaxNoInRange value="1" />
+      <PropEndOfLifeTimeoutMS value="60000" />
+      <Range value="30.000000" />
+      <SpawnPropIntroDict />
+      <SpawnPropIntroAnim />
+      <StationaryReactHash>CODE_HUMAN_COWER</StationaryReactHash>
+      <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000" />
+      <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000" />
+      <TimeTilPedLeaves value="-1.000000" />
+      <ChanceOfRunningTowards value="0.000000" />
+      <Flags>AllowEquippedWeapons BlockGestures  DoSimpleBlendoutForEvents IgnorePavementChecks PreciseUseTime QuickExitsFromHassling</Flags>
+      <Condition type="NULL" />
+      <ConditionalAnimsGroup>
+        <Name>CODE_HUMAN_PATROL</Name>
+        <ConditionalAnims>
+          <Item>
+            <Name>CODE_HUMAN_PATROL_2H</Name>
+            <PropSet />
+            <Flags />
+            <Probability value="100.000000" />
+            <SpecialConditionProbability value="0.000000" />
+            <SpecialCondition type="NULL" />
+            <NextIdleTime value="2.000000" />
+            <ChanceOfSpawningWithAnything value="0.330000" />
+            <BlendInDelta value="8.000000" />
+            <BlendOutDelta value="-8.000000" />
+            <GestureClipSetId />
+            <VFXData />
+            <VFXCullRange value="25.000000" />
+            <TransitionInfo type="NULL" />
+            <Conditions />
+            <LowLodBaseAnim />
+            <BaseAnims>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@2H@BASE</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </BaseAnims>
+            <Enters>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@2H@ENTER</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Enters>
+            <Exits>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@2H@EXIT</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Exits>
+            <Variations>
+              <Item type="CConditionalClipSet">
+                <ClipSet>AMB@CODE_HUMAN_PATROL@MALE@2H@IDLE_A</ClipSet>
+                <AssociatedSpeech />
+                <Conditions />
+                <ActionFlags />
+              </Item>
+            </Variations>
+            <Reactions />
+            <PanicBaseAnims />
+            <PanicIntros />
+            <PanicOutros />
+            <PanicVariations />
+            <PanicExits />
+          </Item>
+        </ConditionalAnims>
+      </ConditionalAnimsGroup>
+      <CameraNameHash />
+      <IntroBlendInDuration value="0.500000" />
+      <OutroBlendInDuration value="0.500000" />
+      <OutroBlendOutDuration value="0.250000" />
+      <ImmediateExitBlendOutDuration value="0.500000" />
+      <PanicExitBlendInDuration value="0.125000" />
+      <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PedCapsuleRadiusOverride value="-1.000000" />
+      <ReassessGroundExitThreshold value="-1.000000" />
+      <FallExitThreshold value="-1.000000" />
+      <eLookAtImportance>HIGH</eLookAtImportance>
+      <SeatedOffset x="0.000000" y="0.000000" z="0.000000" />
+      <WanderScenarioToUseAfter />
+    </Item>
+	<Item type="CScenarioPlayAnimsInfo">
+      <Name>StandIgnorePavement</Name>
+      <PropName />
+      <Models ref="NULL" />
+      <BlockedModels ref="NULL" />
+      <SpawnProbability value="1.000000" />
+      <SpawnInterval value="0" />
+      <SpawnHistoryRange value="50.000000" />
+      <MaxNoInRange value="0" />
+      <PropEndOfLifeTimeoutMS value="60000" />
+      <Range value="0.000000" />
+      <SpawnPropIntroDict />
+      <SpawnPropIntroAnim />
+      <StationaryReactHash>CODE_HUMAN_COWER</StationaryReactHash>
+      <SpawnPropOffset x="0.000000" y="0.000000" z="0.000000" />
+      <SpawnPropRotation x="0.000000" y="0.000000" z="0.000000" w="0.000000" />
+      <TimeTilPedLeaves value="-1.000000" />
+      <ChanceOfRunningTowards value="0.000000" />
+      <Flags>BlockGestures DontSpawnInRain DontTimeoutUntilIdleFinishes DoSimpleBlendoutForEvents NavmeshBlocking QuickExitsFromHassling IgnorePavementChecks</Flags>
+      <Condition type="CScenarioConditionRaining">
+        <Result>False</Result>
+      </Condition>
+      <ConditionalAnimsGroup>
+        <Name />
+        <ConditionalAnims />
+      </ConditionalAnimsGroup>
+      <CameraNameHash />
+      <IntroBlendInDuration value="0.500000" />
+      <OutroBlendInDuration value="0.500000" />
+      <OutroBlendOutDuration value="0.250000" />
+      <ImmediateExitBlendOutDuration value="0.500000" />
+      <PanicExitBlendInDuration value="0.125000" />
+      <PedCapusleOffset x="0.000000" y="0.000000" z="0.000000" />
+      <PedCapsuleRadiusOverride value="-1.000000" />
+      <ReassessGroundExitThreshold value="-1.000000" />
+      <FallExitThreshold value="-1.000000" />
+      <eLookAtImportance>LOW</eLookAtImportance>
+      <SeatedOffset x="0.000000" y="0.000000" z="0.000000" />
+      <WanderScenarioToUseAfter />
+    </Item>
+  </Scenarios>
+  <ScenarioTypeGroups />
+</CScenarioInfoManager>

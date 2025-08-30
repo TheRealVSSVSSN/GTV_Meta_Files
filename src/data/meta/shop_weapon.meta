@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<WeaponShopItemArray>
+	<weaponShopItems>
+		<Item>
+			<lockHash>CU_WEP_HATCHET</lockHash>
+			<nameHash>WEAPON_HATCHET</nameHash>
+			<cost value ="14500"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_HATCHET</textLabel>
+			<weaponDesc>WTD_HATCHET</weaponDesc>
+			<weaponTT>WTT_HATCHET</weaponTT>
+			<weaponUppercase>WTU_HATCHET</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+		<Item>
+			<lockHash>CU_WEP_RAILGUN</lockHash>
+			<nameHash>WEAPON_RAILGUN</nameHash>
+			<cost value ="50000"/>
+			<ammoCost value="100"/>
+			<textLabel>WT_RAILGUN</textLabel>
+			<weaponDesc>WTD_RAILGUN</weaponDesc>
+			<weaponTT>WTT_RAILGUN</weaponTT>
+			<weaponUppercase>WTU_RAILGUN</weaponUppercase>
+			<id value = "32"/>
+			<weaponComponents />
+		</Item>
+	</weaponShopItems>
+</WeaponShopItemArray>	

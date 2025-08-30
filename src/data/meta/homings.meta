@@ -1,0 +1,1463 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<CHomingContainer>
+  <aHomings>
+    <Item type="CHoming">
+      <Name>HOM_counter_right</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.650000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_counter_right_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.900000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_counter_right_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_counter_left</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_counter_left_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_counter_left_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_no_cache</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="2.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="2.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_away</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="2.500000" />
+      <TargetHeading value="180.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_surface</Name>
+      <TargetType>TT_SURFACE_PROBE</TargetType>
+      <TargetOffset x="0.000000" y="1.510000" />
+      <ActivationDistance value="1.750000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_surface_horizontal_bat</Name>
+      <TargetType>TT_SURFACE_PROBE</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="1.750000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_surface_horizontal_small_wpn</Name>
+      <TargetType>TT_SURFACE_PROBE</TargetType>
+      <TargetOffset x="0.000000" y="0.850000" />
+      <ActivationDistance value="1.750000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_surface_vertical_bat</Name>
+      <TargetType>TT_SURFACE_PROBE</TargetType>
+      <TargetOffset x="0.000000" y="1.450000" />
+      <ActivationDistance value="1.750000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_surface_vertical_small_wpn</Name>
+      <TargetType>TT_SURFACE_PROBE</TargetType>
+      <TargetOffset x="0.000000" y="1.250000" />
+      <ActivationDistance value="1.750000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_walking</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="3.000000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_walking_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="4.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_walking_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="4.300000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_walking_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="4.300000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="8.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_pistol_whip</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_rifle_whip</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.850000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="5.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="12.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_shove</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_long_range</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="8.300000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="12.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_long_range_large_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="8.250000" />
+      <ActivationDistance value="20.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="5.250000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="4.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="12.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_running_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="5.500000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_medium_cougar</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.250000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_medium_dodge</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="2.500000" />
+      <MaxSpeed value="2.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_medium_dog</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.390500" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_knockout</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_face_knockout_far</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_c</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="1.550000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_c_var_1</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_a</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="2.100000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_shove</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.600000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_a_var_1</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_b_var_1</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="1.350000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_heavy_b_var_2</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="1.650000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_kick_close_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="7.500000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_kick_close_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="7.500000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_kick_far_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="3.850000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="12.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_stealth_kill_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_front</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_front_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_front_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_front_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_rear</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_rear_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_rear_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_failed_takedown_rear_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.700000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.720000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.200000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_c</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_d</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_e</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_g</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.950000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_h</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_psycho</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.180000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_psycho_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.180000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_psycho_c</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="2.150000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="5.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_knife_var_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_knife_var_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.720000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.200000" y="2.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.400000" y="1.400000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+	<Item type="CHoming">
+      <Name>HOM_takedown_front_hatchet_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="-0.1" y="1.600000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+	<Item type="CHoming">
+      <Name>HOM_takedown_front_hatchet_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.180000" y="1.60000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_pistol</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_rifle</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.100000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_dog</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.875000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_front_cougar</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.850000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_c</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.690000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_psycho</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.650000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_psycho_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_knife</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="5.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_knife_var_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.650000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_knife_var_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.220000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_bat</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.850000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.550000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+	<Item type="CHoming">
+      <Name>HOM_takedown_rear_hatchet_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.080000" y="1.80000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+	<Item type="CHoming">
+      <Name>HOM_takedown_rear_hatchet_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.40000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_pistol</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.230000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_rifle</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="0.970000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_rear_cougar</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_stealth_kill_a</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.680000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_stealth_kill_b</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.670000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_stealth_kill_c</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.100000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_stealth_kill_d</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="0.000000" y="1.100000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_long</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="6.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_long_psycho</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.800000" />
+      <ActivationDistance value="6.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_long_bat</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.900000" />
+      <ActivationDistance value="6.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.900000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_psycho</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.400000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_on_spot</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="0.450000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="3.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_on_spot_psycho</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="0.750000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="3.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_dog</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.700000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_cougar</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_var_a</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.700000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_var_b</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.100000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_0_var_a_knife</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="0.900000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_swimming_underwater</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="4.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_swimming_surface_still</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="2.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_swimming_surface_moving</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_0</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_0_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_0_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.200000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_0_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.700000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_0</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="2.700000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_0_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="3.200000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_0_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.500000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_0_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_mid_cardinal_0</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="12.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_180</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_180_small_wpn</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_90</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_90_small_wpn</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_-180</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_-180_small_wpn</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_-90</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_ground_cardinal_turn_-90_small_wpn</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="4.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_90</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_90_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.200000" y="2.850000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_90_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.200000" y="2.750000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_90_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.700000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_mid_cardinal_90</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.300000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_90</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.425000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_90_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.950000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_90_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_90_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.750000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-90</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.500000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-90_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-90_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-90_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.750000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_mid_cardinal_-90</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.400000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-90</Name>
+      <TargetType>TT_PED_NECK</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-90_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.300000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-90_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.100000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-90_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_180</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_180_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="3.100000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_180_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.750000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_180_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.900000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_mid_cardinal_180</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.500000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-180</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-180_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.200000" y="2.600000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-180_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.200000" y="2.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_long_cardinal_-180_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.200000" y="2.800000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_mid_cardinal_-180</Name>
+      <TargetType>TT_PED_CLOSEST_BONE</TargetType>
+      <TargetOffset x="0.000000" y="2.300000" />
+      <ActivationDistance value="10.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_180</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_180_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_180_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.800000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_180_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.700000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-180</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-180_knife</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.500000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.500000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-180_bat</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="2.000000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_short_cardinal_-180_small_wpn</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.600000" />
+      <ActivationDistance value="3.000000" />
+      <MaxSpeed value="10.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_takedown_dog_retriever</Name>
+      <TargetType>TT_ENTITY_ROOT</TargetType>
+      <TargetOffset x="-0.075000" y="1.150000" />
+      <ActivationDistance value="100.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING</HomingAttrs>
+    </Item>
+    <Item type="CHoming">
+      <Name>HOM_shark</Name>
+      <TargetType>TT_ENTITY_ROOT_PREDICTED</TargetType>
+      <TargetOffset x="0.000000" y="1.000000" />
+      <ActivationDistance value="50.000000" />
+      <MaxSpeed value="7.000000" />
+      <TargetHeading value="0.000000" />
+      <HomingAttrs>HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK</HomingAttrs>
+    </Item>
+  </aHomings>
+</CHomingContainer>

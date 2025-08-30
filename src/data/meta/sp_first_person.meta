@@ -1,0 +1,3218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<FirstPersonAssetDataManager>
+  <peds>
+    <Item>
+      <name>Player_One</name>
+      <objects>
+        <Item>
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba01</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="1" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="2" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="3" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="4" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="5" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="6" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="7" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="8" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="9" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.850000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="10" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="11" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+		<Item> <!--  Mask -->
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+
+		
+		<Item>
+          <localIndex value="6" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.80000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>	  
+        </Item>
+		
+		<Item> <!--  Mask -->
+          <localIndex value="8" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="9" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>				
+		<Item> <!--  Mask -->
+          <localIndex value="10" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="11" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="12" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="13" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="14" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>					
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>				  
+        </Item>		
+		
+		
+        <Item>
+          <localIndex value="17" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_motox</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.0220000" z="-0.0380000" />
+          <seWeather value="0.000000" />
+          <seEnvironment value="0.000000" />
+          <seDamage value="0.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+        <Item>
+          <localIndex value="20" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.100000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+			<!-- flight helmet -->
+          <localIndex value="21" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+          </timeCycleMods>
+          <audioId></audioId>
+          <fpsPropModel>Prop_mask_flight</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.056000" z="-0.07500" />
+		  <seWeather value="1.0" />
+          <seEnvironment value="1.0" />
+          <seDamage value="1.0" />		
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+		
+		<Item> <!--  Mask -->
+          <localIndex value="3" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="4" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>		
+				
+		
+		<Item>
+          <localIndex value="5" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_bugstar</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.033000" z="-0.04500" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="8" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.100000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+			<fpsPropModel>prop_mask_scuba02</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="18" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba03</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+		<Item> <!--  Mask -->
+          <localIndex value="5" />
+          <eCompType>PV_COMP_TASK</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>				
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>		
+
+		
+      </objects>
+    </Item>
+    <Item>
+      <name>Player_Zero</name>
+      <objects>
+        <Item>
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.250000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="1" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_Scuba</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba02</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="2" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba02</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="3" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="4" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="5" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="6" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="7" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="8" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="10" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="11" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+        <Item>
+          <localIndex value="9" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="10" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.5000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+		
+
+		<Item> <!-- Hockey Mask -->
+          <localIndex value="2" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+		
+        <Item>
+          <localIndex value="11" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>		
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+		
+		
+
+		<Item> <!--  Mask -->
+          <localIndex value="14" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>
+
+		<Item> <!--  Mask -->
+          <localIndex value="15" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>
+         
+		<Item> <!--  Mask -->
+          <localIndex value="16" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="17" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="18" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="19" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		
+		<Item> <!--  Mask -->
+          <localIndex value="20" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+		  <tcModFadeOffSecs value="80.0f" />
+		  <tcModInterpType>FPTC_POW4</tcModInterpType>		  
+        </Item>		
+		
+		
+        <Item>
+          <localIndex value="23" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_motox</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.02200000" z="-0.0380000" />
+          <seWeather value="0.000000" />
+          <seEnvironment value="0.000000" />
+          <seDamage value="0.000000" />		  
+        </Item>
+        <Item>
+          <localIndex value="25" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+        <Item>
+          <localIndex value="26" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.00000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_mask_ballistic</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.016000" z="-0.03700" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		<Item>
+		<!-- flight helmet -->
+          <localIndex value="28" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+          </timeCycleMods>
+          <audioId></audioId>
+          <fpsPropModel>Prop_mask_flight</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.056000" z="-0.07500" />
+		  <seWeather value="1.0" />
+          <seEnvironment value="1.0" />
+          <seDamage value="1.0" />	
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+        <Item>
+          <localIndex value="1" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba03</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="7" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+		  <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>	
+        </Item>	
+		
+		
+        <Item>
+          <localIndex value="9" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_bugstar</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.033000" z="-0.04500" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+        <Item>
+          <localIndex value="14" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>	
+						
+        <Item>
+          <localIndex value="21" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+		<fpsPropModel>prop_mask_scuba03</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+
+        <Item>
+          <localIndex value="8" />
+          <eCompType>PV_COMP_TASK</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>		
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>	
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>				
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>	
+				
+		
+      </objects>
+    </Item>
+    <Item>
+      <name>Player_Two</name>
+      <objects>
+        <Item>
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba04</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.049000" z="-0.055000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="1" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_pink</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="2" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_pink</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="3" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.000000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="4" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba04</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.051000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="6" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="7" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="8" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="11" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="9" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.900000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_Darkblue</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.700000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="10" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>glasses_purple</timeCycleMod>
+              <intensity value="0.600000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>glasses_yellow</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>glasses_brown</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+            <Item>
+              <textureId value="6" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="7" />
+              <timeCycleMod>glasses_red</timeCycleMod>
+              <intensity value="0.400000" />
+            </Item>
+            <Item>
+              <textureId value="8" />
+              <timeCycleMod>glasses_green</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+            <Item>
+              <textureId value="9" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+        <Item>
+          <localIndex value="11" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_orange</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+				
+
+		<Item> <!-- Hockey Mask -->
+          <localIndex value="2" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+
+				
+        <Item>
+          <localIndex value="9" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="11" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_motobike_b</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.049000" z="-0.056000" />
+          <seWeather value="0.000000" />
+          <seEnvironment value="0.000000" />
+          <seDamage value="0.000000" />
+        </Item>
+		
+		
+		<Item> <!-- Monster Mask -->
+          <localIndex value="14" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+	
+        </Item>
+
+		<Item> <!-- Pig Mask -->
+          <localIndex value="15" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+
+		<Item> <!-- Skull Mask -->
+          <localIndex value="16" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+
+
+		<Item> <!-- Monkey Mask -->
+          <localIndex value="17" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+	
+        </Item>
+
+
+		<Item> <!-- Hockey Mask -->
+          <localIndex value="18" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+	
+        </Item>
+		
+		<Item> <!-- Ape Mask -->
+          <localIndex value="19" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+		
+		
+		<Item> <!-- dotd Mask -->
+          <localIndex value="20" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+	
+        </Item>
+			
+        <Item>
+          <localIndex value="21" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.200000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="23" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_motox</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="-0.02200000" z="-0.0380000" />
+          <seWeather value="0.000000" />
+          <seEnvironment value="0.000000" />
+          <seDamage value="0.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+        <Item>
+          <localIndex value="24" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_mask_ballistic</fpsPropModel>
+		  <fpsPropModelOffset x="0.000000" y="0.016000" z="-0.03700" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+        <Item>
+          <localIndex value="25" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.800000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>Prop_Mask_motobike_b</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.023000" z="-0.045000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>
+		<Item>
+		<!-- Flight Helmet-->
+          <localIndex value="27" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_visor</timeCycleMod>
+              <intensity value="1.0" />
+            </Item>
+          </timeCycleMods>
+          <audioId></audioId>
+          <fpsPropModel>Prop_mask_flight</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="-0.056000" z="-0.07500" />
+		  <seWeather value="1.0" />
+          <seEnvironment value="1.0" />
+          <seDamage value="1.0" />		
+          <putOnAnim>
+            <timeCycleMod>DefaultBlinkIntro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.6" />
+          </putOnAnim>
+          <takeOffAnim>
+            <timeCycleMod>DefaultBlinkOutro</timeCycleMod>
+            <maxIntensity value="1.0" />
+            <duration value="0.4" />
+            <delay value="0.1" />
+          </takeOffAnim>		  
+        </Item>   
+        <Item>
+          <localIndex value="1" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.300000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba03</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.053000" z="-0.058000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+		
+		
+        <Item>
+          <localIndex value="6" /> <!-- balaclava -->
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+	
+		
+        <Item>
+          <localIndex value="13" /> <!-- balaclava -->
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+				
+		
+		
+        <Item>
+          <localIndex value="15" />
+          <eCompType>PV_COMP_ACCS</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.500000" />
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel>prop_mask_scuba03</fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.053000" z="-0.058000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item>
+		
+		
+		
+        <Item>
+          <localIndex value="6" /> <!-- wrestler mask -->
+          <eCompType>PV_COMP_TASK</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="2" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="3" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="4" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="5" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+				
+
+
+        <Item>
+          <localIndex value="7" /> <!-- monster mask -->
+          <eCompType>PV_COMP_TASK</eCompType>
+          <eAnchorPoint>NUM_ANCHORS</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item>
+              <textureId value="0" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>
+            <Item>
+              <textureId value="1" />
+              <timeCycleMod>fp_vig_black</timeCycleMod>
+              <intensity value="1.0000000" />
+            </Item>			
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel />
+          <fpsPropModelOffset x="0.000000" y="0.040000" z="-0.018000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />	
+        </Item>
+				
+		
+      </objects>
+    </Item>
+  </peds>
+</FirstPersonAssetDataManager>

@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ShopPedApparel>
+	<pedName>mp_f_freemode_01</pedName>
+	<dlcName>female_xmas</dlcName>
+	<fullDlcName>mp_f_freemode_01_female_xmas</fullDlcName>
+	<eCharacter>SCR_CHAR_MULTIPLAYER_F</eCharacter>
+	<creatureMetaData>MP_CreatureMetadata_xmas</creatureMetaData>
+	<pedComponents>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_M_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_BERD0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="0" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_BERD</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_M_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_BERD0_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="0" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_BERD</eCompType>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_M_0_2</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_BERD0_2</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="0" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_BERD</eCompType>
+		  <textureIndex value="2" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_M_1_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_BERD1_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="0" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="1" />
+		  <eCompType>PV_COMP_BERD</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_M_2_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_BERD2_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="0" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="2" />
+		  <eCompType>PV_COMP_BERD</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_L_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_LEGS0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="39" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>SKIRT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_LOWR</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_L_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_LEGS0_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="39" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>SKIRT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_LOWR</eCompType>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+				
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="33" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS0_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS2_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="1" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB0_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="33" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS0_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS2_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="1" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_2</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB0_2</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="33" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS0_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS2_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="1" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="2" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_3</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB0_3</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="33" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS0_3</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_ACCS2_3</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_ACCS</eCompType>
+	        </Item>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="1" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="3" />
+		  <isInOutfit value="false" />
+		</Item>
+		
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_1_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB1_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="7" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_6</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>JACKET</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="5" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="21" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+	      </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="1" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_1_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_JBIB1_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="7" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>DRAW_6</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>JACKET</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="5" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+		  </forcedComponents>
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>0</nameHash>
+	          <enumValue value="21" />
+	          <eCompType>PV_COMP_TASK</eCompType>
+	        </Item>
+	      </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="1" />
+		  <eCompType>PV_COMP_JBIB</eCompType>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+		
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_ACCS0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>UNDER_JACKET</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_ACCS</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_ACCS0_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>UNDER_JACKET</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_ACCS</eCompType>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_2</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_ACCS0_2</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>UNDER_JACKET</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_ACCS</eCompType>
+		  <textureIndex value="2" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_U_0_3</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_ACCS0_3</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="11" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>UNDER_JACKET</tagNameHash>
+			</Item>
+			<Item>
+			  <tagNameHash>DRAW_0</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents>
+			<Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_3</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_JBIB</eCompType>
+	        </Item>
+		  </variantComponents>
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_ACCS</eCompType>
+		  <textureIndex value="3" />
+		  <isInOutfit value="false" />
+		</Item>
+		
+
+		
+	    <Item>
+	      <lockHash>CU_XMAS_CLOTHES</lockHash>
+	      <cost value="0" />
+	      <textLabel>CLO_XMASF_U_0_0</textLabel>
+	      <uniqueNameHash>DLC_MP_XMAS_F_ACCS2_0</uniqueNameHash>
+	      <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+	      <locate value="11" />
+	      <scriptSaveData value="0" />
+	      <restrictionTags>
+	        <Item>
+	          <tagNameHash>UNDER_JACKET</tagNameHash>
+	        </Item>
+			<Item>
+	          <tagNameHash>ALT_SPECIAL</tagNameHash>
+	        </Item>
+	      </restrictionTags>
+	      <forcedComponents />
+	      <forcedProps />
+	      <variantComponents>
+	        <Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_0</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+	      </variantComponents>
+	      <variantProps />
+	      <drawableIndex value="0" />
+	      <localDrawableIndex value="0" />
+	      <eCompType>PV_COMP_ACCS</eCompType>
+	      <textureIndex value="0" />
+	      <isInOutfit value="false" />
+	    </Item>
+	    <Item>
+	      <lockHash>CU_XMAS_CLOTHES</lockHash>
+	      <cost value="0" />
+	      <textLabel>CLO_XMASF_U_0_1</textLabel>
+	      <uniqueNameHash>DLC_MP_XMAS_F_ACCS2_1</uniqueNameHash>
+	      <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+	      <locate value="11" />
+	      <scriptSaveData value="0" />
+	      <restrictionTags>
+	        <Item>
+	          <tagNameHash>UNDER_JACKET</tagNameHash>
+	        </Item>
+			<Item>
+	          <tagNameHash>ALT_SPECIAL</tagNameHash>
+	        </Item>
+	      </restrictionTags>
+	      <forcedComponents />
+	      <forcedProps />
+	      <variantComponents>
+	        <Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_1</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+	      </variantComponents>
+	      <variantProps />
+	      <drawableIndex value="0" />
+	      <localDrawableIndex value="0" />
+	      <eCompType>PV_COMP_ACCS</eCompType>
+	      <textureIndex value="1" />
+	      <isInOutfit value="false" />
+	    </Item>
+	    <Item>
+	      <lockHash>CU_XMAS_CLOTHES</lockHash>
+	      <cost value="0" />
+	      <textLabel>CLO_XMASF_U_0_2</textLabel>
+	      <uniqueNameHash>DLC_MP_XMAS_F_ACCS2_2</uniqueNameHash>
+	      <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+	      <locate value="11" />
+	      <scriptSaveData value="0" />
+	      <restrictionTags>
+	        <Item>
+	          <tagNameHash>UNDER_JACKET</tagNameHash>
+	        </Item>
+			<Item>
+	          <tagNameHash>ALT_SPECIAL</tagNameHash>
+	        </Item>
+	      </restrictionTags>
+	      <forcedComponents />
+	      <forcedProps />
+	      <variantComponents>
+	        <Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_2</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+	      </variantComponents>
+	      <variantProps />
+	      <drawableIndex value="0" />
+	      <localDrawableIndex value="0" />
+	      <eCompType>PV_COMP_ACCS</eCompType>
+	      <textureIndex value="2" />
+	      <isInOutfit value="false" />
+	    </Item>
+	    <Item>
+	      <lockHash>CU_XMAS_CLOTHES</lockHash>
+	      <cost value="0" />
+	      <textLabel>CLO_XMASF_U_0_3</textLabel>
+	      <uniqueNameHash>DLC_MP_XMAS_F_ACCS2_3</uniqueNameHash>
+	      <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+	      <locate value="11" />
+	      <scriptSaveData value="0" />
+	      <restrictionTags>
+	        <Item>
+	          <tagNameHash>UNDER_JACKET</tagNameHash>
+	        </Item>
+			<Item>
+	          <tagNameHash>ALT_SPECIAL</tagNameHash>
+	        </Item>
+	      </restrictionTags>
+	      <forcedComponents />
+	      <forcedProps />
+	      <variantComponents>
+	        <Item>
+	          <nameHash>DLC_MP_XMAS_F_JBIB0_3</nameHash>
+	          <enumValue value="0" />
+	          <eCompType>PV_COMP_UPPR</eCompType>
+	        </Item>
+	      </variantComponents>
+	      <variantProps />
+	      <drawableIndex value="0" />
+	      <localDrawableIndex value="0" />
+	      <eCompType>PV_COMP_ACCS</eCompType>
+	      <textureIndex value="3" />
+	      <isInOutfit value="false" />
+	    </Item>
+		
+		
+		
+		
+		
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMASF_F_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_FEET0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="57" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags />
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <drawableIndex value="0" />
+		  <localDrawableIndex value="0" />
+		  <eCompType>PV_COMP_FEET</eCompType>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+	</pedComponents>
+	<pedProps>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_H_0_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_HAT0_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="62" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>HAT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <propIndex value="0" />
+		  <localPropIndex value="0" />
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_H_0_1</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_HAT0_1</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="62" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>HAT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <propIndex value="0" />
+		  <localPropIndex value="0" />
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <textureIndex value="1" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_H_1_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_HAT1_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="62" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>HAT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <propIndex value="0" />
+		  <localPropIndex value="1" />
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+		<Item>
+		  <lockHash>CU_XMAS_CLOTHES</lockHash>
+		  <cost value="0" />
+		  <textLabel>CLO_XMAS_H_2_0</textLabel>
+		  <uniqueNameHash>DLC_MP_XMAS_F_HAT2_0</uniqueNameHash>
+		  <eShopEnum>CLO_SHOP_LOW</eShopEnum>
+		  <locate value="62" />
+		  <scriptSaveData value="0" />
+		  <restrictionTags>
+			<Item>
+			  <tagNameHash>HAT</tagNameHash>
+			</Item>
+		  </restrictionTags>
+		  <forcedComponents />
+		  <forcedProps />
+		  <variantComponents />
+		  <variantProps />
+		  <propIndex value="0" />
+		  <localPropIndex value="2" />
+		  <eAnchorPoint>ANCHOR_HEAD</eAnchorPoint>
+		  <textureIndex value="0" />
+		  <isInOutfit value="false" />
+		</Item>
+  </pedProps>
+</ShopPedApparel>

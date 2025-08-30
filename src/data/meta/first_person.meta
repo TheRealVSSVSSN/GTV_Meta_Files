@@ -1,0 +1,95 @@
+<FirstPersonAssetDataManager>
+  <peds>
+    <Item>
+      <name>mp_f_freemode_01</name>
+	  <objects>
+        <Item> <!-- This is a prop 000-->
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item> <!-- This is 0 texture variation---->
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.40" />                  
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.0000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item> <!-- This is the end of prop 000-->
+		<Item> <!-- This is prop 001-->
+          <localIndex value="1" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item> <!-- This is 0 texture variation---->
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.50" />
+            </Item>           
+		  </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.0000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item> <!-- This is the end of prop 001-->
+	</objects>	
+	</Item>
+  
+    <Item>
+      <name>mp_m_freemode_01</name>
+	  <objects>
+        <Item> <!-- This is a prop 000-->
+          <localIndex value="0" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item> <!-- This is 0 texture variation---->
+              <textureId value="0" />
+              <timeCycleMod>glasses_black</timeCycleMod>
+              <intensity value="0.40" />                  
+            </Item>
+          </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.0000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item> <!-- This is the end of prop 000-->
+		<Item> <!-- This is prop 001-->
+          <localIndex value="1" />
+          <eCompType>PV_COMP_MAX</eCompType>
+          <eAnchorPoint>ANCHOR_EYES</eAnchorPoint>
+          <dlcHash />
+          <timeCycleMods>
+            <Item> <!-- This is 0 texture variation---->
+              <textureId value="0" />
+              <timeCycleMod>glasses_blue</timeCycleMod>
+              <intensity value="0.50" />
+            </Item>           
+		  </timeCycleMods>
+          <audioId />
+          <flags value="0" />
+          <fpsPropModel></fpsPropModel>
+          <fpsPropModelOffset x="0.000000" y="0.000000" z="0.0000" />
+          <seWeather value="1.000000" />
+          <seEnvironment value="1.000000" />
+          <seDamage value="1.000000" />
+        </Item> <!-- This is the end of prop 001-->
+	  </objects>	
+	</Item>
+  </peds>
+</FirstPersonAssetDataManager>

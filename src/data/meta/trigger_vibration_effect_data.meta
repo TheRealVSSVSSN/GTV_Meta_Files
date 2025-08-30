@@ -1,0 +1,3348 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TriggerEffect__TriggerEffectData>
+  <TriggerEffectLevelLow>
+    <FeedbackModeMappings />
+    <WeaponModeMappings />
+    <VibrationModeMappings>
+      <Item key="VEHICLE_WEAPON_AKULA_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_TURRET_DUAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_TURRET_SINGLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ARDENT_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AVENGER_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.220000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_TOP_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BOMBUSHKA_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BOMBUSHKA_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUISER2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUISER_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUTUS2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUTUS_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CANNON_BLAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CARACARA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CARACARA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_COMET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="22.219999" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DELUXO_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DELUXO_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOGFIGHTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOGFIGHTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOMINATOR4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_GRENADELAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ENEMY_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_FLAMETHROWER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_FLAMETHROWER_SCIFI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_GRANGER2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HACKER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HACKER_MISSILE_HOMING">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HALFTRACK_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HALFTRACK_QUADMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.400000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="8.330000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HAVOK_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.330000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPALER2_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPALER3_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPERATOR_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_INSURGENT_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ISSI4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ISSI5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_JB700_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KOSATKA_TORPEDO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MENACER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MICROLIGHT_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOBILEOPS_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_DUALNOSE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_DUALTURRET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_NOSE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.125000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_TURRET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MONSTER3_GLKIN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MORTAR_EXPLOSIVE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MORTAR_KINETIC">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_TURRET_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_NIGHTSHARK_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.240000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.250000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.500000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PARAGON2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PATROLBOAT_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLANE_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_BULLET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_BUZZARD">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_HUNTER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_LAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_SAVAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RADAR">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_FLAME">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_GUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.250000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_LAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_REVOLTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RUINER_BULLET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RUINER_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SAVESTRA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCARAB2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCARAB_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCRAMJET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCRAMJET_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.500000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEABREEZE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEARCHLIGHT">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEASPARROW2_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SLAMVAN4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SLAMVAN5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPACE_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_TURRET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_TURRET_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.125000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUB_MISSILE_HOMING">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_TORPEDO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_DUALMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_MORTAR">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TANK">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TECHNICAL_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_THRUSTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_THRUSTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_DUALAA">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_QUADMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.400000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_NOSEMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_BOXVILLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_DINGHY5_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_INSURGENT">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_LIMO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.114000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_PATROLBOAT_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_TECHNICAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_VALKYRIE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VIGILANTE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VIGILANTE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VISERIS_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VOLATOL_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ZR3802_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ZR380_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VIBRATION_MODE_DEBUG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="0.000000" />
+        <VibrationFrequency value="0.000000" />
+      </Item>
+      <Item key="VIBRATION_MODE_NONE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="0.000000" />
+        <VibrationFrequency value="0.000000" />
+      </Item>
+      <Item key="WEAPON_ADVANCEDRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_APPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTSMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.820000" />
+      </Item>
+      <Item key="WEAPON_AUTOSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_BIRD_CRAP">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_CARBINERIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_CARBINERIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_CERAMICPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMBATMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.350000" />
+      </Item>
+      <Item key="WEAPON_COMBATMG_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.900000" />
+      </Item>
+      <Item key="WEAPON_COMBATPDW">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="9.430000" />
+      </Item>
+      <Item key="WEAPON_COMBATPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMBATSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMPACTLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMPACTRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_DBSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_DOUBLEACTION">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_EMPLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_FIREWORK">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_FLAREGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GADGETPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GRENADELAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GUSENBERG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_HEAVYPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSNIPER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSNIPER_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HOMINGLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MACHINEPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="8.330000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.137000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="WEAPON_MICROSMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="18.180000" />
+      </Item>
+      <Item key="WEAPON_MILITARYRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="WEAPON_MINISMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.092000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="10.870000" />
+      </Item>
+      <Item key="WEAPON_MUSKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_NAVYREVOLVER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PASSENGER_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL50">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PUMPSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PUMPSHOTGUN_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAILGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAYCARBINE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="16.670000" />
+      </Item>
+      <Item key="WEAPON_RAYMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="WEAPON_RAYPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_REVOLVER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_REVOLVER_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RPG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SAWNOFFSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="13.330000" />
+      </Item>
+      <Item key="WEAPON_SMG_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="13.700000" />
+      </Item>
+      <Item key="WEAPON_SNIPERRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SNSPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SNSPISTOL_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SPECIALCARBINE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_SPECIALCARBINE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_STUNGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_STUNGUN_MP">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_VINTAGEPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_TACTICALRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_PRECISIONRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAILGUNXM3">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOLXM3">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_TECPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="18.180000" />
+      </Item>
+      <Item key="WEAPON_BATTLERIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_SNOWLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_STRICKLER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="1.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>	  
+    </VibrationModeMappings>
+  </TriggerEffectLevelLow>
+  <TriggerEffectLevelHigh>
+    <FeedbackModeMappings />
+    <WeaponModeMappings />
+    <VibrationModeMappings>
+      <Item key="VEHICLE_WEAPON_AKULA_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_TURRET_DUAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AKULA_TURRET_SINGLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ANNIHILATOR2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_APC_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ARDENT_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_AVENGER_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.220000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_REAR_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_TOP_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BARRAGE_TOP_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BOMBUSHKA_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BOMBUSHKA_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUISER2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUISER_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUTUS2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_BRUTUS_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CANNON_BLAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CARACARA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_CARACARA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_COMET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DEATHBIKE2_MINIGUN_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="22.219999" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DEATHBIKE_DUALMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DELUXO_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DELUXO_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOGFIGHTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOGFIGHTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOMINATOR4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DOMINATOR5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_GRENADELAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_DUNE_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ENEMY_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_FLAMETHROWER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_FLAMETHROWER_SCIFI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_GRANGER2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HACKER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HACKER_MISSILE_HOMING">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HALFTRACK_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HALFTRACK_QUADMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.400000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="8.330000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HAVOK_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.330000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_HUNTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPALER2_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPALER3_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPERATOR2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_IMPERATOR_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_INSURGENT_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ISSI4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ISSI5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_JB700_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_CANNON_HEAVY">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KHANJALI_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_KOSATKA_TORPEDO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MENACER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MICROLIGHT_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOBILEOPS_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_DUALNOSE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_DUALTURRET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_NOSE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.125000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MOGUL_TURRET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MONSTER3_GLKIN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MORTAR_EXPLOSIVE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MORTAR_KINETIC">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_MULE4_TURRET_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_NIGHTSHARK_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.240000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_NOSE_TURRET_VALKYRIE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.250000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.500000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_OPPRESSOR_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PARAGON2_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PATROLBOAT_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLANE_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_BULLET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_BUZZARD">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_HUNTER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_LAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_PLAYER_SAVAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.040000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_GL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_POUNDER2_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RADAR">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_FLAME">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_GUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.250000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_LAZER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RCTANK_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_REVOLTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ROGUE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RUINER_BULLET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_RUINER_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SAVESTRA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCARAB2_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCARAB_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCRAMJET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SCRAMJET_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="1.500000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEABREEZE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEARCHLIGHT">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="2.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SEASPARROW2_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SLAMVAN4_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SLAMVAN5_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPACE_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_TURRET_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SPEEDO4_TURRET_MINI">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_BARRAGE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_CANNON">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.125000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_STRIKEFORCE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUB_MISSILE_HOMING">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_SUBCAR_TORPEDO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_DUALMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_FIXEDMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TAMPA_MORTAR">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TANK">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TECHNICAL_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_THRUSTER_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.080000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_THRUSTER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_DUALAA">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TRAILER_QUADMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.400000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.530000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TULA_NOSEMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_BOXVILLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_DINGHY5_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_INSURGENT">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.147000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_LIMO">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.114000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_PATROLBOAT_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="9.520000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_TECHNICAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.180000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_TURRET_VALKYRIE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VIGILANTE_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.200000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VIGILANTE_MISSILE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VISERIS_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_VOLATOL_DUALMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.150000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ZR3802_50CAL_LASER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VEHICLE_WEAPON_ZR380_50CAL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.300000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="VIBRATION_MODE_DEBUG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="0.000000" />
+        <VibrationFrequency value="0.000000" />
+      </Item>
+      <Item key="VIBRATION_MODE_NONE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.000000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="0.000000" />
+        <VibrationFrequency value="0.000000" />
+      </Item>
+      <Item key="WEAPON_ADVANCEDRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_APPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.000000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_ASSAULTSMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="12.820000" />
+      </Item>
+      <Item key="WEAPON_AUTOSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_BIRD_CRAP">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.120000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_BULLPUPSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_CARBINERIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_CARBINERIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_CERAMICPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMBATMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="9.350000" />
+      </Item>
+      <Item key="WEAPON_COMBATMG_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="9.900000" />
+      </Item>
+      <Item key="WEAPON_COMBATPDW">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="9.430000" />
+      </Item>
+      <Item key="WEAPON_COMBATPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMBATSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMPACTLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_COMPACTRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_DBSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_DOUBLEACTION">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_EMPLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_FIREWORK">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_FLAREGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GADGETPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GRENADELAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_GUSENBERG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_HEAVYPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.050000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSNIPER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HEAVYSNIPER_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_HOMINGLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MACHINEPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="8.330000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MARKSMANRIFLE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_MG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.137000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="7.410000" />
+      </Item>
+      <Item key="WEAPON_MICROSMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="18.180000" />
+      </Item>
+      <Item key="WEAPON_MILITARYRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_MINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="WEAPON_MINISMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.092000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="10.870000" />
+      </Item>
+      <Item key="WEAPON_MUSKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_NAVYREVOLVER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PASSENGER_ROCKET">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL50">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOL_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PUMPSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PUMPSHOTGUN_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAILGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAYCARBINE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.108000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="16.670000" />
+      </Item>
+      <Item key="WEAPON_RAYMINIGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="20.000000" />
+      </Item>
+      <Item key="WEAPON_RAYPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_REVOLVER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_REVOLVER_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RPG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SAWNOFFSHOTGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SMG">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="13.330000" />
+      </Item>
+      <Item key="WEAPON_SMG_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.118000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="13.700000" />
+      </Item>
+      <Item key="WEAPON_SNIPERRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SNSPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="6.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SNSPISTOL_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_SPECIALCARBINE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.630000" />
+      </Item>
+      <Item key="WEAPON_SPECIALCARBINE_MK2">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.135000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.500000" />
+      </Item>
+      <Item key="WEAPON_STUNGUN">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_STUNGUN_MP">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_VINTAGEPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="4.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_TACTICALRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="12.990000" />
+      </Item>
+      <Item key="WEAPON_PRECISIONRIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_RAILGUNXM3">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="8.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_PISTOLXM3">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="7.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_TECPISTOL">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="18.180000" />
+      </Item>
+      <Item key="WEAPON_BATTLERIFLE">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.158000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="3.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>
+      <Item key="WEAPON_SNOWLAUNCHER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.100000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="5.000000" />
+        <VibrationFrequency value="1.000000" />
+      </Item>
+      <Item key="WEAPON_STRICKLER">
+        <InputType>INPUT_ATTACK</InputType>
+        <VibrationDuration value="0.130000" />
+        <VibrationStart value="0.000000" />
+        <VibrationAmplitude value="2.000000" />
+        <VibrationFrequency value="11.110000" />
+      </Item>	  
+    </VibrationModeMappings>
+  </TriggerEffectLevelHigh>
+</TriggerEffect__TriggerEffectData>
