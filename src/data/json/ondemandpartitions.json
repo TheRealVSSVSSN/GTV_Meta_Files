@@ -1,0 +1,48 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__fiDeviceInstaller__InitDataList": {
+    "initDatas": {
+      "Item": {
+        "sourceFile": "part0.rpf",
+        "partitionName": "part0",
+        "partitionDesc": "Partition 0",
+        "mount": "platform:/",
+        "readOnly": {
+          "@_value": true
+        }
+      },
+      "item": [
+        {
+          "sourceFile": "part1.rpf",
+          "partitionName": "part1",
+          "partitionDesc": "partition 1",
+          "mount": "platform:/",
+          "readOnly": {
+            "@_value": true
+          }
+        },
+        {
+          "sourceFile": "part2.rpf",
+          "partitionName": "part2",
+          "partitionDesc": "partition 2",
+          "mount": "platform:/",
+          "readOnly": {
+            "@_value": true
+          }
+        },
+        {
+          "sourceFile": "part3.rpf",
+          "partitionName": "part3",
+          "partitionDesc": "partition 3",
+          "mount": "platform:/",
+          "readOnly": {
+            "@_value": true
+          }
+        }
+      ]
+    }
+  }
+}

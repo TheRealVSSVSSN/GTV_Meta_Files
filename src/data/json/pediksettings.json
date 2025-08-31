@@ -1,0 +1,343 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedIKSettingsInfoManager": {
+    "aPedIKSettings": {
+      "Item": [
+        {
+          "Name": "STANDARD_PED_IK",
+          "IKSolversDisabled": "",
+          "TorsoDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 \t0.0 \t0.0\n            0.0 \t0.0 \t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.0\t-2.5\t-3.75\n            10.0\t2.0\t\t1.25",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-13.0\t-5.0\t-7.50\n            13.0\t5.0\t\t2.50",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-17.5\t-7.5\t-11.25\n            17.5\t7.5\t\t3.75",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-20.0\t-10.0\t-15.00\n            20.0\t10.0\t5.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "HeadDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-5.00\t-2.00\t-5.00\n            5.00\t2.00\t5.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-15.00\t-5.00\t-15.00\n            15.00\t5.00\t15.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-30.00\t-10.00\t-30.00\n            30.00\t10.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-45.00\t-15.00\t-45.00\n            45.00\t15.00\t45.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "NeckDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-5.00\t-3.00\t-5.00\n            5.00\t3.00\t5.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-6.00\t-8.00\n            10.00\t6.00\t8.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-15.00\t-10.00\t-15.00\n            15.00\t10.00\t15.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-20.00\t-15.00\t-20.00\n            20.00\t15.00\t20.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Name": "STANDARD_QUADRUPED_IK",
+          "IKSolversDisabled": "ikSolverTypeArm ikSolverTypeBodyRecoil ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup",
+          "TorsoDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 \t0.0 \t0.0\n            0.0 \t0.0 \t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.0\t-2.5\t-3.75\n            10.0\t2.0\t\t1.25",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-13.0\t-5.0\t-7.50\n            13.0\t5.0\t\t2.50",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-17.5\t-7.5\t-11.25\n            17.5\t7.5\t\t3.75",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-20.0\t-10.0\t-15.00\n            20.0\t10.0\t5.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "HeadDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-2.00\t-10.00\n            10.00\t2.00\t10.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-20.00\t-5.00\t-20.00\n            20.00\t5.00\t20.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-30.00\t-10.00\t-30.00\n            30.00\t10.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-40.00\t-15.00\t-35.00\n            40.00\t15.00\t35.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "NeckDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-50.00\t-3.00\t-30.00\n            50.00\t3.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-60.00\t-6.00\t-40.00\n            60.00\t6.00\t40.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-70.00\t-10.00\t-50.00\n            70.00\t10.00\t50.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-80.00\t-15.00\t-60.00\n            80.00\t15.00\t60.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Name": "STANDARD_DOG_IK",
+          "IKSolversDisabled": "ikSolverTypeArm ikSolverTypeBodyRecoil ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup",
+          "TorsoDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "HeadDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0\t\t0.0\t\t0.0\n            0.0\t\t0.0\t\t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-2.00\t0.0\n            10.00\t2.00\t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-5.00\t0.0\n            10.00\t5.00\t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-10.00\t0.0\n            10.00\t10.00\t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-10.00\t-15.00\t0.0\n            10.00\t15.00\t0.0",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "NeckDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0\t\t0.0\t\t0.0\n            0.0\t\t0.0\t\t0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-50.00\t-3.00\t-30.00\n            50.00\t3.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-50.00\t-6.00\t-30.00\n            50.00\t6.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-50.00\t-10.00\t-30.00\n            50.00\t10.00\t30.00",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "-50.00\t-15.00\t-30.00\n            50.00\t15.00\t30.00",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          }
+        },
+        {
+          "Name": "NO_IK",
+          "IKSolversDisabled": "ikSolverTypeArm ikSolverTypeBodyLook ikSolverTypeBodyRecoil ikSolverTypeHead ikSolverTypeLeg ikSolverTypeTorso ikSolverTypeTorsoReact ikSolverTypeTorsoVehicle ikSolverTypeRootSlopeFixup",
+          "TorsoDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "HeadDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          },
+          "NeckDeltaLimits": {
+            "DeltaLimits": {
+              "Item": [
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                },
+                {
+                  "#text": "0.0 0.0 0.0\n            0.0 0.0 0.0",
+                  "@_content": "vector3_array"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "DefaultSet": {
+      "@_ref": "STANDARD_PED_IK"
+    }
+  }
+}

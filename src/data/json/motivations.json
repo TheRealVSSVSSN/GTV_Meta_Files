@@ -1,0 +1,177 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedMotivationInfoManager": {
+    "aPedMotivation": {
+      "Item": [
+        {
+          "Name": "PED_MOTIVATION_TYPE_DEFAULT",
+          "Happy": {
+            "@_value": 0.75
+          },
+          "Anger": {
+            "@_value": 0
+          },
+          "Fear": {
+            "@_value": 0
+          },
+          "Hunger": {
+            "@_value": 0
+          },
+          "Tired": {
+            "@_value": 0
+          },
+          "HappyRate": {
+            "@_value": 1
+          },
+          "AngerRate": {
+            "@_value": 1
+          },
+          "FearRate": {
+            "@_value": 1
+          },
+          "HungerRate": {
+            "@_value": 1
+          },
+          "TiredRate": {
+            "@_value": 1
+          }
+        },
+        {
+          "Name": "PED_MOTIVATION_TYPE_HAPPY",
+          "Happy": {
+            "@_value": 0.75
+          },
+          "Anger": {
+            "@_value": 0
+          },
+          "Fear": {
+            "@_value": 0
+          },
+          "Hunger": {
+            "@_value": 0
+          },
+          "Tired": {
+            "@_value": 0
+          },
+          "HappyRate": {
+            "@_value": 5
+          },
+          "AngerRate": {
+            "@_value": 1
+          },
+          "FearRate": {
+            "@_value": 1
+          },
+          "HungerRate": {
+            "@_value": 1
+          },
+          "TiredRate": {
+            "@_value": 1
+          }
+        },
+        {
+          "Name": "PED_MOTIVATION_TYPE_SAD",
+          "Happy": {
+            "@_value": 0.25
+          },
+          "Anger": {
+            "@_value": 0
+          },
+          "Fear": {
+            "@_value": 0
+          },
+          "Hunger": {
+            "@_value": 0
+          },
+          "Tired": {
+            "@_value": 0
+          },
+          "HappyRate": {
+            "@_value": 5
+          },
+          "AngerRate": {
+            "@_value": 1
+          },
+          "FearRate": {
+            "@_value": 1
+          },
+          "HungerRate": {
+            "@_value": 1
+          },
+          "TiredRate": {
+            "@_value": 1
+          }
+        },
+        {
+          "Name": "PED_MOTIVATION_TYPE_ANGRY",
+          "Happy": {
+            "@_value": 0.5
+          },
+          "Anger": {
+            "@_value": 0.5
+          },
+          "Fear": {
+            "@_value": 0
+          },
+          "Hunger": {
+            "@_value": 0
+          },
+          "Tired": {
+            "@_value": 0
+          },
+          "HappyRate": {
+            "@_value": 1
+          },
+          "AngerRate": {
+            "@_value": 10
+          },
+          "FearRate": {
+            "@_value": 1
+          },
+          "HungerRate": {
+            "@_value": 1
+          },
+          "TiredRate": {
+            "@_value": 1
+          }
+        },
+        {
+          "Name": "PED_MOTIVATION_TYPE_SCARED",
+          "Happy": {
+            "@_value": 0.5
+          },
+          "Anger": {
+            "@_value": 0
+          },
+          "Fear": {
+            "@_value": 0.4
+          },
+          "Hunger": {
+            "@_value": 0
+          },
+          "Tired": {
+            "@_value": 0
+          },
+          "HappyRate": {
+            "@_value": 1
+          },
+          "AngerRate": {
+            "@_value": 1
+          },
+          "FearRate": {
+            "@_value": 4
+          },
+          "HungerRate": {
+            "@_value": 1
+          },
+          "TiredRate": {
+            "@_value": 1
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CCrimeInformations": {
+    "CrimeInformations": {
+      "Item": [
+        {
+          "@_key": "CRIME_BLOCK_POLICE_CAR"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_CAR_SET_ON_FIRE"
+        },
+        {
+          "WitnessInformation": {
+            "MaxDistanceToHear": {
+              "@_value": 50
+            },
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_CAUSE_EXPLOSION"
+        },
+        {
+          "@_key": "CRIME_COP_SET_ON_FIRE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_DAMAGE_TO_PROPERTY"
+        },
+        {
+          "@_key": "CRIME_DESTROY_HELI"
+        },
+        {
+          "@_key": "CRIME_DESTROY_PLANE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_DESTROY_VEHICLE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_DRIVE_AGAINST_TRAFFIC"
+        },
+        {
+          "WitnessInformation": {
+            "MaxDistanceToHear": {
+              "@_value": 50
+            },
+            "Flags": "MustBeWitnessed",
+            "AdditionalFlagsForSP": "MustNotifyLawEnforcement"
+          },
+          "@_key": "CRIME_FIREARM_DISCHARGE"
+        },
+        {
+          "@_key": "CRIME_HIT_COP"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_HIT_PED"
+        },
+        {
+          "@_key": "CRIME_KILL_COP"
+        },
+        {
+          "@_key": "CRIME_MOLOTOV"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_PED_SET_ON_FIRE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_POSSESSION_GUN"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_RECKLESS_DRIVING"
+        },
+        {
+          "@_key": "CRIME_RESIST_ARREST"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_RIDING_BIKE_WITHOUT_HELMET"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_RUN_REDLIGHT"
+        },
+        {
+          "@_key": "CRIME_RUNOVER_COP"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_RUNOVER_PED"
+        },
+        {
+          "@_key": "CRIME_SHOOT_AT_COP"
+        },
+        {
+          "@_key": "CRIME_SHOOT_COP"
+        },
+        {
+          "@_key": "CRIME_SHOOT_NONLETHAL_COP"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_SHOOT_NONLETHAL_PED"
+        },
+        {
+          "WitnessInformation": {
+            "MaxDistanceToHear": {
+              "@_value": 50
+            },
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_SHOOT_PED"
+        },
+        {
+          "@_key": "CRIME_SHOOT_VEHICLE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_SPEEDING"
+        },
+        {
+          "@_key": "CRIME_STAB_COP"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_STAB_PED"
+        },
+        {
+          "@_key": "CRIME_STAND_ON_POLICE_CAR"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed",
+            "AdditionalFlagsForSP": "MustNotifyLawEnforcement"
+          },
+          "@_key": "CRIME_STEAL_CAR"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed",
+            "AdditionalFlagsForSP": "MustNotifyLawEnforcement"
+          },
+          "@_key": "CRIME_STEAL_VEHICLE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed",
+            "AdditionalFlagsForSP": "MustNotifyLawEnforcement"
+          },
+          "@_key": "CRIME_JACK_DEAD_PED"
+        },
+        {
+          "@_key": "CRIME_TARGET_COP"
+        },
+        {
+          "@_key": "CRIME_TERRORIST_ACTIVITY"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed",
+            "AdditionalFlagsForSP": "MustNotifyLawEnforcement OnlyVictimCanNotifyLawEnforcement"
+          },
+          "@_key": "CRIME_HASSLE"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_STEALTH_KILL_COP"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_STEALTH_KILL_PED"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_SHOOT_PED_SUPPRESSED"
+        },
+        {
+          "WitnessInformation": {
+            "Flags": "MustBeWitnessed"
+          },
+          "@_key": "CRIME_KILL_PED"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1776 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": "",
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ds@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ps@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rds@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rps@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ds@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ds@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ps@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@ps@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rds@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rds@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rps@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@anim@veh@boat@longfin@rps@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": "",
+    "BicycleInfos": "",
+    "POVTuningInfos": "",
+    "EntryAnimVariations": "",
+    "VehicleExtraPointsInfos": {
+      "Item": [
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_LEFT",
+          "ExtraVehiclePoints": {
+            "Item": {
+              "LocationType": "SEAT_RELATIVE",
+              "PointType": "GET_IN",
+              "Position": {
+                "@_x": 0.561,
+                "@_y": -0.7732,
+                "@_z": 0.6
+              },
+              "Heading": {
+                "@_value": 0.3
+              },
+              "Pitch": {
+                "@_value": 0
+              },
+              "BoneName": ""
+            }
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_RIGHT",
+          "ExtraVehiclePoints": {
+            "Item": {
+              "LocationType": "SEAT_RELATIVE",
+              "PointType": "GET_IN",
+              "Position": {
+                "@_x": -0.575,
+                "@_y": -0.73,
+                "@_z": 0.4
+              },
+              "Heading": {
+                "@_value": 0
+              },
+              "Pitch": {
+                "@_value": 0
+              },
+              "BoneName": ""
+            }
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_LEFT",
+          "ExtraVehiclePoints": {
+            "Item": {
+              "LocationType": "SEAT_RELATIVE",
+              "PointType": "GET_IN",
+              "Position": {
+                "@_x": 0.375,
+                "@_y": 0.65,
+                "@_z": 0.5
+              },
+              "Heading": {
+                "@_value": 1.5
+              },
+              "Pitch": {
+                "@_value": 0
+              },
+              "BoneName": ""
+            }
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_RIGHT",
+          "ExtraVehiclePoints": {
+            "Item": {
+              "LocationType": "SEAT_RELATIVE",
+              "PointType": "GET_IN",
+              "Position": {
+                "@_x": 0.11,
+                "@_y": 0.5,
+                "@_z": 0.4
+              },
+              "Heading": {
+                "@_value": -1.6
+              },
+              "Pitch": {
+                "@_value": 0
+              },
+              "BoneName": ""
+            }
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_LEFT_WATER",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": 0.561,
+                  "@_y": -0.7732,
+                  "@_z": 0.6
+                },
+                "Heading": {
+                  "@_value": 0.3
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN_2",
+                "Position": {
+                  "@_x": -0.25,
+                  "@_y": -2.205,
+                  "@_z": 0.5
+                },
+                "Heading": {
+                  "@_value": 0
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_RIGHT_WATER",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": -0.575,
+                  "@_y": -0.73,
+                  "@_z": 0.6
+                },
+                "Heading": {
+                  "@_value": 0
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN_2",
+                "Position": {
+                  "@_x": 0.875,
+                  "@_y": -2.1,
+                  "@_z": 1.15
+                },
+                "Heading": {
+                  "@_value": 1.5
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_LEFT_WATER",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": 0.375,
+                  "@_y": 0.65,
+                  "@_z": 0.6
+                },
+                "Heading": {
+                  "@_value": 1.5
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN_2",
+                "Position": {
+                  "@_x": 1.475,
+                  "@_y": -0.1,
+                  "@_z": 0.5
+                },
+                "Heading": {
+                  "@_value": 1.5
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_RIGHT_WATER",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": 0.11,
+                  "@_y": 0.5,
+                  "@_z": 0.7
+                },
+                "Heading": {
+                  "@_value": -1.6
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN_2",
+                "Position": {
+                  "@_x": -1.125,
+                  "@_y": -0.93,
+                  "@_z": 1.15
+                },
+                "Heading": {
+                  "@_value": -0.1
+                },
+                "Pitch": {
+                  "@_value": 0
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        }
+      ]
+    },
+    "DrivebyWeaponGroups": "",
+    "VehicleDriveByAnimInfos": "",
+    "VehicleDriveByInfos": "",
+    "VehicleSeatInfos": "",
+    "VehicleSeatAnimInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_ANIM_BOAT_LONGFIN_FRONT_LEFT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_BOAT_SPEED_FRONT_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "clipset@veh@boat@speed@ds@idle_duck",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "BOAT_DRIVER",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "PreventShuffleJack RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims",
+          "SteeringSmoothing": {
+            "@_value": 0.05
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_BOAT_LONGFIN_FRONT_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "PanicClipSet": "clipset@veh@boat@longfin@ps@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "clipset@veh@boat@speed@ps@idle_duck",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "BOAT_PASSENGER",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "WeaponAttachedToLeftHand HasPanicAnims PreventShuffleJack RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims",
+          "SteeringSmoothing": {
+            "@_value": 0.05
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_BOAT_LONGFIN_REAR_LEFT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_BOAT_SPEED_FRONT_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT"
+          },
+          "PanicClipSet": "clipset@veh@boat@longfin@rds@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "BOAT_PASSENGER",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll CannotBeJacked HasPanicAnims PreventShuffleJack RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims",
+          "SteeringSmoothing": {
+            "@_value": 0.05
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_BOAT_LONGFIN_REAR_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT"
+          },
+          "PanicClipSet": "clipset@veh@boat@longfin@rps@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "BOAT_PASSENGER",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll WeaponAttachedToLeftHand CannotBeJacked HasPanicAnims PreventShuffleJack RagdollWhenVehicleUpsideDown UseBoatInVehicleAnims",
+          "SteeringSmoothing": {
+            "@_value": 0.05
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_FRONT_LEFT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_FRONT_LEFT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_FRONT_RIGHT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_FRONT_RIGHT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_FRONT_RIGHT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_FRONT_LEFT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_REARCLIMB_LEFT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_LEFT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_LEFT"
+          },
+          "Flags": "UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_REARCLIMB_RIGHT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_LEFT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_RIGHT"
+          },
+          "Flags": "UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_FRONT_WATERCLIMB_LEFT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_FRONT_LEFT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_FRONT_RIGHT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_LEFT_WATER"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_FRONT_WATERCLIMB_RIGHT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_FRONT_RIGHT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_FRONT_LEFT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_FRONT_RIGHT_WATER"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_REAR_WATERCLIMB_LEFT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_LEFT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_LEFT_WATER"
+          },
+          "Flags": "UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_BOAT_LONGFIN_REAR_WATERCLIMB_RIGHT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": [
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT"
+              },
+              {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_LEFT"
+              }
+            ]
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_BOAT_LONGFIN_REAR_CLIMB_RIGHT_WATER"
+          },
+          "Flags": "UseFirstMulipleAccessSeatForDirectEntryPoint",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointAnimInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.34,
+            "@_y": -1.9,
+            "@_z": 0.3
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.6
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn HasOnVehicleEntry UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.38,
+            "@_y": -1.82,
+            "@_z": 0.22
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.62
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn HasOnVehicleEntry UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REARCLIMB_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.445,
+            "@_y": -1.255,
+            "@_z": 0.2
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside HasOnVehicleEntry UseSeatClipSetAnims DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REARCLIMB_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -0.67,
+            "@_y": -1.4,
+            "@_z": 0.2
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside HasOnVehicleEntry UseSeatClipSetAnims DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_WATERCLIMB_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.465,
+            "@_y": -2.25,
+            "@_z": -0.86
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_WATERCLIMB_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_FRONT_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.55,
+            "@_y": -1.84,
+            "@_z": -0.67
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.62
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REAR_WATERCLIMB_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.495,
+            "@_y": -1.445,
+            "@_z": -1
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REAR_WATERCLIMB_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BOAT_SPEED_FRONT_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_BOAT_LONGFIN_REAR_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -0.8,
+            "@_y": -1.465,
+            "@_z": -0.87
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0.5
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp JackIncludesGetIn DontCloseDoorInside DontCloseDoorOutside HasOnVehicleEntry HasClimbUpFromWater UseSeatClipSetAnims DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        }
+      ]
+    },
+    "VehicleExplosionInfos": "",
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_BOAT_LONGFIN",
+        "Seats": {
+          "Item": [
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_BOAT_FRONT_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_BOAT_LONGFIN_FRONT_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_BOAT_FRONT_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_BOAT_LONGFIN_FRONT_RIGHT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_BOAT_LONGFIN_REAR_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_BOAT_NO_SHUFFLE_REAR_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_BOAT_LONGFIN_REAR_RIGHT"
+              }
+            }
+          ]
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_REARCLIMB_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REARCLIMB_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_REARCLIMB_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REARCLIMB_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_FRONT_WATERCLIMB_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_WATERCLIMB_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_FRONT_WATERCLIMB_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_FRONT_WATERCLIMB_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_REAR_WATERCLIMB_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REAR_WATERCLIMB_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BOAT_LONGFIN_REAR_WATERCLIMB_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BOAT_LONGFIN_REAR_WATERCLIMB_RIGHT"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims UseLeanSteerAnims DisableJackingAndBusting",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "BOAT_ANIM_RATE_SET"
+        },
+        "HandsUpClipSetId": "busted_vehicle_std",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "MaxXAcceleration": {
+          "@_value": 25
+        },
+        "BodyLeanXApproachSpeed": {
+          "@_value": 15
+        },
+        "BodyLeanXSmallDelta": {
+          "@_value": 0.1
+        },
+        "LookBackApproachSpeedScale": {
+          "@_value": 1
+        },
+        "FirstPersonAdditiveIdleClipSets": "",
+        "FirstPersonRoadRageClipSets": "",
+        "CellphoneClipsets": {
+          "CellphoneClipsetDS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS",
+          "CellphoneClipsetPS": "ANIM_GROUP_CELLPHONE_IN_CAR_PS",
+          "CellphoneClipsetDS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS",
+          "CellphoneClipsetPS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS"
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    },
+    "VehicleScenarioLayoutInfos": "",
+    "SeatOverrideAnimInfos": "",
+    "InVehicleOverrideInfos": "",
+    "FirstPersonDriveByLookAroundData": {
+      "Item": [
+        {
+          "Name": "BOAT_LONGFIN_FRONT_LEFT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 190
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 15,
+                    "@_y": 70
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 20
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.2
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 40,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 40,
+                    "@_y": 90
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 20
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "BOAT_LONGFIN_FRONT_RIGHT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 190
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.2
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 40,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 40,
+                    "@_y": 90
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 20
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.25
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 15,
+                    "@_y": 90
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -12,
+              "@_y": 20
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "BOAT_LONGFIN_REAR_LEFT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 190
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.25
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 45,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 20,
+                    "@_y": 90
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -15,
+              "@_y": 10
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 80,
+              "@_y": 140
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -15,
+              "@_y": 10
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 70
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "BOAT_LONGFIN_REAR_RIGHT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 190
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -15,
+              "@_y": 10
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 90
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.25
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 45,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 20,
+                    "@_y": 90
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -15,
+              "@_y": 10
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 80,
+              "@_y": 140
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        }
+      ]
+    }
+  }
+}

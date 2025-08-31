@@ -1,0 +1,368 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CTargetSequenceManager": {
+    "Groups": {
+      "Item": {
+        "Id": "PISTOL",
+        "Sequences": {
+          "item": [
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.15,
+                      "@_y": 0,
+                      "@_z": 0
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.1,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.6
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "ShotDelay": {
+                      "@_value": 0.1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.6
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.1
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": -0.1
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.8
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_R_FOOT",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.4
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": -0.1
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.5
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_L_FOOT",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.4
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": -0.1
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.5
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.8
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.1,
+                      "@_y": 0,
+                      "@_z": 0.25
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.5
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.1,
+                      "@_y": 0,
+                      "@_z": 0.25
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.5
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.1,
+                      "@_y": 0,
+                      "@_z": 0.25
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.5
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_HEAD",
+                    "Offset": {
+                      "@_x": 0,
+                      "@_y": 0,
+                      "@_z": 0.075
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1"
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.1,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.4
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": 0.1,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  }
+                ]
+              }
+            },
+            {
+              "Entries": {
+                "item": [
+                  {
+                    "TargetBone": "BONETAG_SPINE1"
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    },
+                    "ShotDelay": {
+                      "@_value": 0.4
+                    }
+                  },
+                  {
+                    "TargetBone": "BONETAG_SPINE1",
+                    "Offset": {
+                      "@_x": -0.15,
+                      "@_y": 0,
+                      "@_z": 0.35
+                    }
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    }
+  }
+}

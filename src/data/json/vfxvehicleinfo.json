@@ -1,0 +1,524 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "utf-8"
+  },
+  "CVfxVehicleInfoMgr": {
+    "vfxVehicleInfos": {
+      "Item": {
+        "mtlBangPtFxVehicleEvo": {
+          "@_value": 0
+        },
+        "mtlBangPtFxVehicleScale": {
+          "@_value": 1
+        },
+        "mtlScrapePtFxVehicleEvo": {
+          "@_value": 0
+        },
+        "mtlScrapePtFxVehicleScale": {
+          "@_value": 1
+        },
+        "exhaustPtFxEnabled": {
+          "@_value": true
+        },
+        "exhaustPtFxName": "veh_exhaust_vulkan",
+        "exhaustPtFxCutOffSpeed": {
+          "@_value": 2000
+        },
+        "exhaustPtFxRange": {
+          "@_value": 300
+        },
+        "exhaustPtFxScale": {
+          "@_value": 1
+        },
+        "exhaustPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "exhaustPtFxSpeedEvoMax": {
+          "@_value": 3
+        },
+        "exhaustPtFxTempEvoMin": {
+          "@_value": 0
+        },
+        "exhaustPtFxTempEvoMax": {
+          "@_value": 12
+        },
+        "exhaustPtFxThrottleEvoOnGearChange": {
+          "@_value": false
+        },
+        "engineStartupPtFxEnabled": {
+          "@_value": false
+        },
+        "engineStartupPtFxName": "veh_exhaust_misfire",
+        "engineStartupPtFxRange": {
+          "@_value": 30
+        },
+        "misfirePtFxEnabled": {
+          "@_value": false
+        },
+        "misfirePtFxName": "veh_backfire",
+        "misfirePtFxRange": {
+          "@_value": 160
+        },
+        "backfirePtFxEnabled": {
+          "@_value": false
+        },
+        "backfirePtFxName": "none",
+        "backfirePtFxRange": {
+          "@_value": 30
+        },
+        "engineDamagePtFxEnabled": {
+          "@_value": true
+        },
+        "engineDamagePtFxHasPanel": {
+          "@_value": false
+        },
+        "engineDamagePtFxHasRotorEvo": {
+          "@_value": false
+        },
+        "engineDamagePtFxNoPanelName": "veh_vent_plane_lazer",
+        "engineDamagePtFxPanelOpenName": "none",
+        "engineDamagePtFxPanelShutName": "none",
+        "engineDamagePtFxRange": {
+          "@_value": 300
+        },
+        "engineDamagePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "engineDamagePtFxSpeedEvoMax": {
+          "@_value": 10
+        },
+        "overturnedSmokePtFxEnabled": {
+          "@_value": false
+        },
+        "overturnedSmokePtFxName": "",
+        "overturnedSmokePtFxRange": {
+          "@_value": 50
+        },
+        "overturnedSmokePtFxAngleThresh": {
+          "@_value": -0.7
+        },
+        "overturnedSmokePtFxSpeedThresh": {
+          "@_value": 1
+        },
+        "overturnedSmokePtFxEngineHealthThresh": {
+          "@_value": 400
+        },
+        "leakPtFxEnabled": {
+          "@_value": false
+        },
+        "leakPtFxOilName": "none",
+        "leakPtFxPetrolName": "none",
+        "leakPtFxRange": {
+          "@_value": 60
+        },
+        "leakPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "leakPtFxSpeedEvoMax": {
+          "@_value": 25
+        },
+        "wheelGenericPtFxSet": {
+          "@_value": 1
+        },
+        "wheelGenericDecalSet": {
+          "@_value": 2
+        },
+        "wheelGenericRangeMult": {
+          "@_value": 2
+        },
+        "wheelSkidmarkRearOnly": {
+          "@_value": false
+        },
+        "wheelSkidmarkSlipMult": {
+          "@_value": 1
+        },
+        "wheelSkidmarkPressureMult": {
+          "@_value": 1
+        },
+        "wheelFrictionPtFxFricMult": {
+          "@_value": 1
+        },
+        "wheelDisplacementPtFxDispMult": {
+          "@_value": 1
+        },
+        "wheelBurnoutPtFxFricMult": {
+          "@_value": 1
+        },
+        "wheelBurnoutPtFxTempMult": {
+          "@_value": 1
+        },
+        "wheelLowLodPtFxScale": {
+          "@_value": 1
+        },
+        "wheelPuncturePtFxName": "veh_wheel_puncture",
+        "wheelPuncturePtFxRange": {
+          "@_value": 25
+        },
+        "wheelBurstPtFxName": "veh_wheel_burst",
+        "wheelBurstPtFxRange": {
+          "@_value": 60
+        },
+        "wheelFirePtFxName": "fire_wheel",
+        "wheelFirePtFxRange": {
+          "@_value": 30
+        },
+        "wheelFirePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "wheelFirePtFxSpeedEvoMax": {
+          "@_value": 5
+        },
+        "wreckedFirePtFxEnabled": {
+          "@_value": true
+        },
+        "wreckedFirePtFxName": "fire_wrecked_plane_cockpit",
+        "wreckedFirePtFxDurationMin": {
+          "@_value": 25
+        },
+        "wreckedFirePtFxDurationMax": {
+          "@_value": 40
+        },
+        "wreckedFirePtFxRadius": {
+          "@_value": 2.2
+        },
+        "wreckedFire2PtFxEnabled": {
+          "@_value": true
+        },
+        "wreckedFire2PtFxName": "fire_wrecked_plane",
+        "wreckedFire2PtFxDurationMin": {
+          "@_value": 25
+        },
+        "wreckedFire2PtFxDurationMax": {
+          "@_value": 40
+        },
+        "wreckedFire2PtFxRadius": {
+          "@_value": 1
+        },
+        "wreckedFire2UseOverheatBone": {
+          "@_value": true
+        },
+        "wreckedFire2OffsetPos": {
+          "@_x": 0,
+          "@_y": 0,
+          "@_z": 0
+        },
+        "wreckedFire3PtFxEnabled": {
+          "@_value": true
+        },
+        "wreckedFire3PtFxName": "fire_wrecked_plane",
+        "wreckedFire3PtFxDurationMin": {
+          "@_value": 15
+        },
+        "wreckedFire3PtFxDurationMax": {
+          "@_value": 20
+        },
+        "wreckedFire3PtFxRadius": {
+          "@_value": 1
+        },
+        "wreckedFire3UseOverheatBone": {
+          "@_value": true
+        },
+        "wreckedFire3OffsetPos": {
+          "@_x": 0,
+          "@_y": 0,
+          "@_z": 0
+        },
+        "petrolTankFirePtFxName": "fire_petroltank_plane",
+        "petrolTankFirePtFxRange": {
+          "@_value": 60
+        },
+        "petrolTankFirePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "petrolTankFirePtFxSpeedEvoMax": {
+          "@_value": 10
+        },
+        "petrolTankFirePtFxRadius": {
+          "@_value": 0.6
+        },
+        "boatEntryPtFxEnabled": {
+          "@_value": false
+        },
+        "boatEntryPtFxRange": {
+          "@_value": 40
+        },
+        "boatEntryPtFxName": "",
+        "boatEntryPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatEntryPtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "boatEntryPtFxScale": {
+          "@_value": 1
+        },
+        "boatBowPtFxEnabled": {
+          "@_value": false
+        },
+        "boatBowPtFxRange": {
+          "@_value": 40
+        },
+        "boatBowPtFxForwardName": "",
+        "boatBowPtFxReverseName": "",
+        "boatBowPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatBowPtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "boatBowPtFxKeelEvoMin": {
+          "@_value": 20
+        },
+        "boatBowPtFxKeelEvoMax": {
+          "@_value": 200
+        },
+        "boatBowPtFxScale": {
+          "@_value": 1
+        },
+        "boatBowPtFxReverseOffset": {
+          "@_value": 0
+        },
+        "boatWashPtFxEnabled": {
+          "@_value": false
+        },
+        "boatWashPtFxRange": {
+          "@_value": 40
+        },
+        "boatWashPtFxName": "",
+        "boatWashPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatWashPtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "boatWashPtFxScale": {
+          "@_value": 1
+        },
+        "boatPropellerPtFxEnabled": {
+          "@_value": false
+        },
+        "boatPropellerPtFxRange": {
+          "@_value": 40
+        },
+        "boatPropellerPtFxName": "",
+        "boatPropellerPtFxForwardSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatPropellerPtFxForwardSpeedEvoMax": {
+          "@_value": 6
+        },
+        "boatPropellerPtFxBackwardSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatPropellerPtFxBackwardSpeedEvoMax": {
+          "@_value": 6
+        },
+        "boatPropellerPtFxDepthEvoMin": {
+          "@_value": 0
+        },
+        "boatPropellerPtFxDepthEvoMax": {
+          "@_value": 1
+        },
+        "boatPropellerPtFxScale": {
+          "@_value": 1
+        },
+        "boatLowLodWakePtFxEnabled": {
+          "@_value": false
+        },
+        "boatLowLodWakePtFxRangeMin": {
+          "@_value": 40
+        },
+        "boatLowLodWakePtFxRangeMax": {
+          "@_value": 400
+        },
+        "boatLowLodWakePtFxName": "",
+        "boatLowLodWakePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "boatLowLodWakePtFxSpeedEvoMax": {
+          "@_value": 10
+        },
+        "boatLowLodWakePtFxScale": {
+          "@_value": 1
+        },
+        "planeAfterburnerPtFxEnabled": {
+          "@_value": true
+        },
+        "planeAfterburnerPtFxName": "veh_exhaust_afterburner",
+        "planeAfterburnerPtFxRange": {
+          "@_value": 3000
+        },
+        "planeAfterburnerPtFxScale": {
+          "@_value": 0.75
+        },
+        "planeWingTipPtFxEnabled": {
+          "@_value": true
+        },
+        "planeWingTipPtFxName": "veh_wingtip",
+        "planeWingTipPtFxRange": {
+          "@_value": 150
+        },
+        "planeWingTipPtFxSpeedEvoMin": {
+          "@_value": 30
+        },
+        "planeWingTipPtFxSpeedEvoMax": {
+          "@_value": 60
+        },
+        "planeDamageFirePtFxEnabled": {
+          "@_value": true
+        },
+        "planeDamageFirePtFxName": "veh_air_debris",
+        "planeDamageFirePtFxRange": {
+          "@_value": 500
+        },
+        "planeDamageFirePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "planeDamageFirePtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "planeGroundDisturbPtFxEnabled": {
+          "@_value": true
+        },
+        "planeGroundDisturbPtFxNameDefault": "veh_air_turbulance_default",
+        "planeGroundDisturbPtFxNameSand": "veh_air_turbulance_sand",
+        "planeGroundDisturbPtFxNameDirt": "veh_air_turbulance_dirt",
+        "planeGroundDisturbPtFxNameWater": "veh_air_turbulance_water",
+        "planeGroundDisturbPtFxNameFoliage": "veh_air_turbulance_foliage",
+        "planeGroundDisturbPtFxRange": {
+          "@_value": 70
+        },
+        "planeGroundDisturbPtFxDist": {
+          "@_value": 50
+        },
+        "planeGroundDisturbPtFxSpeedEvoMin": {
+          "@_value": 10
+        },
+        "planeGroundDisturbPtFxSpeedEvoMax": {
+          "@_value": 60
+        },
+        "aircraftSectionDamageSmokePtFxEnabled": {
+          "@_value": true
+        },
+        "aircraftSectionDamageSmokePtFxName": "veh_plane_damage",
+        "aircraftSectionDamageSmokePtFxRange": {
+          "@_value": 50
+        },
+        "aircraftSectionDamageSmokePtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "aircraftSectionDamageSmokePtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "aircraftDownwashPtFxEnabled": {
+          "@_value": true
+        },
+        "aircraftDownwashPtFxNameDefault": "veh_downwash",
+        "aircraftDownwashPtFxNameSand": "veh_downwash_sand",
+        "aircraftDownwashPtFxNameDirt": "veh_downwash_dirt",
+        "aircraftDownwashPtFxNameWater": "veh_downwash_water",
+        "aircraftDownwashPtFxNameFoliage": "veh_downwash_foliage",
+        "aircraftDownwashPtFxRange": {
+          "@_value": 70
+        },
+        "aircraftDownwashPtFxDist": {
+          "@_value": 50
+        },
+        "aircraftDownwashPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "aircraftDownwashPtFxSpeedEvoMax": {
+          "@_value": 20
+        },
+        "splashInPtFxEnabled": {
+          "@_value": true
+        },
+        "splashInPtFxRange": {
+          "@_value": 100
+        },
+        "splashInPtFxName": "water_splash_plane_in",
+        "splashInPtFxSizeEvoMax": {
+          "@_value": 5
+        },
+        "splashInPtFxSpeedDownwardThresh": {
+          "@_value": 2
+        },
+        "splashInPtFxSpeedLateralEvoMin": {
+          "@_value": 2
+        },
+        "splashInPtFxSpeedLateralEvoMax": {
+          "@_value": 15
+        },
+        "splashInPtFxSpeedDownwardEvoMin": {
+          "@_value": 2
+        },
+        "splashInPtFxSpeedDownwardEvoMax": {
+          "@_value": 15
+        },
+        "splashOutPtFxEnabled": {
+          "@_value": true
+        },
+        "splashOutPtFxRange": {
+          "@_value": 50
+        },
+        "splashOutPtFxName": "water_splash_plane_out",
+        "splashOutPtFxSizeEvoMax": {
+          "@_value": 5
+        },
+        "splashOutPtFxSpeedLateralEvoMin": {
+          "@_value": 2
+        },
+        "splashOutPtFxSpeedLateralEvoMax": {
+          "@_value": 15
+        },
+        "splashOutPtFxSpeedUpwardEvoMin": {
+          "@_value": 2
+        },
+        "splashOutPtFxSpeedUpwardEvoMax": {
+          "@_value": 15
+        },
+        "splashWadePtFxEnabled": {
+          "@_value": true
+        },
+        "splashWadePtFxRange": {
+          "@_value": 50
+        },
+        "splashWadePtFxName": "water_splash_plane_wade",
+        "splashWadePtFxSizeEvoMax": {
+          "@_value": 5
+        },
+        "splashWadePtFxSpeedVehicleEvoMin": {
+          "@_value": 0
+        },
+        "splashWadePtFxSpeedVehicleEvoMax": {
+          "@_value": 15
+        },
+        "splashWadePtFxSpeedRiverEvoMin": {
+          "@_value": 0
+        },
+        "splashWadePtFxSpeedRiverEvoMax": {
+          "@_value": 15
+        },
+        "splashTrailPtFxEnabled": {
+          "@_value": true
+        },
+        "splashTrailPtFxRange": {
+          "@_value": 50
+        },
+        "splashTrailPtFxName": "water_splash_plane_trail",
+        "splashTrailPtFxSizeEvoMax": {
+          "@_value": 5
+        },
+        "splashTrailPtFxSpeedEvoMin": {
+          "@_value": 0
+        },
+        "splashTrailPtFxSpeedEvoMax": {
+          "@_value": 12
+        },
+        "@_type": "CVfxVehicleInfo",
+        "@_key": "VFXVEHICLEINFO_PLANE_BESRA"
+      }
+    }
+  }
+}

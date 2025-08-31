@@ -1,0 +1,664 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CSettingsManager__Presets": {
+    "low": {
+      "graphics": {
+        "Tessellation": {
+          "@_value": false
+        },
+        "LodScale": {
+          "@_value": 1
+        },
+        "PedLodBias": {
+          "@_value": 0
+        },
+        "VehicleLodBias": {
+          "@_value": 0
+        },
+        "ShadowQuality": "Low",
+        "ReflectionQuality": "Low",
+        "SSAO": {
+          "@_value": true
+        },
+        "AnisotropicFiltering": {
+          "@_value": 0
+        },
+        "MSAA": {
+          "@_value": 0
+        },
+        "FXAA": "Low",
+        "TextureQuality": "Low",
+        "ParticleQuality": "Low",
+        "WaterQuality": "Low",
+        "LightingQuality": "Low",
+        "GrassQuality": "Low",
+        "ChromaticAberration": {
+          "@_value": false
+        },
+        "ShaderQuality": "Low",
+        "MulticoreRendering": {
+          "@_value": false
+        },
+        "Shadow_SoftShadows": "Medium",
+        "Shadow_ParticleShadows": {
+          "@_value": true
+        },
+        "Shadow_SceneLights": {
+          "@_value": true
+        },
+        "Shadow_Headlights": {
+          "@_value": true
+        },
+        "Shadow_Distance": {
+          "@_value": 1
+        },
+        "Shadow_LongShadows": {
+          "@_value": false
+        },
+        "Shadow_SplitZStart": {
+          "@_value": 0.93
+        },
+        "Shadow_SplitZEnd": {
+          "@_value": 0.89
+        },
+        "Shadow_aircraftExpWeight": {
+          "@_value": 0.99
+        },
+        "Reflection_MipBlur": {
+          "@_value": true
+        },
+        "ReflectionPlaceholder3": {
+          "@_value": 1
+        },
+        "FXAA_Enabled": {
+          "@_value": true
+        },
+        "FXAAPlaceholder2": {
+          "@_value": 4
+        },
+        "FXAAPlaceholder3": {
+          "@_value": 1
+        },
+        "Texture_QualityLevel": {
+          "@_value": 2
+        },
+        "Texture_MipLodBias": {
+          "@_value": 0
+        },
+        "TexturePlaceholder3": {
+          "@_value": 1
+        },
+        "ParticlePlaceholder1": {
+          "@_value": 1
+        },
+        "ParticlePlaceholder2": {
+          "@_value": false
+        },
+        "ParticlePlaceholder3": {
+          "@_value": 1
+        },
+        "WaterPlaceholder1": {
+          "@_value": 1
+        },
+        "WaterPlaceholder2": {
+          "@_value": false
+        },
+        "WaterPlaceholder3": {
+          "@_value": 1
+        },
+        "Lighting_FogVolumes": {
+          "@_value": true
+        },
+        "LightingPlaceholder2": {
+          "@_value": false
+        },
+        "LightingPlaceholder3": {
+          "@_value": 1
+        },
+        "Shader_SSA": {
+          "@_value": true
+        },
+        "ShaderPlaceholder1": {
+          "@_value": 1
+        },
+        "ShaderPlaceholder3": {
+          "@_value": 1
+        }
+      },
+      "system": {
+        "numBytesPerReplayBlock": {
+          "@_value": 3000000
+        },
+        "numReplayBlocks": {
+          "@_value": 5
+        },
+        "maxSizeOfStreamingReplay": {
+          "@_value": 250
+        }
+      },
+      "audio": {
+        "Audio3d": {
+          "@_value": false
+        }
+      },
+      "video": {
+        "AdapterIndex": {
+          "@_value": 0
+        },
+        "OutputIndex": {
+          "@_value": 0
+        },
+        "ScreenWidth": {
+          "@_value": 800
+        },
+        "ScreenHeight": {
+          "@_value": 600
+        },
+        "RefreshRate": {
+          "@_value": 60
+        },
+        "Windowed": {
+          "@_value": false
+        },
+        "VSync": {
+          "@_value": false
+        }
+      }
+    },
+    "medium": {
+      "graphics": {
+        "Tessellation": {
+          "@_value": false
+        },
+        "LodScale": {
+          "@_value": 1
+        },
+        "PedLodBias": {
+          "@_value": 0
+        },
+        "VehicleLodBias": {
+          "@_value": 0
+        },
+        "ShadowQuality": "Medium",
+        "ReflectionQuality": "Medium",
+        "SSAO": {
+          "@_value": true
+        },
+        "AnisotropicFiltering": {
+          "@_value": 1
+        },
+        "MSAA": {
+          "@_value": 1
+        },
+        "FXAA": "Medium",
+        "TextureQuality": "Medium",
+        "ParticleQuality": "Medium",
+        "WaterQuality": "Medium",
+        "LightingQuality": "Medium",
+        "GrassQuality": "Medium",
+        "ChromaticAberration": {
+          "@_value": false
+        },
+        "ShaderQuality": "Medium",
+        "MulticoreRendering": {
+          "@_value": true
+        },
+        "Shadow_SoftShadows": "Medium",
+        "Shadow_ParticleShadows": {
+          "@_value": true
+        },
+        "Shadow_SceneLights": {
+          "@_value": true
+        },
+        "Shadow_Headlights": {
+          "@_value": true
+        },
+        "Shadow_Distance": {
+          "@_value": 1
+        },
+        "Shadow_LongShadows": {
+          "@_value": false
+        },
+        "Shadow_SplitZStart": {
+          "@_value": 0.93
+        },
+        "Shadow_SplitZEnd": {
+          "@_value": 0.89
+        },
+        "Shadow_aircraftExpWeight": {
+          "@_value": 0.99
+        },
+        "Reflection_MipBlur": {
+          "@_value": true
+        },
+        "ReflectionPlaceholder3": {
+          "@_value": 2
+        },
+        "FXAA_Enabled": {
+          "@_value": true
+        },
+        "FXAAPlaceholder2": {
+          "@_value": 4
+        },
+        "FXAAPlaceholder3": {
+          "@_value": 2
+        },
+        "Texture_QualityLevel": {
+          "@_value": 2
+        },
+        "Texture_MipLodBias": {
+          "@_value": 0
+        },
+        "TexturePlaceholder3": {
+          "@_value": 2
+        },
+        "ParticlePlaceholder1": {
+          "@_value": 2
+        },
+        "ParticlePlaceholder2": {
+          "@_value": false
+        },
+        "ParticlePlaceholder3": {
+          "@_value": 2
+        },
+        "WaterPlaceholder1": {
+          "@_value": 2
+        },
+        "WaterPlaceholder2": {
+          "@_value": false
+        },
+        "WaterPlaceholder3": {
+          "@_value": 2
+        },
+        "Lighting_FogVolumes": {
+          "@_value": true
+        },
+        "LightingPlaceholder2": {
+          "@_value": false
+        },
+        "LightingPlaceholder3": {
+          "@_value": 2
+        },
+        "Shader_SSA": {
+          "@_value": true
+        },
+        "ShaderPlaceholder1": {
+          "@_value": 2
+        },
+        "ShaderPlaceholder3": {
+          "@_value": 2
+        }
+      },
+      "system": {
+        "numBytesPerReplayBlock": {
+          "@_value": 6000000
+        },
+        "numReplayBlocks": {
+          "@_value": 7
+        },
+        "maxSizeOfStreamingReplay": {
+          "@_value": 500
+        }
+      },
+      "audio": {
+        "Audio3d": {
+          "@_value": false
+        }
+      },
+      "video": {
+        "AdapterIndex": {
+          "@_value": 0
+        },
+        "OutputIndex": {
+          "@_value": 0
+        },
+        "ScreenWidth": {
+          "@_value": 1024
+        },
+        "ScreenHeight": {
+          "@_value": 768
+        },
+        "RefreshRate": {
+          "@_value": 60
+        },
+        "Windowed": {
+          "@_value": false
+        },
+        "VSync": {
+          "@_value": false
+        }
+      }
+    },
+    "high": {
+      "graphics": {
+        "Tessellation": {
+          "@_value": false
+        },
+        "LodScale": {
+          "@_value": 1
+        },
+        "PedLodBias": {
+          "@_value": 0.2
+        },
+        "VehicleLodBias": {
+          "@_value": 0.15
+        },
+        "ShadowQuality": "High",
+        "ReflectionQuality": "High",
+        "SSAO": {
+          "@_value": true
+        },
+        "AnisotropicFiltering": {
+          "@_value": 0
+        },
+        "MSAA": {
+          "@_value": 0
+        },
+        "FXAA": "High",
+        "TextureQuality": "High",
+        "ParticleQuality": "High",
+        "WaterQuality": "High",
+        "LightingQuality": "High",
+        "GrassQuality": "High",
+        "ChromaticAberration": {
+          "@_value": false
+        },
+        "ShaderQuality": "High",
+        "MulticoreRendering": {
+          "@_value": false
+        },
+        "Shadow_SoftShadows": "Medium",
+        "Shadow_ParticleShadows": {
+          "@_value": true
+        },
+        "Shadow_SceneLights": {
+          "@_value": true
+        },
+        "Shadow_Headlights": {
+          "@_value": true
+        },
+        "Shadow_Distance": {
+          "@_value": 1
+        },
+        "Shadow_LongShadows": {
+          "@_value": false
+        },
+        "Shadow_SplitZStart": {
+          "@_value": 0.93
+        },
+        "Shadow_SplitZEnd": {
+          "@_value": 0.89
+        },
+        "Shadow_aircraftExpWeight": {
+          "@_value": 0.99
+        },
+        "Reflection_MipBlur": {
+          "@_value": true
+        },
+        "ReflectionPlaceholder3": {
+          "@_value": 3
+        },
+        "FXAA_Enabled": {
+          "@_value": true
+        },
+        "FXAAPlaceholder2": {
+          "@_value": 4
+        },
+        "FXAAPlaceholder3": {
+          "@_value": 3
+        },
+        "Texture_QualityLevel": {
+          "@_value": 2
+        },
+        "Texture_MipLodBias": {
+          "@_value": 0
+        },
+        "TexturePlaceholder3": {
+          "@_value": 3
+        },
+        "ParticlePlaceholder1": {
+          "@_value": 3
+        },
+        "ParticlePlaceholder2": {
+          "@_value": true
+        },
+        "ParticlePlaceholder3": {
+          "@_value": 3
+        },
+        "WaterPlaceholder1": {
+          "@_value": 3
+        },
+        "WaterPlaceholder2": {
+          "@_value": true
+        },
+        "WaterPlaceholder3": {
+          "@_value": 3
+        },
+        "Lighting_FogVolumes": {
+          "@_value": true
+        },
+        "LightingPlaceholder2": {
+          "@_value": true
+        },
+        "LightingPlaceholder3": {
+          "@_value": 3
+        },
+        "Shader_SSA": {
+          "@_value": true
+        },
+        "ShaderPlaceholder1": {
+          "@_value": 3
+        },
+        "ShaderPlaceholder3": {
+          "@_value": 3
+        }
+      },
+      "system": {
+        "numBytesPerReplayBlock": {
+          "@_value": 9000000
+        },
+        "numReplayBlocks": {
+          "@_value": 9
+        },
+        "maxSizeOfStreamingReplay": {
+          "@_value": 1024
+        }
+      },
+      "audio": {
+        "Audio3d": {
+          "@_value": false
+        }
+      },
+      "video": {
+        "AdapterIndex": {
+          "@_value": 0
+        },
+        "OutputIndex": {
+          "@_value": 0
+        },
+        "ScreenWidth": {
+          "@_value": 1280
+        },
+        "ScreenHeight": {
+          "@_value": 780
+        },
+        "RefreshRate": {
+          "@_value": 60
+        },
+        "Windowed": {
+          "@_value": false
+        },
+        "VSync": {
+          "@_value": false
+        }
+      }
+    },
+    "ultra": {
+      "graphics": {
+        "Tessellation": {
+          "@_value": false
+        },
+        "LodScale": {
+          "@_value": 1.8
+        },
+        "PedLodBias": {
+          "@_value": 0.2
+        },
+        "VehicleLodBias": {
+          "@_value": 0.15
+        },
+        "ShadowQuality": "Ultra",
+        "ReflectionQuality": "Ultra",
+        "SSAO": {
+          "@_value": true
+        },
+        "AnisotropicFiltering": {
+          "@_value": 0
+        },
+        "MSAA": {
+          "@_value": 0
+        },
+        "FXAA": "Ultra",
+        "TextureQuality": "Ultra",
+        "ParticleQuality": "Ultra",
+        "WaterQuality": "Ultra",
+        "LightingQuality": "Ultra",
+        "GrassQuality": "Ultra",
+        "ChromaticAberration": {
+          "@_value": false
+        },
+        "ShaderQuality": "Ultra",
+        "MulticoreRendering": {
+          "@_value": false
+        },
+        "Shadow_SoftShadows": "Medium",
+        "Shadow_ParticleShadows": {
+          "@_value": true
+        },
+        "Shadow_SceneLights": {
+          "@_value": true
+        },
+        "Shadow_Headlights": {
+          "@_value": true
+        },
+        "Shadow_Distance": {
+          "@_value": 2.5
+        },
+        "Shadow_LongShadows": {
+          "@_value": true
+        },
+        "Shadow_SplitZStart": {
+          "@_value": 0.98
+        },
+        "Shadow_SplitZEnd": {
+          "@_value": 0.89
+        },
+        "Shadow_aircraftExpWeight": {
+          "@_value": 0.99
+        },
+        "Reflection_MipBlur": {
+          "@_value": true
+        },
+        "ReflectionPlaceholder3": {
+          "@_value": 4
+        },
+        "FXAA_Enabled": {
+          "@_value": true
+        },
+        "FXAAPlaceholder2": {
+          "@_value": 4
+        },
+        "FXAAPlaceholder3": {
+          "@_value": 4
+        },
+        "Texture_QualityLevel": {
+          "@_value": 2
+        },
+        "Texture_MipLodBias": {
+          "@_value": 0
+        },
+        "TexturePlaceholder3": {
+          "@_value": 4
+        },
+        "ParticlePlaceholder1": {
+          "@_value": 4
+        },
+        "ParticlePlaceholder2": {
+          "@_value": true
+        },
+        "ParticlePlaceholder3": {
+          "@_value": 4
+        },
+        "WaterPlaceholder1": {
+          "@_value": 4
+        },
+        "WaterPlaceholder2": {
+          "@_value": true
+        },
+        "WaterPlaceholder3": {
+          "@_value": 4
+        },
+        "Lighting_FogVolumes": {
+          "@_value": true
+        },
+        "LightingPlaceholder2": {
+          "@_value": true
+        },
+        "LightingPlaceholder3": {
+          "@_value": 4
+        },
+        "Shader_SSA": {
+          "@_value": true
+        },
+        "ShaderPlaceholder1": {
+          "@_value": 4
+        },
+        "ShaderPlaceholder3": {
+          "@_value": 4
+        }
+      },
+      "system": {
+        "numBytesPerReplayBlock": {
+          "@_value": 12000000
+        },
+        "numReplayBlocks": {
+          "@_value": 11
+        },
+        "maxSizeOfStreamingReplay": {
+          "@_value": 2048
+        }
+      },
+      "audio": {
+        "Audio3d": {
+          "@_value": false
+        }
+      },
+      "video": {
+        "AdapterIndex": {
+          "@_value": 0
+        },
+        "OutputIndex": {
+          "@_value": 0
+        },
+        "ScreenWidth": {
+          "@_value": 1280
+        },
+        "ScreenHeight": {
+          "@_value": 780
+        },
+        "RefreshRate": {
+          "@_value": 60
+        },
+        "Windowed": {
+          "@_value": false
+        },
+        "VSync": {
+          "@_value": false
+        }
+      }
+    }
+  }
+}

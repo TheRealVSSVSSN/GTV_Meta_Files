@@ -1,0 +1,448 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_WEAPON_WHEEL_LR",
+          "Source": "IOMS_MOUSE_NORMALIZED",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_UD",
+          "Source": "IOMS_MOUSE_NORMALIZED",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_LEFT_ONLY",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_RIGHT_ONLY",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_GUN_LR",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_PAUSE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_ESCAPE"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_SELECT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_CAPITAL"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_UP",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_DOWN",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LEFT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_ACCEPT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_RETURN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_CANCEL",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_BACK"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_CANCEL",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_ESCAPE"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_X",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_SPACE"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_Y",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_TAB"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_PAGEDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_PAGEUP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LB",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_Q"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RB",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_E"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LS",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_LSHIFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RS",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_LCONTROL"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_AXIS_X",
+          "Source": "IOMS_MKB_AXIS",
+          "Parameters": {
+            "Item": [
+              "KEY_D",
+              "KEY_A"
+            ]
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_AXIS_Y",
+          "Source": "IOMS_MKB_AXIS",
+          "Parameters": {
+            "Item": [
+              "KEY_S",
+              "KEY_W"
+            ]
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_ACCEPT",
+          "Source": "IOMS_MOUSE_BUTTON",
+          "Parameters": {
+            "Item": "MOUSE_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_CANCEL",
+          "Source": "IOMS_MOUSE_BUTTON",
+          "Parameters": {
+            "Item": "MOUSE_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_X",
+          "Source": "IOMS_MOUSE_ABSOLUTEAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_Y",
+          "Source": "IOMS_MOUSE_ABSOLUTEAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_SCROLL_UP",
+          "Source": "IOMS_MOUSE_WHEEL",
+          "Parameters": {
+            "Item": "IOM_WHEEL_UP"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_SCROLL_DOWN",
+          "Source": "IOMS_MOUSE_WHEEL",
+          "Parameters": {
+            "Item": "IOM_WHEEL_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT_AXIS_Y",
+          "Source": "IOMS_MOUSE_WHEEL",
+          "Parameters": {
+            "Item": "IOM_AXIS_WHEEL_DELTA"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT_AXIS_X",
+          "Source": "IOMS_MKB_AXIS",
+          "Parameters": {
+            "Item": [
+              "KEY_RBRACKET",
+              "KEY_LBRACKET"
+            ]
+          }
+        },
+        {
+          "Input": "INPUT_SKIP_CUTSCENE",
+          "Source": "IOMS_MOUSE_BUTTON",
+          "Parameters": {
+            "Item": "MOUSE_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_SKIP_CUTSCENE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_SPACE"
+          }
+        },
+        {
+          "Input": "INPUT_SKIP_CUTSCENE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_RETURN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_MARKER_DELETE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_DELETE"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_PAUSE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_SPACE"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_REWIND",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FFWD",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_NEWMARKER",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_M"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_RECORD",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_S"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SCREENSHOT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_U"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_HIDEHUD",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_H"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_STARTPOINT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_LBRACKET"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_ENDPOINT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_RBRACKET"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_ADVANCE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_BACK",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_TOOLS",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_T"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_RESTART",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_B"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SHOWHOTKEY",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_K"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CYCLEMARKERLEFT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_COMMA"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CYCLEMARKERRIGHT",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_PERIOD"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FOVINCREASE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_ADD"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FOVDECREASE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_SUBTRACT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CAMERAUP",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_PAGEUP"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CAMERADOWN",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_PAGEDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SAVE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_F5"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_PREVIEW",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_SPACE"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_TOGGLETIME",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_C"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_TOGGLETIPS",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_V"
+          }
+        },
+        {
+          "Input": "INPUT_ENTER_CHEAT_CODE",
+          "Source": "IOMS_KEYBOARD",
+          "Parameters": {
+            "Item": "KEY_GRAVE"
+          }
+        }
+      ]
+    }
+  }
+}

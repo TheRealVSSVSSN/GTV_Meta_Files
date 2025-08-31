@@ -1,0 +1,5498 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_f_freemode_01",
+    "dlcName": "Female_freemode_beach",
+    "fullDlcName": "mp_f_freemode_01_female_freemode_beach",
+    "creatureMetaData": "mp_creaturemetadata_beach",
+    "nameHash": "",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER_F",
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "TAT_DECL"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 92
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_4",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_5",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB0_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS0_6",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_2_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_9"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 12
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_4",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_5",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_6",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_7",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_7",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_8",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_8",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_9",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_9",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_10",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_10",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_11",
+          "uniqueNameHash": "DLC_MP_BEACH_F_JBIB2_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_15"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_ACCS2_11",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "TAT_DECL"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 92
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_2",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_3",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_4",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": ""
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_HAIR"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_5",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_1_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS0_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB0_6",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 14
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "UNDER_JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BEACH_F_JBIB2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "DLC_MP_BEACH_F_JBIB2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_2",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_3",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_4",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_5",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_6",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_7",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_7",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_8",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_8",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_9",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_9",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_10",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_10",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_U_3_11",
+          "uniqueNameHash": "DLC_MP_BEACH_F_ACCS2_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "UNDER_JACKET"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_F_JBIB2_11",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 19
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_1_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 93
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_1_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 93
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_1_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 93
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_1_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_4"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 93
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_2_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_7"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 95
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_2_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_7"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 95
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_2_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH1_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_7"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 95
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_T_2_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_TEETH1_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_7"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 95
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_TEEF"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_000",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_001",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_002",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_003",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_004",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_005",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_006",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_007",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_008",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_009",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_010",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_011",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_100",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR100",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_101",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR101",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_102",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR102",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_103",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR103",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_104",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR104",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_105",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR105",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_106",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR106",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_107",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR107",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_108",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR108",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_109",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR109",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_110",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR110",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_111",
+          "uniqueNameHash": "DLC_MP_BEACH_F_LOWR111",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 40
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_LOWR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_000",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET000",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_001",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET001",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_002",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET002",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_003",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET003",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_004",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET004",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_005",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET005",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_006",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET006",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_007",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET007",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_008",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET008",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_009",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET009",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_010",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET010",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_F_011",
+          "uniqueNameHash": "DLC_MP_BEACH_F_FEET011",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 49
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_FEET"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 590
+          },
+          "textLabel": "CLO_BBF_H_00",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR00",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 585
+          },
+          "textLabel": "CLO_BBF_H_01",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR01",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 580
+          },
+          "textLabel": "CLO_BBF_H_02",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR02",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 575
+          },
+          "textLabel": "CLO_BBF_H_03",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR03",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 570
+          },
+          "textLabel": "CLO_BBF_H_04",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR04",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 990
+          },
+          "textLabel": "CLO_BBF_H_05",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR05",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "FM_F_Hair_017_a",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 985
+          },
+          "textLabel": "CLO_BBF_H_06",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR06",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "FM_F_Hair_017_b",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 980
+          },
+          "textLabel": "CLO_BBF_H_07",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR07",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "FM_F_Hair_017_c",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 975
+          },
+          "textLabel": "CLO_BBF_H_08",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR08",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "FM_F_Hair_017_d",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 970
+          },
+          "textLabel": "CLO_BBF_H_09",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HAIR09",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "FM_F_Hair_017_e",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_HAIR"
+        }
+      ]
+    },
+    "pedProps": {
+      "Item": [
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P0_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES0_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P1_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_EYES1_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 84
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_EYES"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P2_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD2_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 71
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P3_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD3_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_0",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_1",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_2",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_3",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_4",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_5",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_BBF_P4_6",
+          "uniqueNameHash": "DLC_MP_BEACH_F_HEAD4_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "locate": {
+            "@_value": 63
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eAnchorPoint": "ANCHOR_HEAD"
+        }
+      ]
+    },
+    "pedOutfits": ""
+  }
+}

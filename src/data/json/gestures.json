@@ -1,0 +1,82 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_NEXT_CAMERA",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "TOUCH"
+          }
+        },
+        {
+          "Input": "INPUT_INTERACTION_MENU",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "TOUCH"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_Y",
+          "Source": "IOMS_TOUCHPAD_ABSOLUTE_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_X",
+          "Source": "IOMS_TOUCHPAD_ABSOLUTE_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_CURSOR_ACCEPT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "TOUCH"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_UD",
+          "Source": "IOMS_TOUCHPAD_CENTERED_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_LR",
+          "Source": "IOMS_TOUCHPAD_CENTERED_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_RADIO_WHEEL_UD",
+          "Source": "IOMS_TOUCHPAD_CENTERED_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y"
+          }
+        },
+        {
+          "Input": "INPUT_RADIO_WHEEL_LR",
+          "Source": "IOMS_TOUCHPAD_CENTERED_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_SELECT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "TOUCH"
+          }
+        }
+      ]
+    }
+  }
+}

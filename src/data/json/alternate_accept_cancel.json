@@ -1,0 +1,82 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_FRONTEND_ACCEPT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_CANCEL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_SELECT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CANCEL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SKIP_CUTSCENE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_DESCEND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_ACCEPT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_ENDSCREEN_ACCEPT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_START_STOP_RECORDING",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SAVE_REPLAY_CLIP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        }
+      ]
+    }
+  }
+}

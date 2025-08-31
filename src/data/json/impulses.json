@@ -1,0 +1,452 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CImpulseTestContainer": {
+    "aImpulseTests": {
+      "Item": [
+        {
+          "Name": "IT_weapon_fire",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": {
+              "Impulse": "I_FIRE",
+              "State": "IS_DOWN",
+              "AnalogRange": {
+                "@_x": 0,
+                "@_y": 0
+              },
+              "Duration": {
+                "@_value": 0.2
+              },
+              "@_type": "CSimpleImpulseTest"
+            }
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_heavy_any",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_HEAVY",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_HEAVY",
+                "State": "IS_COMBO_ANY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_ANY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light_any",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_ANY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_DOWN",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_attack_any",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_HEAVY",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_HEAVY",
+                "State": "IS_COMBO_ANY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_ANY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_DOWN",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light_initial",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_DOWN",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light_combo_2",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_2",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_COMBO_2",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light_combo_3",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_3",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_COMBO_3",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_light_finish",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_COMBO_3",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_COMBO_3",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_auto_dodge",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": {
+              "Impulse": "I_BLOCK",
+              "State": "IS_HELD_DOWN",
+              "AnalogRange": {
+                "@_x": 0,
+                "@_y": 0
+              },
+              "Duration": {
+                "@_value": 0.001
+              },
+              "@_type": "CSimpleImpulseTest"
+            }
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_special_ability",
+          "ImpulseOp": "IO_AND_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_SPECIAL_ABILITY",
+                "State": "IS_PRESSED_NO_HISTORY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_SPECIAL_ABILITY_SECONDARY",
+                "State": "IS_PRESSED_NO_HISTORY",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        },
+        {
+          "Name": "IT_stealth_kill",
+          "ImpulseOp": "IO_OR_IMPULSE_1",
+          "aImpulses": {
+            "Item": [
+              {
+                "Impulse": "I_ATTACK_LIGHT",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_HEAVY",
+                "State": "IS_PRESSED",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              },
+              {
+                "Impulse": "I_ATTACK_ALTERNATE",
+                "State": "IS_DOWN",
+                "AnalogRange": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "Duration": {
+                  "@_value": 0.2
+                },
+                "@_type": "CSimpleImpulseTest"
+              }
+            ]
+          },
+          "@_type": "CImpulseTest"
+        }
+      ]
+    }
+  }
+}

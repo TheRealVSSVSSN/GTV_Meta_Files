@@ -1,0 +1,159 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_f_freemode_01",
+    "dlcName": "mp_f_htb_01",
+    "fullDlcName": "mp_f_freemode_01_mp_f_htb_01",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER_F",
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_REPLAY_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_REPLAY_F_JBIB_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "REPLAY_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "HTB_JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 32
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_REPLAY_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_REPLAY_F_BERD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "REPLAY_DRAW_0"
+              },
+              {
+                "tagNameHash": "HTB_MASK"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_REPLAY_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_REPLAY_F_TORSO_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "REPLAY_DRAW_0"
+              },
+              {
+                "tagNameHash": "HTB_HANDS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_UPPR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,768 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "TriggerEffect__TriggerEffectData": {
+    "TriggerEffectLevelLow": {
+      "FeedbackModeMappings": {
+        "Item": [
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_MOUNTED_WEAPON_AIM"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.9
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.7
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_FULL"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_FULL"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.9
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.7
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_HEAVY"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_MG"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_PISTOL"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_RIFLE"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SHOTGUN"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SMG"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SNIPER"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_STUNGUN"
+          }
+        ]
+      },
+      "WeaponModeMappings": {
+        "Item": [
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_HEAVY"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_MG"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_PISTOL"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_RIFLE"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_SHOTGUN"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_SMG"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_SNIPER"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_STUNGUN"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "WEAPON_MODE_MOUNTED_ATTACK"
+          }
+        ]
+      }
+    },
+    "TriggerEffectLevelHigh": {
+      "FeedbackModeMappings": {
+        "Item": [
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.500000\t\n          0.300000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_MOUNTED_WEAPON_AIM"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.6
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_ACCELERATE",
+            "ResistanceStart": {
+              "@_value": 0.7
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_ACCELERATE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_FULL"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.500000\t\n          0.500000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.1
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.300000\t\n          0.300000\t\n          0.200000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_ABS_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_FULL"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.7
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.4
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.300000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.6
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_BRAKE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.8
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_HIGH"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.6
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_LOW"
+          },
+          {
+            "InputType": "INPUT_VEH_BRAKE",
+            "ResistanceStart": {
+              "@_value": 0.7
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "FEEDBACK_MODE_VEH_REVERSE_HEALTH_MEDIUM"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.300000\t\n          0.300000\t\n          0.200000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_HEAVY"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.300000\t\n          0.200000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_MG"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_PISTOL"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.200000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_RIFLE"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.200000\t\n          0.200000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SHOTGUN"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SMG"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.200000\t\n          0.300000\t\n          0.200000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_SNIPER"
+          },
+          {
+            "InputType": "INPUT_AIM",
+            "ResistanceStart": {
+              "@_value": 0.37
+            },
+            "ResistanceSet": {
+              "#text": "0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000\t\n          0.100000",
+              "@_content": "float_array"
+            },
+            "@_key": "GROUP_STUNGUN"
+          }
+        ]
+      },
+      "WeaponModeMappings": {
+        "Item": [
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.8
+            },
+            "@_key": "GROUP_HEAVY"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.6
+            },
+            "@_key": "GROUP_MG"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_PISTOL"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.3
+            },
+            "@_key": "GROUP_RIFLE"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.3
+            },
+            "@_key": "GROUP_SHOTGUN"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.2
+            },
+            "@_key": "GROUP_SMG"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.5
+            },
+            "@_key": "GROUP_SNIPER"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.1
+            },
+            "@_key": "GROUP_STUNGUN"
+          },
+          {
+            "InputType": "INPUT_ATTACK",
+            "ResistanceStart": {
+              "@_value": 0.2
+            },
+            "ResistanceEnd": {
+              "@_value": 0.7
+            },
+            "Resistance": {
+              "@_value": 0.9
+            },
+            "@_key": "WEAPON_MODE_MOUNTED_ATTACK"
+          }
+        ]
+      }
+    }
+  }
+}

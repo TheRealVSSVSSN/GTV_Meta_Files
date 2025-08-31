@@ -1,0 +1,1632 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CBrawlingStyleManager": {
+    "aBrawlingData": {
+      "Item": [
+        {
+          "Name": "BS_MICHAEL",
+          "TargetRadius": {
+            "@_value": 2.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 4
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 3000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 2
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 2000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 100
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 1500
+          },
+          "AttackRangeMax": {
+            "@_value": 3
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0.6
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0.85
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0.3
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0.1
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0.05
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0.35
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0.05
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0.35
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 3000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 5000
+          },
+          "TauntProbability": {
+            "@_value": 0.9
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.6
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_TREVOR",
+          "TargetRadius": {
+            "@_value": 2.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 4
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 3000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 2
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 2000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 100
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 1500
+          },
+          "AttackRangeMax": {
+            "@_value": 3
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0.6
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0.85
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0.3
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0.1
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0.05
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0.35
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0.05
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0.35
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 3000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 5000
+          },
+          "TauntProbability": {
+            "@_value": 0.9
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.6
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_FRANKLIN",
+          "TargetRadius": {
+            "@_value": 2.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 4
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 3000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 2
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 2000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 100
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 1500
+          },
+          "AttackRangeMax": {
+            "@_value": 3
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0.6
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0.85
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0.3
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0.1
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0.05
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0.35
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0.05
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0.35
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 3000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 5000
+          },
+          "TauntProbability": {
+            "@_value": 0.9
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.6
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_AI",
+          "TargetRadius": {
+            "@_value": 2.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 4
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 3000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 2
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 2000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 100
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 1500
+          },
+          "AttackRangeMax": {
+            "@_value": 3
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0.6
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0.85
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0.25
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0.1
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0.05
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0.35
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0.05
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0.35
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 3000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 5000
+          },
+          "TauntProbability": {
+            "@_value": 0.9
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.6
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_ANIMAL",
+          "TargetRadius": {
+            "@_value": 1.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 12
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 3000
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 6000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_CAT",
+          "TargetRadius": {
+            "@_value": 1.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 12
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 3000
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 6000
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_DOG",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "BS_COUGAR",
+          "TargetRadius": {
+            "@_value": 1.5
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 4
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 2
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "BS_DOG_RETRIEVER",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_DOG_SMALL",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_TIGER_SHARK",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_HAMMERHEAD_SHARK",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_KILLER_WHALE",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_BOAR",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_PIG",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_COYOTE",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_DEER",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_HEN",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_RABBIT",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BS_COW",
+          "TargetRadius": {
+            "@_value": 1
+          },
+          "KeepMovingWhilePathingDistance": {
+            "@_value": 6
+          },
+          "MaxDistanceMayAdjustPathEndPosition": {
+            "@_value": 1.5
+          },
+          "SeekModeScanTimeMin": {
+            "@_value": 500
+          },
+          "SeekModeScanTimeMax": {
+            "@_value": 1500
+          },
+          "MeleeMovementMBR": {
+            "@_value": 3
+          },
+          "AttackFrequencyWorstFighterMinInMs": {
+            "@_value": 500
+          },
+          "AttackFrequencyWorstFighterMaxInMs": {
+            "@_value": 3000
+          },
+          "AttackFrequencyBestFighterMinInMs": {
+            "@_value": 250
+          },
+          "AttackFrequencyBestFighterMaxInMs": {
+            "@_value": 2500
+          },
+          "AttackRangeMax": {
+            "@_value": 2.5
+          },
+          "AttackProbabilityToComboMin": {
+            "@_value": 0
+          },
+          "AttackProbabilityToComboMax": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMin": {
+            "@_value": 0
+          },
+          "ProbabilityToBeDazedMax": {
+            "@_value": 0
+          },
+          "BlockProbabilityMin": {
+            "@_value": 0
+          },
+          "BlockProbabilityMax": {
+            "@_value": 0
+          },
+          "CounterProbabilityMin": {
+            "@_value": 0
+          },
+          "CounterProbabilityMax": {
+            "@_value": 0
+          },
+          "TauntFrequencyMinInMs": {
+            "@_value": 5000
+          },
+          "TauntFrequencyMaxInMs": {
+            "@_value": 7500
+          },
+          "TauntProbability": {
+            "@_value": 0.75
+          },
+          "TauntFrequencyQueuedMinInMs": {
+            "@_value": 1000
+          },
+          "TauntFrequencyQueuedMaxInMs": {
+            "@_value": 2500
+          },
+          "TauntProbabilityQueued": {
+            "@_value": 0.9
+          },
+          "PlayTauntBeforeAttacking": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

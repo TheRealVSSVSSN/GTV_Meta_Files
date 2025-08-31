@@ -1,0 +1,154 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RDOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RUP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RLEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RRIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_LB",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RB",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_LT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_LS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_RS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_PAD_UP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_PAD_DOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_PAD_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_PAD_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPT_SELECT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": [
+              {
+                "#text": "SELECT",
+                "@_platform": "!ps4"
+              },
+              {
+                "#text": "TOUCH",
+                "@_platform": "ps4"
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

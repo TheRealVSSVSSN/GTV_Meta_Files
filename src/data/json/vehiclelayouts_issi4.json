@@ -1,0 +1,750 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": "",
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "INSIDE_CLIPSET_MAP_STD_ISSI4_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@std@issi3@ds@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_STD_ISSI4_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@std@issi3@ps@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": {
+      "Item": {
+        "Name": "ISSI4_COVER_OFFSET_INFO",
+        "ExtraSideOffset": {
+          "@_value": -0.03
+        },
+        "ExtraForwardOffset": {
+          "@_value": -0.07
+        },
+        "ExtraBackwardOffset": {
+          "@_value": -0.09
+        },
+        "ExtraZOffset": {
+          "@_value": 0.12
+        },
+        "CoverBoundInfos": "",
+        "@_type": "CVehicleCoverBoundOffsetInfo"
+      }
+    },
+    "BicycleInfos": "",
+    "POVTuningInfos": "",
+    "EntryAnimVariations": "",
+    "VehicleExtraPointsInfos": "",
+    "DrivebyWeaponGroups": "",
+    "VehicleDriveByAnimInfos": {
+      "Item": [
+        {
+          "Name": "STD_ISSI4_DB_ANIM_INFO_ONE_HANDED_DS_RESTRICTED",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_ONE_HANDED"
+          },
+          "DriveByClipSet": "drive_by@restricted@STD_DS",
+          "FirstPersonDriveByClipSet": "driveby@first_person@driver@1h",
+          "AltFirstPersonDriveByClipSets": {
+            "Item": {
+              "Weapons": {
+                "Item": "WEAPON_MICROSMG"
+              },
+              "ClipSet": "driveby@first_person@driver@smg"
+            }
+          },
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "STD_ISSI4_DB_ANIM_INFO_THROW_PS",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_THROW"
+          },
+          "DriveByClipSet": "drive_by@std_ps_grenades",
+          "FirstPersonDriveByClipSet": "driveby@first_person@passenger_right_handed@throw",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": true
+          },
+          "OverrideMinAimAngle": {
+            "@_value": -360
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 80
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        }
+      ]
+    },
+    "VehicleDriveByInfos": {
+      "Item": [
+        {
+          "Name": "DRIVEBY_ISSI4_STANDARD_FRONT_LEFT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -190
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 190
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -190
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 190
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": -180
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": -17.5
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": -180
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": -35
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -0.175
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "STD_DB_ANIM_INFO_UNARMED_DS"
+              },
+              {
+                "@_ref": "STD_ISSI4_DB_ANIM_INFO_ONE_HANDED_DS_RESTRICTED"
+              },
+              {
+                "@_ref": "STD_DB_ANIM_INFO_THROW_DS"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "PovDriveByCamera": "",
+          "DriveByFlags": "UseMountedProjectileTask LeftHandedProjctiles LeftHandedUnarmedFirstPersonAnims",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_ISSI4_STANDARD_FRONT_RIGHT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -225
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 225
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -225
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 225
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 17.5
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 180
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 35
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 180
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 0.925
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "STD_DB_ANIM_INFO_UNARMED_PS"
+              },
+              {
+                "@_ref": "STD_DB_ANIM_INFO_ONE_HANDED_PS"
+              },
+              {
+                "@_ref": "STD_ISSI4_DB_ANIM_INFO_THROW_PS"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "PovDriveByCamera": "",
+          "DriveByFlags": "UseMountedProjectileTask LeftHandedFirstPersonAnims LeftHandedUnarmedFirstPersonAnims",
+          "@_type": "CVehicleDriveByInfo"
+        }
+      ]
+    },
+    "VehicleSeatInfos": "",
+    "VehicleSeatAnimInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_ANIM_STD_ISSI4_FRONT_LEFT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_ISSI4_STANDARD_FRONT_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_STD_ISSI4_FRONT_LEFT"
+          },
+          "PanicClipSet": "anim@veh@std@issi3@ds@idle_panic",
+          "AgitatedClipSet": "anim@veh@std@issi3@ds@idle_agitated",
+          "DuckedClipSet": "anim@veh@std@issi3@ds@idle_duck",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "STD_CAR_FRONT_DS_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "UseStandardInVehicleAnims UseCloseDoorBlendAnims",
+          "SteeringSmoothing": {
+            "@_value": 0.04
+          },
+          "ExitToAimInfoName": "STANDARD",
+          "MaleGestureClipSetId": "ANIM_GROUP_GESTURE_M_CAR_STD_DS",
+          "FemaleGestureClipSetId": "ANIM_GROUP_GESTURE_F_CAR_STD_DS",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_STD_ISSI4_FRONT_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_ISSI4_STANDARD_FRONT_RIGHT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_STD_ISSI4_FRONT_RIGHT"
+          },
+          "PanicClipSet": "anim@veh@std@issi3@ps@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "anim@veh@std@issi3@ps@idle_duck",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "STD_CAR_FRONT_PS_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "UseStandardInVehicleAnims HasPanicAnims UseCloseDoorBlendAnims PreventShuffleJack",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "STANDARD",
+          "MaleGestureClipSetId": "ANIM_GROUP_GESTURE_M_CAR_STD_PS",
+          "FemaleGestureClipSetId": "ANIM_GROUP_GESTURE_F_CAR_STD_PS",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointInfos": "",
+    "VehicleEntryPointAnimInfos": "",
+    "VehicleExplosionInfos": "",
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_STD_ISSI4",
+        "Seats": {
+          "Item": [
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_STD_ISSI4_FRONT_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_STD_ISSI4_FRONT_RIGHT"
+              }
+            }
+          ]
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_STANDARD_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_STANDARD_FRONT_RIGHT"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims UseDoorOscillation UseLeanSteerAnims UseSteeringWheelIk UseFinerAlignTolerance",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "STD_LOW_ANIM_RATE_SET"
+        },
+        "HandsUpClipSetId": "busted_vehicle_std",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "MaxXAcceleration": {
+          "@_value": 4
+        },
+        "BodyLeanXApproachSpeed": {
+          "@_value": 5
+        },
+        "BodyLeanXSmallDelta": {
+          "@_value": 0.3
+        },
+        "LookBackApproachSpeedScale": {
+          "@_value": 1
+        },
+        "FirstPersonAdditiveIdleClipSets": {
+          "Item": [
+            "clipset@veh@std@ds@idle_a",
+            "clipset@veh@std@ds@idle_b",
+            "clipset@veh@std@ds@idle_c",
+            "clipset@veh@std@ds@idle_d",
+            "clipset@veh@std@ds@idle_e"
+          ]
+        },
+        "FirstPersonRoadRageClipSets": {
+          "Item": [
+            "clipset@veh@std@ds@hit_wheel@idle_a",
+            "clipset@veh@std@ds@hit_wheel@idle_b",
+            "clipset@veh@std@ds@hit_wheel@idle_c"
+          ]
+        },
+        "CellphoneClipsets": {
+          "CellphoneClipsetDS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS",
+          "CellphoneClipsetPS": "ANIM_GROUP_CELLPHONE_IN_CAR_PS",
+          "CellphoneClipsetDS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS",
+          "CellphoneClipsetPS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS"
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    },
+    "VehicleScenarioLayoutInfos": "",
+    "SeatOverrideAnimInfos": "",
+    "InVehicleOverrideInfos": "",
+    "FirstPersonDriveByLookAroundData": {
+      "Item": [
+        {
+          "Name": "STD_ISSI4_FRONT_LEFT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 150
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": -0.22
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 150
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.22
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 30,
+                    "@_y": 150
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.01
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 30,
+                    "@_y": 150
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -7,
+              "@_y": -1
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 50
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0.01
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 60,
+                    "@_y": 188
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.12
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 50,
+                    "@_y": 100
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 50,
+                    "@_y": 120
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -8,
+              "@_y": -16.5
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 190
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0,
+              "@_y": 0.3
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.065
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.06
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "STD_ISSI4_FRONT_RIGHT",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -180,
+            "@_y": 150
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": -0.03
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 60,
+                    "@_y": 188
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.15
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 60
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.075
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 80
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -7,
+              "@_y": -15
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 190
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0.22
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 150
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.22
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 30,
+                    "@_y": 150
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 150
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": -1
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 150
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0,
+              "@_y": 0.3
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.065
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.06
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        }
+      ]
+    }
+  }
+}

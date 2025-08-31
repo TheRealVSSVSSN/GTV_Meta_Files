@@ -1,0 +1,7068 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_m_freemode_01",
+    "dlcName": "Male_freemode_pilot",
+    "fullDlcName": "mp_m_freemode_01_Male_freemode_pilot",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER",
+    "creatureMetaData": "MP_CreatureMetadata_pilot",
+    "pedOutfits": {
+      "Item": {
+        "lockHash": "CU_PILOT_CLOTHES",
+        "cost": {
+          "@_value": 99
+        },
+        "textLabel": "CLO_PIM_O_0",
+        "uniqueNameHash": "DLC_MP_PILOT_M_OUTFIT_0",
+        "eShopEnum": "CLO_SHOP_LOW",
+        "locate": {
+          "@_value": 125
+        },
+        "includedPedComponents": {
+          "Item": [
+            {
+              "nameHash": "DLC_MP_PILOT_M_TORSO_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_UPPR"
+            },
+            {
+              "nameHash": "DLC_MP_PILOT_M_LEGS_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_LOWR"
+            },
+            {
+              "nameHash": "DLC_MP_PILOT_M_FEET_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_FEET"
+            },
+            {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 240
+              },
+              "eCompType": "PV_COMP_ACCS"
+            },
+            {
+              "nameHash": "DLC_MP_PILOT_M_JBIB_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            },
+            {
+              "nameHash": "DLC_MP_PILOT_M_TEETH_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          ]
+        },
+        "includedPedProps": {
+          "Item": {
+            "nameHash": "DLC_MP_PILOT_M_PHEAD_0_0",
+            "eAnchorPoint": "ANCHOR_HEAD"
+          }
+        }
+      }
+    },
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 8500
+          },
+          "textLabel": "CLO_PIM_B_0_0",
+          "uniqueNameHash": "DLC_MP_PILOT_M_BERD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 126
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "FORCE_BALD"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_TORSO_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "PILOT_SUIT"
+              },
+              {
+                "tagNameHash": "OUTFIT_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_UPPR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_LEGS_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "PILOT_SUIT"
+              },
+              {
+                "tagNameHash": "OUTFIT_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_FEET_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "PILOT_SUIT"
+              },
+              {
+                "tagNameHash": "OUTFIT_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 29150
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_TEETH_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "PILOT_SUIT"
+              },
+              {
+                "tagNameHash": "OUTFIT_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 50000
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_JBIB_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "PILOT_SUIT"
+              },
+              {
+                "tagNameHash": "OUTFIT_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_1_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_2_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_3_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_4_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_5_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_6_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_7_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_15",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 15
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_16",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 16
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_17",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 17
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_18",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 18
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_19",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 19
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_20",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 20
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_21",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 21
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_22",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 22
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_23",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 23
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_24",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 24
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_PILOT_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_PILOT_M_HAND_8_25",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 8
+          },
+          "eCompType": "PV_COMP_HAND",
+          "textureIndex": {
+            "@_value": 25
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    },
+    "pedProps": {
+      "Item": {
+        "lockHash": "CU_PILOT_CLOTHES",
+        "cost": {
+          "@_value": 0
+        },
+        "textLabel": "CLO_PIM_HT_0_0",
+        "uniqueNameHash": "DLC_MP_PILOT_M_PHEAD_0_0",
+        "eShopEnum": "CLO_SHOP_LOW",
+        "locate": {
+          "@_value": -1
+        },
+        "scriptSaveData": {
+          "@_value": 0
+        },
+        "restrictionTags": {
+          "Item": [
+            {
+              "tagNameHash": "PILOT_SUIT"
+            },
+            {
+              "tagNameHash": "HELMET"
+            }
+          ]
+        },
+        "forcedComponents": {
+          "Item": {
+            "nameHash": "DLC_MP_PILOT_M_TEETH_0_0",
+            "enumValue": {
+              "@_value": 0
+            },
+            "eCompType": "PV_COMP_TEEF"
+          }
+        },
+        "variantComponents": "",
+        "variantProps": "",
+        "propIndex": {
+          "@_value": 0
+        },
+        "localPropIndex": {
+          "@_value": 0
+        },
+        "eAnchorPoint": "ANCHOR_HEAD",
+        "textureIndex": {
+          "@_value": 0
+        },
+        "isInOutfit": {
+          "@_value": false
+        }
+      }
+    }
+  }
+}

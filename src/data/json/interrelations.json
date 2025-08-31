@@ -1,0 +1,1512 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CInterrelationTestContainer": {
+    "aInterrelationTests": {
+      "Item": [
+        {
+          "Name": "IRT_standard",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 1.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_shove",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0.75
+            },
+            "PlanarAngularRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_taunt",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0.75,
+              "@_y": 10000
+            },
+            "PlanarAngularRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0.5
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_close_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -100,
+              "@_y": 100
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_short",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 1.5,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_short_weapon",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_medium",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 3,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_swimming",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 20
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_medium_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 2.5,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_long_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 4,
+              "@_y": 5.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -60,
+              "@_y": 60
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_walking",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 5
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_close_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.95,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_long_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.1,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 2.5,
+              "@_y": 5.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_running",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 7
+            },
+            "PlanarAngularRange": {
+              "@_x": -65,
+              "@_y": 65
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_running_short_range",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 1.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -65,
+              "@_y": 65
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_running_long_range",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 4.5,
+              "@_y": 7
+            },
+            "PlanarAngularRange": {
+              "@_x": -65,
+              "@_y": 65
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_stealth_kill",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.35,
+              "@_y": 0.3
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0.5
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_takedown",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_takedown_psycho",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_takedown_armed",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 1.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_takedown_animal",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -90,
+              "@_y": 90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_kick_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_front_kick",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.75,
+              "@_y": 0.75
+            },
+            "DistanceRange": {
+              "@_x": 2.5,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -60,
+              "@_y": 60
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_right_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_right_close_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_right_close_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.95,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_right_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_left_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_left_close_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_left_close_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.95,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_left_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_right_medium",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 2,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_left_medium",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 2,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_stealth_kill_no_height",
+          "RootOffsetZ": {
+            "@_value": 0
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 90,
+              "@_y": -90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_takedown",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 135,
+              "@_y": -135
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_takedown_psycho",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": 90,
+              "@_y": -90
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_takedown_armed",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.25,
+              "@_y": 0.25
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 1.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 90,
+              "@_y": -90
+            },
+            "HeightDifference": {
+              "@_value": 0.65
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_HEIGHT_RANGE RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_rear_takedown_animal",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 90,
+              "@_y": -90
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_half_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": 0,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_close_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_close_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.95,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3.5
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_left_medium",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 2,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": 45,
+              "@_y": 135
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_half_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": 0
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_close",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_close_no_height",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_close_mid",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.95,
+              "@_y": -0.315
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_GETUP_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_right_medium",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -0.315,
+              "@_y": 0.5
+            },
+            "DistanceRange": {
+              "@_x": 2,
+              "@_y": 4
+            },
+            "PlanarAngularRange": {
+              "@_x": -135,
+              "@_y": -45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_forward_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 2.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -45,
+              "@_y": 45
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_very_close_low",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": -1.5,
+              "@_y": -0.95
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 1.25
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_GROUND_RANGE RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE RRA_ALLOW_PED_DEAD_GROUND_OVERRIDE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_takedown_animal",
+          "RootOffsetZ": {
+            "@_value": 0.5
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 3.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -75,
+              "@_y": 75
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        },
+        {
+          "Name": "IRT_shark",
+          "RootOffsetZ": {
+            "@_value": 0
+          },
+          "RelativeRange": {
+            "GroundHeightRange": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "DistanceRange": {
+              "@_x": 0,
+              "@_y": 5.5
+            },
+            "PlanarAngularRange": {
+              "@_x": -180,
+              "@_y": 180
+            },
+            "HeightDifference": {
+              "@_value": 0
+            },
+            "RelativeRangeAttrs": "RRA_CHECK_DISTANCE_RANGE RRA_CHECK_ANGULAR_RANGE"
+          },
+          "@_type": "CInterrelationTest"
+        }
+      ]
+    }
+  }
+}

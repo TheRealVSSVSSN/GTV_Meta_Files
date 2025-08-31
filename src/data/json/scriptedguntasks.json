@@ -1,0 +1,265 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CScriptedGunTaskMetadataMgr": {
+    "ScriptedGunTaskInfos": {
+      "Item": [
+        {
+          "Name": "SCRIPTED_GUN_TASK_ON_CRATE",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -45
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 45
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_gun_on_crate",
+          "IdleCamera": "",
+          "Camera": "RIFLE_PRONE_AIM_CAMERA",
+          "Flags": "AllowWrapping",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_HANGING_UPSIDE_DOWN",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -90
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 90
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -45
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 55
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_gun_hanging_upside_down",
+          "IdleCamera": "FOLLOW_PED_HANGING_UPSIDE_DOWN_CAMERA",
+          "Camera": "HANGING_UPSIDE_DOWN_AIM_CAMERA",
+          "Flags": "ForcedAiming",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_ON_ROPE",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -20
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 30
+          },
+          "fHeadingOffset": {
+            "@_value": 0.3
+          },
+          "ClipSet": "aim_gun_on_rope",
+          "IdleCamera": "FOLLOW_PED_ATTACHED_TO_ROPE_CAMERA",
+          "Camera": "ATTACHED_TO_ROPE_AIM_CAMERA",
+          "Flags": "UseAdditiveFiring TrackRopeOrientation ForceFireFromCamera",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_PRONE_BACK",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -135
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 135
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -35
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 35
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "get_up@aim_from_ground@pistol@back",
+          "IdleCamera": "",
+          "Camera": "",
+          "Flags": "AbortOnIdle UseAdditiveFiring",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_DINGY_RPG",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -15
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 45
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_rpg_dingy_rear",
+          "IdleCamera": "",
+          "Camera": "EXILE_THREE_DINGHY_AIM_CAMERA",
+          "Flags": "AllowWrapping",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_CRATE_RPG",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -135
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 135
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -45
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 45
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_rpg_on_crate",
+          "IdleCamera": "",
+          "Camera": "RIFLE_PRONE_AIM_CAMERA",
+          "Flags": "AllowWrapping",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_CRATE_BUDDY",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -135
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 135
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -45
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 45
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_gun_on_crate_buddy",
+          "IdleCamera": "",
+          "Camera": "RIFLE_PRONE_AIM_CAMERA",
+          "Flags": "AllowWrapping",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_PRONE_BACK_RIFLE",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -135
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 135
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -35
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 35
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "get_up@aim_from_ground@rifle@back",
+          "IdleCamera": "",
+          "Camera": "",
+          "Flags": "AbortOnIdle UseAdditiveFiring",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_PLANE_WING",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -30
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 25
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_gun_on_wing",
+          "IdleCamera": "FOLLOW_PED_PRONE_CAMERA",
+          "Camera": "RIFLE_PRONE_AIM_CAMERA",
+          "Flags": "AllowWrapping UseDirectionalBreatheAdditives",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_WRITHE",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -135
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 135
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -35
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 35
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "get_up@aim_from_ground@pistol@back",
+          "IdleCamera": "",
+          "Camera": "",
+          "Flags": "AbortOnIdle UseAdditiveFiring",
+          "@_type": "CScriptedGunTaskInfo"
+        },
+        {
+          "Name": "SCRIPTED_GUN_TASK_BIKE",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinAimSweepPitchAngleDegs": {
+            "@_value": -45
+          },
+          "MaxAimSweepPitchAngleDegs": {
+            "@_value": 45
+          },
+          "fHeadingOffset": {
+            "@_value": 0
+          },
+          "ClipSet": "aim_camera_on_bike",
+          "IdleCamera": "",
+          "Camera": "",
+          "Flags": "AbortOnIdle UseAdditiveFiring",
+          "@_type": "CScriptedGunTaskInfo"
+        }
+      ]
+    }
+  }
+}

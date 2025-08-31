@@ -1,0 +1,454 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CScenarioInfoManager": {
+    "Scenarios": {
+      "Item": [
+        {
+          "Name": "CODE_HUMAN_PATROL_1H",
+          "PropName": "",
+          "Models": {
+            "@_ref": "NULL"
+          },
+          "BlockedModels": {
+            "@_ref": "NULL"
+          },
+          "SpawnProbability": {
+            "@_value": 1
+          },
+          "SpawnInterval": {
+            "@_value": 0
+          },
+          "SpawnHistoryRange": {
+            "@_value": 50
+          },
+          "MaxNoInRange": {
+            "@_value": 1
+          },
+          "PropEndOfLifeTimeoutMS": {
+            "@_value": 60000
+          },
+          "Range": {
+            "@_value": 30
+          },
+          "SpawnPropIntroDict": "",
+          "SpawnPropIntroAnim": "",
+          "StationaryReactHash": "CODE_HUMAN_COWER",
+          "SpawnPropOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "SpawnPropRotation": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0,
+            "@_w": 0
+          },
+          "TimeTilPedLeaves": {
+            "@_value": -1
+          },
+          "ChanceOfRunningTowards": {
+            "@_value": 0
+          },
+          "Flags": "AllowEquippedWeapons BlockGestures  DoSimpleBlendoutForEvents IgnorePavementChecks PreciseUseTime QuickExitsFromHassling",
+          "Condition": {
+            "@_type": "NULL"
+          },
+          "ConditionalAnimsGroup": {
+            "Name": "CODE_HUMAN_PATROL",
+            "ConditionalAnims": {
+              "Item": {
+                "Name": "CODE_HUMAN_PATROL_1H",
+                "PropSet": "",
+                "Flags": "",
+                "Probability": {
+                  "@_value": 100
+                },
+                "SpecialConditionProbability": {
+                  "@_value": 0
+                },
+                "SpecialCondition": {
+                  "@_type": "NULL"
+                },
+                "NextIdleTime": {
+                  "@_value": 2
+                },
+                "ChanceOfSpawningWithAnything": {
+                  "@_value": 0.33
+                },
+                "BlendInDelta": {
+                  "@_value": 8
+                },
+                "BlendOutDelta": {
+                  "@_value": -8
+                },
+                "GestureClipSetId": "",
+                "VFXData": "",
+                "VFXCullRange": {
+                  "@_value": 25
+                },
+                "TransitionInfo": {
+                  "@_type": "NULL"
+                },
+                "Conditions": "",
+                "LowLodBaseAnim": "",
+                "BaseAnims": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@1H@BASE",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Enters": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@1H@ENTER",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Exits": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@1H@EXIT",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Variations": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@1H@IDLE_A",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Reactions": "",
+                "PanicBaseAnims": "",
+                "PanicIntros": "",
+                "PanicOutros": "",
+                "PanicVariations": "",
+                "PanicExits": ""
+              }
+            }
+          },
+          "CameraNameHash": "",
+          "IntroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendOutDuration": {
+            "@_value": 0.25
+          },
+          "ImmediateExitBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "PanicExitBlendInDuration": {
+            "@_value": 0.125
+          },
+          "PedCapusleOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "PedCapsuleRadiusOverride": {
+            "@_value": -1
+          },
+          "ReassessGroundExitThreshold": {
+            "@_value": -1
+          },
+          "FallExitThreshold": {
+            "@_value": -1
+          },
+          "eLookAtImportance": "HIGH",
+          "SeatedOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "WanderScenarioToUseAfter": "",
+          "@_type": "CScenarioPlayAnimsInfo"
+        },
+        {
+          "Name": "CODE_HUMAN_PATROL_2H",
+          "PropName": "",
+          "Models": {
+            "@_ref": "NULL"
+          },
+          "BlockedModels": {
+            "@_ref": "NULL"
+          },
+          "SpawnProbability": {
+            "@_value": 1
+          },
+          "SpawnInterval": {
+            "@_value": 0
+          },
+          "SpawnHistoryRange": {
+            "@_value": 50
+          },
+          "MaxNoInRange": {
+            "@_value": 1
+          },
+          "PropEndOfLifeTimeoutMS": {
+            "@_value": 60000
+          },
+          "Range": {
+            "@_value": 30
+          },
+          "SpawnPropIntroDict": "",
+          "SpawnPropIntroAnim": "",
+          "StationaryReactHash": "CODE_HUMAN_COWER",
+          "SpawnPropOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "SpawnPropRotation": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0,
+            "@_w": 0
+          },
+          "TimeTilPedLeaves": {
+            "@_value": -1
+          },
+          "ChanceOfRunningTowards": {
+            "@_value": 0
+          },
+          "Flags": "AllowEquippedWeapons BlockGestures  DoSimpleBlendoutForEvents IgnorePavementChecks PreciseUseTime QuickExitsFromHassling",
+          "Condition": {
+            "@_type": "NULL"
+          },
+          "ConditionalAnimsGroup": {
+            "Name": "CODE_HUMAN_PATROL",
+            "ConditionalAnims": {
+              "Item": {
+                "Name": "CODE_HUMAN_PATROL_2H",
+                "PropSet": "",
+                "Flags": "",
+                "Probability": {
+                  "@_value": 100
+                },
+                "SpecialConditionProbability": {
+                  "@_value": 0
+                },
+                "SpecialCondition": {
+                  "@_type": "NULL"
+                },
+                "NextIdleTime": {
+                  "@_value": 2
+                },
+                "ChanceOfSpawningWithAnything": {
+                  "@_value": 0.33
+                },
+                "BlendInDelta": {
+                  "@_value": 8
+                },
+                "BlendOutDelta": {
+                  "@_value": -8
+                },
+                "GestureClipSetId": "",
+                "VFXData": "",
+                "VFXCullRange": {
+                  "@_value": 25
+                },
+                "TransitionInfo": {
+                  "@_type": "NULL"
+                },
+                "Conditions": "",
+                "LowLodBaseAnim": "",
+                "BaseAnims": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@2H@BASE",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Enters": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@2H@ENTER",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Exits": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@2H@EXIT",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Variations": {
+                  "Item": {
+                    "ClipSet": "AMB@CODE_HUMAN_PATROL@MALE@2H@IDLE_A",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Reactions": "",
+                "PanicBaseAnims": "",
+                "PanicIntros": "",
+                "PanicOutros": "",
+                "PanicVariations": "",
+                "PanicExits": ""
+              }
+            }
+          },
+          "CameraNameHash": "",
+          "IntroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendOutDuration": {
+            "@_value": 0.25
+          },
+          "ImmediateExitBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "PanicExitBlendInDuration": {
+            "@_value": 0.125
+          },
+          "PedCapusleOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "PedCapsuleRadiusOverride": {
+            "@_value": -1
+          },
+          "ReassessGroundExitThreshold": {
+            "@_value": -1
+          },
+          "FallExitThreshold": {
+            "@_value": -1
+          },
+          "eLookAtImportance": "HIGH",
+          "SeatedOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "WanderScenarioToUseAfter": "",
+          "@_type": "CScenarioPlayAnimsInfo"
+        },
+        {
+          "Name": "StandIgnorePavement",
+          "PropName": "",
+          "Models": {
+            "@_ref": "NULL"
+          },
+          "BlockedModels": {
+            "@_ref": "NULL"
+          },
+          "SpawnProbability": {
+            "@_value": 1
+          },
+          "SpawnInterval": {
+            "@_value": 0
+          },
+          "SpawnHistoryRange": {
+            "@_value": 50
+          },
+          "MaxNoInRange": {
+            "@_value": 0
+          },
+          "PropEndOfLifeTimeoutMS": {
+            "@_value": 60000
+          },
+          "Range": {
+            "@_value": 0
+          },
+          "SpawnPropIntroDict": "",
+          "SpawnPropIntroAnim": "",
+          "StationaryReactHash": "CODE_HUMAN_COWER",
+          "SpawnPropOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "SpawnPropRotation": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0,
+            "@_w": 0
+          },
+          "TimeTilPedLeaves": {
+            "@_value": -1
+          },
+          "ChanceOfRunningTowards": {
+            "@_value": 0
+          },
+          "Flags": "BlockGestures DontSpawnInRain DontTimeoutUntilIdleFinishes DoSimpleBlendoutForEvents NavmeshBlocking QuickExitsFromHassling IgnorePavementChecks",
+          "Condition": {
+            "Result": "False",
+            "@_type": "CScenarioConditionRaining"
+          },
+          "ConditionalAnimsGroup": {
+            "Name": "",
+            "ConditionalAnims": ""
+          },
+          "CameraNameHash": "",
+          "IntroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendInDuration": {
+            "@_value": 0.5
+          },
+          "OutroBlendOutDuration": {
+            "@_value": 0.25
+          },
+          "ImmediateExitBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "PanicExitBlendInDuration": {
+            "@_value": 0.125
+          },
+          "PedCapusleOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "PedCapsuleRadiusOverride": {
+            "@_value": -1
+          },
+          "ReassessGroundExitThreshold": {
+            "@_value": -1
+          },
+          "FallExitThreshold": {
+            "@_value": -1
+          },
+          "eLookAtImportance": "LOW",
+          "SeatedOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "WanderScenarioToUseAfter": "",
+          "@_type": "CScenarioPlayAnimsInfo"
+        }
+      ]
+    },
+    "ScenarioTypeGroups": ""
+  }
+}

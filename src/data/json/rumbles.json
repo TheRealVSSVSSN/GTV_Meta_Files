@@ -1,0 +1,32 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CActionRumbleContainer": {
+    "aActionRumbles": {
+      "Item": [
+        {
+          "Name": "ARBL_small",
+          "Duration": {
+            "@_value": 100
+          },
+          "Intensity": {
+            "@_value": 0.3
+          },
+          "@_type": "CActionRumble"
+        },
+        {
+          "Name": "ARBL_large",
+          "Duration": {
+            "@_value": 100
+          },
+          "Intensity": {
+            "@_value": 0.5
+          },
+          "@_type": "CActionRumble"
+        }
+      ]
+    }
+  }
+}

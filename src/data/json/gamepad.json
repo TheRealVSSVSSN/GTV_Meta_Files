@@ -1,0 +1,1051 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__Gamepad__DefinitionList": {
+    "Devices": {
+      "Item": [
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "00050925-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_POV1_UP",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "01100F30-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS4",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS5",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_POV1_UP",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "05C4054C-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS4",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS4",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_POV1_UP",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "062106A3-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON13",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON14",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON15",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON16",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "06676666-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_POV1_UP",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L2_INDEX",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2_INDEX",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              }
+            ]
+          },
+          "@_key": "C218046D-0000-0000-0000-504944564944"
+        },
+        {
+          "Definitions": {
+            "Item": [
+              {
+                "PadParameter": "L2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON7",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R2",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON8",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON5",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R1",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON6",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RUP",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON4",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RRIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON3",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RDOWN",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON2",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "RLEFT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON1",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "SELECT",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON9",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "L3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON11",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "R3",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON12",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "START",
+                "JoystickParameter": "IOM_JOYSTICK_BUTTON10",
+                "JoystickSource": "IOMS_JOYSTICK_BUTTON"
+              },
+              {
+                "PadParameter": "LUP",
+                "JoystickParameter": "IOM_POV1_UP",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LRIGHT",
+                "JoystickParameter": "IOM_POV1_RIGHT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LDOWN",
+                "JoystickParameter": "IOM_POV1_DOWN",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "LLEFT",
+                "JoystickParameter": "IOM_POV1_LEFT",
+                "JoystickSource": "IOMS_JOYSTICK_POV"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS2",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_LX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS1",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_UP",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY_DOWN",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RY",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS6",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_LEFT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_NEGATIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX_RIGHT",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS_POSITIVE"
+              },
+              {
+                "PadParameter": "IOM_AXIS_RX",
+                "JoystickParameter": "IOM_JOYSTICK_AXIS3",
+                "JoystickSource": "IOMS_JOYSTICK_AXIS"
+              }
+            ]
+          },
+          "@_key": "C219046D-0000-0000-0000-504944564944"
+        }
+      ]
+    }
+  }
+}

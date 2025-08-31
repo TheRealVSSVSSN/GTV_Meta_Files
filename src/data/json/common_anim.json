@@ -1,0 +1,301 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "dataFiles": {
+    "Item": [
+      {
+        "filename": "platform:/anim/clipmax.rpf",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "contents": "CONTENTS_ANIMATION",
+        "locked": {
+          "@_value": true
+        },
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "platform:/ANIM/EXPRESSIONS.rpf",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "locked": {
+          "@_value": true
+        },
+        "contents": "CONTENTS_ANIMATION",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/FILTERS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "contents": "CONTENTS_ANIMATION",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/NETWORKDEFS.RPF",
+        "contents": "CONTENTS_ANIMATION",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/POSEMATCHERS.RPF",
+        "contents": "CONTENTS_ANIMATION",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_AMB@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_ARREST.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_AVOIDS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_BUSTED.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_CELLPHONE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_CLOTHING.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_COMBAT@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_COVER@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_CREATURES@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_DAM_.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_DAM_AD.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_DEAD.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_DOORS@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_EXPLOSIONS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_FACIALS@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_FRIENDS@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_GESTURES@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_GET_UP@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_GUARD_REACTIONS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_LADDERS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_Map_Objects.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_MELEE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_MINI@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_MISS.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_MOVE_.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_MP_.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_NM.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_NM@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_ODDJOBS@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_ped.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_PICKUP_OBJECT.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_RAGDOLL@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_RANDOM@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_RCM.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_RE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_REACTION@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_RESPAWN@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SAFE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SAVE.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SHAKE_CAM_.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SKYDIVE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SPECIAL_PED@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_STUNGUN@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SWAT.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SWIMMING@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_SWITCH@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_TAXI_HAIL.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_TIMETABLE@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_VEH@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_WEAPON@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      },
+      {
+        "filename": "PLATFORM:/ANIM/INGAME/CLIP_WEAPONS@.RPF",
+        "fileType": "RPF_FILE_PRE_INSTALL",
+        "installPartition": "PARTITION_2"
+      }
+    ]
+  }
+}

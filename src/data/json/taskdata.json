@@ -1,0 +1,165 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CTaskDataInfoManager": {
+    "aTaskData": {
+      "Item": [
+        {
+          "Name": "STANDARD_PED",
+          "TaskWanderConditionalAnimsGroup": "WANDER",
+          "ScenarioAttractionDistance": {
+            "@_value": 10
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "PreferFleeOnPavements CanScreamDuringFlee CanBeShoved CanBeTalkedTo CanShove",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Animal",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Dog",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "DependentAmbientFriend DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath UseLooseCrowdAroundMetrics UseLooseHeadingAdjustmentsInMelee IgnoreDelaysOnGunshotEvents",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Cat",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse UseSimpleWander BlockIdleTurnsInSmartFleeWhileWaitingOnPath ForceSlowChaseInAnimalMelee DiesInstantlyToMelee",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Fish",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 10
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire UseAmbientScaling DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle ApplyExtraHeadingChangesInFishLocomotion UseSimplePitchingInFishLocomotion ForceSlowSwimWhenUnderPlayerControl",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "KillerWhale",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 1.1
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius UseLongerBlendsInFishLocomotion",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "LargeFish",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 1.1
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "TigerShark",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 0.9
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle AlwaysSprintWhenFleeingInThreatResponse ApplyExtraHeadingChangesInFishLocomotion AlignPitchToWavesInFishLocomotion UseSimplePitchingInFishLocomotion",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Whale",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 1.1
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 30
+          },
+          "Flags": "ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee SwimStraightInSwimmingWander ForceNoTurningInFishLocomotion",
+          "@_type": "CTaskDataInfo"
+        },
+        {
+          "Name": "Stingray",
+          "TaskWanderConditionalAnimsGroup": "WANDER_ANIMAL",
+          "ScenarioAttractionDistance": {
+            "@_value": 30
+          },
+          "SurfaceSwimmingDepthOffset": {
+            "@_value": 1.1
+          },
+          "SwimmingWanderPointRange": {
+            "@_value": 10
+          },
+          "Flags": "ConsiderAsInWaterInLowLodPhysics DisableCover DisableCower DisableHandsUp DisableVehicleUsage DisableUseScenariosWithNoModelSet DisableWallHitAnimation DisableReactAndFleeAnimation DisablePotentialBlastResponse DisablePotentialToBeWalkedIntoResponse DisableMeleeIntroAnimation PlayNudgeAnimationForBumps DontInfluenceWantedLevel DisableBraceForImpact IgnorePavementCheckWhenLeavingScenarios DiesInstantlyToFire DisableEvasiveStep FleeFromCombatWhenTargetIsInVehicle UseAquaticRoamMode ProbeForCollisionsInScenarioFlee ExpandAvoidanceRadius BlockPlayerFishPitchingWhenSlow UseSlowPlayerFishPitchAcceleration",
+          "@_type": "CTaskDataInfo"
+        }
+      ]
+    },
+    "DefaultSet": {
+      "@_ref": "STANDARD_PED"
+    }
+  }
+}

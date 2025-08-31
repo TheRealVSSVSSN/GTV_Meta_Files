@@ -1,0 +1,48 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CStealthKillTestContainer": {
+    "aStealthKillTests": {
+      "Item": [
+        {
+          "Name": "SKT_a",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_a",
+          "@_type": "CStealthKillTest"
+        },
+        {
+          "Name": "SKT_weapon",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_weapon",
+          "@_type": "CStealthKillTest"
+        },
+        {
+          "Name": "SKT_b",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_b",
+          "@_type": "CStealthKillTest"
+        },
+        {
+          "Name": "SKT_c",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_c",
+          "@_type": "CStealthKillTest"
+        },
+        {
+          "Name": "SKT_d",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_d",
+          "@_type": "CStealthKillTest"
+        },
+        {
+          "Name": "SKT_armed",
+          "ActionType": "AT_MELEE",
+          "StealthKillAction": "ACT_stealth_kill_a_gardener",
+          "@_type": "CStealthKillTest"
+        }
+      ]
+    }
+  }
+}

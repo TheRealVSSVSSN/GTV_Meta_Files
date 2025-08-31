@@ -1,0 +1,40 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_VEH_FLY_YAW_LEFT",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_YAW_RIGHT",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_X_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_PITCH_UP_ONLY",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_PITCH_DOWN_ONLY",
+          "Source": "IOMS_MOUSE_SCALEDAXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_Y_UP"
+          }
+        }
+      ]
+    }
+  }
+}

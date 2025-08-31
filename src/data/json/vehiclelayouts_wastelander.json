@@ -1,0 +1,2125 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": "",
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_front@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_front@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_front@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_rear@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_rear@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rds_rear@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_front@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_front@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_front@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_rear@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_rear@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@wastelander@rps_rear@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": {
+      "Item": {
+        "Name": "WASTELANDER_COVER_OFFSET_INFO",
+        "ExtraSideOffset": {
+          "@_value": -0.15
+        },
+        "ExtraForwardOffset": {
+          "@_value": -0.05
+        },
+        "ExtraBackwardOffset": {
+          "@_value": -0.05
+        },
+        "ExtraZOffset": {
+          "@_value": 0.5
+        },
+        "CoverBoundInfos": "",
+        "@_type": "CVehicleCoverBoundOffsetInfo"
+      }
+    },
+    "BicycleInfos": "",
+    "POVTuningInfos": "",
+    "EntryAnimVariations": "",
+    "VehicleExtraPointsInfos": {
+      "Item": [
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": 0.16,
+                  "@_y": 0.211,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": 1.57
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_OUT",
+                "Position": {
+                  "@_x": 0.16,
+                  "@_y": 0.21,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": 1.57
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": 0.091,
+                  "@_y": -0.227,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": 1.57
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_OUT",
+                "Position": {
+                  "@_x": 0.091,
+                  "@_y": -0.227,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": 1.57
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": -0.16,
+                  "@_y": 0.211,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": -1.57
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_OUT",
+                "Position": {
+                  "@_x": -0.16,
+                  "@_y": 0.211,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": -1.57
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        },
+        {
+          "Name": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "ExtraVehiclePoints": {
+            "Item": [
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_IN",
+                "Position": {
+                  "@_x": -0.091,
+                  "@_y": -0.227,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": -1.57
+                },
+                "BoneName": ""
+              },
+              {
+                "LocationType": "SEAT_RELATIVE",
+                "PointType": "GET_OUT",
+                "Position": {
+                  "@_x": -0.091,
+                  "@_y": -0.227,
+                  "@_z": 0
+                },
+                "Heading": {
+                  "@_value": -1.57
+                },
+                "BoneName": ""
+              }
+            ]
+          },
+          "@_type": "CVehicleExtraPointsInfo"
+        }
+      ]
+    },
+    "DrivebyWeaponGroups": "",
+    "VehicleDriveByAnimInfos": {
+      "Item": [
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_UNARMED_RDS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_UNARMED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_front_0h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RDS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_front_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RDS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_front_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_THROWN_RDS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_MOUNTED_THROW"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_front_thrown",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_UNARMED_RDS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_UNARMED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_rear_0h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RDS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_rear_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RDS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_rear_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_THROWN_RDS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_MOUNTED_THROW"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rds_rear_thrown",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_UNARMED_RPS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_UNARMED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_front_0h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RPS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_front_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RPS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_front_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_THROWN_RPS_FRONT",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_MOUNTED_THROW"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_front_thrown",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_UNARMED_RPS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_UNARMED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_rear_0h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RPS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_rear_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RPS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_rear_1h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "WASTELANDER_DB_ANIM_INFO_THROWN_RPS_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_MOUNTED_THROW"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@wastelander@rps_rear_thrown",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        }
+      ]
+    },
+    "VehicleDriveByInfos": {
+      "Item": [
+        {
+          "Name": "DRIVEBY_TRUCK_WASTELANDER_SIDE_LEFT_1",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_UNARMED_RDS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RDS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RDS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_THROWN_RDS_FRONT"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "DriveByFlags": "UsePedAsCamEntity UseMountedProjectileTask LeftHandedProjctiles LeftHandedFirstPersonAnims LeftHandedUnarmedFirstPersonAnims",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_TRUCK_WASTELANDER_SIDE_LEFT_2",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_UNARMED_RDS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RDS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RDS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_THROWN_RDS_REAR"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "DriveByFlags": "UsePedAsCamEntity UseMountedProjectileTask LeftHandedProjctiles LeftHandedFirstPersonAnims LeftHandedUnarmedFirstPersonAnims",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_TRUCK_WASTELANDER_SIDE_RIGHT_1",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_UNARMED_RPS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RPS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RPS_FRONT"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_THROWN_RPS_FRONT"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "DriveByFlags": "UsePedAsCamEntity UseMountedProjectileTask",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_TRUCK_WASTELANDER_SIDE_RIGHT_2",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -185
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 185
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_UNARMED_RPS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_ONE_HANDED_RPS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_TWO_HANDED_RPS_REAR"
+              },
+              {
+                "@_ref": "WASTELANDER_DB_ANIM_INFO_THROWN_RPS_REAR"
+              }
+            ]
+          },
+          "DriveByCamera": "",
+          "DriveByFlags": "UsePedAsCamEntity UseMountedProjectileTask",
+          "@_type": "CVehicleDriveByInfo"
+        }
+      ]
+    },
+    "VehicleSeatInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "SeatBoneName": "seat_dside_r",
+          "ShuffleLink": "",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "SeatBoneName": "seat_dside_r2",
+          "ShuffleLink": "",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "SeatBoneName": "seat_pside_r",
+          "ShuffleLink": "",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "SeatBoneName": "seat_pside_r1",
+          "ShuffleLink": "",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        }
+      ]
+    },
+    "VehicleSeatAnimInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_WASTELANDER_SIDE_LEFT_1"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "WASTELANDER_REAR_LEFT_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll WeaponAttachedToLeftHand CannotBeJacked UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown CanExitEarlyInCombat NoIK KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_WASTELANDER_SIDE_LEFT_2"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "WASTELANDER_REAR_LEFT_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll WeaponAttachedToLeftHand CannotBeJacked UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown CanExitEarlyInCombat NoIK KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_WASTELANDER_SIDE_RIGHT_1"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "WASTELANDER_REAR_RIGHT_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll CannotBeJacked UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown CanExitEarlyInCombat NoIK KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_WASTELANDER_SIDE_RIGHT_2"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "WASTELANDER_REAR_RIGHT_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll CannotBeJacked UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown CanExitEarlyInCombat NoIK KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_1"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_LEFT_1"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_2"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_LEFT_2"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_1"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_RIGHT_1"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_2"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_TRUCK_WASTELANDER_REAR_RIGHT_2"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointAnimInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_FRONT_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_MIXER_FRONT_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_MIXER_FRONT_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.594,
+            "@_y": -0.62,
+            "@_z": -1
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn ForcedEntryIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "SLOWTRUCK",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_FRONT_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_MIXER_FRONT_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_MIXER_FRONT_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.694,
+            "@_y": -0.72,
+            "@_z": -0.85
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn ForcedEntryIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_1",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_1"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.183,
+            "@_y": 0.666,
+            "@_z": -1.707
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp HasGetOutToVehicle HasOnVehicleEntry CannotBeUsedByCuffedPed",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_2",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_LEFT_2"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.095,
+            "@_y": -0.864,
+            "@_z": -1.719
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp HasGetOutToVehicle HasOnVehicleEntry CannotBeUsedByCuffedPed",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_1",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_AUTOMOBILE_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_1"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.183,
+            "@_y": 0.666,
+            "@_z": -1.707
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp HasGetOutToVehicle HasOnVehicleEntry CannotBeUsedByCuffedPed",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_2",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_AUTOMOBILE_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_WASTELANDER_REAR_RIGHT_2"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.096,
+            "@_y": -0.864,
+            "@_z": -1.719
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "HasClimbUp HasGetOutToVehicle HasOnVehicleEntry CannotBeUsedByCuffedPed",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        }
+      ]
+    },
+    "VehicleExplosionInfos": "",
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_TRUCK_WASTELANDER",
+        "Seats": {
+          "Item": [
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_FRONT_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_FRONT_RIGHT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_1"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_1"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_1"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_1"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_LEFT_2"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_2"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_WASTELANDER_REAR_RIGHT_2"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_2"
+              }
+            }
+          ]
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_FRONT_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_LEFT_1"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_1"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_RIGHT_1"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_1"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_LEFT_2"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_LEFT_2"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_WASTELANDER_REAR_RIGHT_2"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_WASTELANDER_REAR_RIGHT_2"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims UseLeanSteerAnims UseFinerAlignTolerance",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "NULL"
+        },
+        "HandsUpClipSetId": "busted_vehicle_truck",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "MaxXAcceleration": {
+          "@_value": 4
+        },
+        "BodyLeanXApproachSpeed": {
+          "@_value": 5
+        },
+        "BodyLeanXSmallDelta": {
+          "@_value": 0.3
+        },
+        "LookBackApproachSpeedScale": {
+          "@_value": 1
+        },
+        "FirstPersonAdditiveIdleClipSets": {
+          "Item": [
+            "clipset@veh@truck@ds@idle_a",
+            "clipset@veh@truck@ds@idle_b",
+            "clipset@veh@truck@ds@idle_c",
+            "clipset@veh@truck@ds@idle_d",
+            "clipset@veh@truck@ds@idle_e"
+          ]
+        },
+        "FirstPersonRoadRageClipSets": {
+          "Item": [
+            "clipset@veh@truck@ds@hit_wheel@idle_a",
+            "clipset@veh@truck@ds@hit_wheel@idle_b",
+            "clipset@veh@truck@ds@hit_wheel@idle_c"
+          ]
+        },
+        "CellphoneClipsets": {
+          "CellphoneClipsetDS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS",
+          "CellphoneClipsetPS": "ANIM_GROUP_CELLPHONE_IN_CAR_PS",
+          "CellphoneClipsetDS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS",
+          "CellphoneClipsetPS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS"
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    },
+    "VehicleScenarioLayoutInfos": "",
+    "SeatOverrideAnimInfos": "",
+    "InVehicleOverrideInfos": "",
+    "FirstPersonDriveByLookAroundData": {
+      "Item": [
+        {
+          "Name": "TRUCK_WASTELANDER_STANDING_LEFT",
+          "AllowLookback": {
+            "@_value": false
+          },
+          "HeadingLimits": {
+            "@_x": -210,
+            "@_y": -10
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 90,
+                    "@_y": 210
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "TRUCK_WASTELANDER_STANDING_RIGHT",
+          "AllowLookback": {
+            "@_value": false
+          },
+          "HeadingLimits": {
+            "@_x": 10,
+            "@_y": 210
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 90,
+                    "@_y": 210
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": 0,
+              "@_y": 0
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        }
+      ]
+    }
+  }
+}

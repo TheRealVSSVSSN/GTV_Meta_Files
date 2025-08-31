@@ -1,0 +1,623 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CWeaponAnimationsSets": {
+    "WeaponAnimationsSets": {
+      "Item": [
+        {
+          "Fallback": "Default",
+          "WeaponAnimations": {
+            "Item": {
+              "CoverMovementClipSetHash": "",
+              "CoverMovementExtraClipSetHash": "",
+              "CoverAlternateMovementClipSetHash": "",
+              "CoverWeaponClipSetHash": "",
+              "MotionClipSetHash": "move_ballistic_2h",
+              "MotionFilterHash": "",
+              "MotionCrouchClipSetHash": "",
+              "MotionStrafingClipSetHash": "",
+              "MotionStrafingStealthClipSetHash": "",
+              "MotionStrafingUpperBodyClipSetHash": "",
+              "WeaponClipSetHash": "",
+              "WeaponClipSetStreamedHash": "",
+              "WeaponClipSetHashInjured": "",
+              "WeaponClipSetHashStealth": "",
+              "WeaponClipSetHashHiCover": "",
+              "AlternativeClipSetWhenBlocked": "",
+              "ScopeWeaponClipSet": "",
+              "AlternateAimingStandingClipSetHash": "",
+              "AlternateAimingCrouchingClipSetHash": "",
+              "FiringVariationsStandingClipSetHash": "",
+              "FiringVariationsCrouchingClipSetHash": "",
+              "AimTurnStandingClipSetHash": "",
+              "AimTurnCrouchingClipSetHash": "",
+              "MeleeClipSetHash": "",
+              "MeleeVariationClipSetHash": "",
+              "MeleeTauntClipSetHash": "",
+              "MeleeSupportTauntClipSetHash": "",
+              "MeleeStealthClipSetHash": "",
+              "ShellShockedClipSetHash": "",
+              "JumpUpperbodyClipSetHash": "",
+              "FallUpperbodyClipSetHash": "",
+              "FromStrafeTransitionUpperBodyClipSetHash": "",
+              "SwapWeaponFilterHash": "",
+              "SwapWeaponInLowCoverFilterHash": "",
+              "AnimFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimBlindFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimWantingToShootFireRateModifier": {
+                "@_value": -1
+              },
+              "UseFromStrafeUpperBodyAimNetwork": {
+                "@_value": true
+              },
+              "AimingDownTheBarrel": {
+                "@_value": true
+              },
+              "WeaponSwapData": {
+                "@_ref": "NULL"
+              },
+              "@_key": "WEAPON_RAILGUN"
+            }
+          },
+          "@_key": "Ballistic"
+        },
+        {
+          "WeaponAnimations": {
+            "Item": [
+              {
+                "CoverMovementClipSetHash": "",
+                "CoverMovementExtraClipSetHash": "",
+                "CoverAlternateMovementClipSetHash": "",
+                "CoverWeaponClipSetHash": "Cover_Wpn_Melee1h",
+                "MotionClipSetHash": "weapons@melee_1h",
+                "MotionFilterHash": "BothArms_filter",
+                "MotionCrouchClipSetHash": "",
+                "MotionStrafingClipSetHash": "move_strafe_melee_unarmed",
+                "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+                "MotionStrafingUpperBodyClipSetHash": "move_strafe@melee_small_weapon",
+                "WeaponClipSetHash": "melee@holster",
+                "WeaponClipSetStreamedHash": "",
+                "WeaponClipSetHashInjured": "",
+                "WeaponClipSetHashStealth": "",
+                "WeaponClipSetHashHiCover": "",
+                "AlternativeClipSetWhenBlocked": "",
+                "ScopeWeaponClipSet": "",
+                "AlternateAimingStandingClipSetHash": "",
+                "AlternateAimingCrouchingClipSetHash": "",
+                "FiringVariationsStandingClipSetHash": "",
+                "FiringVariationsCrouchingClipSetHash": "",
+                "AimTurnStandingClipSetHash": "",
+                "AimTurnCrouchingClipSetHash": "",
+                "MeleeClipSetHash": "melee@small_wpn@streamed_core",
+                "MeleeVariationClipSetHash": "melee@hatchet@streamed_core",
+                "MeleeTauntClipSetHash": "",
+                "MeleeSupportTauntClipSetHash": "",
+                "MeleeStealthClipSetHash": "",
+                "ShellShockedClipSetHash": "reaction@shellshock@unarmed",
+                "JumpUpperbodyClipSetHash": "",
+                "FallUpperbodyClipSetHash": "",
+                "FromStrafeTransitionUpperBodyClipSetHash": "",
+                "SwapWeaponFilterHash": "RightArm_NoSpine_filter",
+                "SwapWeaponInLowCoverFilterHash": "RightArm_NoSpine_filter",
+                "AnimFireRateModifier": {
+                  "@_value": 0
+                },
+                "AnimBlindFireRateModifier": {
+                  "@_value": 0
+                },
+                "AnimWantingToShootFireRateModifier": {
+                  "@_value": -1
+                },
+                "UseFromStrafeUpperBodyAimNetwork": {
+                  "@_value": false
+                },
+                "AimingDownTheBarrel": {
+                  "@_value": true
+                },
+                "WeaponSwapData": {
+                  "@_ref": "SWAP_DEFAULT"
+                },
+                "@_key": "WEAPON_HATCHET"
+              },
+              {
+                "CoverMovementClipSetHash": "cover@move@base@2h",
+                "CoverMovementExtraClipSetHash": "cover@move@extra@2h",
+                "CoverAlternateMovementClipSetHash": "cover@move@ai@base@2h",
+                "CoverWeaponClipSetHash": "Cover_Wpn_RailGun",
+                "MotionClipSetHash": "weapons@rifle@lo@rail_gun",
+                "MotionFilterHash": "BothArms_filter",
+                "MotionCrouchClipSetHash": "",
+                "MotionStrafingClipSetHash": "",
+                "MotionStrafingStealthClipSetHash": "",
+                "MotionStrafingUpperBodyClipSetHash": "",
+                "WeaponClipSetHash": "weapons@rifle@lo@rail_gun",
+                "WeaponClipSetStreamedHash": "weapons@rifle@lo@rail_gun_str",
+                "WeaponClipSetHashInjured": "",
+                "WeaponClipSetHashStealth": "weapons@rifle@lo@rail_gun@stealth",
+                "WeaponClipSetHashHiCover": "",
+                "AlternativeClipSetWhenBlocked": "",
+                "ScopeWeaponClipSet": "",
+                "AlternateAimingStandingClipSetHash": "",
+                "AlternateAimingCrouchingClipSetHash": "",
+                "FiringVariationsStandingClipSetHash": "",
+                "FiringVariationsCrouchingClipSetHash": "",
+                "AimTurnStandingClipSetHash": "",
+                "AimTurnCrouchingClipSetHash": "",
+                "MeleeClipSetHash": "melee@rifle@streamed_core",
+                "MeleeVariationClipSetHash": "",
+                "MeleeTauntClipSetHash": "",
+                "MeleeSupportTauntClipSetHash": "",
+                "MeleeStealthClipSetHash": "",
+                "ShellShockedClipSetHash": "reaction@shellshock@2h",
+                "JumpUpperbodyClipSetHash": "MOVE_JUMP@WEAPONS@RIFLE",
+                "FallUpperbodyClipSetHash": "MOVE_FALL@WEAPONS@RIFLE",
+                "FromStrafeTransitionUpperBodyClipSetHash": "weapons@rifle@",
+                "SwapWeaponFilterHash": "",
+                "SwapWeaponInLowCoverFilterHash": "",
+                "AnimFireRateModifier": {
+                  "@_value": 1
+                },
+                "AnimBlindFireRateModifier": {
+                  "@_value": 1
+                },
+                "AnimWantingToShootFireRateModifier": {
+                  "@_value": -1
+                },
+                "UseFromStrafeUpperBodyAimNetwork": {
+                  "@_value": true
+                },
+                "AimingDownTheBarrel": {
+                  "@_value": true
+                },
+                "WeaponSwapData": {
+                  "@_ref": "SWAP_DEFAULT"
+                },
+                "AimGrenadeThrowNormalClipsetHash": "",
+                "AimGrenadeThrowAlternateClipsetHash": "",
+                "@_key": "WEAPON_RAILGUN"
+              }
+            ]
+          },
+          "@_key": "Default"
+        },
+        {
+          "Fallback": "Gang",
+          "WeaponAnimations": {
+            "Item": {
+              "CoverMovementClipSetHash": "",
+              "CoverMovementExtraClipSetHash": "",
+              "CoverAlternateMovementClipSetHash": "",
+              "CoverWeaponClipSetHash": "",
+              "MotionClipSetHash": "weapons@rifle@f",
+              "MotionFilterHash": "",
+              "MotionCrouchClipSetHash": "",
+              "MotionStrafingClipSetHash": "",
+              "MotionStrafingStealthClipSetHash": "",
+              "MotionStrafingUpperBodyClipSetHash": "",
+              "WeaponClipSetHash": "",
+              "WeaponClipSetStreamedHash": "",
+              "WeaponClipSetHashInjured": "",
+              "WeaponClipSetHashStealth": "",
+              "WeaponClipSetHashHiCover": "",
+              "AlternativeClipSetWhenBlocked": "",
+              "ScopeWeaponClipSet": "",
+              "AlternateAimingStandingClipSetHash": "",
+              "AlternateAimingCrouchingClipSetHash": "",
+              "FiringVariationsStandingClipSetHash": "",
+              "FiringVariationsCrouchingClipSetHash": "",
+              "AimTurnStandingClipSetHash": "",
+              "AimTurnCrouchingClipSetHash": "",
+              "MeleeClipSetHash": "",
+              "MeleeVariationClipSetHash": "",
+              "MeleeTauntClipSetHash": "",
+              "MeleeSupportTauntClipSetHash": "",
+              "MeleeStealthClipSetHash": "",
+              "ShellShockedClipSetHash": "",
+              "JumpUpperbodyClipSetHash": "",
+              "FallUpperbodyClipSetHash": "",
+              "FromStrafeTransitionUpperBodyClipSetHash": "",
+              "SwapWeaponFilterHash": "",
+              "SwapWeaponInLowCoverFilterHash": "",
+              "AnimFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimBlindFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimWantingToShootFireRateModifier": {
+                "@_value": -1
+              },
+              "UseFromStrafeUpperBodyAimNetwork": {
+                "@_value": true
+              },
+              "AimingDownTheBarrel": {
+                "@_value": true
+              },
+              "WeaponSwapData": {
+                "@_ref": "NULL"
+              },
+              "@_key": "WEAPON_RAILGUN"
+            }
+          },
+          "@_key": "MP_F_Freemode"
+        },
+        {
+          "Fallback": "Default",
+          "WeaponAnimations": {
+            "Item": [
+              {
+                "MovementOverrideClipSetHash": "move_m@generic",
+                "CoverMovementClipSetHash": "",
+                "CoverMovementExtraClipSetHash": "",
+                "CoverAlternateMovementClipSetHash": "",
+                "CoverWeaponClipSetHash": "Cover_Wpn_Melee1h",
+                "MotionClipSetHash": "weapons@first_person@aim_idle@generic@melee@small_wpn@hammer@",
+                "MotionFilterHash": "BothArms_filter",
+                "MotionCrouchClipSetHash": "",
+                "MotionStrafingClipSetHash": "move_strafe_melee_unarmed_fps",
+                "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+                "MotionStrafingUpperBodyClipSetHash": "move_strafe@melee_small_weapon_fps",
+                "WeaponClipSetHash": "weapons@first_person@aim_idle@generic@melee@small_wpn@hammer@",
+                "WeaponClipSetStreamedHash": "",
+                "WeaponClipSetHashInjured": "",
+                "WeaponClipSetHashStealth": "",
+                "WeaponClipSetHashHiCover": "",
+                "AlternativeClipSetWhenBlocked": "",
+                "ScopeWeaponClipSet": "",
+                "AlternateAimingStandingClipSetHash": "",
+                "AlternateAimingCrouchingClipSetHash": "",
+                "FiringVariationsStandingClipSetHash": "",
+                "FiringVariationsCrouchingClipSetHash": "",
+                "AimTurnStandingClipSetHash": "",
+                "AimTurnCrouchingClipSetHash": "",
+                "MeleeClipSetHash": "melee@small_wpn@streamed_core_fps",
+                "MeleeVariationClipSetHash": "melee@small_wpn@streamed_variations",
+                "MeleeTauntClipSetHash": "",
+                "MeleeSupportTauntClipSetHash": "",
+                "MeleeStealthClipSetHash": "",
+                "ShellShockedClipSetHash": "reaction@shellshock@unarmed",
+                "JumpUpperbodyClipSetHash": "",
+                "FallUpperbodyClipSetHash": "",
+                "FromStrafeTransitionUpperBodyClipSetHash": "",
+                "SwapWeaponFilterHash": "RightArm_NoSpine_filter",
+                "SwapWeaponInLowCoverFilterHash": "RightArm_NoSpine_filter",
+                "AnimFireRateModifier": {
+                  "@_value": 0
+                },
+                "AnimBlindFireRateModifier": {
+                  "@_value": 0
+                },
+                "AnimWantingToShootFireRateModifier": {
+                  "@_value": -1
+                },
+                "UseFromStrafeUpperBodyAimNetwork": {
+                  "@_value": false
+                },
+                "AimingDownTheBarrel": {
+                  "@_value": true
+                },
+                "WeaponSwapData": {
+                  "@_ref": "SWAP_DEFAULT"
+                },
+                "AimGrenadeThrowNormalClipsetHash": "",
+                "AimGrenadeThrowAlternateClipsetHash": "",
+                "FPSTransitionFromUnholsterHash": "weapons@first_person@aim_idle@p_m_zero@melee@small_wpn@hammer@aim_trans@unholster_to_idle",
+                "WeaponClipSetHashForClone": "weapons@first_person@aim_idle@remote_clone@melee@one_handed@shared@core",
+                "FPSFidgetClipsetHashes": {
+                  "Item": [
+                    "weapons@first_person@aim_idle@p_m_zero@melee@small_wpn@hammer@fidgets@a",
+                    "weapons@first_person@aim_idle@p_m_zero@melee@small_wpn@hammer@fidgets@b",
+                    "weapons@first_person@aim_idle@p_m_zero@melee@small_wpn@hammer@fidgets@c"
+                  ]
+                },
+                "@_key": "WEAPON_HATCHET"
+              },
+              {
+                "CoverMovementClipSetHash": "cover@first_person@move@base@2h",
+                "CoverMovementExtraClipSetHash": "cover@first_person@move@extra@2h",
+                "CoverAlternateMovementClipSetHash": "cover@move@ai@base@2h",
+                "CoverWeaponClipSetHash": "Cover_FirstPerson_Wpn_RailGun",
+                "MotionClipSetHash": "weapons@first_person@aim_idle@generic@assault_rifle@shared@core",
+                "MotionFilterHash": "BothArms_filter",
+                "MotionCrouchClipSetHash": "",
+                "MotionStrafingClipSetHash": "",
+                "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+                "MotionStrafingUpperBodyClipSetHash": "",
+                "WeaponClipSetHash": "weapons@first_person@aim_idle@generic@heavy@rail_gun@w_idle",
+                "WeaponClipSetStreamedHash": "weapons@first_person@aim_rng@generic@heavy@rail_gun@str",
+                "WeaponClipSetHashInjured": "",
+                "WeaponClipSetHashStealth": "weapons@first_person@aim_stealth@generic@assault_rifle@shared@core",
+                "WeaponClipSetHashHiCover": "",
+                "AlternativeClipSetWhenBlocked": "",
+                "ScopeWeaponClipSet": "",
+                "AlternateAimingStandingClipSetHash": "",
+                "AlternateAimingCrouchingClipSetHash": "",
+                "FiringVariationsStandingClipSetHash": "",
+                "FiringVariationsCrouchingClipSetHash": "",
+                "AimTurnStandingClipSetHash": "",
+                "AimTurnCrouchingClipSetHash": "",
+                "MeleeClipSetHash": "melee@rifle@streamed_core",
+                "MeleeVariationClipSetHash": "",
+                "MeleeTauntClipSetHash": "",
+                "MeleeSupportTauntClipSetHash": "",
+                "MeleeStealthClipSetHash": "",
+                "ShellShockedClipSetHash": "reaction@shellshock@2h",
+                "JumpUpperbodyClipSetHash": "MOVE_JUMP@WEAPONS@RIFLE",
+                "FallUpperbodyClipSetHash": "MOVE_FALL@WEAPONS@RIFLE",
+                "FromStrafeTransitionUpperBodyClipSetHash": "weapons@rifle@",
+                "SwapWeaponFilterHash": "",
+                "SwapWeaponInLowCoverFilterHash": "",
+                "AnimFireRateModifier": {
+                  "@_value": 1
+                },
+                "AnimBlindFireRateModifier": {
+                  "@_value": 1
+                },
+                "AnimWantingToShootFireRateModifier": {
+                  "@_value": -1
+                },
+                "UseFromStrafeUpperBodyAimNetwork": {
+                  "@_value": true
+                },
+                "AimingDownTheBarrel": {
+                  "@_value": true
+                },
+                "WeaponSwapData": {
+                  "@_ref": "SWAP_DEFAULT"
+                },
+                "AimGrenadeThrowNormalClipsetHash": "",
+                "AimGrenadeThrowAlternateClipsetHash": "",
+                "FPSTransitionFromRNGHash": "weapons@first_person@aim_rng@p_m_zero@assault_rifle@shared@aim_trans@rng_to_idle",
+                "FPSTransitionFromLTHash": "weapons@first_person@aim_lt@p_m_zero@assault_rifle@shared@aim_trans@lt_to_idle",
+                "FPSTransitionFromScopeHash": "weapons@first_person@aim_scope@p_m_zero@assault_rifle@shared@aim_trans@scope_to_idle",
+                "FPSTransitionFromUnholsterHash": "weapons@first_person@aim_idle@p_m_zero@assault_rifle@shared@aim_trans@unholster_to_idle",
+                "FPSTransitionFromStealthHash": "weapons@first_person@aim_stealth@p_m_zero@assault_rifle@shared@aim_trans@stealth_to_idle",
+                "FPSTransitionToStealthHash": "weapons@first_person@aim_idle@p_m_zero@assault_rifle@shared@aim_trans@idle_to_stealth",
+                "FPSTransitionToStealthFromUnholsterHash": "weapons@first_person@aim_stealth@p_m_zero@assault_rifle@shared@aim_trans@unholster_to_stealth",
+                "FPSFidgetClipsetHashes": {
+                  "Item": [
+                    "weapons@first_person@aim_idle@p_m_zero@heavy@rail_gun@fidgets@a",
+                    "weapons@first_person@aim_idle@p_m_zero@heavy@rail_gun@fidgets@b",
+                    "weapons@first_person@aim_idle@p_m_zero@heavy@rail_gun@fidgets@c"
+                  ]
+                },
+                "@_key": "WEAPON_RAILGUN"
+              }
+            ]
+          },
+          "@_key": "FirstPerson"
+        },
+        {
+          "Fallback": "Default",
+          "WeaponAnimations": {
+            "Item": {
+              "CoverMovementClipSetHash": "cover@first_person@move@base@2h",
+              "CoverMovementExtraClipSetHash": "cover@first_person@move@extra@2h",
+              "CoverAlternateMovementClipSetHash": "cover@move@ai@base@2h",
+              "CoverWeaponClipSetHash": "Cover_FirstPerson_Wpn_RailGun",
+              "MotionClipSetHash": "weapons@first_person@aim_rng@generic@assault_rifle@shared@core",
+              "MotionFilterHash": "BothArms_filter",
+              "MotionCrouchClipSetHash": "",
+              "MotionStrafingClipSetHash": "",
+              "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+              "MotionStrafingUpperBodyClipSetHash": "",
+              "WeaponClipSetHash": "weapons@first_person@aim_lt@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetStreamedHash": "weapons@first_person@aim_rng@generic@heavy@rail_gun@str",
+              "WeaponClipSetHashInjured": "",
+              "WeaponClipSetHashStealth": "weapons@first_person@aim_lt@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetHashHiCover": "",
+              "AlternativeClipSetWhenBlocked": "",
+              "ScopeWeaponClipSet": "",
+              "AlternateAimingStandingClipSetHash": "",
+              "AlternateAimingCrouchingClipSetHash": "",
+              "FiringVariationsStandingClipSetHash": "",
+              "FiringVariationsCrouchingClipSetHash": "",
+              "AimTurnStandingClipSetHash": "",
+              "AimTurnCrouchingClipSetHash": "",
+              "MeleeClipSetHash": "melee@rifle@streamed_core",
+              "MeleeVariationClipSetHash": "",
+              "MeleeTauntClipSetHash": "",
+              "MeleeSupportTauntClipSetHash": "",
+              "MeleeStealthClipSetHash": "",
+              "ShellShockedClipSetHash": "reaction@shellshock@2h",
+              "JumpUpperbodyClipSetHash": "MOVE_JUMP@WEAPONS@RIFLE",
+              "FallUpperbodyClipSetHash": "MOVE_FALL@WEAPONS@RIFLE",
+              "FromStrafeTransitionUpperBodyClipSetHash": "weapons@rifle@",
+              "SwapWeaponFilterHash": "",
+              "SwapWeaponInLowCoverFilterHash": "",
+              "AnimFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimBlindFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimWantingToShootFireRateModifier": {
+                "@_value": -1
+              },
+              "UseFromStrafeUpperBodyAimNetwork": {
+                "@_value": true
+              },
+              "AimingDownTheBarrel": {
+                "@_value": true
+              },
+              "WeaponSwapData": {
+                "@_ref": "SWAP_DEFAULT"
+              },
+              "AimGrenadeThrowNormalClipsetHash": "",
+              "AimGrenadeThrowAlternateClipsetHash": "",
+              "FPSTransitionFromIdleHash": "weapons@first_person@aim_idle@p_m_zero@assault_rifle@shared@aim_trans@idle_to_lt",
+              "FPSTransitionFromRNGHash": "weapons@first_person@aim_rng@p_m_zero@assault_rifle@shared@aim_trans@rng_to_lt",
+              "FPSTransitionFromLTHash": "",
+              "FPSTransitionFromScopeHash": "weapons@first_person@aim_scope@p_m_zero@assault_rifle@shared@aim_trans@scope_to_lt",
+              "FPSTransitionFromUnholsterHash": "weapons@first_person@aim_lt@p_m_zero@assault_rifle@shared@aim_trans@unholster_to_lt",
+              "FPSTransitionFromStealthHash": "weapons@first_person@aim_stealth@p_m_zero@assault_rifle@shared@aim_trans@stealth_to_lt",
+              "FPSTransitionToStealthHash": "weapons@first_person@aim_lt@p_m_zero@assault_rifle@shared@aim_trans@lt_to_stealth",
+              "FPSFidgetClipsetHashes": {
+                "Item": [
+                  "weapons@first_person@aim_lt@p_m_zero@heavy@rail_gun@fidgets@a",
+                  "weapons@first_person@aim_lt@p_m_zero@heavy@rail_gun@fidgets@b",
+                  "weapons@first_person@aim_lt@p_m_zero@heavy@rail_gun@fidgets@c"
+                ]
+              },
+              "@_key": "WEAPON_RAILGUN"
+            }
+          },
+          "@_key": "FirstPersonAiming"
+        },
+        {
+          "Fallback": "Default",
+          "WeaponAnimations": {
+            "Item": {
+              "CoverMovementClipSetHash": "cover@first_person@move@base@2h",
+              "CoverMovementExtraClipSetHash": "cover@first_person@move@extra@2h",
+              "CoverAlternateMovementClipSetHash": "cover@move@ai@base@2h",
+              "CoverWeaponClipSetHash": "Cover_FirstPerson_Wpn_RailGun",
+              "MotionClipSetHash": "weapons@first_person@aim_rng@generic@assault_rifle@shared@core",
+              "MotionFilterHash": "BothArms_filter",
+              "MotionCrouchClipSetHash": "",
+              "MotionStrafingClipSetHash": "",
+              "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+              "MotionStrafingUpperBodyClipSetHash": "",
+              "WeaponClipSetHash": "weapons@first_person@aim_rng@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetStreamedHash": "weapons@first_person@aim_rng@generic@heavy@rail_gun@str",
+              "WeaponClipSetHashInjured": "",
+              "WeaponClipSetHashStealth": "weapons@first_person@aim_rng@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetHashHiCover": "",
+              "AlternativeClipSetWhenBlocked": "",
+              "ScopeWeaponClipSet": "",
+              "AlternateAimingStandingClipSetHash": "",
+              "AlternateAimingCrouchingClipSetHash": "",
+              "FiringVariationsStandingClipSetHash": "",
+              "FiringVariationsCrouchingClipSetHash": "",
+              "AimTurnStandingClipSetHash": "",
+              "AimTurnCrouchingClipSetHash": "",
+              "MeleeClipSetHash": "melee@rifle@streamed_core",
+              "MeleeVariationClipSetHash": "",
+              "MeleeTauntClipSetHash": "",
+              "MeleeSupportTauntClipSetHash": "",
+              "MeleeStealthClipSetHash": "",
+              "ShellShockedClipSetHash": "reaction@shellshock@2h",
+              "JumpUpperbodyClipSetHash": "MOVE_JUMP@WEAPONS@RIFLE",
+              "FallUpperbodyClipSetHash": "MOVE_FALL@WEAPONS@RIFLE",
+              "FromStrafeTransitionUpperBodyClipSetHash": "weapons@rifle@",
+              "SwapWeaponFilterHash": "",
+              "SwapWeaponInLowCoverFilterHash": "",
+              "AnimFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimBlindFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimWantingToShootFireRateModifier": {
+                "@_value": -1
+              },
+              "UseFromStrafeUpperBodyAimNetwork": {
+                "@_value": true
+              },
+              "AimingDownTheBarrel": {
+                "@_value": true
+              },
+              "WeaponSwapData": {
+                "@_ref": "SWAP_DEFAULT"
+              },
+              "AimGrenadeThrowNormalClipsetHash": "",
+              "AimGrenadeThrowAlternateClipsetHash": "",
+              "FPSTransitionFromIdleHash": "weapons@first_person@aim_idle@p_m_zero@assault_rifle@shared@aim_trans@idle_to_rng",
+              "FPSTransitionFromRNGHash": "",
+              "FPSTransitionFromLTHash": "weapons@first_person@aim_lt@p_m_zero@assault_rifle@shared@aim_trans@lt_to_rng",
+              "FPSTransitionFromScopeHash": "weapons@first_person@aim_scope@p_m_zero@assault_rifle@shared@aim_trans@scope_to_rng",
+              "FPSTransitionFromUnholsterHash": "weapons@first_person@aim_rng@p_m_zero@assault_rifle@shared@aim_trans@unholster_to_rng",
+              "FPSTransitionFromStealthHash": "weapons@first_person@aim_stealth@p_m_zero@assault_rifle@shared@aim_trans@stealth_to_rng",
+              "FPSTransitionToStealthHash": "weapons@first_person@aim_rng@p_m_zero@assault_rifle@shared@aim_trans@rng_to_stealth",
+              "FPSFidgetClipsetHashes": {
+                "Item": [
+                  "weapons@first_person@aim_rng@p_m_zero@heavy@rail_gun@fidgets@a",
+                  "weapons@first_person@aim_rng@p_m_zero@heavy@rail_gun@fidgets@b",
+                  "weapons@first_person@aim_rng@p_m_zero@heavy@rail_gun@fidgets@c"
+                ]
+              },
+              "@_key": "WEAPON_RAILGUN"
+            }
+          },
+          "@_key": "FirstPersonRNG"
+        },
+        {
+          "Fallback": "Default",
+          "WeaponAnimations": {
+            "Item": {
+              "CoverMovementClipSetHash": "cover@first_person@move@base@2h",
+              "CoverMovementExtraClipSetHash": "cover@first_person@move@extra@2h",
+              "CoverAlternateMovementClipSetHash": "cover@move@ai@base@2h",
+              "CoverWeaponClipSetHash": "Cover_FirstPerson_Wpn_RailGun",
+              "MotionClipSetHash": "weapons@first_person@aim_rng@generic@assault_rifle@shared@core",
+              "MotionFilterHash": "BothArms_filter",
+              "MotionCrouchClipSetHash": "",
+              "MotionStrafingClipSetHash": "",
+              "MotionStrafingStealthClipSetHash": "move_ped_strafing_stealth",
+              "MotionStrafingUpperBodyClipSetHash": "",
+              "WeaponClipSetHash": "weapons@first_person@aim_scope@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetStreamedHash": "weapons@first_person@aim_rng@generic@heavy@rail_gun@str",
+              "WeaponClipSetHashInjured": "",
+              "WeaponClipSetHashStealth": "weapons@first_person@aim_scope@generic@heavy@rail_gun@w_fire",
+              "WeaponClipSetHashHiCover": "",
+              "AlternativeClipSetWhenBlocked": "",
+              "ScopeWeaponClipSet": "",
+              "AlternateAimingStandingClipSetHash": "",
+              "AlternateAimingCrouchingClipSetHash": "",
+              "FiringVariationsStandingClipSetHash": "",
+              "FiringVariationsCrouchingClipSetHash": "",
+              "AimTurnStandingClipSetHash": "",
+              "AimTurnCrouchingClipSetHash": "",
+              "MeleeClipSetHash": "melee@rifle@streamed_core",
+              "MeleeVariationClipSetHash": "",
+              "MeleeTauntClipSetHash": "",
+              "MeleeSupportTauntClipSetHash": "",
+              "MeleeStealthClipSetHash": "",
+              "ShellShockedClipSetHash": "reaction@shellshock@2h",
+              "JumpUpperbodyClipSetHash": "MOVE_JUMP@WEAPONS@RIFLE",
+              "FallUpperbodyClipSetHash": "MOVE_FALL@WEAPONS@RIFLE",
+              "FromStrafeTransitionUpperBodyClipSetHash": "weapons@rifle@",
+              "SwapWeaponFilterHash": "",
+              "SwapWeaponInLowCoverFilterHash": "",
+              "AnimFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimBlindFireRateModifier": {
+                "@_value": 1
+              },
+              "AnimWantingToShootFireRateModifier": {
+                "@_value": -1
+              },
+              "UseFromStrafeUpperBodyAimNetwork": {
+                "@_value": true
+              },
+              "AimingDownTheBarrel": {
+                "@_value": true
+              },
+              "WeaponSwapData": {
+                "@_ref": "SWAP_DEFAULT"
+              },
+              "AimGrenadeThrowNormalClipsetHash": "",
+              "AimGrenadeThrowAlternateClipsetHash": "",
+              "FPSTransitionFromIdleHash": "weapons@first_person@aim_idle@p_m_zero@assault_rifle@shared@aim_trans@idle_to_scope",
+              "FPSTransitionFromRNGHash": "weapons@first_person@aim_rng@p_m_zero@assault_rifle@shared@aim_trans@rng_to_scope",
+              "FPSTransitionFromLTHash": "weapons@first_person@aim_lt@p_m_zero@assault_rifle@shared@aim_trans@lt_to_scope",
+              "FPSTransitionFromScopeHash": "",
+              "FPSTransitionFromUnholsterHash": "weapons@first_person@aim_scope@p_m_zero@assault_rifle@shared@aim_trans@unholster_to_scope",
+              "FPSTransitionFromStealthHash": "weapons@first_person@aim_stealth@p_m_zero@assault_rifle@shared@aim_trans@stealth_to_scope",
+              "FPSTransitionToStealthHash": "weapons@first_person@aim_scope@p_m_zero@assault_rifle@shared@aim_trans@scope_to_stealth",
+              "@_key": "WEAPON_RAILGUN"
+            }
+          },
+          "@_key": "FirstPersonScope"
+        }
+      ]
+    }
+  }
+}

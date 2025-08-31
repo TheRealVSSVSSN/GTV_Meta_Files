@@ -1,0 +1,4948 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CScenarioActionTriggers": {
+    "Triggers": {
+      "Item": [
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_WEIRD_PED_APPROACHING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_WEIRD_PED_APPROACHING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_WEIRD_PED_APPROACHING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_IN_DANGEROUS_VEHICLE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_IN_DANGEROUS_VEHICLE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_IN_DANGEROUS_VEHICLE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_BROKEN_GLASS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PROPERTY_DAMAGE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_POTENTIAL_BLAST",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_POTENTIAL_BLAST",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_POTENTIAL_GET_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_POTENTIAL_GET_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_PED_COLLISION_WITH_PLAYER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_EXPLOSION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_EXPLOSION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_EXPLOSION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_ACQUAINTANCE_PED_HATE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_ACQUAINTANCE_PED_HATE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_ACQUAINTANCE_PED_WANTED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_ACQUAINTANCE_PED_WANTED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_GUN_AIMED_AT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_GUN_AIMED_AT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_NON_VIOLENT_WEAPON_AIMED_AT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_NON_VIOLENT_WEAPON_AIMED_AT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_ENGINE_REVVED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_ENGINE_REVVED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_WEAPON_THREAT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_WEAPON_THREAT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED_WHIZZED_BY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED_WHIZZED_BY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED_BULLET_IMPACT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOT_FIRED_BULLET_IMPACT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_INJURED_CRY_FOR_HELP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_INJURED_CRY_FOR_HELP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOUT_TARGET_POSITION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOUT_TARGET_POSITION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_MELEE_ACTION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_MELEE_ACTION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_RESPONDED_TO_THREAT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_RESPONDED_TO_THREAT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CHASE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CHASE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 0.5
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Range": {
+                  "@_value": "5.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Range": {
+                  "@_value": "5.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_CRASH",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_PILE_UP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "10.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 0.5
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_PILE_UP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "10.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_PILE_UP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "10.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_PILE_UP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Range": {
+                  "@_value": "10.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_CAR_PILE_UP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Range": {
+                  "@_value": "10.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "10.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Range": {
+                  "@_value": "10.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "10.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_EXTREME",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MAD_DRIVER_BICYCLE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DRIVING_ON_PAVEMENT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DRIVING_ON_PAVEMENT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DRIVING_ON_PAVEMENT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_RUN_OVER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Range": {
+                  "@_value": "5.0f"
+                },
+                "@_type": "CScenarioActionConditionInRange"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "Range": {
+                    "@_value": "5.0f"
+                  },
+                  "@_type": "CScenarioActionConditionInRange"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_PED_KILLED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": 1
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_MELEE_ACTION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_MELEE_ACTION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                  "@_type": "CScenarioActionConditionResponseTask"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                  "@_type": "CScenarioActionConditionResponseTask"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                  "@_type": "CScenarioActionConditionResponseTask"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              },
+              {
+                "Condition": {
+                  "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                  "@_type": "CScenarioActionConditionResponseTask"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              },
+              {
+                "Condition": {
+                  "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                  "@_type": "CScenarioActionConditionResponseTask"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_INJURED_PED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "ResponseTaskType": "TASK_THREAT_RESPONSE",
+                "@_type": "CScenarioActionConditionResponseTask"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CAR_STOLEN",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CAR_STOLEN",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CAR_STOLEN",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CAR_STOLEN",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_HELICOPTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_HELICOPTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_HELICOPTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PARACHUTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PARACHUTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PARACHUTER_OVERHEAD",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_KNOCKED_INTO_BY_PLAYER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_KNOCKED_INTO_BY_PLAYER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_KNOCKED_INTO_BY_PLAYER",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PLANE_FLY_BY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PLANE_FLY_BY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PLANE_FLY_BY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DANGEROUS_ANIMAL",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DANGEROUS_ANIMAL",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_DEAD_BODY",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_HORN_SOUNDED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CONFRONTATION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CONFRONTATION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CONFRONTATION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_CONFRONTATION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_GANG_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_GANG_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "0.5f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_GANG_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasShockingReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_SEEN_GANG_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_EXPLOSION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_EXPLOSION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_STUDIO_BOMB",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_STUDIO_BOMB",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_STUDIO_BOMB",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_STUDIO_BOMB",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_STUDIO_BOMB",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsACopPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsASecurityPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionIsAGangPed"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsACopPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsASecurityPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "@_type": "CScenarioActionConditionIsAGangPed"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_MUGGING",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_GUN_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_GUN_FIGHT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_GUNSHOT_FIRED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_GUNSHOT_FIRED",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_SHOT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_PED_SHOT",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_FIRE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_FIRE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_FIRE",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_POTENTIAL_BLAST",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasCowardReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCowardExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_POTENTIAL_BLAST",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionHasCowardReact"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionNormalExitThenRespondToEvent"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_SHOCKING_POTENTIAL_BLAST",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_CRIME_CRY_FOR_HELP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_CRIME_CRY_FOR_HELP",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_RADIO_TARGET_POSITION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_RADIO_TARGET_POSITION",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_ENCROACHING_PED",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_DAMAGE",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "BlendOutDeltaForSubtask": {
+              "@_value": "-8.0f"
+            },
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_IN_AIR",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "BlendOutDeltaForSubtask": {
+              "@_value": "-8.0f"
+            },
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_DUMMY_CONVERSION",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "BlendOutDeltaForSubtask": {
+              "@_value": "-8.0f"
+            },
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_GIVE_PED_TASK",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "@_type": "CScenarioActionScriptExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "EventType": "EVENT_SCRIPT_COMMAND",
+              "@_type": "CScenarioActionConditionEvent"
+            }
+          },
+          "Action": {
+            "@_type": "CScenarioActionScriptExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_FRIENDLY_FIRE_NEAR_MISS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "EventType": "EVENT_FRIENDLY_FIRE_NEAR_MISS",
+                "@_type": "CScenarioActionConditionEvent"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionFlee",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionFlee"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionFlee",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionCombatExit",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionCombatExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionCombatExit",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionCowardExit",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionThreatResponseExit",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionThreatResponseExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionThreatResponseExit",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionShockReaction",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionHasShockingReact"
+              },
+              {
+                "Condition": {
+                  "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+                },
+                "@_type": "CScenarioActionConditionNot"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionShockReaction"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": [
+              {
+                "ScenarioActionType": "eScenarioActionShockReaction",
+                "@_type": "CScenarioActionConditionForceAction"
+              },
+              {
+                "@_type": "CScenarioActionConditionCanDoQuickBlendout"
+              }
+            ]
+          },
+          "Action": {
+            "@_type": "CScenarioActionImmediateExit"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        },
+        {
+          "Conditions": {
+            "Item": {
+              "ScenarioActionType": "eScenarioActionHeadTrack",
+              "@_type": "CScenarioActionConditionForceAction"
+            }
+          },
+          "Action": {
+            "@_type": "CScenarioActionHeadTrack"
+          },
+          "Probability": {
+            "@_value": "1.0f"
+          },
+          "@_type": "CScenarioActionTrigger"
+        }
+      ]
+    }
+  }
+}

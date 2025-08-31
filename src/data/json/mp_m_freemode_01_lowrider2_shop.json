@@ -1,0 +1,6806 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_m_freemode_01",
+    "dlcName": "mp_m_lowrider_02",
+    "fullDlcName": "mp_m_freemode_01_mp_m_lowrider_02",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER",
+    "creatureMetaData": "MP_CreatureMetadata_lowrider2",
+    "pedOutfits": {
+      "Item": [
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 12
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 116
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 80
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_4",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 174
+              },
+              "eAnchorPoint": "ANCHOR_EYES"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 207
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_4_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 58
+                },
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 207
+                },
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_LEGS_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_0_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 43
+                },
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 248
+                },
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 243
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_VAL_M_ACCS2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_1_12",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "Blank_Black_ValentinesTee",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 35
+                },
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 308
+                },
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_LOW2_M_LEGS_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "MP_Hntr_004_M",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 242
+              },
+              "eAnchorPoint": "ANCHOR_EYES"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 113
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_VAL_M_ACCS3_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_3_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "Blank_White_ValentinesTee",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": "DLC_MP_BEACH_M_HEAD1_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_LEGS_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_10",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW_M_PHEAD_0_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW_M_LEGS_1_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_TEETH_3_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TEEF"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW_M_JBIB_9_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "MP_Hntr_010_M",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW_M_PHEAD_0_25",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_LOW2_M_LEGS_0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_LOW_M_PHEAD_0_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 226
+                },
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 112
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_VAL_M_ACCS2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_14",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "Blank_White_ValentinesTee",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 43
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_10",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_LOW2_M_LEGS_0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_2_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_TEETH_1_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TEEF"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW_M_JBIB_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "Blank_SportsTShirt_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 51
+                },
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 174
+                },
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_S2M_O_11",
+          "uniqueNameHash": "DLC_MP_LOW2_M_OUTFIT_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 188
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW_M_LEGS_1_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_FEET_1_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_TEETH_3_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TEEF"
+              },
+              {
+                "nameHash": "DLC_MP_VAL_M_ACCS2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_1_5",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "Blank_White_ValentinesTee",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 255
+              },
+              "eAnchorPoint": "ANCHOR_EYES"
+            }
+          }
+        }
+      ]
+    },
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 1325
+          },
+          "textLabel": "CLO_S2M_H_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_HAIR0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "LR_M_Hair_004",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 1100
+          },
+          "textLabel": "CLO_S2M_H_1_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_HAIR1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "LR_M_Hair_005",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 1
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "",
+          "cost": {
+            "@_value": 1240
+          },
+          "textLabel": "CLO_S2M_H_2_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_HAIR2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": {
+              "nameHash": "LR_M_Hair_006",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_DECL"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 2
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 2800
+          },
+          "textLabel": "CLO_S2M_F_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 52
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1055
+          },
+          "textLabel": "CLO_S2M_F_1_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1100
+          },
+          "textLabel": "CLO_S2M_F_1_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1060
+          },
+          "textLabel": "CLO_S2M_F_1_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1010
+          },
+          "textLabel": "CLO_S2M_F_1_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1245
+          },
+          "textLabel": "CLO_S2M_F_1_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1390
+          },
+          "textLabel": "CLO_S2M_F_1_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1095
+          },
+          "textLabel": "CLO_S2M_F_1_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1400
+          },
+          "textLabel": "CLO_S2M_F_1_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1405
+          },
+          "textLabel": "CLO_S2M_F_1_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1050
+          },
+          "textLabel": "CLO_S2M_F_1_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_1_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 179
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_3"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1560
+          },
+          "textLabel": "CLO_S2M_F_2_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1555
+          },
+          "textLabel": "CLO_S2M_F_2_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1600
+          },
+          "textLabel": "CLO_S2M_F_2_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1685
+          },
+          "textLabel": "CLO_S2M_F_2_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1455
+          },
+          "textLabel": "CLO_S2M_F_2_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1415
+          },
+          "textLabel": "CLO_S2M_F_2_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1410
+          },
+          "textLabel": "CLO_S2M_F_2_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1700
+          },
+          "textLabel": "CLO_S2M_F_2_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_FEET_2_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 44
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_12"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 2295
+          },
+          "textLabel": "CLO_S2M_U_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 2120
+          },
+          "textLabel": "CLO_S2M_U_0_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1980
+          },
+          "textLabel": "CLO_S2M_U_0_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 2225
+          },
+          "textLabel": "CLO_S2M_U_0_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1850
+          },
+          "textLabel": "CLO_S2M_U_0_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1910
+          },
+          "textLabel": "CLO_S2M_U_0_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1820
+          },
+          "textLabel": "CLO_S2M_U_0_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1675
+          },
+          "textLabel": "CLO_S2M_U_0_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1545
+          },
+          "textLabel": "CLO_S2M_U_0_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1455
+          },
+          "textLabel": "CLO_S2M_U_0_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1560
+          },
+          "textLabel": "CLO_S2M_U_0_10",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1490
+          },
+          "textLabel": "CLO_S2M_U_0_11",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_0_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": [
+            {
+              "Item": [
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 4
+                  },
+                  "eCompType": "PV_COMP_UPPR"
+                },
+                {
+                  "nameHash": 0,
+                  "enumValue": {
+                    "@_value": 240
+                  },
+                  "eCompType": "PV_COMP_ACCS"
+                }
+              ]
+            },
+            ""
+          ],
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6795
+          },
+          "textLabel": "CLO_S2M_U_1_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6620
+          },
+          "textLabel": "CLO_S2M_U_1_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6480
+          },
+          "textLabel": "CLO_S2M_U_1_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6725
+          },
+          "textLabel": "CLO_S2M_U_1_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6550
+          },
+          "textLabel": "CLO_S2M_U_1_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6410
+          },
+          "textLabel": "CLO_S2M_U_1_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6340
+          },
+          "textLabel": "CLO_S2M_U_1_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6375
+          },
+          "textLabel": "CLO_S2M_U_1_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6445
+          },
+          "textLabel": "CLO_S2M_U_1_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6655
+          },
+          "textLabel": "CLO_S2M_U_1_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6760
+          },
+          "textLabel": "CLO_S2M_U_1_10",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6690
+          },
+          "textLabel": "CLO_S2M_U_1_11",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6585
+          },
+          "textLabel": "CLO_S2M_U_1_12",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 6515
+          },
+          "textLabel": "CLO_S2M_U_1_13",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_1_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_4"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              },
+              {
+                "tagNameHash": "LOW2_BOMB"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 4
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 11
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4000
+          },
+          "textLabel": "CLO_S2M_U_2_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "LOW2_DRAW_2"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 26
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3790
+          },
+          "textLabel": "CLO_S2M_U_2_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "LOW2_DRAW_2"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 26
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3825
+          },
+          "textLabel": "CLO_S2M_U_2_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "LOW2_DRAW_2"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 26
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 8320
+          },
+          "textLabel": "CLO_S2M_U_3_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_6"
+              },
+              {
+                "tagNameHash": "JACKET"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_3"
+              },
+              {
+                "tagNameHash": "NO_CREW_EMBLEM"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 12
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 36
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 12300
+          },
+          "textLabel": "CLO_S2M_U_4_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 182
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_4"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              },
+              {
+                "tagNameHash": "JACKET_ONLY"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3450
+          },
+          "textLabel": "CLO_S2M_U_5_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3420
+          },
+          "textLabel": "CLO_S2M_U_5_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3280
+          },
+          "textLabel": "CLO_S2M_U_5_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3425
+          },
+          "textLabel": "CLO_S2M_U_5_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3250
+          },
+          "textLabel": "CLO_S2M_U_5_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_4",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3710
+          },
+          "textLabel": "CLO_S2M_U_5_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_5",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3640
+          },
+          "textLabel": "CLO_S2M_U_5_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_6",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3845
+          },
+          "textLabel": "CLO_S2M_U_5_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_7",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3725
+          },
+          "textLabel": "CLO_S2M_U_5_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_8",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4255
+          },
+          "textLabel": "CLO_S2M_U_5_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_9",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4345
+          },
+          "textLabel": "CLO_S2M_U_5_10",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_10",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4290
+          },
+          "textLabel": "CLO_S2M_U_5_11",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_11",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4185
+          },
+          "textLabel": "CLO_S2M_U_5_12",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_12",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4115
+          },
+          "textLabel": "CLO_S2M_U_5_13",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_13",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4050
+          },
+          "textLabel": "CLO_S2M_U_5_14",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_5_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_6_14",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3450
+          },
+          "textLabel": "CLO_S2M_U_6_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3420
+          },
+          "textLabel": "CLO_S2M_U_6_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3280
+          },
+          "textLabel": "CLO_S2M_U_6_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3425
+          },
+          "textLabel": "CLO_S2M_U_6_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3250
+          },
+          "textLabel": "CLO_S2M_U_6_4",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_4",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3710
+          },
+          "textLabel": "CLO_S2M_U_6_5",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_5",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3640
+          },
+          "textLabel": "CLO_S2M_U_6_6",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_6",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3845
+          },
+          "textLabel": "CLO_S2M_U_6_7",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_7",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 3725
+          },
+          "textLabel": "CLO_S2M_U_6_8",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_8",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4255
+          },
+          "textLabel": "CLO_S2M_U_6_9",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_9",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4345
+          },
+          "textLabel": "CLO_S2M_U_6_10",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_10",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_10",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 10
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4290
+          },
+          "textLabel": "CLO_S2M_U_6_11",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_11",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_11",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 11
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4185
+          },
+          "textLabel": "CLO_S2M_U_6_12",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_12",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_12",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 12
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4115
+          },
+          "textLabel": "CLO_S2M_U_6_13",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_13",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_13",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 13
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 4050
+          },
+          "textLabel": "CLO_S2M_U_6_14",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_6_14",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 183
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LOW2_DRAW_6"
+              },
+              {
+                "tagNameHash": "LOW2_OPEN_CHECK"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "DLC_MP_LOW2_M_JBIB_5_14",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 14
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": -99
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_LOW2_M_JBIB_7_9",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 9
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1650
+          },
+          "textLabel": "CLO_S2M_L_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_LEGS_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1335
+          },
+          "textLabel": "CLO_S2M_L_0_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_LEGS_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1440
+          },
+          "textLabel": "CLO_S2M_L_0_2",
+          "uniqueNameHash": "DLC_MP_LOW2_M_LEGS_0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 1545
+          },
+          "textLabel": "CLO_S2M_L_0_3",
+          "uniqueNameHash": "DLC_MP_LOW2_M_LEGS_0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 30
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 995
+          },
+          "textLabel": "CLO_S2M_L_1_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_LEGS_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 28
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_0"
+              },
+              {
+                "tagNameHash": "LOW2_DRAW_1"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 16230
+          },
+          "textLabel": "CLO_S2M_T_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_1_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 19750
+          },
+          "textLabel": "CLO_S2M_T_0_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_1_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 16230
+          },
+          "textLabel": "CLO_S2M_T_0_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "ALT_CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 19750
+          },
+          "textLabel": "CLO_S2M_T_0_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "ALT_CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_0_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 15280
+          },
+          "textLabel": "CLO_S2M_T_2_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_3_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 18800
+          },
+          "textLabel": "CLO_S2M_T_2_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_3_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 15280
+          },
+          "textLabel": "CLO_S2M_T_2_0",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "ALT_CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_2_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_LOW2_CLOTHES",
+          "cost": {
+            "@_value": 18800
+          },
+          "textLabel": "CLO_S2M_T_2_1",
+          "uniqueNameHash": "DLC_MP_LOW2_M_TEETH_3_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 88
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "CHAIN"
+              },
+              {
+                "tagNameHash": "ALT_CHAIN"
+              },
+              {
+                "tagNameHash": "BIG_CHAIN"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_LOW2_M_TEETH_2_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TEEF"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_TEEF",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

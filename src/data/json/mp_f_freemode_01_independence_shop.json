@@ -1,0 +1,2198 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_f_freemode_01",
+    "dlcName": "Female_freemode_independence",
+    "fullDlcName": "mp_f_freemode_01_Female_freemode_independence",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER_F",
+    "creatureMetaData": "MP_CreatureMetadata_independence",
+    "pedOutfits": {
+      "Item": [
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_O_0",
+          "uniqueNameHash": "DLC_MP_IND_F_OUTFIT_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 121
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_LEGS_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_FEET_0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 119
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_JBIB_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_PHEAD_5_0",
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_PEYES_0_0",
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_O_1",
+          "uniqueNameHash": "DLC_MP_IND_F_OUTFIT_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 121
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 232
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_FEET_0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 119
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_JBIB_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_PHEAD_2_0",
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_PEYES_0_0",
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_O_2",
+          "uniqueNameHash": "DLC_MP_IND_F_OUTFIT_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 121
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 134
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_FEET_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 119
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_JBIB_1_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_PHEAD_4_0",
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_PEYES_0_0",
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_O_3",
+          "uniqueNameHash": "DLC_MP_IND_F_OUTFIT_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 121
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 70
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_FEET_0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 119
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_BUS2_F_JBIB0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_PHEAD_0_0",
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_PEYES_1_0",
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_O_4",
+          "uniqueNameHash": "DLC_MP_IND_F_OUTFIT_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 121
+          },
+          "includedPedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_HIPS_F_LEGS0_9",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 49
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 119
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_BUS2_F_JBIB0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "includedPedProps": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_PHEAD_3_0",
+                "eAnchorPoint": "ANCHOR_HEAD"
+              },
+              {
+                "nameHash": "DLC_MP_IND_F_PEYES_1_0",
+                "eAnchorPoint": "ANCHOR_EYES"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 27500
+          },
+          "textLabel": "CLO_INDF_B_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 27500
+          },
+          "textLabel": "CLO_INDF_B_0_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 22500
+          },
+          "textLabel": "CLO_INDF_B_1_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 22500
+          },
+          "textLabel": "CLO_INDF_B_1_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 31500
+          },
+          "textLabel": "CLO_INDF_B_2_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 31500
+          },
+          "textLabel": "CLO_INDF_B_2_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 24000
+          },
+          "textLabel": "CLO_INDF_B_3_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 24000
+          },
+          "textLabel": "CLO_INDF_B_3_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_3_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 20000
+          },
+          "textLabel": "CLO_INDF_B_4_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 20000
+          },
+          "textLabel": "CLO_INDF_B_4_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_4_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 35000
+          },
+          "textLabel": "CLO_INDF_B_5_0",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 35000
+          },
+          "textLabel": "CLO_INDF_B_5_1",
+          "uniqueNameHash": "DLC_MP_IND_F_BERD_5_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4900
+          },
+          "textLabel": "CLO_INDF_H_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_HAIR0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4945
+          },
+          "textLabel": "CLO_INDF_H_0_1",
+          "uniqueNameHash": "DLC_MP_IND_F_HAIR0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4955
+          },
+          "textLabel": "CLO_INDF_H_0_2",
+          "uniqueNameHash": "DLC_MP_IND_F_HAIR0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4965
+          },
+          "textLabel": "CLO_INDF_H_0_3",
+          "uniqueNameHash": "DLC_MP_IND_F_HAIR0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4960
+          },
+          "textLabel": "CLO_INDF_H_0_4",
+          "uniqueNameHash": "DLC_MP_IND_F_HAIR0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_HAIR",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2500
+          },
+          "textLabel": "CLO_INDF_L_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_LEGS_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 39
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_8"
+              },
+              {
+                "tagNameHash": "SKIRT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2800
+          },
+          "textLabel": "CLO_INDF_F_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_FEET_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 60
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_0"
+              },
+              {
+                "tagNameHash": "HIGH_HEELS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2950
+          },
+          "textLabel": "CLO_INDF_F_0_1",
+          "uniqueNameHash": "DLC_MP_IND_F_FEET_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 60
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_0"
+              },
+              {
+                "tagNameHash": "HIGH_HEELS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2760
+          },
+          "textLabel": "CLO_INDF_F_0_2",
+          "uniqueNameHash": "DLC_MP_IND_F_FEET_0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 60
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_0"
+              },
+              {
+                "tagNameHash": "HIGH_HEELS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_U_1_1",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              },
+              {
+                "tagNameHash": "OFF_SHOULDER_ACCS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_JBIB_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_019",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_024",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2000
+          },
+          "textLabel": "CLO_INDF_U_1_1",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "OFF_SHOULDER_ACCS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_IND_F_JBIB_1_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 9950
+          },
+          "textLabel": "CLO_INDF_U_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_JBIB_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 7
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "TAILS_JACKET"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 5
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 32
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_IND_F_SPECIAL2_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_INDF_U_1_1",
+          "uniqueNameHash": "DLC_MP_IND_F_JBIB_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "MULTI_DECAL"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_SPECIAL_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_019",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_024",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2000
+          },
+          "textLabel": "CLO_INDF_U_1_1",
+          "uniqueNameHash": "DLC_MP_IND_F_JBIB_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_IND_F_SPECIAL_0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL2_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -1
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "ARMOUR"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TASK",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL2_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -1
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "ARMOUR"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TASK",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL2_0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -1
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "ARMOUR"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TASK",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL2_0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -1
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "ARMOUR"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TASK",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_IND_F_SPECIAL2_0_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -1
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "ARMOUR"
+            }
+          },
+          "forcedComponents": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_TASK",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    },
+    "pedProps": {
+      "Item": [
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 1500
+          },
+          "textLabel": "CLO_INDF_G_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PEYES_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 82
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_EYES",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 1990
+          },
+          "textLabel": "CLO_INDF_G_1_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PEYES_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 82
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "GLASSES"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "eAnchorPoint": "ANCHOR_EYES",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4500
+          },
+          "textLabel": "CLO_INDF_HT_0_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 5950
+          },
+          "textLabel": "CLO_INDF_HT_1_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4800
+          },
+          "textLabel": "CLO_INDF_HT_2_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 4850
+          },
+          "textLabel": "CLO_INDF_HT_2_1",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 1000
+          },
+          "textLabel": "CLO_INDF_HT_3_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 3
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 2200
+          },
+          "textLabel": "CLO_INDF_HT_4_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 4
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 3450
+          },
+          "textLabel": "CLO_INDF_HT_5_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_0",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_1",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_2",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_3",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_4",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_INDI_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_INDF_HT_6_5",
+          "uniqueNameHash": "DLC_MP_IND_F_PHEAD_6_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 123
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

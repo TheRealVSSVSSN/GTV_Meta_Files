@@ -1,0 +1,542 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CConditionalAnimManager": {
+    "ConditionalAnimsGroup": {
+      "Item": [
+        {
+          "Name": "ON_BIKE_DIRT_MANCHEZ2",
+          "ConditionalAnims": {
+            "Item": {
+              "Name": "CODE_HUMAN_ON_BIKE_MANCHEZ2_IDLES_DIRT_DRIVER",
+              "PropSet": "",
+              "Flags": "",
+              "Probability": {
+                "@_value": 100
+              },
+              "SpecialConditionProbability": {
+                "@_value": 0
+              },
+              "SpecialCondition": {
+                "@_type": "NULL"
+              },
+              "NextIdleTime": {
+                "@_value": 2
+              },
+              "ChanceOfSpawningWithAnything": {
+                "@_value": 0.33
+              },
+              "BlendInDelta": {
+                "@_value": 4
+              },
+              "BlendOutDelta": {
+                "@_value": -4
+              },
+              "GestureClipSetId": "",
+              "VFXData": "",
+              "VFXCullRange": {
+                "@_value": 25
+              },
+              "TransitionInfo": {
+                "@_type": "NULL"
+              },
+              "Conditions": {
+                "Item": [
+                  {
+                    "Result": "True",
+                    "SeatIndex": {
+                      "@_value": 0
+                    },
+                    "@_type": "CScenarioConditionInVehicleSeat"
+                  },
+                  {
+                    "Result": "True",
+                    "@_type": "CScenarioConditionCanPlayInCarIdle"
+                  },
+                  {
+                    "Result": "True",
+                    "@_type": "CScenarioConditionIsPlayerInMultiplayerGame"
+                  }
+                ]
+              },
+              "LowLodBaseAnim": "",
+              "BaseAnims": {
+                "Item": {
+                  "ClipSet": "clipset@anim@veh@bike@manchez2@idles@base",
+                  "AssociatedSpeech": "",
+                  "Conditions": "",
+                  "ActionFlags": "",
+                  "@_type": "CConditionalClipSet"
+                }
+              },
+              "Enters": "",
+              "Exits": "",
+              "Variations": {
+                "Item": {
+                  "ClipSet": "clipset@anim@veh@bike@manchez2@idles@idle_a",
+                  "AssociatedSpeech": "",
+                  "Conditions": "",
+                  "ActionFlags": "",
+                  "@_type": "CConditionalClipSet"
+                }
+              },
+              "Reactions": "",
+              "PanicBaseAnims": "",
+              "PanicIntros": "",
+              "PanicOutros": "",
+              "PanicVariations": "",
+              "PanicExits": ""
+            }
+          },
+          "@_type": "CConditionalAnimsGroup"
+        },
+        {
+          "Name": "IN_KART",
+          "ConditionalAnims": {
+            "Item": [
+              {
+                "Name": "IN_KART_IDLES_DRIVER",
+                "PropSet": "",
+                "Flags": "",
+                "Probability": {
+                  "@_value": 100
+                },
+                "SpecialConditionProbability": {
+                  "@_value": 0
+                },
+                "SpecialCondition": {
+                  "@_type": "NULL"
+                },
+                "NextIdleTime": {
+                  "@_value": 2
+                },
+                "ChanceOfSpawningWithAnything": {
+                  "@_value": 0.33
+                },
+                "BlendInDelta": {
+                  "@_value": 4
+                },
+                "BlendOutDelta": {
+                  "@_value": -4
+                },
+                "GestureClipSetId": "",
+                "VFXData": "",
+                "VFXCullRange": {
+                  "@_value": 25
+                },
+                "TransitionInfo": {
+                  "@_type": "NULL"
+                },
+                "Conditions": {
+                  "Item": [
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionHasNoProp"
+                    },
+                    {
+                      "Result": "False",
+                      "ModelSet": {
+                        "@_ref": "PATROL"
+                      },
+                      "@_type": "CScenarioConditionModel"
+                    },
+                    {
+                      "Result": "True",
+                      "SeatIndex": {
+                        "@_value": 0
+                      },
+                      "@_type": "CScenarioConditionInVehicleSeat"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionCanPlayInCarIdle"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionIsHeadbobbingToRadioMusicEnabled"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionUsingLRAltClipset"
+                    }
+                  ]
+                },
+                "LowLodBaseAnim": "",
+                "BaseAnims": {
+                  "Item": {
+                    "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@IDLES@BASE",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Enters": "",
+                "Exits": "",
+                "Variations": {
+                  "Item": {
+                    "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@IDLES@IDLE_A",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Reactions": "",
+                "PanicBaseAnims": "",
+                "PanicIntros": "",
+                "PanicOutros": "",
+                "PanicVariations": "",
+                "PanicExits": ""
+              },
+              {
+                "Name": "IN_KART_MUSIC_DRIVER",
+                "PropSet": "",
+                "Flags": "",
+                "Probability": {
+                  "@_value": 100
+                },
+                "SpecialConditionProbability": {
+                  "@_value": 0
+                },
+                "SpecialCondition": {
+                  "@_type": "NULL"
+                },
+                "NextIdleTime": {
+                  "@_value": 2
+                },
+                "ChanceOfSpawningWithAnything": {
+                  "@_value": 0.33
+                },
+                "BlendInDelta": {
+                  "@_value": 4
+                },
+                "BlendOutDelta": {
+                  "@_value": -4
+                },
+                "GestureClipSetId": "",
+                "VFXData": "",
+                "VFXCullRange": {
+                  "@_value": 25
+                },
+                "TransitionInfo": {
+                  "@_type": "NULL"
+                },
+                "Conditions": {
+                  "Item": [
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionIsMale"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionHasNoProp"
+                    },
+                    {
+                      "Result": "False",
+                      "ModelSet": {
+                        "@_ref": "PATROL"
+                      },
+                      "@_type": "CScenarioConditionModel"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionIsRadioPlayingMusic"
+                    },
+                    {
+                      "Result": "True",
+                      "SeatIndex": {
+                        "@_value": 0
+                      },
+                      "@_type": "CScenarioConditionInVehicleSeat"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionCanPlayInCarIdle"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionIsPlayer"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionIsPlayerInMultiplayerGame"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionUsingLRAltClipset"
+                    }
+                  ]
+                },
+                "LowLodBaseAnim": "",
+                "BaseAnims": {
+                  "Item": {
+                    "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Enters": "",
+                "Exits": "",
+                "Variations": {
+                  "Item": {
+                    "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                    "AssociatedSpeech": "",
+                    "Conditions": "",
+                    "ActionFlags": "",
+                    "@_type": "CConditionalClipSet"
+                  }
+                },
+                "Reactions": "",
+                "PanicBaseAnims": "",
+                "PanicIntros": "",
+                "PanicOutros": "",
+                "PanicVariations": "",
+                "PanicExits": ""
+              },
+              {
+                "Name": "IN_KART_MUSIC_HEADBOB_DRIVER",
+                "PropSet": "",
+                "Flags": "",
+                "Probability": {
+                  "@_value": 100
+                },
+                "SpecialConditionProbability": {
+                  "@_value": 0
+                },
+                "SpecialCondition": {
+                  "@_type": "NULL"
+                },
+                "NextIdleTime": {
+                  "@_value": 2
+                },
+                "ChanceOfSpawningWithAnything": {
+                  "@_value": 0.33
+                },
+                "BlendInDelta": {
+                  "@_value": 4
+                },
+                "BlendOutDelta": {
+                  "@_value": -4
+                },
+                "GestureClipSetId": "",
+                "VFXData": "",
+                "VFXCullRange": {
+                  "@_value": 25
+                },
+                "TransitionInfo": {
+                  "@_type": "NULL"
+                },
+                "Conditions": {
+                  "Item": [
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionCanPlayInCarIdle"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionIsHeadbobbingToRadioMusicEnabled"
+                    },
+                    {
+                      "Result": "True",
+                      "@_type": "CScenarioConditionIsRadioPlayingMusic"
+                    },
+                    {
+                      "Result": "True",
+                      "SeatIndex": {
+                        "@_value": 0
+                      },
+                      "@_type": "CScenarioConditionInVehicleSeat"
+                    },
+                    {
+                      "Result": "False",
+                      "@_type": "CScenarioConditionUsingLRAltClipset"
+                    }
+                  ]
+                },
+                "LowLodBaseAnim": "",
+                "BaseAnims": {
+                  "Item": [
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_GENERIC",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_COUNTRY",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_HIPHOP",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_MEXICAN",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_MOTOWN",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_PUNK",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    }
+                  ]
+                },
+                "Enters": "",
+                "Exits": "",
+                "Variations": {
+                  "Item": [
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@BASE",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_GENERIC",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_COUNTRY",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_HIPHOP",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_MEXICAN",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_MOTOWN",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    },
+                    {
+                      "ClipSet": "CLIPSET@ANIM@VEH@GOKART@GENERIC@MUSIC@IDLE_A",
+                      "AssociatedSpeech": "",
+                      "Conditions": {
+                        "Item": {
+                          "Result": "True",
+                          "RadioGenre": "GENRE_PUNK",
+                          "@_type": "CScenarioConditionHeadbobMusicGenre"
+                        }
+                      },
+                      "ActionFlags": "",
+                      "@_type": "CConditionalClipSet"
+                    }
+                  ]
+                },
+                "Reactions": "",
+                "PanicBaseAnims": "",
+                "PanicIntros": "",
+                "PanicOutros": "",
+                "PanicVariations": "",
+                "PanicExits": ""
+              }
+            ]
+          },
+          "@_type": "CConditionalAnimsGroup"
+        }
+      ]
+    }
+  }
+}

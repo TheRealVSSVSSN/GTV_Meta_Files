@@ -1,0 +1,4556 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedModelInfo__InitDataList": {
+    "residentTxd": "comp_peds_generic",
+    "residentAnims": "",
+    "InitDatas": {
+      "Item": [
+        {
+          "Name": "CSB_Agatha",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_Denise_friend",
+          "ExpressionName": "CSB_Denise_friend",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_characters@patricia",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Female",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_POP",
+          "Radio2": "RADIO_GENRE_DANCE",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_Agatha",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_AGATHA_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CSB_Avery",
+          "PropsName": "CSB_Avery_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_MaleMP",
+          "ExpressionName": "CSB_MaleMP",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_COUNTRY",
+          "Radio2": "RADIO_GENRE_CLASSIC_ROCK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_Avery",
+          "PropsName": "IG_Avery_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "PedVoiceGroup": "SILENT_PVG",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CSB_Brucie2",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_MaleMP",
+          "ExpressionName": "CSB_MaleMP",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_HIPHOP",
+          "Radio2": "RADIO_GENRE_DANCE",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_Brucie2",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "PedVoiceGroup": "BRUCIE_PVG",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_TaoCheng2",
+          "PropsName": "IG_TaoCheng2_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male_skirt",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_HI",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": true
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_PUNK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 0
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CHENG_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CS_TaoCheng2",
+          "PropsName": "CS_TaoCheng2_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CS_TaoCheng2",
+          "ExpressionName": "CS_TaoCheng2",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_HI",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "3Lateral_Facial",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "NO_IK",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": true
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_OFF",
+          "Radio2": "RADIO_GENRE_OFF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 0
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_TaosTranslator2",
+          "PropsName": "IG_TaosTranslator2_P",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_HI",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": true
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_LEFT_WING_TALK",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "TRANSLATOR_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CS_TaosTranslator2",
+          "PropsName": "CS_TaosTranslator2_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CS_TaosTranslator2",
+          "ExpressionName": "CS_TaosTranslator2",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_HI",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "3Lateral_Facial",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "NO_IK",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": true
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_OFF",
+          "Radio2": "RADIO_GENRE_OFF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 0
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CSB_Thornton",
+          "PropsName": "CSB_Thornton_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_MaleMP",
+          "ExpressionName": "CSB_MaleMP",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_COUNTRY",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_Thornton",
+          "PropsName": "IG_Thornton_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "CAS_THORNTON_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CSB_TomCasino",
+          "PropsName": "CSB_TomCasino_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_MaleMP",
+          "ExpressionName": "CSB_MaleMP",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_PUNK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_TomCasino",
+          "PropsName": "IG_TomCasino_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "CAS_TOM_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "CSB_Vincent",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "",
+          "ExpressionDictionaryName": "CSB_MaleMP",
+          "ExpressionName": "CSB_MaleMP",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Bouncer",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_HIPHOP",
+          "Radio2": "RADIO_GENRE_MODERN_ROCK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "PedVoiceGroup": "SILENT_CUTSCENE_PVG",
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_JEER_AT_HOT_PED",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "IG_Vincent",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "PedVoiceGroup": "SILENT_PVG",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "A_F_Y_GenCasPat_01",
+          "PropsName": "A_F_Y_GenCasPat_01_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@heels@d",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "A_F_Y_SmartCasPat_01",
+          "PropsName": "A_F_Y_SmartCasPat_01_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@heels@c",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "A_M_M_MLCrisis_01",
+          "PropsName": "A_M_M_MLCrisis_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_CLASSIC_ROCK",
+          "Radio2": "RADIO_GENRE_PUNK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "A_M_Y_GenCasPat_01",
+          "PropsName": "A_M_Y_GenCasPat_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "Prop_Hair_Scale",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_OFF",
+          "Radio2": "RADIO_GENRE_OFF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "A_M_Y_SmartCasPat_01",
+          "PropsName": "A_M_Y_SmartCasPat_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@business@b",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_OFF",
+          "Radio2": "RADIO_GENRE_OFF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "G_M_M_CasRN_01",
+          "PropsName": "G_M_M_CasRN_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_CLASSIC_ROCK",
+          "Radio2": "RADIO_GENRE_COUNTRY",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "A_M_M_HILLBILLY_02_R2PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "S_M_Y_WestSec_01",
+          "PropsName": "S_M_Y_WestSec_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Bouncer",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_CLASSIC_ROCK",
+          "Radio2": "RADIO_GENRE_COUNTRY",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "MALE_MERRYWEATHER_R2PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "S_F_Y_Casino_01",
+          "PropsName": "S_F_Y_Casino_01_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@sexy@a",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "S_F_Y_CASINO_01_R2PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "S_M_Y_Casino_01",
+          "PropsName": "S_M_Y_Casino_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_OFF",
+          "Radio2": "RADIO_GENRE_OFF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "S_M_Y_Casino_01_R2PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_O_Carol",
+          "PropsName": "U_F_O_Carol_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "AMBIENT_WALK_VARIATION_F_SAD_A",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "OLDMEDIUMWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_LEFT_WING_TALK",
+          "Radio2": "RADIO_GENRE_MOTOWN",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_CAROL_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_O_Eileen",
+          "PropsName": "U_F_O_Eileen_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "AMBIENT_WALK_VARIATION_F_SAD_A",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "OLDMEDIUMWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_LEFT_WING_TALK",
+          "Radio2": "RADIO_GENRE_MOTOWN",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_EILEEN_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_M_CasinoCash_01",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@heels@d",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "U_F_M_CasinoCash_01_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_M_CasinoShop_01",
+          "PropsName": "U_F_M_CasinoShop_01_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@sexy@a",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "U_F_M_CasinoShopkeeper_01_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_M_Debbie_01",
+          "PropsName": "U_F_M_Debbie_01_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "null",
+          "ExpressionDictionaryName": "A_F_Y_Bevhills_04",
+          "ExpressionName": "A_F_Y_Bevhills_04",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@heels@d",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "YOUNGRICHWOMAN",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "HIGH_HEELS",
+          "PedVoiceGroup": "CAS_DEBBIE_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_Y_Beth",
+          "PropsName": "U_F_Y_Beth_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "AMBIENT_WALK_VARIATION_F_SAD_A",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "MediumAverageWoman",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_LEFT_WING_TALK",
+          "Radio2": "RADIO_GENRE_MOTOWN",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_BETH_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_Y_Lauren",
+          "PropsName": "U_F_Y_Lauren_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessFemale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_POP",
+          "Radio2": "RADIO_GENRE_SURF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_LAUREN_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_F_Y_Taylor",
+          "PropsName": "U_F_Y_Taylor_p",
+          "ClipDictionaryName": "move_f@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_female",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVFEMALE",
+          "MovementClipSet": "move_f@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_F_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_female",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_F_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_FEMALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVFEMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessFemale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_POP",
+          "Radio2": "RADIO_GENRE_SURF",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "SF_HOT_PERSON",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_TAYLOR_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_M_Blane",
+          "PropsName": "U_M_M_Blane_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_MODERN_ROCK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_BLANE_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_M_Curtis",
+          "PropsName": "U_M_M_Curtis_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "null",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_COUNTRY",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_CURTIS_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_M_Vince",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_VINCE_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_O_Dean",
+          "PropsName": "U_M_O_Dean_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "Streamed_Male",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_JAZZ",
+          "Radio2": "RADIO_GENRE_MOTOWN",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_DEAN_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_Y_Caleb",
+          "PropsName": "null",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_CLASSIC_ROCK",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_CALEB_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_Y_CroupThief_01",
+          "PropsName": "U_M_Y_CroupThief_01_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "ambientPed_upperWrinkles",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "FitnessMale",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "MALE_SILENT_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_Y_Gabriel",
+          "PropsName": "U_M_Y_Gabriel_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_DANCE",
+          "Radio2": "RADIO_GENRE_POP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_GABRIEL_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "U_M_Y_Ushi",
+          "PropsName": "U_M_Y_Ushi_p",
+          "ClipDictionaryName": "move_m@generic",
+          "BlendShapeFileName": "null",
+          "ExpressionSetName": "expr_set_ambient_male",
+          "ExpressionDictionaryName": "null",
+          "ExpressionName": "null",
+          "Pedtype": "CIVMALE",
+          "MovementClipSet": "move_m@generic",
+          "StrafeClipSet": "move_ped_strafing",
+          "MovementToStrafeClipSet": "move_ped_to_strafe",
+          "InjuredStrafeClipSet": "move_strafe_injured",
+          "FullBodyDamageClipSet": "dam_ko",
+          "AdditiveDamageClipSet": "dam_ad",
+          "DefaultGestureClipSet": "ANIM_GROUP_GESTURE_M_GENERIC",
+          "FacialClipsetGroupName": "facial_clipset_group_gen_male",
+          "DefaultVisemeClipSet": "ANIM_GROUP_VISEMES_M_LO",
+          "SidestepClipSet": "CLIP_SET_ID_INVALID",
+          "PoseMatcherName": "Male",
+          "PoseMatcherProneName": "Male_prone",
+          "GetupSetHash": "NMBS_SLOW_GETUPS",
+          "CreatureMetadataName": "MP_CreatureMetadata",
+          "DecisionMakerName": "DEFAULT",
+          "MotionTaskDataSetName": "STANDARD_PED",
+          "DefaultTaskDataSetName": "STANDARD_PED",
+          "PedCapsuleName": "STANDARD_MALE",
+          "PedLayoutName": "",
+          "PedComponentSetName": "",
+          "PedComponentClothName": "",
+          "PedIKSettingsName": "",
+          "TaskDataName": "",
+          "IsStreamedGfx": {
+            "@_value": false
+          },
+          "AmbulanceShouldRespondTo": {
+            "@_value": true
+          },
+          "CanRideBikeWithNoHelmet": {
+            "@_value": false
+          },
+          "CanSpawnInCar": {
+            "@_value": true
+          },
+          "IsHeadBlendPed": {
+            "@_value": false
+          },
+          "bOnlyBulkyItemVariations": {
+            "@_value": false
+          },
+          "RelationshipGroup": "CIVMALE",
+          "NavCapabilitiesName": "STANDARD_PED",
+          "PerceptionInfo": "DEFAULT_PERCEPTION",
+          "DefaultBrawlingStyle": "BS_AI",
+          "DefaultUnarmedWeapon": "WEAPON_UNARMED",
+          "Personality": "SERVICEMALES",
+          "CombatInfo": "DEFAULT",
+          "VfxInfoName": "VFXPEDINFO_HUMAN_GENERIC",
+          "AmbientClipsForFlee": "FLEE",
+          "Radio1": "RADIO_GENRE_MODERN_ROCK",
+          "Radio2": "RADIO_GENRE_MODERN_HIPHOP",
+          "FUpOffset": {
+            "@_value": 0
+          },
+          "RUpOffset": {
+            "@_value": 0
+          },
+          "FFrontOffset": {
+            "@_value": 0
+          },
+          "RFrontOffset": {
+            "@_value": 0.147
+          },
+          "MinActivationImpulse": {
+            "@_value": 20
+          },
+          "Stubble": {
+            "@_value": 0
+          },
+          "HDDist": {
+            "@_value": 3
+          },
+          "TargetingThreatModifier": {
+            "@_value": 1
+          },
+          "KilledPerceptionRangeModifer": {
+            "@_value": -1
+          },
+          "Sexiness": "",
+          "Age": {
+            "@_value": 0
+          },
+          "MaxPassengersInCar": {
+            "@_value": 0
+          },
+          "ExternallyDrivenDOFs": "",
+          "PedVoiceGroup": "CAS_USHI_PVG",
+          "AnimalAudioObject": "",
+          "AbilityType": "SAT_NONE",
+          "ThermalBehaviour": "TB_WARM",
+          "SuperlodType": "SLOD_HUMAN",
+          "ScenarioPopStreamingSlot": "SCENARIO_POP_STREAMING_NORMAL",
+          "DefaultSpawningPreference": "DSP_NORMAL",
+          "DefaultRemoveRangeMultiplier": {
+            "@_value": 1
+          },
+          "AllowCloseSpawning": {
+            "@_value": false
+          }
+        }
+      ]
+    },
+    "multiTxdRelationships": {
+      "Item": [
+        {
+          "parent": "comp_peds_helmets_moped",
+          "children": ""
+        },
+        {
+          "parent": "comp_peds_helmets_motox",
+          "children": ""
+        },
+        {
+          "parent": "comp_peds_helmets_sports",
+          "children": ""
+        },
+        {
+          "parent": "comp_peds_helmets_shorty",
+          "children": ""
+        },
+        {
+          "parent": "strm_peds_mpTattRTs",
+          "children": ""
+        },
+        {
+          "parent": "strm_peds_mpShare",
+          "children": ""
+        },
+        {
+          "parent": "comp_peds_marine",
+          "children": ""
+        }
+      ]
+    }
+  }
+}

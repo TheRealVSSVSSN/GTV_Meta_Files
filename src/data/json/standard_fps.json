@@ -1,0 +1,47 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_SPRINT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_JUMP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_COVER",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_DUCK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_DIVE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        }
+      ]
+    }
+  }
+}

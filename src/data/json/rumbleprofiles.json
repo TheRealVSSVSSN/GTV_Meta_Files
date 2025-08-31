@@ -1,0 +1,588 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "phMaterialMgrGta__RumbleProfileList": {
+    "rumbleProfiles": {
+      "Item": [
+        {
+          "profileName": "CONCRETE_POTHOLE",
+          "frequencyMin_1": {
+            "@_value": 50
+          },
+          "frequencyMax_1": {
+            "@_value": 70
+          },
+          "frequencyMin_2": {
+            "@_value": 0
+          },
+          "frequencyMax_2": {
+            "@_value": 0
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "TARMAC_POTHOLE",
+          "frequencyMin_1": {
+            "@_value": 50
+          },
+          "frequencyMax_1": {
+            "@_value": 70
+          },
+          "frequencyMin_2": {
+            "@_value": 0
+          },
+          "frequencyMax_2": {
+            "@_value": 0
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "RUMBLE_STRIP",
+          "frequencyMin_1": {
+            "@_value": 30
+          },
+          "frequencyMax_1": {
+            "@_value": 50
+          },
+          "frequencyMin_2": {
+            "@_value": 100
+          },
+          "frequencyMax_2": {
+            "@_value": 250
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 30
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 100
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 50
+          },
+          "minVelocityFrequency": {
+            "@_value": 80
+          }
+        },
+        {
+          "profileName": "ROCK",
+          "frequencyMin_1": {
+            "@_value": 30
+          },
+          "frequencyMax_1": {
+            "@_value": 50
+          },
+          "frequencyMin_2": {
+            "@_value": 90
+          },
+          "frequencyMax_2": {
+            "@_value": 200
+          },
+          "durationMin": {
+            "@_value": 70
+          },
+          "durationMax": {
+            "@_value": 100
+          },
+          "triggerProbability": {
+            "@_value": 0.5
+          },
+          "triggerInterval": {
+            "@_value": 90
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 50
+          },
+          "minVelocityFrequency": {
+            "@_value": 80
+          }
+        },
+        {
+          "profileName": "ROCK_MOSSY",
+          "frequencyMin_1": {
+            "@_value": 30
+          },
+          "frequencyMax_1": {
+            "@_value": 50
+          },
+          "frequencyMin_2": {
+            "@_value": 90
+          },
+          "frequencyMax_2": {
+            "@_value": 200
+          },
+          "durationMin": {
+            "@_value": 70
+          },
+          "durationMax": {
+            "@_value": 90
+          },
+          "triggerProbability": {
+            "@_value": 0.5
+          },
+          "triggerInterval": {
+            "@_value": 80
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 50
+          },
+          "minVelocityFrequency": {
+            "@_value": 80
+          }
+        },
+        {
+          "profileName": "COBBLESTONE",
+          "frequencyMin_1": {
+            "@_value": 10
+          },
+          "frequencyMax_1": {
+            "@_value": 30
+          },
+          "frequencyMin_2": {
+            "@_value": 30
+          },
+          "frequencyMax_2": {
+            "@_value": 70
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 0.9
+          },
+          "triggerInterval": {
+            "@_value": 200
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 80
+          }
+        },
+        {
+          "profileName": "GRAVEL_SMALL",
+          "frequencyMin_1": {
+            "@_value": 20
+          },
+          "frequencyMax_1": {
+            "@_value": 30
+          },
+          "frequencyMin_2": {
+            "@_value": 40
+          },
+          "frequencyMax_2": {
+            "@_value": 120
+          },
+          "durationMin": {
+            "@_value": 50
+          },
+          "durationMax": {
+            "@_value": 100
+          },
+          "triggerProbability": {
+            "@_value": 0.5
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 60
+          }
+        },
+        {
+          "profileName": "GRAVEL_LARGE",
+          "frequencyMin_1": {
+            "@_value": 20
+          },
+          "frequencyMax_1": {
+            "@_value": 40
+          },
+          "frequencyMin_2": {
+            "@_value": 40
+          },
+          "frequencyMax_2": {
+            "@_value": 180
+          },
+          "durationMin": {
+            "@_value": 50
+          },
+          "durationMax": {
+            "@_value": 100
+          },
+          "triggerProbability": {
+            "@_value": 0.6
+          },
+          "triggerInterval": {
+            "@_value": 40
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 70
+          }
+        },
+        {
+          "profileName": "MUD_POTHOLE",
+          "frequencyMin_1": {
+            "@_value": 50
+          },
+          "frequencyMax_1": {
+            "@_value": 70
+          },
+          "frequencyMin_2": {
+            "@_value": 0
+          },
+          "frequencyMax_2": {
+            "@_value": 0
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "METAL_GRILLE",
+          "frequencyMin_1": {
+            "@_value": 10
+          },
+          "frequencyMax_1": {
+            "@_value": 30
+          },
+          "frequencyMin_2": {
+            "@_value": 30
+          },
+          "frequencyMax_2": {
+            "@_value": 70
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 200
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 80
+          }
+        },
+        {
+          "profileName": "METAL_MANHOLE",
+          "frequencyMin_1": {
+            "@_value": 50
+          },
+          "frequencyMax_1": {
+            "@_value": 70
+          },
+          "frequencyMin_2": {
+            "@_value": 0
+          },
+          "frequencyMax_2": {
+            "@_value": 0
+          },
+          "durationMin": {
+            "@_value": 30
+          },
+          "durationMax": {
+            "@_value": 50
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "DIRT_TRACK",
+          "frequencyMin_1": {
+            "@_value": 30
+          },
+          "frequencyMax_1": {
+            "@_value": 50
+          },
+          "frequencyMin_2": {
+            "@_value": 20
+          },
+          "frequencyMax_2": {
+            "@_value": 150
+          },
+          "durationMin": {
+            "@_value": 150
+          },
+          "durationMax": {
+            "@_value": 180
+          },
+          "triggerProbability": {
+            "@_value": 0.5
+          },
+          "triggerInterval": {
+            "@_value": 100
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 60
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "CLAY_HARD",
+          "frequencyMin_1": {
+            "@_value": 20
+          },
+          "frequencyMax_1": {
+            "@_value": 30
+          },
+          "frequencyMin_2": {
+            "@_value": 40
+          },
+          "frequencyMax_2": {
+            "@_value": 100
+          },
+          "durationMin": {
+            "@_value": 50
+          },
+          "durationMax": {
+            "@_value": 100
+          },
+          "triggerProbability": {
+            "@_value": 0.7
+          },
+          "triggerInterval": {
+            "@_value": 30
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 40
+          },
+          "minVelocityFrequency": {
+            "@_value": 60
+          }
+        },
+        {
+          "profileName": "WHEEL_RIM",
+          "frequencyMin_1": {
+            "@_value": 25
+          },
+          "frequencyMax_1": {
+            "@_value": 45
+          },
+          "frequencyMin_2": {
+            "@_value": 50
+          },
+          "frequencyMax_2": {
+            "@_value": 150
+          },
+          "durationMin": {
+            "@_value": 70
+          },
+          "durationMax": {
+            "@_value": 90
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 60
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 60
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        },
+        {
+          "profileName": "BIG_ENGINE",
+          "frequencyMin_1": {
+            "@_value": 50
+          },
+          "frequencyMax_1": {
+            "@_value": 70
+          },
+          "frequencyMin_2": {
+            "@_value": 80
+          },
+          "frequencyMax_2": {
+            "@_value": 150
+          },
+          "durationMin": {
+            "@_value": 110
+          },
+          "durationMax": {
+            "@_value": 220
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 8
+          },
+          "minVelocity": {
+            "@_value": 0
+          },
+          "maxVelocity": {
+            "@_value": 30
+          },
+          "minVelocityFrequency": {
+            "@_value": 60
+          }
+        },
+        {
+          "profileName": "WHEEL_RUBBER",
+          "frequencyMin_1": {
+            "@_value": 0
+          },
+          "frequencyMax_1": {
+            "@_value": 0
+          },
+          "frequencyMin_2": {
+            "@_value": 80
+          },
+          "frequencyMax_2": {
+            "@_value": 95
+          },
+          "durationMin": {
+            "@_value": 70
+          },
+          "durationMax": {
+            "@_value": 90
+          },
+          "triggerProbability": {
+            "@_value": 1
+          },
+          "triggerInterval": {
+            "@_value": 60
+          },
+          "minVelocity": {
+            "@_value": 2
+          },
+          "maxVelocity": {
+            "@_value": 60
+          },
+          "minVelocityFrequency": {
+            "@_value": 50
+          }
+        }
+      ]
+    }
+  }
+}

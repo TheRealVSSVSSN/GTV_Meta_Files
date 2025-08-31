@@ -1,0 +1,852 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "utf-8"
+  },
+  "rage__tcInstBoxTypeLoader": {
+    "boxTypes": {
+      "Item": [
+        {
+          "name": 1845292264,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -17.5,
+              "@_y": -17.5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 17.5,
+              "@_y": 17.5,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 419767120,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -48.564,
+              "@_y": -42.051,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 48.564,
+              "@_y": 42.051,
+              "@_z": 7.89,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 15
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 254673580,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -9.8875,
+              "@_y": -5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 9.8875,
+              "@_y": 5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1113456618,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5,
+              "@_y": -5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5,
+              "@_y": 5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -715048758,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -17.5,
+              "@_y": -17.5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 17.5,
+              "@_y": 17.5,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 50
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1844113944,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -12.4384,
+              "@_y": -12.6158,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 12.4384,
+              "@_y": 12.6158,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 50
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -188717881,
+          "modifier": "StreetLightingTraffic",
+          "aabb": {
+            "min": {
+              "@_x": -2.5,
+              "@_y": -2.5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 2.5,
+              "@_y": 2.5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 664956610,
+          "modifier": "StreetLightingJunction",
+          "aabb": {
+            "min": {
+              "@_x": -15,
+              "@_y": -15,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 15,
+              "@_y": 15,
+              "@_z": 30,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1456877810,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -10,
+              "@_y": -10,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 10,
+              "@_y": 10,
+              "@_z": 15,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 20
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -2138249340,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5,
+              "@_y": -5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5,
+              "@_y": 5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1890245208,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5,
+              "@_y": -5,
+              "@_z": 0.000001,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5,
+              "@_y": 5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 20
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1733275542,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.68133,
+              "@_y": -5.18384,
+              "@_z": -2.67496,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.31867,
+              "@_y": 4.81616,
+              "@_z": 7.32504,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1467454152,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.29114,
+              "@_y": -9.98926,
+              "@_z": 0.066551,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.70886,
+              "@_y": 0.010742,
+              "@_z": 10.0666,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1715600646,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.29114,
+              "@_y": -9.9895,
+              "@_z": 0.066551,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.70886,
+              "@_y": 0.010498,
+              "@_z": 10.0666,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1426493390,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.29114,
+              "@_y": -9.98901,
+              "@_z": 0.066551,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.70886,
+              "@_y": 0.010986,
+              "@_z": 10.0666,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -846181866,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.08176,
+              "@_y": -8.0249,
+              "@_z": 0.227611,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.91824,
+              "@_y": 1.9751,
+              "@_z": 10.2276,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1920354262,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5,
+              "@_y": -5,
+              "@_z": -5,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5,
+              "@_y": 5,
+              "@_z": 5,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -689905224,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5.08179,
+              "@_y": -8.02515,
+              "@_z": 0.227611,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 4.91821,
+              "@_y": 1.97485,
+              "@_z": 10.2276,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1242539337,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -5,
+              "@_y": -5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5,
+              "@_y": 5,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 20
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1105062255,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -4.99756,
+              "@_y": -4.87378,
+              "@_z": 0.000001,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 5.00244,
+              "@_y": 5.12622,
+              "@_z": 10,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1609496462,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -7.5,
+              "@_y": -7.5,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 7.5,
+              "@_y": 7.5,
+              "@_z": 6.42847,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 40
+          },
+          "range": {
+            "@_value": 8
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1210024890,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -20,
+              "@_y": -20,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 20,
+              "@_y": 20,
+              "@_z": 20,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 20
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -1800068182,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -8.30604,
+              "@_y": -3.465,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 8.30604,
+              "@_y": 3.465,
+              "@_z": 6.804,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 22
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -780084788,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -10,
+              "@_y": -10,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 10,
+              "@_y": 10,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 2094590372,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -19.35,
+              "@_y": -20.4,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 19.35,
+              "@_y": 20.4,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1626537032,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -19.2,
+              "@_y": -21,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 19.2,
+              "@_y": 21,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 10
+          },
+          "range": {
+            "@_value": 30
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": 1415155472,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -18.8,
+              "@_y": -19.2,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 18.8,
+              "@_y": 19.2,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": -179132644,
+          "modifier": "StreetLighting",
+          "aabb": {
+            "min": {
+              "@_x": -12.4,
+              "@_y": -10,
+              "@_z": 0,
+              "@_w": 0
+            },
+            "max": {
+              "@_x": 12.4,
+              "@_y": 10,
+              "@_z": 3,
+              "@_w": 0
+            }
+          },
+          "percentage": {
+            "@_value": 100
+          },
+          "range": {
+            "@_value": 10
+          },
+          "startHour": {
+            "@_value": 0
+          },
+          "endHour": {
+            "@_value": 0
+          }
+        }
+      ]
+    }
+  }
+}

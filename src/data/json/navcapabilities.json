@@ -1,0 +1,669 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedNavCapabilityInfoManager": {
+    "aPedNavCapabilities": {
+      "Item": [
+        {
+          "Name": "STANDARD_PED",
+          "BitFlags": "MayClimb MayDrop MayJump MayEnterWater MayUseLadders AvoidObjects PreferToAvoidWater AvoidFire",
+          "MaxClimbHeight": {
+            "@_value": 1
+          },
+          "MaxDropHeight": {
+            "@_value": 1
+          },
+          "IgnoreObjectMass": {
+            "@_value": 10
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "STANDARD_QUADRUPED",
+          "BitFlags": "AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.8
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.4
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 0.75
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 8
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": 0.2
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": 0.25
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 15
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0.8
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 40
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 1.25
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 4
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": true
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": true
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": true
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "WILD_ANIMAL",
+          "BitFlags": "AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 4
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 2.5
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 5
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 8
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 15
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0.78539
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": true
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "COUGAR",
+          "BitFlags": "AvoidObjects PreferToAvoidWater AvoidFire NeverStopNavmeshTaskEarlyInFollowLeader",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 4
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 2.5
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 5
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 8
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 15
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": true
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "SIMPLE",
+          "BitFlags": "AvoidObjects AvoidFire",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "SIMPLE_NO_AVOIDANCE",
+          "BitFlags": "",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "WATER_ONLY",
+          "BitFlags": "MayEnterWater SearchForPathsAbovePed",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "FLIGHT_CAPABLE",
+          "BitFlags": "MayFly",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "SURFACE_SKIMMER",
+          "BitFlags": "MayEnterWater PreferNearWaterSurface SearchForPathsAbovePed",
+          "MaxClimbHeight": {
+            "@_value": 0
+          },
+          "MaxDropHeight": {
+            "@_value": 0
+          },
+          "IgnoreObjectMass": {
+            "@_value": 0
+          },
+          "fClimbCostModifier": {
+            "@_value": 1
+          },
+          "GotoTargetLookAheadDistance": {
+            "@_value": 1.5
+          },
+          "GotoTargetInitialLookAheadDistance": {
+            "@_value": 0.25
+          },
+          "GotoTargetLookAheadDistanceIncrement": {
+            "@_value": 4
+          },
+          "DefaultMoveFollowLeaderRunDistance": {
+            "@_value": 6
+          },
+          "DefaultMoveFollowLeaderSprintDistance": {
+            "@_value": 9
+          },
+          "DesiredMbrLowerBoundInMoveFollowLeader": {
+            "@_value": 1
+          },
+          "FollowLeaderSeekEntityWalkSpeedRange": {
+            "@_value": 10
+          },
+          "LooseFormationTargetRadiusOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderResetTargetDistanceSquaredOverride": {
+            "@_value": -1
+          },
+          "FollowLeaderSeekEntityRunSpeedRange": {
+            "@_value": 20
+          },
+          "DefaultMaxSlopeNavigable": {
+            "@_value": 0
+          },
+          "StillLeaderSpacingEpsilon": {
+            "@_value": 0
+          },
+          "MoveFollowLeaderHeadingTolerance": {
+            "@_value": 0
+          },
+          "NonGroupMinDistToAdjustSpeed": {
+            "@_value": 3
+          },
+          "NonGroupMaxDistToAdjustSpeed": {
+            "@_value": 16
+          },
+          "CanSprintInFollowLeaderSeekEntity": {
+            "@_value": false
+          },
+          "UseAdaptiveMbrInMoveFollowLeader": {
+            "@_value": false
+          },
+          "AlwaysKeepMovingWhilstFollowingLeaderPath": {
+            "@_value": false
+          },
+          "IgnoreMovingTowardsLeaderTargetRadiusExpansion": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

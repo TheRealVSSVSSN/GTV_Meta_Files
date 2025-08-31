@@ -1,0 +1,936 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CGarages__CGarageInitDataList": {
+    "garages": {
+      "Item": [
+        {
+          "name": "Michael - Beverly Hills",
+          "owner": "",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": -814.39447
+              },
+              "BaseY": {
+                "@_value": 183.283096
+              },
+              "BaseZ": {
+                "@_value": 71.481918
+              },
+              "Delta1X": {
+                "@_value": 8
+              },
+              "Delta1Y": {
+                "@_value": 3.1
+              },
+              "Delta2X": {
+                "@_value": -2.3
+              },
+              "Delta2Y": {
+                "@_value": 5.1
+              },
+              "CeilingZ": {
+                "@_value": 74.88192
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": true
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Trevor - Countryside",
+          "owner": "",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1964.171997
+              },
+              "BaseY": {
+                "@_value": 3815.871094
+              },
+              "BaseZ": {
+                "@_value": 31.22636
+              },
+              "Delta1X": {
+                "@_value": 9.75
+              },
+              "Delta1Y": {
+                "@_value": 5.725
+              },
+              "Delta2X": {
+                "@_value": -2.55
+              },
+              "Delta2Y": {
+                "@_value": 4.65
+              },
+              "CeilingZ": {
+                "@_value": 34.426361
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Trevor - City",
+          "owner": "",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": -1146.003052
+              },
+              "BaseY": {
+                "@_value": -1542.442993
+              },
+              "BaseZ": {
+                "@_value": 1.725995
+              },
+              "Delta1X": {
+                "@_value": 14.85
+              },
+              "Delta1Y": {
+                "@_value": 10.9
+              },
+              "Delta2X": {
+                "@_value": -10.5
+              },
+              "Delta2Y": {
+                "@_value": 15.175
+              },
+              "CeilingZ": {
+                "@_value": 6.350995
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Trevor - Stripclub",
+          "owner": "Player_Two",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 142.593094
+              },
+              "BaseY": {
+                "@_value": -1290.527954
+              },
+              "BaseZ": {
+                "@_value": 27.89992
+              },
+              "Delta1X": {
+                "@_value": 5.95
+              },
+              "Delta1Y": {
+                "@_value": 3.175
+              },
+              "Delta2X": {
+                "@_value": -8.675
+              },
+              "Delta2Y": {
+                "@_value": 16.299999
+              },
+              "CeilingZ": {
+                "@_value": 30.799925
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Franklin - Aunt",
+          "owner": "",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": -27.77285
+              },
+              "BaseY": {
+                "@_value": -1430.651001
+              },
+              "BaseZ": {
+                "@_value": 28.82552
+              },
+              "Delta1X": {
+                "@_value": 5.025
+              },
+              "Delta1Y": {
+                "@_value": 0.025
+              },
+              "Delta2X": {
+                "@_value": -0.05
+              },
+              "Delta2Y": {
+                "@_value": 7.125
+              },
+              "CeilingZ": {
+                "@_value": 31.82552
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": true
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Franklin - Hills",
+          "owner": "",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 24.48181
+              },
+              "BaseY": {
+                "@_value": 539.193481
+              },
+              "BaseZ": {
+                "@_value": 174.446106
+              },
+              "Delta1X": {
+                "@_value": 3.55
+              },
+              "Delta1Y": {
+                "@_value": 6.3
+              },
+              "Delta2X": {
+                "@_value": -7.875
+              },
+              "Delta2Y": {
+                "@_value": 4.325
+              },
+              "CeilingZ": {
+                "@_value": 178.296097
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_PSY_01",
+          "owner": "Player_Zero",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 2337.552979
+              },
+              "BaseY": {
+                "@_value": 3122.498047
+              },
+              "BaseZ": {
+                "@_value": 45.924999
+              },
+              "Delta1X": {
+                "@_value": 21.60475
+              },
+              "Delta1Y": {
+                "@_value": -4.301661
+              },
+              "Delta2X": {
+                "@_value": 5.7309
+              },
+              "Delta2Y": {
+                "@_value": 25.67601
+              },
+              "CeilingZ": {
+                "@_value": 56.385239
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": 5
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_PSY_02",
+          "owner": "Player_One",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 2337.552979
+              },
+              "BaseY": {
+                "@_value": 3122.498047
+              },
+              "BaseZ": {
+                "@_value": 45.924999
+              },
+              "Delta1X": {
+                "@_value": 21.60475
+              },
+              "Delta1Y": {
+                "@_value": -4.301661
+              },
+              "Delta2X": {
+                "@_value": 5.7309
+              },
+              "Delta2Y": {
+                "@_value": 25.67601
+              },
+              "CeilingZ": {
+                "@_value": 56.385239
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": 5
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_PSY_03",
+          "owner": "Player_Two",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 2337.552979
+              },
+              "BaseY": {
+                "@_value": 3122.498047
+              },
+              "BaseZ": {
+                "@_value": 45.924999
+              },
+              "Delta1X": {
+                "@_value": 21.60475
+              },
+              "Delta1Y": {
+                "@_value": -4.301661
+              },
+              "Delta2X": {
+                "@_value": 5.7309
+              },
+              "Delta2Y": {
+                "@_value": 25.67601
+              },
+              "CeilingZ": {
+                "@_value": 56.385239
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": 5
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CSY_01",
+          "owner": "Player_Zero",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1550.639038
+              },
+              "BaseY": {
+                "@_value": -2183.62793
+              },
+              "BaseZ": {
+                "@_value": 75.66188
+              },
+              "Delta1X": {
+                "@_value": 21.4
+              },
+              "Delta1Y": {
+                "@_value": -3.375
+              },
+              "Delta2X": {
+                "@_value": 6.45
+              },
+              "Delta2Y": {
+                "@_value": 32.724998
+              },
+              "CeilingZ": {
+                "@_value": 83.061882
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CSY_02",
+          "owner": "Player_One",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1550.639038
+              },
+              "BaseY": {
+                "@_value": -2183.62793
+              },
+              "BaseZ": {
+                "@_value": 75.66188
+              },
+              "Delta1X": {
+                "@_value": 21.4
+              },
+              "Delta1Y": {
+                "@_value": -3.375
+              },
+              "Delta2X": {
+                "@_value": 6.45
+              },
+              "Delta2Y": {
+                "@_value": 32.724998
+              },
+              "CeilingZ": {
+                "@_value": 83.061882
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CSY_03",
+          "owner": "Player_Two",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1550.639038
+              },
+              "BaseY": {
+                "@_value": -2183.62793
+              },
+              "BaseZ": {
+                "@_value": 75.66188
+              },
+              "Delta1X": {
+                "@_value": 21.4
+              },
+              "Delta1Y": {
+                "@_value": -3.375
+              },
+              "Delta2X": {
+                "@_value": 6.45
+              },
+              "Delta2Y": {
+                "@_value": 32.724998
+              },
+              "CeilingZ": {
+                "@_value": 83.061882
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CMS_01",
+          "owner": "Player_Zero",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1196.265015
+              },
+              "BaseY": {
+                "@_value": 2663.245117
+              },
+              "BaseZ": {
+                "@_value": 35.729988
+              },
+              "Delta1X": {
+                "@_value": 14.4
+              },
+              "Delta1Y": {
+                "@_value": -13.875
+              },
+              "Delta2X": {
+                "@_value": 7.375
+              },
+              "Delta2Y": {
+                "@_value": 7.975
+              },
+              "CeilingZ": {
+                "@_value": 42.37999
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CMS_02",
+          "owner": "Player_One",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1196.265015
+              },
+              "BaseY": {
+                "@_value": 2663.245117
+              },
+              "BaseZ": {
+                "@_value": 35.729988
+              },
+              "Delta1X": {
+                "@_value": 14.4
+              },
+              "Delta1Y": {
+                "@_value": -13.875
+              },
+              "Delta2X": {
+                "@_value": 7.375
+              },
+              "Delta2Y": {
+                "@_value": 7.975
+              },
+              "CeilingZ": {
+                "@_value": 42.37999
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "Lockup_CMS_03",
+          "owner": "Player_Two",
+          "boxes": {
+            "Item": {
+              "BaseX": {
+                "@_value": 1196.265015
+              },
+              "BaseY": {
+                "@_value": 2663.245117
+              },
+              "BaseZ": {
+                "@_value": 35.729988
+              },
+              "Delta1X": {
+                "@_value": 14.4
+              },
+              "Delta1Y": {
+                "@_value": -13.875
+              },
+              "Delta2X": {
+                "@_value": 7.375
+              },
+              "Delta2Y": {
+                "@_value": 7.975
+              },
+              "CeilingZ": {
+                "@_value": 42.37999
+              },
+              "useLineIntersection": {
+                "@_value": false
+              }
+            }
+          },
+          "type": "GARAGE_SAFEHOUSE_PARKING_ZONE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": false
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": false
+          },
+          "InteriorBoxIDX": {
+            "@_value": -1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": -1
+          }
+        },
+        {
+          "name": "MP_GAR_SIMEON",
+          "owner": "",
+          "boxes": {
+            "Item": [
+              {
+                "BaseX": {
+                  "@_value": 1196.665039
+                },
+                "BaseY": {
+                  "@_value": -3123.383057
+                },
+                "BaseZ": {
+                  "@_value": 2.987583
+                },
+                "Delta1X": {
+                  "@_value": 15.89999
+                },
+                "Delta1Y": {
+                  "@_value": 0
+                },
+                "Delta2X": {
+                  "@_value": 0
+                },
+                "Delta2Y": {
+                  "@_value": 12.69997
+                },
+                "CeilingZ": {
+                  "@_value": 10.18758
+                },
+                "useLineIntersection": {
+                  "@_value": false
+                }
+              },
+              {
+                "BaseX": {
+                  "@_value": 1197.214966
+                },
+                "BaseY": {
+                  "@_value": -3123.454102
+                },
+                "BaseZ": {
+                  "@_value": 3.952424
+                },
+                "Delta1X": {
+                  "@_value": 14.6
+                },
+                "Delta1Y": {
+                  "@_value": 0
+                },
+                "Delta2X": {
+                  "@_value": 0
+                },
+                "Delta2Y": {
+                  "@_value": 12.2
+                },
+                "CeilingZ": {
+                  "@_value": 9.552424
+                },
+                "useLineIntersection": {
+                  "@_value": false
+                }
+              },
+              {
+                "BaseX": {
+                  "@_value": 1202.313965
+                },
+                "BaseY": {
+                  "@_value": -3111.174072
+                },
+                "BaseZ": {
+                  "@_value": 2.853685
+                },
+                "Delta1X": {
+                  "@_value": 4.5
+                },
+                "Delta1Y": {
+                  "@_value": 0
+                },
+                "Delta2X": {
+                  "@_value": 0
+                },
+                "Delta2Y": {
+                  "@_value": 1
+                },
+                "CeilingZ": {
+                  "@_value": 8.753685
+                },
+                "useLineIntersection": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "type": "GARAGE_FOR_SCRIPT_TO_OPEN_AND_CLOSE",
+          "permittedVehicleType": {
+            "@_value": -1
+          },
+          "startedWithVehicleSavingEnabled": {
+            "@_value": true
+          },
+          "isEnclosed": {
+            "@_value": false
+          },
+          "isMPGarage": {
+            "@_value": true
+          },
+          "InteriorBoxIDX": {
+            "@_value": 1
+          },
+          "ExteriorBoxIDX": {
+            "@_value": 0
+          }
+        }
+      ]
+    }
+  }
+}

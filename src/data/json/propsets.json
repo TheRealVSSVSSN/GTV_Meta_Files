@@ -1,0 +1,831 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAmbientModelSets": {
+    "ModelSets": {
+      "Item": [
+        {
+          "Name": "BARBELL",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Barbell_02",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BEER_BOTTLE",
+          "Models": {
+            "Item": [
+              {
+                "Name": "Prop_AMB_40oz_02",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "Prop_AMB_40oz_03",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BEER_BOTTLE_BROWN_BAG",
+          "Models": {
+            "Item": {
+              "Name": "P_CS_Bottle_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 0
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BINOCULARS",
+          "Models": {
+            "Item": {
+              "Name": "Prop_binoc_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BONGOS",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Bongos_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BROOM",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Tool_Broom",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "BUM_SIGN",
+          "Models": {
+            "Item": [
+              {
+                "Name": "Prop_Beggers_Sign_01",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "Prop_Beggers_Sign_02",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "Prop_Beggers_Sign_03",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "Prop_Beggers_Sign_04",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "CIGARETTES",
+          "Models": {
+            "Item": {
+              "Name": "Prop_AMB_Ciggy_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "CLIPBOARD",
+          "Models": {
+            "Item": {
+              "Name": "P_CS_Clipboard",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "COFFEECUPS",
+          "Models": {
+            "Item": {
+              "Name": "P_AMB_CoffeeCup_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "CONST_DRILL",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Tool_JackHam",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "CURL_BAR",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Curl_bar_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "DECKCHAIR_DRINKING",
+          "Models": {
+            "Item": [
+              {
+                "Name": "Prop_Plastic_cup_02",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 0.7
+                }
+              },
+              {
+                "Name": "P_AMB_CoffeeCup_01",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 0.3
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "DLC_CREDIT_CARD",
+          "Models": {
+            "Item": {
+              "Name": "Prop_CS_Credit_Card",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "DLC_SORTING_WEED",
+          "Models": {
+            "Item": {
+              "Name": "h4_Prop_h4_Weed_Bud_02b",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "DRINK_BEER",
+          "Models": {
+            "Item": {
+              "Name": "Prop_AMB_Beer_Bottle",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "FISHING_ROD",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Fishing_Rod_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "GUITAR",
+          "Models": {
+            "Item": {
+              "Name": "Prop_ACC_Guitar_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "HAMMER",
+          "Models": {
+            "Item": {
+              "Name": "Prop_tool_hammer",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "HAND_FOOD",
+          "Models": {
+            "Item": [
+              {
+                "Name": "P_AMB_Bagel_01",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 0.5
+                }
+              },
+              {
+                "Name": "Prop_AMB_Donut",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 0.25
+                }
+              },
+              {
+                "Name": "Prop_Donut_02",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 0.25
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "JOINT",
+          "Models": {
+            "Item": {
+              "Name": "P_CS_Joint_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "LEAF_BLOWER",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Leaf_Blower_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "LG_FLOAT",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Beach_LG_Float",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "MAID_RAG",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Rag_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "NINE_IRON",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Golf_Iron_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "NOTEPAD",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Notepad_02",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "PAPARAZZI_CAMERA",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Pap_Camera_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "PARKING_WAND",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Parking_Wand_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "PHONES",
+          "Models": {
+            "Item": {
+              "Name": "Prop_AMB_Phone",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "PISTOLS",
+          "Models": {
+            "Item": [
+              {
+                "Name": "W_PI_PISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_COMBATPISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_PISTOL50",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_APPISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_SNS_PISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_HEAVYPISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_PI_VINTAGE_PISTOL",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "PURSE",
+          "Models": {
+            "Item": {
+              "Name": "Prop_LD_Purse_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "RAKE_DLC",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Tool_Rake",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "RIFLES",
+          "Models": {
+            "Item": [
+              {
+                "Name": "W_AR_ASSAULTRIFLE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_AR_CARBINERIFLE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_AR_HEAVYRIFLE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_AR_ADVANCEDRIFLE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_AR_SPECIALCARBINE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              },
+              {
+                "Name": "W_AR_BULLPUPRIFLE",
+                "Variations": {
+                  "@_type": "NULL"
+                },
+                "Probability": {
+                  "@_value": 1
+                }
+              }
+            ]
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "SANDWICH",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Sandwich_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "SPACE_PISTOL",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Space_Pistol",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "SPACE_RIFLE",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Space_Rifle",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "SPATULA",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Fish_slice_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "TABLET",
+          "Models": {
+            "Item": {
+              "Name": "Prop_CS_Tablet",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "TENNIS_RACKET",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Tennis_Rack_01",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "TORCH",
+          "Models": {
+            "Item": {
+              "Name": "Prop_SCN_Police_Torch",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "TOURIST_MAP",
+          "Models": {
+            "Item": {
+              "Name": "P_tourist_map_01_S",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "TROWEL",
+          "Models": {
+            "Item": {
+              "Name": "Prop_CS_Trowel",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        },
+        {
+          "Name": "WELDING_TORCH",
+          "Models": {
+            "Item": {
+              "Name": "Prop_Weld_Torch",
+              "Variations": {
+                "@_type": "NULL"
+              },
+              "Probability": {
+                "@_value": 1
+              }
+            }
+          },
+          "@_type": "CAmbientModelSet"
+        }
+      ]
+    }
+  }
+}

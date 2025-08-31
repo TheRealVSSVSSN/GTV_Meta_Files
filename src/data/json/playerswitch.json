@@ -1,0 +1,160 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPlayerSwitchInterface": {
+    "switchSettings": {
+      "Item": [
+        {
+          "name": "SWITCH_TYPE_AUTO",
+          "range": {
+            "@_value": 0
+          },
+          "numJumpsMin": {
+            "@_value": 0
+          },
+          "numJumpsMax": {
+            "@_value": 0
+          },
+          "panSpeed": {
+            "@_value": 0
+          },
+          "ceilingHeight": {
+            "@_value": 0
+          },
+          "minHeightAbove": {
+            "@_value": 0
+          },
+          "ceilingLodLevel": "LODTYPES_DEPTH_HD",
+          "heightBetweenJumps": {
+            "@_value": 0
+          },
+          "skipPanRange": {
+            "@_value": 0
+          },
+          "maxTimeToStayInStartupModeOnLongRangeDescent": {
+            "@_value": 0
+          },
+          "scenarioAnimsTimeout": {
+            "@_value": 0
+          },
+          "radiusOfStreamedScenarioPedCheck": {
+            "@_value": 0
+          }
+        },
+        {
+          "name": "SWITCH_TYPE_LONG",
+          "range": {
+            "@_value": 0
+          },
+          "numJumpsMin": {
+            "@_value": 1
+          },
+          "numJumpsMax": {
+            "@_value": 3
+          },
+          "panSpeed": {
+            "@_value": 2000
+          },
+          "ceilingHeight": {
+            "@_value": 1190
+          },
+          "minHeightAbove": {
+            "@_value": 100
+          },
+          "ceilingLodLevel": "LODTYPES_DEPTH_SLOD2",
+          "heightBetweenJumps": {
+            "@_value": 260
+          },
+          "skipPanRange": {
+            "@_value": 200
+          },
+          "maxTimeToStayInStartupModeOnLongRangeDescent": {
+            "@_value": 2200
+          },
+          "scenarioAnimsTimeout": {
+            "@_value": 2450
+          },
+          "radiusOfStreamedScenarioPedCheck": {
+            "@_value": 20
+          }
+        },
+        {
+          "name": "SWITCH_TYPE_MEDIUM",
+          "range": {
+            "@_value": 600
+          },
+          "numJumpsMin": {
+            "@_value": 1
+          },
+          "numJumpsMax": {
+            "@_value": 3
+          },
+          "panSpeed": {
+            "@_value": 1200
+          },
+          "ceilingHeight": {
+            "@_value": 600
+          },
+          "minHeightAbove": {
+            "@_value": 200
+          },
+          "ceilingLodLevel": "LODTYPES_DEPTH_SLOD1",
+          "heightBetweenJumps": {
+            "@_value": 450
+          },
+          "skipPanRange": {
+            "@_value": 40
+          },
+          "maxTimeToStayInStartupModeOnLongRangeDescent": {
+            "@_value": 1600
+          },
+          "scenarioAnimsTimeout": {
+            "@_value": 1850
+          },
+          "radiusOfStreamedScenarioPedCheck": {
+            "@_value": 15
+          }
+        },
+        {
+          "name": "SWITCH_TYPE_SHORT",
+          "range": {
+            "@_value": 70
+          },
+          "numJumpsMin": {
+            "@_value": 0
+          },
+          "numJumpsMax": {
+            "@_value": 0
+          },
+          "panSpeed": {
+            "@_value": 0
+          },
+          "ceilingHeight": {
+            "@_value": 0
+          },
+          "minHeightAbove": {
+            "@_value": 0
+          },
+          "ceilingLodLevel": "LODTYPES_DEPTH_HD",
+          "heightBetweenJumps": {
+            "@_value": 0
+          },
+          "skipPanRange": {
+            "@_value": 0
+          },
+          "maxTimeToStayInStartupModeOnLongRangeDescent": {
+            "@_value": 0
+          },
+          "scenarioAnimsTimeout": {
+            "@_value": 0
+          },
+          "radiusOfStreamedScenarioPedCheck": {
+            "@_value": 0
+          }
+        }
+      ]
+    }
+  }
+}

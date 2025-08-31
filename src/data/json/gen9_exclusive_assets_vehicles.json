@@ -1,0 +1,2352 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "Gen9ExclusiveAssetsDataVehicles": {
+    "VehicleModels": {
+      "Item": [
+        "arbitergt",
+        "astron2",
+        "cyclone2",
+        "ignus2",
+        "s95"
+      ]
+    },
+    "VehicleData": {
+      "Item": [
+        {
+          "kitName": "45_sentinel_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "sentinel_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "sentinel_hswliv1",
+                    "sentinel_hswliv2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "sentinel_hswwing1",
+                    "sentinel_hswwing2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "46_banshee_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "banshee_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "banshee_hswliv1",
+                    "banshee_hswliv2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "banshee_hswwing1",
+                    "banshee_hswwing2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "140_brioso_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "brioso_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "brioso_hswliv1",
+                    "brioso_hswliv2",
+                    "brioso_hswliv3",
+                    "brioso_hswliv4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "brioso_hswwing1",
+                    "brioso_hswwing2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "191_hakuchou2_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "hakuchou2_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "hakuchou2_hswliv1",
+                    "hakuchou2_hswliv2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "225_turismo2_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "turismo2_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "turismo2_hswliv1",
+                    "turismo2_hswliv2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "turismo2_hswwing1",
+                    "turismo2_hswwing2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 0,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "316_deveste_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "deveste_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "deveste_hswliv1",
+                    "deveste_hswliv2",
+                    "deveste_hswliv3",
+                    "deveste_hswliv4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "deveste_hswwing1",
+                    "deveste_hswwing2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 1,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "497_vigero2_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "vig2_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": "vig2_hswroof4"
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswarmor14",
+                    "vig2_hswarmor15"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswwing15",
+                    "vig2_hswwing16",
+                    "vig2_hswwing17"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswhood28",
+                    "vig2_hswhood29",
+                    "vig2_hswhood30"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswbumr15",
+                    "vig2_hswbumr16"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_R",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswmirr_df7",
+                    "vig2_hswmirr_pf7"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswskirt16",
+                    "vig2_hswskirt17",
+                    "vig2_hswskirt18"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswbumf17",
+                    "vig2_hswbumf18"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "vig2_hswliv1",
+                    "vig2_hswliv2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "168_feltzer3_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "feltzer3_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "feltzer3_hood9",
+                    "feltzer3_hood10",
+                    "feltzer3_hood11"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "feltzer_wingb",
+                    "feltzer_wingc"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "feltzer3_livery21",
+                    "feltzer3_livery22"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "526_issi8_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "issi8_hsw_badge"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_HOOD",
+                "modelNames": {
+                  "Item": [
+                    "issi8_hsw_hood_1",
+                    "issi8_hsw_hood_2",
+                    "issi8_hsw_hood_3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "issi8_hsw_spoiler_1",
+                    "issi8_hsw_spoiler_2",
+                    "issi8_hsw_spoiler_3"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "issi8_hsw_livery_1",
+                    "issi8_hsw_livery_2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "517_entity3_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "ent3_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_roof_afc",
+                    "ent3hsw_roof_bfc"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": "ent3hsw_mir_l_afc"
+                }
+              },
+              {
+                "modType": "VMT_WING_R",
+                "modelNames": {
+                  "Item": "ent3hsw_panel_afc"
+                }
+              },
+              {
+                "modType": "VMT_HOOD",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_hood_afc",
+                    "ent3hsw_hood_bfc",
+                    "ent3hsw_hood_cfc",
+                    "ent3hsw_hood_dfc",
+                    "ent3hsw_hood_efc",
+                    "ent3hsw_hood_ffc",
+                    "ent3hsw_hood_gfc"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_diff_afc",
+                    "ent3hsw_diff_afc2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_skirt_afc",
+                    "ent3hsw_skirt_afc2",
+                    "ent3hsw_skirt_bfc",
+                    "ent3hsw_skirt_bfc2",
+                    "ent3hsw_skirt_cfc",
+                    "ent3hsw_skirt_cfc2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_split_afc",
+                    "ent3hsw_split_afc2",
+                    "ent3hsw_split_bfc",
+                    "ent3hsw_split_bfc2",
+                    "ent3hsw_split_cfc",
+                    "ent3hsw_split_cfc2",
+                    "ent3hsw_split_dfc",
+                    "ent3hsw_split_dfc2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_GRILL",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_can_afc",
+                    "ent3hsw_can_afc2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_wing_afc",
+                    "ent3hsw_wing_afc2",
+                    "ent3hsw_wing_bfc",
+                    "ent3hsw_wing_bfc2",
+                    "ent3hsw_wing_cfc",
+                    "ent3hsw_wing_cfc2",
+                    "ent3hsw_wing_dfc",
+                    "ent3hsw_wing_dfc2",
+                    "ent3hsw_wing_efc",
+                    "ent3hsw_wing_efc2",
+                    "ent3hsw_wing_ffc",
+                    "ent3hsw_wing_gfc",
+                    "ent3hsw_wing_gfc2",
+                    "ent3hsw_wing_hfc",
+                    "ent3hsw_wing_hfc2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "ent3hsw_livery11",
+                    "ent3hsw_livery12"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "538_buffalo5_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "buff5_hsw_badge"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "buff5_hsw_livery_1",
+                    "buff5_hsw_livery_2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "buff5_wing_3_HSW",
+                    "buff5_wing_4_HSW",
+                    "buff5_wing_7_HSW"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "buff5_hood_1_HSW",
+                    "buff5_hood_2_HSW",
+                    "buff5_hood_3_HSW"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "535_coureur_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "coureur_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "coureur_livery11",
+                    "coureur_livery12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "coureur_hoodhsw21",
+                    "coureur_hoodhsw22",
+                    "coureur_hoodhsw23"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": [
+                    "coureur_roofhsw20",
+                    "coureur_roofhsw21"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "coureur_bumfhsw9",
+                    "coureur_bumfhsw10"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "coureur_skirthsw21",
+                    "coureur_skirthsw22",
+                    "coureur_skirthsw23"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "coureur_spoilerhsw25",
+                    "coureur_spoilerhsw26",
+                    "coureur_spoilerhsw27"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": [
+                    "coureur_bumrhsw5",
+                    "coureur_bumrhsw6"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_GRILL",
+                "modelNames": {
+                  "Item": [
+                    "coureur_boothsw12",
+                    "coureur_boothsw13"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": [
+                    "coureur_mirrhsw9a",
+                    "coureur_mirrhsw10a"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "534_stingertt_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "stingtt_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswliv11",
+                    "stingtt_hswliv12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_GRILL",
+                "modelNames": {
+                  "Item": "stingtt_hswgrill9"
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": "stingtt_hswbumpf4"
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswspliter15",
+                    "stingtt_hswspliter16"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswhood19",
+                    "stingtt_hswhood20"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswdiff10",
+                    "stingtt_hswdiff11"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswskirt21",
+                    "stingtt_hswskirt22"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "stingtt_hswwing12",
+                    "stingtt_hswwing13"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "541_monstrociti_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "monstrociti_hsw"
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "monstrociti_livery12",
+                    "monstrociti_livery13"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": "monstrociti_hood_m"
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "561_vivanite_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "vivanite_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "vivanite_wing_hsw",
+                    "vivanite_wing2_hsw"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "vivanite_hood_hsw",
+                    "vivanite_hood2_hsw"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": "vivanite_roof_hsw"
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": "vivanite_mirr6a_hsw"
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "vivanite_liv1",
+                    "vivanite_liv2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "547_vigero3_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "vig3_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswwing15",
+                    "vig3_hswwing16",
+                    "vig3_hswwing17"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswhood28",
+                    "vig3_hswhood29",
+                    "vig3_hswhood30"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_R",
+                "modelNames": {
+                  "Item": "vig3_hswmirr_df7"
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswskirt16",
+                    "vig3_hswskirt17",
+                    "vig3_hswskirt18"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswbumf11",
+                    "vig3_hswbumf12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": "vig3_hswbumr4"
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswdiff15",
+                    "vig3_hswdiff16"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswsplit11",
+                    "vig3_hswsplit12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "vig3_hswliv1",
+                    "vig3_hswliv2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "392_polgauntlet_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "polgauntlet_livery2"
+              }
+            }
+          },
+          "statMods": ""
+        },
+        {
+          "kitName": "579_eurosX32_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "eurosx32_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "eurosx32_hswhood20",
+                    "eurosx32_hswhood21"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "eurosx32_hswwing24",
+                    "eurosx32_hswwing25"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SKIRT",
+                "modelNames": {
+                  "Item": [
+                    "eurosx32_hswskirt20",
+                    "eurosx32_hswskirt21"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": "eurosx32_hswbumr15"
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": "eurosx32_hswarmor11"
+                }
+              },
+              {
+                "modType": "VMT_CHASSIS5",
+                "modelNames": {
+                  "Item": [
+                    "eurosx32_hswspliter23",
+                    "eurosx32_hswspliter24"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_R",
+                "modelNames": {
+                  "Item": "eurosx32_hswwarmor8"
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "eurosx32_hswliv1",
+                    "eurosx32_hswliv2"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "582_niobe_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": "niobe_wing10"
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": "niobe_hood9"
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "niobe_livery12",
+                    "niobe_livery13"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "574_pipistrello_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "pipi_livery11"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "568_driftvorschlag_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "driftvorschlag_liv1"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "470_previon_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "prev_liv14"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "472_growler_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "growler_liv13"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "110_kuruma_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "kuruma_livery12"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "222_insurgent3_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "mod_sccamo5"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "532_avenger3_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "mod_sccamo3"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "257_avenger_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "mod_sccamo3"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "306_patriot2_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "mod_sccamo10"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "265_khanjali_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "vehxmas_camo5"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "595_banshee3_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "bansh3hsw_badge"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "bansh3_livery4",
+                    "bansh3hsw_livery11",
+                    "bansh3hsw_livery12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "bansh3hsw_wing_0",
+                    "bansh3hsw_wing_2",
+                    "bansh3hsw_wing_4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "bansh3hsw_hood_2",
+                    "bansh3hsw_hood_3",
+                    "bansh3hsw_hood_4"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "597_firebolt_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "stingtt_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "firehsw_liv11",
+                    "firehsw_liv12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": "firehsw_strip5"
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "firehsw_wing8",
+                    "firehsw_wing9"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": "firehsw_bumpf4"
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": "firehsw_bumpr4"
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "firehsw_hood19",
+                    "firehsw_hood20"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": "firehsw_mirr4a"
+                }
+              },
+              {
+                "modType": "VMT_GRILL",
+                "modelNames": {
+                  "Item": "firehsw_grill12"
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "596_coquette6_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "coquette6_liv6"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "575_envisage_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "envis_livery13"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "591_terbyte_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "terbyte_livery1"
+              }
+            }
+          }
+        },
+        {
+          "kitName": "609_tampa4_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "tampa4_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswwing22",
+                    "tampa4_hswwing23",
+                    "tampa4_hswwing24"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswhood17",
+                    "tampa4_hswhood18",
+                    "tampa4_hswhood19"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswbumr17",
+                    "tampa4_hswbumr18"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswbumf17",
+                    "tampa4_hswbumf18"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswliv1",
+                    "tampa4_hswliv2"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_L",
+                "modelNames": {
+                  "Item": [
+                    "tampa4_hswmirr7a",
+                    "tampa4_hswmirr8a"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_ARMOUR",
+                "indices": {
+                  "#text": 5,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "613_woodlander_modkit",
+          "visibleMods": {
+            "Item": [
+              {
+                "modType": "VMT_ICE",
+                "modelNames": {
+                  "Item": "wood_hsw"
+                }
+              },
+              {
+                "modType": "VMT_KNOB",
+                "modelNames": {
+                  "Item": [
+                    "hsw_turbomod1",
+                    "hsw_turbomod2",
+                    "hsw_turbomod3",
+                    "hsw_turbomod4"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_SPOILER",
+                "modelNames": {
+                  "Item": [
+                    "hswwood_wing10",
+                    "hswwood_wing11"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_GRILL",
+                "modelNames": {
+                  "Item": "hswwood_grill11"
+                }
+              },
+              {
+                "modType": "VMT_BONNET",
+                "modelNames": {
+                  "Item": [
+                    "hswwood_hood19",
+                    "hswwood_hood20"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_R",
+                "modelNames": {
+                  "Item": "hswwood_bumpr8"
+                }
+              },
+              {
+                "modType": "VMT_BUMPER_F",
+                "modelNames": {
+                  "Item": [
+                    "hswwood_split19",
+                    "hswwood_split20"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_ROOF",
+                "modelNames": {
+                  "Item": "hswwood_diff10"
+                }
+              },
+              {
+                "modType": "VMT_CHASSIS",
+                "modelNames": {
+                  "Item": "hswwood_strip5"
+                }
+              },
+              {
+                "modType": "VMT_LIVERY_MOD",
+                "modelNames": {
+                  "Item": [
+                    "hswwood_liv11",
+                    "hswwood_liv12"
+                  ]
+                }
+              },
+              {
+                "modType": "VMT_WING_R",
+                "modelNames": {
+                  "Item": [
+                    "hswwood_mirr_df4",
+                    "hswwood_mirr_pf4"
+                  ]
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "modType": "VMT_ENGINE",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_BRAKES",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_GEARBOX",
+                "indices": {
+                  "#text": 3,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_SUSPENSION",
+                "indices": {
+                  "#text": 4,
+                  "@_content": "int_array"
+                }
+              },
+              {
+                "modType": "VMT_ARMOUR",
+                "indices": {
+                  "#text": 5,
+                  "@_content": "int_array"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "kitName": "610_suzume_modkit",
+          "visibleMods": {
+            "Item": {
+              "modType": "VMT_LIVERY_MOD",
+              "modelNames": {
+                "Item": "suzu_liv10"
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

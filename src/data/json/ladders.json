@@ -1,0 +1,63 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CLadderMetadataManager": {
+    "LadderData": {
+      "Item": [
+        {
+          "Name": "DEFAULT",
+          "ClipSet": "ANIM_GROUP_LADDERS",
+          "FemaleClipSet": "ANIM_GROUP_LADDERS_FEMALE",
+          "RungSpacing": {
+            "@_value": 0.25
+          },
+          "Width": {
+            "@_value": 0.6
+          },
+          "CanSlide": {
+            "@_value": true
+          },
+          "CanMountBehind": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "DEFAULT_NOSLIDE",
+          "ClipSet": "ANIM_GROUP_LADDERS",
+          "FemaleClipSet": "ANIM_GROUP_LADDERS_FEMALE",
+          "RungSpacing": {
+            "@_value": 0.25
+          },
+          "Width": {
+            "@_value": 0.6
+          },
+          "CanSlide": {
+            "@_value": false
+          },
+          "CanMountBehind": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "DEFAULT_NOBEHIND",
+          "ClipSet": "ANIM_GROUP_LADDERS",
+          "FemaleClipSet": "ANIM_GROUP_LADDERS_FEMALE",
+          "RungSpacing": {
+            "@_value": 0.25
+          },
+          "Width": {
+            "@_value": 0.6
+          },
+          "CanSlide": {
+            "@_value": true
+          },
+          "CanMountBehind": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

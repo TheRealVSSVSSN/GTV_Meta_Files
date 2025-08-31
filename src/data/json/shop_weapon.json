@@ -1,0 +1,48 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "WeaponShopItemArray": {
+    "weaponShopItems": {
+      "Item": [
+        {
+          "lockHash": "CU_WEP_HATCHET",
+          "nameHash": "WEAPON_HATCHET",
+          "cost": {
+            "@_value": 14500
+          },
+          "ammoCost": {
+            "@_value": 100
+          },
+          "textLabel": "WT_HATCHET",
+          "weaponDesc": "WTD_HATCHET",
+          "weaponTT": "WTT_HATCHET",
+          "weaponUppercase": "WTU_HATCHET",
+          "id": {
+            "@_value": 32
+          },
+          "weaponComponents": ""
+        },
+        {
+          "lockHash": "CU_WEP_RAILGUN",
+          "nameHash": "WEAPON_RAILGUN",
+          "cost": {
+            "@_value": 50000
+          },
+          "ammoCost": {
+            "@_value": 100
+          },
+          "textLabel": "WT_RAILGUN",
+          "weaponDesc": "WTD_RAILGUN",
+          "weaponTT": "WTT_RAILGUN",
+          "weaponUppercase": "WTU_RAILGUN",
+          "id": {
+            "@_value": 32
+          },
+          "weaponComponents": ""
+        }
+      ]
+    }
+  }
+}

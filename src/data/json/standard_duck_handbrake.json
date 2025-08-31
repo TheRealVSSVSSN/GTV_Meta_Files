@@ -1,0 +1,89 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_VEH_HANDBRAKE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_DUCK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HYDRAULICS_CONTROL_TOGGLE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MELEE_HOLD",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MELEE_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MELEE_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PARACHUTE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_BIKE_WINGS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_TRANSFORM",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SHIFT_GEAR_UP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SHIFT_GEAR_DOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        }
+      ]
+    }
+  }
+}

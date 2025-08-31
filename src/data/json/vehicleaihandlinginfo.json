@@ -1,0 +1,353 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAIHandlingInfoMgr": {
+    "AIHandlingInfos": {
+      "Item": [
+        {
+          "Name": "SPORTS_CAR",
+          "MinBrakeDistance": {
+            "@_value": 10
+          },
+          "MaxBrakeDistance": {
+            "@_value": 80
+          },
+          "MaxSpeedAtBrakeDistance": {
+            "@_value": 50
+          },
+          "AbsoluteMinSpeed": {
+            "@_value": 1
+          },
+          "AICurvePoints": {
+            "Item": [
+              {
+                "Angle": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 60
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 2
+                },
+                "Speed": {
+                  "@_value": 50
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 6
+                },
+                "Speed": {
+                  "@_value": 35
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 12
+                },
+                "Speed": {
+                  "@_value": 25
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 22
+                },
+                "Speed": {
+                  "@_value": 20
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 28
+                },
+                "Speed": {
+                  "@_value": 18
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 40
+                },
+                "Speed": {
+                  "@_value": 16
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 90
+                },
+                "Speed": {
+                  "@_value": 10
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 180
+                },
+                "Speed": {
+                  "@_value": 4
+                },
+                "@_type": "CAICurvePoint"
+              }
+            ]
+          },
+          "@_type": "CAIHandlingInfo"
+        },
+        {
+          "Name": "AVERAGE",
+          "MinBrakeDistance": {
+            "@_value": 10
+          },
+          "MaxBrakeDistance": {
+            "@_value": 80
+          },
+          "MaxSpeedAtBrakeDistance": {
+            "@_value": 30
+          },
+          "AbsoluteMinSpeed": {
+            "@_value": 1
+          },
+          "AICurvePoints": {
+            "Item": [
+              {
+                "Angle": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 45
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 6
+                },
+                "Speed": {
+                  "@_value": 35
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 12
+                },
+                "Speed": {
+                  "@_value": 25
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 22
+                },
+                "Speed": {
+                  "@_value": 20
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 28
+                },
+                "Speed": {
+                  "@_value": 15
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 40
+                },
+                "Speed": {
+                  "@_value": 12.5
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 90
+                },
+                "Speed": {
+                  "@_value": 10
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 180
+                },
+                "Speed": {
+                  "@_value": 4
+                },
+                "@_type": "CAICurvePoint"
+              }
+            ]
+          },
+          "@_type": "CAIHandlingInfo"
+        },
+        {
+          "Name": "CRAP",
+          "MinBrakeDistance": {
+            "@_value": 10
+          },
+          "MaxBrakeDistance": {
+            "@_value": 100
+          },
+          "MaxSpeedAtBrakeDistance": {
+            "@_value": 30
+          },
+          "AbsoluteMinSpeed": {
+            "@_value": 1
+          },
+          "AICurvePoints": {
+            "Item": [
+              {
+                "Angle": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 45
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 3
+                },
+                "Speed": {
+                  "@_value": 20
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 28
+                },
+                "Speed": {
+                  "@_value": 15
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 40
+                },
+                "Speed": {
+                  "@_value": 11
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 90
+                },
+                "Speed": {
+                  "@_value": 10
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 180
+                },
+                "Speed": {
+                  "@_value": 4
+                },
+                "@_type": "CAICurvePoint"
+              }
+            ]
+          },
+          "@_type": "CAIHandlingInfo"
+        },
+        {
+          "Name": "TRUCK",
+          "MinBrakeDistance": {
+            "@_value": 10
+          },
+          "MaxBrakeDistance": {
+            "@_value": 100
+          },
+          "MaxSpeedAtBrakeDistance": {
+            "@_value": 30
+          },
+          "AbsoluteMinSpeed": {
+            "@_value": 1
+          },
+          "AICurvePoints": {
+            "Item": [
+              {
+                "Angle": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 45
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 3
+                },
+                "Speed": {
+                  "@_value": 20
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 28
+                },
+                "Speed": {
+                  "@_value": 15
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 40
+                },
+                "Speed": {
+                  "@_value": 11
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 90
+                },
+                "Speed": {
+                  "@_value": 10
+                },
+                "@_type": "CAICurvePoint"
+              },
+              {
+                "Angle": {
+                  "@_value": 180
+                },
+                "Speed": {
+                  "@_value": 4
+                },
+                "@_type": "CAICurvePoint"
+              }
+            ]
+          },
+          "@_type": "CAIHandlingInfo"
+        }
+      ]
+    }
+  }
+}

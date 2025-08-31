@@ -1,0 +1,2320 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CActionBranchSetContainer": {
+    "aActionBranchSets": {
+      "Item": [
+        {
+          "Name": "ABS_dodge_right",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_counter_right",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_dodge_left",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_counter_left",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_taunt",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_dodge_left",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dodge_right",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_d",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_e",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_g",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_h",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_no_target",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_long_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_very_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_very_close_low_var_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_very_close_low_psycho_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_very_close_low_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_very_close_low_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_close_low_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_medium_armed",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_medium_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_medium_low_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_armed",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1a_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1b_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_surface_breakable",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_surface_side_a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_surface_side_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_surface_down",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_vehicle_below",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard_armed",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_aiming_player",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_idle_player",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_aiming_ai",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_idle_ai",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_aiming_no_target",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_armed_melee_idle_no_target",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_counter_hit_reaction",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_hitby_daze_a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_hitby_daze_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_hitby_daze_c",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_hitby_daze_d",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1a_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_1b_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dodge_left",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dodge_right",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard_heavy_combo_2a",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2a_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_melee_fist",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_d",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_e",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_g",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_h",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard_heavy_combo_2b",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2b_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_2c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_melee_fist",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_d",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_e",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_g",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_h",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard_heavy_combo_3a",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_3a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_3a_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_melee_fist",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_light_finish",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_finish",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_d",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_e",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_g",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_h",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_standard_heavy_combo_3b",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_shove",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_shove_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_3b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_3b_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_short_melee_fist",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_light_finish",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_heavy_finish",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_forward_kick_close_b_heavy",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_kick",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_rear_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_left_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_medium_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_zombie",
+                "Filter": "PAFT_ZOMBIE",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_mid",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_right_close_low",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_d",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_e",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_g",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_h",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_psycho_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_front_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_a",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_knife_c",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_psycho_b",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_short",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_armed_long",
+                "Filter": "PAFT_PLAYER_SP PAFT_PLAYER_MP",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_swim_surface",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_swim_surface_still",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_surface_still_var_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_surface_moving",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_surface_moving_var_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_swim_dive",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_swim_dive_still",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_dive_still_var_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_dive_moving",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_swim_dive_moving_var_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_dog",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_takedown_front_dog",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_dog",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_forward_close_low",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_attack",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_taunt_a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_taunt_b",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_cougar",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_takedown_front_cougar",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_cougar",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_cougar_forward_close_low",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_cougar_attack",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_cougar_taunt_a",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_dog_retriever",
+          "aActionBranches": {
+            "Item": [
+              {
+                "Name": "ACT_takedown_front_dog_retriever",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_takedown_rear_dog_retriever",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_retriever_forward_close_low",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              },
+              {
+                "Name": "ACT_dog_retriever_attack",
+                "Filter": "PAFT_ANY",
+                "@_type": "CActionBranch"
+              }
+            ]
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_dog_small",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_dog_small_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_tiger_shark",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_tiger_shark_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_hammerhead_shark",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_hammerhead_shark_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_killer_whale",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_killer_whale_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_boar",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_boar_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_pig",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_pig_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_coyote",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_coyote_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_deer",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_deer_attack",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_hen",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_hen_flap",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_rabbit",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_rabbit_scratch",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_cat",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_cat_scratch",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        },
+        {
+          "Name": "ABS_cow",
+          "aActionBranches": {
+            "Item": {
+              "Name": "ACT_cow_moo",
+              "Filter": "PAFT_ANY",
+              "@_type": "CActionBranch"
+            }
+          },
+          "@_type": "CActionBranchSet"
+        }
+      ]
+    }
+  }
+}

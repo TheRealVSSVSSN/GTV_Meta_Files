@@ -1,0 +1,174 @@
+{
+  "FirstPersonAssetDataManager": {
+    "peds": {
+      "Item": [
+        {
+          "name": "mp_f_freemode_01",
+          "objects": {
+            "Item": [
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.4
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_blue",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "mp_m_freemode_01",
+          "objects": {
+            "Item": [
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.4
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_blue",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

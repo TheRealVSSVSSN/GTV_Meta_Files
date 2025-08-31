@@ -1,0 +1,313 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_VEH_FLY_DUCK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_START_STOP_RECORDING_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_MARKER_DELETE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CLIP_DELETE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_PAUSE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_REWIND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FFWD",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_NEWMARKER",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SCREENSHOT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_ADVANCE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_BACK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_TOOLS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_RESTART",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "SELECT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SHOWHOTKEY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CYCLEMARKERLEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_CYCLEMARKERRIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FOVINCREASE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_FOVDECREASE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SAVE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "START"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_PREVIEW_AUDIO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R2"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_HIDEHUD",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LEADERBOARD",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_DELETE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_SOCIAL_CLUB",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "SELECT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_SOCIAL_CLUB_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_DROP_PROJECTILE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_LS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_RS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_LT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_RT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_CREATOR_DELETE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_RADIO_WHEEL_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_RADIO_WHEEL_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_MAP_POI",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_ENDSCREEN_EXPAND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_CONTEXT_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_REPLAY_SNAPMATIC_PHOTO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_SWITCH_VISOR",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_RESPAWN_FASTER",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_HUDMARKER_SELECT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_EAT_SNACK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        }
+      ]
+    }
+  }
+}

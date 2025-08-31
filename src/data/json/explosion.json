@@ -1,0 +1,184 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CExplosionInfoManager": {
+    "aExplosionTagData": {
+      "Item": [
+        {
+          "name": "EXP_TAG_BLIMP2",
+          "damageAtCentre": {
+            "@_value": 500
+          },
+          "damageAtEdge": {
+            "@_value": 50
+          },
+          "networkPlayerModifier": {
+            "@_value": 2
+          },
+          "networkPedModifier": {
+            "@_value": 1
+          },
+          "endRadius": {
+            "@_value": 8
+          },
+          "initSpeed": {
+            "@_value": 60
+          },
+          "decayFactor": {
+            "@_value": -1
+          },
+          "forceFactor": {
+            "@_value": 8
+          },
+          "fRagdollForceModifier": {
+            "@_value": 0.0035
+          },
+          "fSelfForceModifier": {
+            "@_value": 1
+          },
+          "directedWidth": {
+            "@_value": 0
+          },
+          "directedLifeTime": {
+            "@_value": 0
+          },
+          "camShakeName": "GAMEPLAY_EXPLOSION_SHAKE",
+          "camShake": {
+            "@_value": 1
+          },
+          "camShakeRollOffScaling": {
+            "@_value": 1.5
+          },
+          "shockingEventVisualRangeOverride": {
+            "@_value": -1
+          },
+          "shockingEventAudioRangeOverride": {
+            "@_value": -1
+          },
+          "minorExplosion": {
+            "@_value": false
+          },
+          "vfxTagHashName": "EXP_VFXTAG_BLIMP2",
+          "fragDamage": {
+            "@_value": 1500
+          },
+          "bAppliesContinuousDamage": {
+            "@_value": false
+          },
+          "bPostProcessCollisionsWithNoForce": {
+            "@_value": true
+          },
+          "bDamageVehicles": {
+            "@_value": true
+          },
+          "bDamageObjects": {
+            "@_value": true
+          },
+          "bOnlyAffectsLivePeds": {
+            "@_value": false
+          },
+          "bIgnoreExplodingEntity": {
+            "@_value": false
+          },
+          "bNoOcclusion": {
+            "@_value": false
+          },
+          "explodeAttachEntityWhenFinished": {
+            "@_value": false
+          },
+          "bCanSetPedOnFire": {
+            "@_value": false
+          }
+        },
+        {
+          "name": "EXP_TAG_RAILGUN",
+          "damageAtCentre": {
+            "@_value": 200
+          },
+          "damageAtEdge": {
+            "@_value": 20
+          },
+          "networkPlayerModifier": {
+            "@_value": 1
+          },
+          "networkPedModifier": {
+            "@_value": 1
+          },
+          "endRadius": {
+            "@_value": 1
+          },
+          "initSpeed": {
+            "@_value": 25
+          },
+          "decayFactor": {
+            "@_value": -1
+          },
+          "forceFactor": {
+            "@_value": 40
+          },
+          "fRagdollForceModifier": {
+            "@_value": 0.002
+          },
+          "fSelfForceModifier": {
+            "@_value": 1
+          },
+          "directedWidth": {
+            "@_value": 0
+          },
+          "directedLifeTime": {
+            "@_value": 0
+          },
+          "camShakeName": "GRENADE_EXPLOSION_SHAKE",
+          "camShake": {
+            "@_value": 0.3
+          },
+          "camShakeRollOffScaling": {
+            "@_value": 0.5
+          },
+          "shockingEventVisualRangeOverride": {
+            "@_value": -1
+          },
+          "shockingEventAudioRangeOverride": {
+            "@_value": -1
+          },
+          "minorExplosion": {
+            "@_value": false
+          },
+          "vfxTagHashName": "EXP_VFXTAG_BULLET",
+          "fragDamage": {
+            "@_value": 1000
+          },
+          "bAppliesContinuousDamage": {
+            "@_value": false
+          },
+          "bPostProcessCollisionsWithNoForce": {
+            "@_value": true
+          },
+          "bDamageVehicles": {
+            "@_value": true
+          },
+          "bDamageObjects": {
+            "@_value": true
+          },
+          "bOnlyAffectsLivePeds": {
+            "@_value": false
+          },
+          "bIgnoreExplodingEntity": {
+            "@_value": false
+          },
+          "bNoOcclusion": {
+            "@_value": false
+          },
+          "explodeAttachEntityWhenFinished": {
+            "@_value": false
+          },
+          "bCanSetPedOnFire": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

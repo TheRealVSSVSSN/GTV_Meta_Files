@@ -1,0 +1,36 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CWeaponModelInfo__InitDataList": {
+    "InitDatas": {
+      "Item": [
+        {
+          "modelName": "w_me_hatchet",
+          "txdName": "w_me_hatchet",
+          "ptfxAssetName": "null",
+          "lodDist": {
+            "@_value": 50
+          }
+        },
+        {
+          "modelName": "w_ar_railgun",
+          "txdName": "w_ar_railgun",
+          "ptfxAssetName": "null",
+          "lodDist": {
+            "@_value": 50
+          }
+        },
+        {
+          "modelName": "w_ar_railgun_mag1",
+          "txdName": "w_ar_railgun_mag1",
+          "ptfxAssetName": "null",
+          "lodDist": {
+            "@_value": 50
+          }
+        }
+      ]
+    }
+  }
+}

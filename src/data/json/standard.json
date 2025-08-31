@@ -1,0 +1,1216 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__ControlSettings": {
+    "Mappings": {
+      "Item": [
+        {
+          "Input": "INPUT_MOVE_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_MOVE_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_MOVE_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_MOVE_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SCALED_LOOK_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_SCALED_LOOK_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SCALED_LOOK_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_SCALED_LOOK_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_NEXT_CAMERA",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "SELECT"
+          }
+        },
+        {
+          "Input": "INPUT_INTERACTION_MENU",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "SELECT"
+          }
+        },
+        {
+          "Input": "INPUT_ENTER",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_PHONE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_NEXT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_PREV",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_NEXT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R2"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_WHEEL_PREV",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L2"
+          }
+        },
+        {
+          "Input": "INPUT_CONTEXT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_SPECIAL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_WEAPON_SPECIAL_TWO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SPECIAL_ABILITY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_SPECIAL_ABILITY_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_DETONATE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_THROW_GRENADE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_RAPPEL_JUMP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_RAPPEL_LONG_JUMP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_RAPPEL_SMASH_WINDOW",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R2"
+          }
+        },
+        {
+          "Input": "INPUT_HUD_SPECIAL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_ARREST",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_CHARACTER_WHEEL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SNIPER_ZOOM_IN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_SNIPER_ZOOM_OUT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_SNIPER_ZOOM_IN_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_SNIPER_ZOOM_OUT_SECONDARY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_MELEE_ATTACK_LIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_MELEE_ATTACK_HEAVY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_MELEE_ATTACK_ALTERNATE",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_MELEE_BLOCK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MOVE_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MOVE_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MOVE_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_MOVE_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_GUN_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_GUN_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_EXIT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_LOOK_BEHIND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_LOOK_BEHIND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_RADIO_WHEEL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HORN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_ROOF",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_JUMP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_AIM",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_ATTACK",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_ATTACK2",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_PICKUP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_DROP_WEAPON",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_DROP_AMMO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_SELECT_WEAPON",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_RELOAD",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_TALK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_ACCELERATE",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PUSHBIKE_FRONT_BRAKE",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PUSHBIKE_REAR_BRAKE",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PUSHBIKE_PEDAL",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PUSHBIKE_SPRINT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_BRAKE",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_AIM",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_ATTACK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_ATTACK2",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HEADLIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_GRAPPLING_HOOK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SHUFFLE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_CIN_CAM",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HOTWIRE_LEFT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HOTWIRE_RIGHT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_THROTTLE_UP",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_THROTTLE_DOWN",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_YAW_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_YAW_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PASSENGER_ATTACK",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_PASSENGER_AIM",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SPECIAL_ABILITY_FRANKLIN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_STUNT_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_CINEMATIC_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_CINEMATIC_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SLOWMO_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPTED_FLY_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPTED_FLY_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPTED_FLY_ZUP",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_SCRIPTED_FLY_ZDOWN",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_CINEMATIC_SLOWMO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_ACCURATE_AIM",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SELECT_NEXT_WEAPON",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_PITCH_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_PITCH_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_ROLL_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_ROLL_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_UNDERCARRIAGE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_ATTACK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_SELECT_NEXT_WEAPON",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_SELECT_TARGET_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_SELECT_TARGET_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_PITCH_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_PITCH_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_TURN_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_TURN_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_THROTTLE_UP",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_THROTTLE_DOWN",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_TURN_HARD_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_TURN_HARD_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_SUB_ASCEND",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_UP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_DOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_OPTION",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_EXTRA_OPTION",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CAMERA_FOCUS_LOCK",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R2"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CAMERA_GRID",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CAMERA_SELFIE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CAMERA_DOF",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_CELLPHONE_CAMERA_EXPRESSION",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_DEPLOY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_DETACH",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_TURN_LR",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_PITCH_UD",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_PITCH_UP_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_PITCH_DOWN_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_TURN_LEFT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_TURN_RIGHT_ONLY",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_BRAKE_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_BRAKE_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_PARACHUTE_SMOKE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_PAUSE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "START"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_UP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LUP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_DOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RUP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RDOWN",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RLEFT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RRIGHT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_AXIS_X",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_AXIS_Y",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT_AXIS_X",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RX"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RIGHT_AXIS_Y",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_RY"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_X",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RLEFT"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_Y",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "RUP"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LB",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L1"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RB",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "L2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RT",
+          "Source": "IOMS_PAD_ANALOGBUTTON",
+          "Parameters": {
+            "Item": "R2_INDEX"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_LS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_RS",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_FRONTEND_SELECT",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "SELECT"
+          }
+        },
+        {
+          "Input": "INPUT_MULTIPLAYER_INFO",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LDOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_ATTACK_CAMERA",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HYDRAULICS_CONTROL_LEFT",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_LEFT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HYDRAULICS_CONTROL_RIGHT",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LX_RIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HYDRAULICS_CONTROL_UP",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_UP"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_HYDRAULICS_CONTROL_DOWN",
+          "Source": "IOMS_PAD_AXIS",
+          "Parameters": {
+            "Item": "IOM_AXIS_LY_DOWN"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_CAR_JUMP",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_ROCKET_BOOST",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_BOOST",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "L3"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_BOMB_BAY",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_VEH_FLY_COUNTER",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "LRIGHT"
+          }
+        },
+        {
+          "Input": "INPUT_QUAD_LOCO_REVERSE",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R1"
+          }
+        },
+        {
+          "Input": "INPUT_USE_ARMOR",
+          "Source": "IOMS_PAD_DIGITALBUTTON",
+          "Parameters": {
+            "Item": "R3"
+          }
+        }
+      ]
+    }
+  }
+}

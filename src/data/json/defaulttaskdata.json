@@ -1,0 +1,31 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDefaultTaskDataManager": {
+    "aDefaultTaskData": {
+      "Item": [
+        {
+          "Name": "STANDARD_PED",
+          "onFoot": {
+            "Type": "WANDER",
+            "@_type": "sDefaultTaskData"
+          },
+          "@_type": "CDefaultTaskDataSet"
+        },
+        {
+          "Name": "ANIMAL",
+          "onFoot": {
+            "Type": "DO_NOTHING",
+            "@_type": "sDefaultTaskData"
+          },
+          "@_type": "CDefaultTaskDataSet"
+        }
+      ]
+    },
+    "DefaultSet": {
+      "@_ref": "STANDARD_PED"
+    }
+  }
+}

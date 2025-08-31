@@ -1,0 +1,160 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "utf-8"
+  },
+  "CPickupDataManager": {
+    "pickupData": {
+      "Item": [
+        {
+          "Name": "PICKUP_WEAPON_HATCHET",
+          "Model": "w_me_hatchet",
+          "GenerationRange": {
+            "@_value": 80
+          },
+          "RegenerationTime": {
+            "@_value": 60
+          },
+          "CollectionRadius": {
+            "@_value": 1
+          },
+          "Scale": {
+            "@_value": 1
+          },
+          "LoopingAudioRef": "NULL_SOUND",
+          "GlowRed": {
+            "@_value": 1
+          },
+          "GlowGreen": {
+            "@_value": 0.225
+          },
+          "GlowBlue": {
+            "@_value": 0
+          },
+          "GlowIntensity": {
+            "@_value": 0.5
+          },
+          "GlowRange": {
+            "@_value": 2
+          },
+          "AttachmentBone": "BONETAG_ROOT",
+          "AttachmentOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "AttachmentRotation": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "PickupFlags": "CollectableOnFoot ManualPickUp",
+          "OnFootPickupActions": {
+            "Item": [
+              "ACTION_GROUP_ONFOOT",
+              "ACTION_AUDIO_MELEE"
+            ]
+          },
+          "InCarPickupActions": "",
+          "OnShotPickupActions": "",
+          "Rewards": {
+            "Item": [
+              "REWARD_WEAPON_HATCHET",
+              "REWARD_STAT_WEAPON"
+            ]
+          },
+          "@_type": "CPickupData"
+        },
+        {
+          "Name": "PICKUP_WEAPON_RAILGUN",
+          "Model": "w_ar_railgun",
+          "GenerationRange": {
+            "@_value": 80
+          },
+          "RegenerationTime": {
+            "@_value": 60
+          },
+          "CollectionRadius": {
+            "@_value": 1
+          },
+          "Scale": {
+            "@_value": 1
+          },
+          "LoopingAudioRef": "NULL_SOUND",
+          "GlowRed": {
+            "@_value": 1
+          },
+          "GlowGreen": {
+            "@_value": 0.225
+          },
+          "GlowBlue": {
+            "@_value": 0
+          },
+          "GlowIntensity": {
+            "@_value": 0.5
+          },
+          "GlowRange": {
+            "@_value": 2
+          },
+          "AttachmentBone": "BONETAG_ROOT",
+          "AttachmentOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "AttachmentRotation": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "PickupFlags": "CollectableOnFoot ManualPickUp",
+          "OnFootPickupActions": {
+            "Item": [
+              "ACTION_GROUP_ONFOOT",
+              "ACTION_AUDIO_RIFLE"
+            ]
+          },
+          "InCarPickupActions": "",
+          "OnShotPickupActions": "",
+          "Rewards": {
+            "Item": [
+              "REWARD_WEAPON_RAILGUN",
+              "REWARD_AMMO_RAILGUN",
+              "REWARD_STAT_WEAPON"
+            ]
+          },
+          "@_type": "CPickupData"
+        }
+      ]
+    },
+    "actionData": "",
+    "rewardData": {
+      "Item": [
+        {
+          "Name": "REWARD_WEAPON_HATCHET",
+          "WeaponRef": "WEAPON_HATCHET",
+          "Equip": {
+            "@_value": false
+          },
+          "@_type": "CPickupRewardWeapon"
+        },
+        {
+          "Name": "REWARD_WEAPON_RAILGUN",
+          "WeaponRef": "WEAPON_RAILGUN",
+          "Equip": {
+            "@_value": false
+          },
+          "@_type": "CPickupRewardWeapon"
+        },
+        {
+          "Name": "REWARD_AMMO_RAILGUN",
+          "AmmoRef": "AMMO_RAILGUN",
+          "Amount": {
+            "@_value": 1
+          },
+          "@_type": "CPickupRewardAmmo"
+        }
+      ]
+    }
+  }
+}

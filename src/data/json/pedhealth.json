@@ -1,0 +1,288 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CHealthConfigInfoManager": {
+    "aHealthConfig": {
+      "Item": [
+        {
+          "Name": "Strong",
+          "DefaultHealth": {
+            "@_value": 200
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 150
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 150
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Average",
+          "DefaultHealth": {
+            "@_value": 175
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 137.5
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 125
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Weak",
+          "DefaultHealth": {
+            "@_value": 150
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 125
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 135
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "Animal",
+          "DefaultHealth": {
+            "@_value": 150
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 125
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 135
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Armour",
+          "DefaultHealth": {
+            "@_value": 200
+          },
+          "DefaultArmour": {
+            "@_value": 100
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 120
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 150
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "GULL",
+          "DefaultHealth": {
+            "@_value": 10
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 3
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 2
+          },
+          "DyingHealthThreshold": {
+            "@_value": 2
+          },
+          "HurtHealthThreshold": {
+            "@_value": 4
+          },
+          "DogTakedownThreshold": {
+            "@_value": 2
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": true
+          }
+        },
+        {
+          "Name": "Fish",
+          "DefaultHealth": {
+            "@_value": 10
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 3
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 2
+          },
+          "DyingHealthThreshold": {
+            "@_value": 2
+          },
+          "HurtHealthThreshold": {
+            "@_value": 4
+          },
+          "DogTakedownThreshold": {
+            "@_value": 2
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Rat",
+          "DefaultHealth": {
+            "@_value": 10
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 3
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 2
+          },
+          "DyingHealthThreshold": {
+            "@_value": 2
+          },
+          "HurtHealthThreshold": {
+            "@_value": 4
+          },
+          "DogTakedownThreshold": {
+            "@_value": 2
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Shark",
+          "DefaultHealth": {
+            "@_value": 200
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 150
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 150
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "Humpback",
+          "DefaultHealth": {
+            "@_value": 800
+          },
+          "DefaultArmour": {
+            "@_value": 0
+          },
+          "FatiguedHealthThreshold": {
+            "@_value": 150
+          },
+          "InjuredHealthThreshold": {
+            "@_value": 100
+          },
+          "DyingHealthThreshold": {
+            "@_value": 100
+          },
+          "HurtHealthThreshold": {
+            "@_value": 150
+          },
+          "DogTakedownThreshold": {
+            "@_value": 150
+          },
+          "MeleeCardinalFatalAttackCheck": {
+            "@_value": false
+          },
+          "Invincible": {
+            "@_value": true
+          }
+        }
+      ]
+    },
+    "DefaultSet": {
+      "@_ref": "Average"
+    }
+  }
+}

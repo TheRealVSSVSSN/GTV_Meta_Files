@@ -1,0 +1,1354 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAmbientAudios": {
+    "Exchanges": {
+      "Item": [
+        {
+          "Initial": {
+            "Context": "BUM_SPARE_CHANGE"
+          },
+          "@_key": "BumSpareChange"
+        },
+        {
+          "Initial": {
+            "Context": "CHAT_ACROSS_STREET_STATE"
+          },
+          "Response": {
+            "Context": "CHAT_ACROSS_STREET_RESP"
+          },
+          "@_key": "ChatAcrossStreet"
+        },
+        {
+          "Initial": {
+            "Context": "FRIEND_FOLLOWED_BY_PLAYER"
+          },
+          "@_key": "FriendFollowed"
+        },
+        {
+          "Initial": {
+            "Context": "GENERIC_FUCK_YOU",
+            "Flags": "IsHostile"
+          },
+          "Response": {
+            "Context": "GENERIC_FUCK_YOU",
+            "Flags": "IsHostile"
+          },
+          "@_key": "FuckYouHostile"
+        },
+        {
+          "Initial": {
+            "Context": "GREET_ACROSS_STREET"
+          },
+          "Response": {
+            "Context": "GREET_ACROSS_STREET"
+          },
+          "@_key": "GreetAcrossStreet"
+        },
+        {
+          "Initial": {
+            "Context": "GENERIC_HI"
+          },
+          "Response": {
+            "Context": "GENERIC_HI"
+          },
+          "@_key": "Hi"
+        },
+        {
+          "Initial": {
+            "Context": "HOWS_IT_GOING_GENERIC",
+            "Flags": "IsHarassing"
+          },
+          "@_key": "HowsItGoing"
+        },
+        {
+          "Initial": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "Insult"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_BUM",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultBum"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_COP",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultCop"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_DEAD_PED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultDead"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_FAT",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultFat"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_GANG",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultGang"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_HIPSTER",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultHipster"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_JUNKIE",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultJunkie"
+        },
+        {
+          "Initial": {
+            "Context": "MELEE_KNOCK_DOWN",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultKnockedDown"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_OLD",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultOld"
+        },
+        {
+          "Initial": {
+            "Context": "INSULT_PED_TOUGH",
+            "Flags": "IsInsulting IsConversation"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "InsultTough"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_PERV_AT_WOMAN_PERV"
+          },
+          "Response": {
+            "Context": "JEERING_RESP"
+          },
+          "@_key": "Jeer"
+        },
+        {
+          "Initial": {
+            "Context": "HOWS_IT_GOING_FEMALE"
+          },
+          "Response": {
+            "Context": "PED_RANT",
+            "Flags": "IsRant"
+          },
+          "@_key": "RantFemale"
+        },
+        {
+          "Initial": {
+            "Context": "HOWS_IT_GOING_MALE"
+          },
+          "Response": {
+            "Context": "PED_RANT",
+            "Flags": "IsRant"
+          },
+          "@_key": "RantMale"
+        },
+        {
+          "Initial": {
+            "Context": "SEE_FRANKLIN"
+          },
+          "Response": {
+            "Context": "GENERIC_HI"
+          },
+          "@_key": "SeeFranklin"
+        },
+        {
+          "Initial": {
+            "Context": "SEE_LAMAR"
+          },
+          "Response": {
+            "Context": "GENERIC_HI"
+          },
+          "@_key": "SeeLamar"
+        },
+        {
+          "Initial": {
+            "Context": "SEE_WEIRDO",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "SeeWeirdo"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutInsult"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_HIGH",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutInsultWithResponseInsult"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_WHATEVER"
+          },
+          "@_key": "ShoutInsultWithResponseWhatever"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT_HIPSTER",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutInsultHipster"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT_HIPSTER",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_HIGH",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutInsultHipsterWithResponseInsult"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_INSULT_HIPSTER",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_WHATEVER"
+          },
+          "@_key": "ShoutInsultHipsterWithResponseWhatever"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_THREATEN_COP",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_FUCK_YOU",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutThreatenCop"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_THREATEN_GANG",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_FUCK_YOU",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutThreatenGang"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_THREATEN_PED",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_FUCK_YOU",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutThreatenPed"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_WEIRDO",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutWeirdo"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_WEIRDO",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_HIGH",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "ShoutWeirdoWithResponseInsult"
+        },
+        {
+          "Initial": {
+            "Context": "SHOUT_WEIRDO",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_WHATEVER"
+          },
+          "@_key": "ShoutWeirdoWithResponseWhatever"
+        },
+        {
+          "Initial": {
+            "Context": "GENERIC_UNFIT",
+            "Flags": "IsInsulting"
+          },
+          "Response": {
+            "Context": "GENERIC_INSULT_MED",
+            "Flags": "IsInsulting"
+          },
+          "@_key": "Unfit"
+        }
+      ]
+    },
+    "Sets": {
+      "Item": [
+        {
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_0"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsExercising DidNotTalkToTargetLast"
+                },
+                "Exchange": "Unfit"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsExercising DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsExercising DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "WillJeerAtHotPeds IsTargetHot DidNotTalkToTargetLast"
+                },
+                "Exchange": "Jeer"
+              },
+              {
+                "Conditions": {
+                  "Chances": {
+                    "@_value": 0.1
+                  },
+                  "MinDistance": {
+                    "@_value": 10
+                  },
+                  "MaxDistance": {
+                    "@_value": 25
+                  },
+                  "MinDistanceFromPlayer": {
+                    "@_value": 15
+                  },
+                  "MaxDistanceFromPlayer": {
+                    "@_value": 30
+                  },
+                  "Flags": "IsNotFriendlyWithTarget IsTargetNotPlayer DidNotTalkToTargetLast"
+                },
+                "ConditionalExchanges": {
+                  "Item": [
+                    {
+                      "Conditions": {
+                        "ModelNames": {
+                          "Item": [
+                            "A_F_Y_Hipster_01",
+                            "A_F_Y_Hipster_02",
+                            "A_F_Y_Hipster_03",
+                            "A_F_Y_Hipster_04",
+                            "A_M_Y_Hipster_01",
+                            "A_M_Y_Hipster_02",
+                            "A_M_Y_Hipster_03"
+                          ]
+                        }
+                      },
+                      "Exchanges": {
+                        "Item": [
+                          "ShoutInsultHipster",
+                          "ShoutInsultHipsterWithResponseInsult",
+                          "ShoutInsultHipsterWithResponseWhatever"
+                        ]
+                      }
+                    },
+                    {
+                      "Exchanges": {
+                        "Item": [
+                          "ShoutInsult",
+                          "ShoutInsultWithResponseInsult",
+                          "ShoutInsultWithResponseWhatever"
+                        ]
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "Conditions": {
+                  "MinDistance": {
+                    "@_value": 10
+                  },
+                  "MaxDistance": {
+                    "@_value": 25
+                  },
+                  "MinDistanceFromPlayer": {
+                    "@_value": 15
+                  },
+                  "MaxDistanceFromPlayer": {
+                    "@_value": 30
+                  },
+                  "Flags": "IsNotThreatenedByTarget IsTargetNotPlayer DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": [
+                    "ChatAcrossStreet",
+                    "GreetAcrossStreet"
+                  ]
+                }
+              }
+            ]
+          },
+          "@_key": "Default"
+        },
+        {
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "Flags": "HasTargetAchievedCombatVictory"
+                },
+                "Exchange": "FuckYouHostile"
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "Flags": "IsTargetNotFriendlyWithUs",
+                  "WeSaid": {
+                    "Context": "GENERIC_HI",
+                    "MaxTime": {
+                      "@_value": 30
+                    }
+                  }
+                },
+                "Exchange": "HowsItGoing"
+              },
+              {
+                "Conditions": {
+                  "Chances": {
+                    "@_value": 0.2
+                  },
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "Flags": "TargetMustHaveResponse IsTargetOnFoot"
+                },
+                "ConditionalExchanges": {
+                  "Item": [
+                    {
+                      "Conditions": {
+                        "Flags": "IsTargetMale"
+                      },
+                      "Exchange": "RantMale"
+                    },
+                    {
+                      "Conditions": {
+                        "Flags": "IsTargetNotMale"
+                      },
+                      "Exchange": "RantFemale"
+                    }
+                  ]
+                }
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "NoRepeat": {
+                    "@_value": 30
+                  }
+                },
+                "ConditionalExchanges": {
+                  "Item": [
+                    {
+                      "Conditions": {
+                        "Flags": "IsTargetOnFoot"
+                      },
+                      "Exchange": "Hi"
+                    },
+                    {
+                      "Exchange": "Insult"
+                    }
+                  ]
+                }
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "Flags": "TargetMustBeDead"
+                },
+                "Exchange": "InsultDead"
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 20
+                  },
+                  "Flags": "TargetMustBeInCombat TargetMustBeKnockedDown"
+                },
+                "Exchange": "InsultKnockedDown"
+              }
+            ]
+          },
+          "@_key": "Player"
+        },
+        {
+          "Parent": "Player",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "MaxDistance": {
+                  "@_value": 20
+                },
+                "Flags": "IsThreatenedByTarget"
+              },
+              "Exchange": "Insult"
+            }
+          },
+          "@_key": "FriendlyPlayer"
+        },
+        {
+          "Parent": "Player",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "MaxDistance": {
+                  "@_value": 20
+                },
+                "Flags": "IsNotFriendlyWithTarget"
+              },
+              "Exchange": "Insult"
+            }
+          },
+          "@_key": "UnfriendlyPlayer"
+        },
+        {
+          "Parent": "FriendlyPlayer",
+          "@_key": "Michael"
+        },
+        {
+          "Parent": "FriendlyPlayer",
+          "@_key": "Franklin"
+        },
+        {
+          "Parent": "UnfriendlyPlayer",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "MaxDistance": {
+                  "@_value": 20
+                },
+                "Flags": "IsNotFriendlyWithTarget"
+              },
+              "ConditionalExchanges": {
+                "Item": [
+                  {
+                    "Conditions": {
+                      "PedPersonalities": {
+                        "Item": [
+                          "Bumsmale",
+                          "Bumsfemale"
+                        ]
+                      }
+                    },
+                    "Exchange": "InsultBum"
+                  },
+                  {
+                    "Conditions": {
+                      "Flags": "IsTargetCop"
+                    },
+                    "Exchange": "InsultCop"
+                  },
+                  {
+                    "Conditions": {
+                      "Flags": "IsTargetFat"
+                    },
+                    "Exchange": "InsultFat"
+                  },
+                  {
+                    "Conditions": {
+                      "Flags": "IsTargetGang"
+                    },
+                    "Exchange": "InsultGang"
+                  },
+                  {
+                    "Conditions": {
+                      "ModelNames": {
+                        "Item": [
+                          "A_F_Y_Hipster_01",
+                          "A_F_Y_Hipster_02",
+                          "A_F_Y_Hipster_03",
+                          "A_F_Y_Hipster_04",
+                          "A_M_Y_Hipster_01",
+                          "A_M_Y_Hipster_02",
+                          "A_M_Y_Hipster_03"
+                        ]
+                      }
+                    },
+                    "Exchange": "InsultHipster"
+                  },
+                  {
+                    "Conditions": {
+                      "PedPersonalities": {
+                        "Item": "METHHEAD"
+                      }
+                    },
+                    "Exchange": "InsultJunkie"
+                  },
+                  {
+                    "Conditions": {
+                      "PedPersonalities": {
+                        "Item": [
+                          "OldPoorMan",
+                          "OldPoorWoman",
+                          "OldMediumMan",
+                          "OldMediumWoman",
+                          "OldRichMan",
+                          "OldRichWoman"
+                        ]
+                      }
+                    },
+                    "Exchange": "InsultOld"
+                  },
+                  {
+                    "Conditions": {
+                      "PedPersonalities": {
+                        "Item": [
+                          "YoungAverageToughMan",
+                          "YoungAverageToughWoman"
+                        ]
+                      }
+                    },
+                    "Exchange": "InsultTough"
+                  }
+                ]
+              }
+            }
+          },
+          "@_key": "Trevor"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "Chances": {
+                    "@_value": 0.5
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsFriendlyWithTarget DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "Chances": {
+                    "@_value": 0.25
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsNotFriendlyWithTarget DidNotTalkToTargetLast"
+                },
+                "Exchange": "Insult"
+              },
+              {
+                "Conditions": {
+                  "MinDistance": {
+                    "@_value": 10
+                  },
+                  "MaxDistance": {
+                    "@_value": 25
+                  },
+                  "MinDistanceFromPlayer": {
+                    "@_value": 15
+                  },
+                  "MaxDistanceFromPlayer": {
+                    "@_value": 30
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsNotFriendlyWithTarget"
+                },
+                "ConditionalExchanges": {
+                  "Item": [
+                    {
+                      "Conditions": {
+                        "PedTypes": {
+                          "Item": "PLAYER_1"
+                        },
+                        "ModelNames": {
+                          "Item": "IG_LamarDavis"
+                        },
+                        "Flags": "IsInGangTerritory"
+                      },
+                      "Exchange": "ShoutThreatenGang"
+                    },
+                    {
+                      "Conditions": {
+                        "Flags": "IsTargetGang IsInGangTerritory"
+                      },
+                      "Exchange": "ShoutThreatenGang"
+                    },
+                    {
+                      "Conditions": {
+                        "Flags": "IsTargetCop"
+                      },
+                      "Exchange": "ShoutThreatenCop"
+                    },
+                    {
+                      "Conditions": {
+                        "Flags": "IsInGangTerritory"
+                      },
+                      "Exchange": "ShoutThreatenPed"
+                    }
+                  ]
+                }
+              }
+            ]
+          },
+          "@_key": "Gang"
+        },
+        {
+          "Parent": "Gang",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchange": "SeeFranklin"
+              },
+              {
+                "Conditions": {
+                  "ModelNames": {
+                    "Item": "IG_LamarDavis"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchange": "SeeLamar"
+              }
+            ]
+          },
+          "@_key": "Family"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "PedTypes": {
+                  "Item": "PLAYER_0"
+                },
+                "MaxDistance": {
+                  "@_value": 10
+                },
+                "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                "Friends": {
+                  "Max": {
+                    "@_value": 0
+                  },
+                  "MaxDistance": {
+                    "@_value": 5
+                  }
+                }
+              },
+              "Exchange": "Hi"
+            }
+          },
+          "@_key": "LawEnforcement"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_0"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "Posh"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "Poor"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "YoungMale"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "YoungFemale"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": [
+                      "PLAYER_0",
+                      "PLAYER_1"
+                    ]
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": [
+                    "Insult",
+                    "BumSpareChange"
+                  ]
+                }
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchanges": {
+                  "Item": [
+                    "Hi",
+                    "BumSpareChange"
+                  ]
+                }
+              },
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 5
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario"
+                },
+                "Exchange": "BumSpareChange"
+              },
+              {
+                "Conditions": {
+                  "MinDistance": {
+                    "@_value": 10
+                  },
+                  "MaxDistance": {
+                    "@_value": 25
+                  },
+                  "MinDistanceFromPlayer": {
+                    "@_value": 15
+                  },
+                  "MaxDistanceFromPlayer": {
+                    "@_value": 30
+                  },
+                  "Flags": "IsNotFriendlyWithTarget IsTargetNotPlayer DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": [
+                    "ShoutWeirdo",
+                    "ShoutWeirdoWithResponseInsult",
+                    "ShoutWeirdoWithResponseWhatever"
+                  ]
+                }
+              }
+            ]
+          },
+          "@_key": "Bum"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "IsTargetPlayer IsFriendFollowedByPlayer"
+                },
+                "Exchange": "FriendFollowed"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_0"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchange": "Unfit"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_1"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "Muscle"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": [
+                      "PLAYER_0",
+                      "PLAYER_1"
+                    ]
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                  "Friends": {
+                    "Max": {
+                      "@_value": 0
+                    },
+                    "MaxDistance": {
+                      "@_value": 5
+                    }
+                  }
+                },
+                "Exchange": "Hi"
+              },
+              {
+                "Conditions": {
+                  "PedTypes": {
+                    "Item": "PLAYER_2"
+                  },
+                  "MaxDistance": {
+                    "@_value": 10
+                  },
+                  "Flags": "DidNotTalkToTargetLast"
+                },
+                "Exchanges": {
+                  "Item": "SeeWeirdo"
+                }
+              }
+            ]
+          },
+          "@_key": "Prostitute"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "PedTypes": {
+                  "Item": "PLAYER_0"
+                },
+                "MaxDistance": {
+                  "@_value": 10
+                },
+                "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                "Friends": {
+                  "Max": {
+                    "@_value": 0
+                  },
+                  "MaxDistance": {
+                    "@_value": 5
+                  }
+                }
+              },
+              "Exchange": "Hi"
+            }
+          },
+          "@_key": "Medic"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": {
+              "Conditions": {
+                "PedTypes": {
+                  "Item": "PLAYER_0"
+                },
+                "MaxDistance": {
+                  "@_value": 10
+                },
+                "Flags": "DidNotTalkToTargetLast IsUsingScenario",
+                "Friends": {
+                  "Max": {
+                    "@_value": 0
+                  },
+                  "MaxDistance": {
+                    "@_value": 5
+                  }
+                }
+              },
+              "Exchange": "Hi"
+            }
+          },
+          "@_key": "Fireman"
+        }
+      ]
+    }
+  }
+}

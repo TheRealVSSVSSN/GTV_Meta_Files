@@ -1,0 +1,246 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedPerceptionInfoManager": {
+    "aPedPerceptionInfoData": {
+      "Item": [
+        {
+          "Name": "DEFAULT_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "25.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "4.0f"
+          },
+          "SeeingRange": {
+            "@_value": "60.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "5.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": false
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BARNYARD_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "3.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "1.5f"
+          },
+          "SeeingRange": {
+            "@_value": "70.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "10.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": false
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "BIRD_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "25.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "4.0f"
+          },
+          "SeeingRange": {
+            "@_value": "70.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "10.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": false
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "SHARK_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "25.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "4.0f"
+          },
+          "SeeingRange": {
+            "@_value": "70.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "10.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": true
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "FISH_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "5.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "4.0f"
+          },
+          "SeeingRange": {
+            "@_value": "60.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "5.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": false
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": false
+          }
+        },
+        {
+          "Name": "LARGE_FISH_PERCEPTION",
+          "EncroachmentRange": {
+            "@_value": "10.0f"
+          },
+          "EncroachmentCloseRange": {
+            "@_value": "8.0f"
+          },
+          "SeeingRange": {
+            "@_value": "60.0f"
+          },
+          "HearingRange": {
+            "@_value": "60.0f"
+          },
+          "SeeingRangePeripheral": {
+            "@_value": "5.0f"
+          },
+          "VisualFieldMinAzimuthAngle": {
+            "@_value": "-90.0f"
+          },
+          "VisualFieldMaxAzimuthAngle": {
+            "@_value": "90.0f"
+          },
+          "VisualFieldMinElevationAngle": {
+            "@_value": "-75.0f"
+          },
+          "VisualFieldMaxElevationAngle": {
+            "@_value": "60.0f"
+          },
+          "CentreFieldOfGazeMaxAngle": {
+            "@_value": "60.0f"
+          },
+          "CanAlwaysSenseEncroachingPlayers": {
+            "@_value": true
+          },
+          "PerformEncroachmentChecksIn3D": {
+            "@_value": true
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,725 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CCombatInfoMgr": {
+    "CombatInfos": {
+      "Item": [
+        {
+          "Name": "DEFAULT",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions BF_DisableBlockFromPursueDuringVehicleChase BF_DisableSpinOutDuringVehicleChase BF_DisableCruiseInFrontDuringBlockDuringVehicleChase",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.1
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "MaxDistanceToHearEvents": {
+            "@_value": -1
+          },
+          "MaxDistanceToHearEventsUsingLOS": {
+            "@_value": 3
+          },
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "MICHAEL",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.05
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 1
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "FRANKLIN",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.05
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 1
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "TREVOR",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.05
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 1
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "GANG",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanCharge BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_CanUseFrustratedAdvance BF_CanFlank BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions BF_DisableBlockFromPursueDuringVehicleChase BF_DisableSpinOutDuringVehicleChase BF_DisableCruiseInFrontDuringBlockDuringVehicleChase",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.1
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.8
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "TriggerChargeTime_Near": {
+            "@_value": 4
+          },
+          "TriggerChargeTime_Far": {
+            "@_value": 10
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "GRUNT",
+          "CombatMovement": "CM_Stationary",
+          "BehaviourFlags": "BF_CanUseCover BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions BF_DisableBlockFromPursueDuringVehicleChase BF_DisableSpinOutDuringVehicleChase BF_DisableCruiseInFrontDuringBlockDuringVehicleChase",
+          "CombatAbility": "CA_Poor",
+          "AttackRanges": "CR_Far",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.1
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 0.8
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "CAPTAIN",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_BlindFireWhenInCover BF_UseProximityFiringRate BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions BF_DisableBlockFromPursueDuringVehicleChase BF_DisableSpinOutDuringVehicleChase BF_DisableCruiseInFrontDuringBlockDuringVehicleChase",
+          "CombatAbility": "CA_Professional",
+          "AttackRanges": "CR_Near",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "WeaponShootRateModifier": {
+            "@_value": 1.2
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.75
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "COP",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_UseEnemyAccuracyScaling BF_CanCharge BF_CanUseCover BF_CanUseVehicles BF_CanLeaveVehicle BF_AlwaysFight BF_UseProximityFiringRate BF_CanUseFrustratedAdvance BF_CanUseDynamicStrafeDecisions BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_CanFlank BF_MaintainMinDistanceToTarget BF_CanFightArmedPedsWhenNotArmed",
+          "CombatAbility": "CA_Professional",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.35
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.75
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "OptimalCoverDistance": {
+            "@_value": 21
+          },
+          "TriggerChargeTime_Near": {
+            "@_value": 4
+          },
+          "TriggerChargeTime_Far": {
+            "@_value": 10
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "CHOP",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions BF_DisableBlockFromPursueDuringVehicleChase BF_DisableSpinOutDuringVehicleChase BF_DisableCruiseInFrontDuringBlockDuringVehicleChase",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.1
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 0
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "ROTTWEILER",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanFightArmedPedsWhenNotArmed BF_DisableRespondedToThreatBroadcast BF_SetDisableShoutTargetPositionOnCombatStart",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 0
+          },
+          "BurstDurationInCover": {
+            "@_value": 0
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 0
+          },
+          "WeaponAccuracy": {
+            "@_value": 0
+          },
+          "FightProficiency": {
+            "@_value": 1
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 0
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 0
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "COUGAR",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanFightArmedPedsWhenNotArmed BF_NonMissionPedsFleeFromThisPedUnlessArmed BF_FleesFromInvincibleOpponents",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 0
+          },
+          "BurstDurationInCover": {
+            "@_value": 0
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 0
+          },
+          "WeaponAccuracy": {
+            "@_value": 0
+          },
+          "FightProficiency": {
+            "@_value": 1
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 0
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 0
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "SCARED_ANIMAL",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_AlwaysFlee",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 0
+          },
+          "BurstDurationInCover": {
+            "@_value": 0
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 0
+          },
+          "WeaponAccuracy": {
+            "@_value": 0
+          },
+          "FightProficiency": {
+            "@_value": 0
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 0
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "SCARED_ANIMAL_IN_WATER",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_AlwaysFlee BF_CanSeeUnderwaterPeds",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 0
+          },
+          "BurstDurationInCover": {
+            "@_value": 0
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 0
+          },
+          "WeaponAccuracy": {
+            "@_value": 0
+          },
+          "FightProficiency": {
+            "@_value": 0
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 0
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "SWAT",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_DisableReactToBuddyShot BF_UseEnemyAccuracyScaling BF_CanThrowSmokeGrenade BF_CanCharge BF_Aggressive BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_AlwaysFight BF_UseProximityFiringRate BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_CanFlank BF_MaintainMinDistanceToTarget BF_CanFightArmedPedsWhenNotArmed BF_CanUseFrustratedAdvance BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Professional",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "WeaponShootRateModifier": {
+            "@_value": 1.4
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.2
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.8
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "OptimalCoverDistance": {
+            "@_value": 21
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "ARMY",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_DisableReactToBuddyShot BF_UseEnemyAccuracyScaling BF_CanCharge BF_Aggressive BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_AlwaysFight BF_UseProximityFiringRate BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_CanFlank BF_MaintainMinDistanceToTarget BF_CanFightArmedPedsWhenNotArmed BF_CanUseFrustratedAdvance BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Professional",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "WeaponShootRateModifier": {
+            "@_value": 1.4
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.2
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.8
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "OptimalCoverDistance": {
+            "@_value": 21
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        },
+        {
+          "Name": "SECURITY",
+          "CombatMovement": "CM_WillAdvance",
+          "BehaviourFlags": "BF_CanCharge BF_CanUseCover BF_CanUseVehicles BF_CanDoDrivebys BF_CanLeaveVehicle BF_UseProximityFiringRate BF_CanTauntInVehicle BF_CanUsePeekingVariations BF_CanCommandeerVehicles BF_MaintainMinDistanceToTarget BF_CanUseDynamicStrafeDecisions",
+          "CombatAbility": "CA_Average",
+          "AttackRanges": "CR_Medium",
+          "TargetLossResponse": "TLR_SearchForTarget",
+          "TargetInjuredReaction": "TIR_TreatAsDead",
+          "BlindFireChance": {
+            "@_value": 0.1
+          },
+          "WeaponShootRateModifier": {
+            "@_value": 1
+          },
+          "TimeBetweenBurstsInCover": {
+            "@_value": 1.25
+          },
+          "BurstDurationInCover": {
+            "@_value": 2
+          },
+          "TimeBetweenPeeks": {
+            "@_value": 10
+          },
+          "WeaponAccuracy": {
+            "@_value": 0.18
+          },
+          "FightProficiency": {
+            "@_value": 0.5
+          },
+          "StrafeWhenMovingChance": {
+            "@_value": 1
+          },
+          "WalkWhenStrafingChance": {
+            "@_value": 0
+          },
+          "AttackWindowDistanceForCover": {
+            "@_value": 55
+          },
+          "TimeToInvalidateInjuredTarget": {
+            "@_value": 9
+          },
+          "TriggerChargeTime_Near": {
+            "@_value": 4
+          },
+          "TriggerChargeTime_Far": {
+            "@_value": 10
+          },
+          "FiringPatternHash": "FIRING_PATTERN_BURST_FIRE",
+          "@_type": "CCombatInfo"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,2106 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CWeaponInfoBlob": {
+    "SlotNavigateOrder": {
+      "Item": [
+        {
+          "WeaponSlots": ""
+        },
+        {
+          "WeaponSlots": ""
+        }
+      ]
+    },
+    "SlotBestOrder": {
+      "WeaponSlots": ""
+    },
+    "TintSpecValues": "",
+    "FiringPatternAliases": "",
+    "UpperBodyFixupExpressionData": "",
+    "AimingInfos": "",
+    "Infos": {
+      "Item": [
+        {
+          "Infos": {
+            "Item": {
+              "Name": "AMMO_TITAN2_105",
+              "Model": "w_lr_rpg_rocket",
+              "Audio": "",
+              "Slot": "",
+              "AmmoMax": {
+                "@_value": 100
+              },
+              "AmmoMax50": {
+                "@_value": 100
+              },
+              "AmmoMax100": {
+                "@_value": 100
+              },
+              "AmmoMaxMP": {
+                "@_value": 100
+              },
+              "AmmoMax50MP": {
+                "@_value": 100
+              },
+              "AmmoMax100MP": {
+                "@_value": 100
+              },
+              "AmmoFlags": "",
+              "Damage": {
+                "@_value": 0
+              },
+              "LifeTime": {
+                "@_value": 0.84
+              },
+              "FromVehicleLifeTime": {
+                "@_value": 0
+              },
+              "LifeTimeAfterImpact": {
+                "@_value": 0
+              },
+              "LifeTimeAfterExplosion": {
+                "@_value": 0
+              },
+              "ExplosionTime": {
+                "@_value": 0
+              },
+              "LaunchSpeed": {
+                "@_value": 600000
+              },
+              "SeparationTime": {
+                "@_value": 0
+              },
+              "TimeToReachTarget": {
+                "@_value": 10
+              },
+              "Damping": {
+                "@_value": 0
+              },
+              "GravityFactor": {
+                "@_value": 0
+              },
+              "RicochetTolerance": {
+                "@_value": 0
+              },
+              "PedRicochetTolerance": {
+                "@_value": 0
+              },
+              "VehicleRicochetTolerance": {
+                "@_value": 0
+              },
+              "Explosion": {
+                "Default": "EXP_TAG_TITAN2_105MM_CANNON",
+                "HitCar": "DONTCARE",
+                "HitTruck": "DONTCARE",
+                "HitBike": "DONTCARE",
+                "HitBoat": "DONTCARE",
+                "HitPlane": "DONTCARE"
+              },
+              "FuseFx": "",
+              "TrailFx": "proj_tank_trail",
+              "TrailFxUnderWater": "",
+              "TrailFxFadeInTime": {
+                "@_value": 0
+              },
+              "TrailFxFadeOutTime": {
+                "@_value": 0
+              },
+              "PrimedFx": "",
+              "DisturbFxDefault": "",
+              "DisturbFxSand": "",
+              "DisturbFxWater": "",
+              "DisturbFxDirt": "",
+              "DisturbFxFoliage": "",
+              "DisturbFxProbeDist": {
+                "@_value": 0
+              },
+              "DisturbFxScale": {
+                "@_value": 0
+              },
+              "LightOnlyActiveWhenStuck": {
+                "@_value": false
+              },
+              "LightFlickers": {
+                "@_value": false
+              },
+              "LightBone": "",
+              "LightColour": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0
+              },
+              "LightIntensity": {
+                "@_value": 0
+              },
+              "LightRange": {
+                "@_value": 0
+              },
+              "LightFalloffExp": {
+                "@_value": 0
+              },
+              "LightFrequency": {
+                "@_value": 0
+              },
+              "LightPower": {
+                "@_value": 0
+              },
+              "CoronaSize": {
+                "@_value": 0
+              },
+              "CoronaIntensity": {
+                "@_value": 0
+              },
+              "CoronaZBias": {
+                "@_value": 0
+              },
+              "ProjectileFlags": "DestroyOnImpact ProcessImpacts LongRange",
+              "@_type": "CAmmoRocketInfo"
+            }
+          }
+        },
+        {
+          "Infos": ""
+        },
+        {
+          "Infos": {
+            "Item": [
+              {
+                "Name": "VEHICLE_WEAPON_TITAN2_105MM",
+                "Model": "",
+                "Audio": "audio_item_titan2_105mm",
+                "Slot": "",
+                "DamageType": "EXPLOSIVE",
+                "Explosion": {
+                  "Default": "EXP_TAG_TITAN2_105MM_CANNON",
+                  "HitCar": "DONTCARE",
+                  "HitTruck": "DONTCARE",
+                  "HitBike": "DONTCARE",
+                  "HitBoat": "DONTCARE",
+                  "HitPlane": "DONTCARE"
+                },
+                "FireType": "PROJECTILE",
+                "WheelSlot": "WHEEL_PISTOL",
+                "Group": "",
+                "AmmoInfo": {
+                  "@_ref": "AMMO_TITAN2_105"
+                },
+                "AimingInfo": {
+                  "@_ref": "NULL"
+                },
+                "ClipSize": {
+                  "@_value": 1
+                },
+                "AccuracySpread": {
+                  "@_value": 1
+                },
+                "AccurateModeAccuracyModifier": {
+                  "@_value": 0.5
+                },
+                "RunAndGunAccuracyModifier": {
+                  "@_value": 2
+                },
+                "RunAndGunAccuracyMinOverride": {
+                  "@_value": -1
+                },
+                "RecoilAccuracyMax": {
+                  "@_value": 1
+                },
+                "RecoilErrorTime": {
+                  "@_value": 0
+                },
+                "RecoilRecoveryRate": {
+                  "@_value": 1
+                },
+                "RecoilAccuracyToAllowHeadShotAI": {
+                  "@_value": 1000
+                },
+                "MinHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "MaxHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "HeadShotDamageModifierAI": {
+                  "@_value": 1000
+                },
+                "RecoilAccuracyToAllowHeadShotPlayer": {
+                  "@_value": 0.175
+                },
+                "MinHeadShotDistancePlayer": {
+                  "@_value": 5
+                },
+                "MaxHeadShotDistancePlayer": {
+                  "@_value": 40
+                },
+                "HeadShotDamageModifierPlayer": {
+                  "@_value": 18
+                },
+                "Damage": {
+                  "@_value": 0
+                },
+                "DamageTime": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicle": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicleHeadShot": {
+                  "@_value": 0
+                },
+                "HitLimbsDamageModifier": {
+                  "@_value": 0.5
+                },
+                "NetworkHitLimbsDamageModifier": {
+                  "@_value": 0.8
+                },
+                "LightlyArmouredDamageModifier": {
+                  "@_value": 0.75
+                },
+                "Force": {
+                  "@_value": 0
+                },
+                "ForceHitPed": {
+                  "@_value": 0
+                },
+                "ForceHitVehicle": {
+                  "@_value": 0
+                },
+                "ForceHitFlyingHeli": {
+                  "@_value": 0
+                },
+                "OverrideForces": "",
+                "ForceMaxStrengthMult": {
+                  "@_value": 1
+                },
+                "ForceFalloffRangeStart": {
+                  "@_value": 0
+                },
+                "ForceFalloffRangeEnd": {
+                  "@_value": 50
+                },
+                "ForceFalloffMin": {
+                  "@_value": 1
+                },
+                "ProjectileForce": {
+                  "@_value": 20
+                },
+                "FragImpulse": {
+                  "@_value": 0
+                },
+                "Penetration": {
+                  "@_value": 0
+                },
+                "VerticalLaunchAdjustment": {
+                  "@_value": 0
+                },
+                "DropForwardVelocity": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 2000
+                },
+                "BulletsInBatch": {
+                  "@_value": 1
+                },
+                "BatchSpread": {
+                  "@_value": 0
+                },
+                "ReloadTimeMP": {
+                  "@_value": 8
+                },
+                "ReloadTimeSP": {
+                  "@_value": 8
+                },
+                "VehicleReloadTime": {
+                  "@_value": 8
+                },
+                "AnimReloadRate": {
+                  "@_value": 1
+                },
+                "BulletsPerAnimLoop": {
+                  "@_value": 1
+                },
+                "TimeBetweenShots": {
+                  "@_value": 1
+                },
+                "TimeLeftBetweenShotsWhereShouldFireIsCached": {
+                  "@_value": -1
+                },
+                "SpinUpTime": {
+                  "@_value": 0
+                },
+                "SpinTime": {
+                  "@_value": 0
+                },
+                "SpinDownTime": {
+                  "@_value": 0
+                },
+                "AlternateWaitTime": {
+                  "@_value": -1
+                },
+                "BulletBendingNearRadius": {
+                  "@_value": 0
+                },
+                "BulletBendingFarRadius": {
+                  "@_value": 0
+                },
+                "BulletBendingZoomedRadius": {
+                  "@_value": 0
+                },
+                "Fx": {
+                  "EffectGroup": "WEAPON_EFFECT_GROUP_ROCKET",
+                  "FlashFx": "muz_hr_titan2_105",
+                  "FlashFxAlt": "",
+                  "MuzzleSmokeFx": "muz_smoking_barrel_rocket",
+                  "MuzzleSmokeFxMinLevel": {
+                    "@_value": 0.3
+                  },
+                  "MuzzleSmokeFxIncPerShot": {
+                    "@_value": 0.05
+                  },
+                  "MuzzleSmokeFxDecPerSec": {
+                    "@_value": 0.05
+                  },
+                  "ShellFx": "",
+                  "TracerFx": "",
+                  "PedDamageHash": "",
+                  "TracerFxChanceSP": {
+                    "@_value": 0
+                  },
+                  "TracerFxChanceMP": {
+                    "@_value": 0
+                  },
+                  "FlashFxChanceSP": {
+                    "@_value": 1
+                  },
+                  "FlashFxChanceMP": {
+                    "@_value": 1
+                  },
+                  "FlashFxAltChance": {
+                    "@_value": 0
+                  },
+                  "FlashFxScale": {
+                    "@_value": 1.2
+                  },
+                  "FlashFxLightEnabled": {
+                    "@_value": true
+                  },
+                  "FlashFxLightCastsShadows": {
+                    "@_value": false
+                  },
+                  "FlashFxLightOffsetDist": {
+                    "@_value": 0
+                  },
+                  "FlashFxLightRGBAMin": {
+                    "@_x": 255,
+                    "@_y": 93,
+                    "@_z": 25
+                  },
+                  "FlashFxLightRGBAMax": {
+                    "@_x": 255,
+                    "@_y": 136,
+                    "@_z": 50
+                  },
+                  "FlashFxLightIntensityMinMax": {
+                    "@_x": 1.4,
+                    "@_y": 1.8
+                  },
+                  "FlashFxLightRangeMinMax": {
+                    "@_x": 2.3,
+                    "@_y": 2.7
+                  },
+                  "FlashFxLightFalloffMinMax": {
+                    "@_x": 700,
+                    "@_y": 900
+                  },
+                  "GroundDisturbFxEnabled": {
+                    "@_value": true
+                  },
+                  "GroundDisturbFxDist": {
+                    "@_value": 8
+                  },
+                  "GroundDisturbFxNameDefault": "weap_veh_turbulance_default",
+                  "GroundDisturbFxNameSand": "weap_veh_turbulance_sand",
+                  "GroundDisturbFxNameDirt": "weap_veh_turbulance_dirt",
+                  "GroundDisturbFxNameWater": "weap_veh_turbulance_water",
+                  "GroundDisturbFxNameFoliage": "weap_veh_turbulance_dirt"
+                },
+                "InitialRumbleDuration": {
+                  "@_value": 0
+                },
+                "InitialRumbleIntensity": {
+                  "@_value": 0
+                },
+                "InitialRumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDuration": {
+                  "@_value": 200
+                },
+                "RumbleIntensity": {
+                  "@_value": 0.35
+                },
+                "RumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDamageIntensity": {
+                  "@_value": 1
+                },
+                "NetworkPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkPedDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkHeadShotPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "LockOnRange": {
+                  "@_value": 0
+                },
+                "WeaponRange": {
+                  "@_value": 500
+                },
+                "BulletDirectionOffsetInDegrees": {
+                  "@_value": 0
+                },
+                "AiSoundRange": {
+                  "@_value": 200
+                },
+                "AiPotentialBlastEventRange": {
+                  "@_value": -1
+                },
+                "DamageFallOffRangeMin": {
+                  "@_value": 0
+                },
+                "DamageFallOffRangeMax": {
+                  "@_value": 0
+                },
+                "DamageFallOffModifier": {
+                  "@_value": 0
+                },
+                "VehicleWeaponHash": "VEHICLE_DATA_TANK",
+                "DefaultCameraHash": "",
+                "CoverCameraHash": "",
+                "CoverReadyToFireCameraHash": "",
+                "RunAndGunCameraHash": "",
+                "CinematicShootingCameraHash": "",
+                "AlternativeOrScopedCameraHash": "",
+                "RunAndGunAlternativeOrScopedCameraHash": "",
+                "CinematicShootingAlternativeOrScopedCameraHash": "",
+                "CameraFov": {
+                  "@_value": 45
+                },
+                "ZoomFactorForAccurateMode": {
+                  "@_value": 1
+                },
+                "RecoilShakeHash": "TANK_RECOIL_SHAKE",
+                "RecoilShakeHashFirstPerson": "FPS_TANK_RECOIL_SHAKE",
+                "AccuracyOffsetShakeHash": "",
+                "MinTimeBetweenRecoilShakes": {
+                  "@_value": 150
+                },
+                "RecoilShakeAmplitude": {
+                  "@_value": 1
+                },
+                "ExplosionShakeAmplitude": {
+                  "@_value": -1
+                },
+                "ReticuleHudPosition": {
+                  "@_x": 0.5,
+                  "@_y": 0.5
+                },
+                "AimOffsetMin": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMin": {
+                  "@_value": 0
+                },
+                "AimOffsetMax": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMax": {
+                  "@_value": 0
+                },
+                "TorsoAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "TorsoCrouchedAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "LeftHandIkOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "ReticuleMinSizeStanding": {
+                  "@_value": 1
+                },
+                "ReticuleMinSizeCrouched": {
+                  "@_value": 1
+                },
+                "ReticuleScale": {
+                  "@_value": 1
+                },
+                "ReticuleStyleHash": "WEAPON_TANK",
+                "FirstPersonReticuleStyleHash": "",
+                "PickupHash": "",
+                "MPPickupHash": "",
+                "HumanNameHash": "WT_V_TANK",
+                "MovementModeConditionalIdle": "",
+                "StatName": "105M",
+                "KnockdownCount": {
+                  "@_value": -1
+                },
+                "KillshotImpulseScale": {
+                  "@_value": 1
+                },
+                "NmShotTuningSet": "Normal",
+                "AttachPoints": "",
+                "GunFeedBone": "",
+                "TargetSequenceGroup": "",
+                "WeaponFlags": "Gun UsableOnFoot Vehicle ForceEjectShellAfterFiring StaticReticulePosition CreateBulletExplosionWhenOutOfTime CanBlowUpVehicleAtZeroBodyHealth Turret DisableAimAngleChecksForReticule SkipVehiclePetrolTankDamage FiringEntityIgnoresExplosionDamage OnlyFireInAir",
+                "TintSpecValues": {
+                  "@_ref": "TINT_DEFAULT"
+                },
+                "FiringPatternAliases": {
+                  "@_ref": "NULL"
+                },
+                "ReloadUpperBodyFixupExpressionData": {
+                  "@_ref": "default"
+                },
+                "AmmoDiminishingRate": {
+                  "@_value": 0
+                },
+                "AimingBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "AimingLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "ExpandPedCapsuleRadius": {
+                  "@_value": 0
+                },
+                "AudioCollisionHash": "",
+                "HudDamage": {
+                  "@_value": 0
+                },
+                "HudSpeed": {
+                  "@_value": 0
+                },
+                "HudCapacity": {
+                  "@_value": 1
+                },
+                "HudAccuracy": {
+                  "@_value": 10
+                },
+                "HudRange": {
+                  "@_value": 65
+                },
+                "@_type": "CWeaponInfo"
+              },
+              {
+                "Name": "VEHICLE_WEAPON_TITAN2_40MM",
+                "Model": "",
+                "Audio": "audio_item_titan2_40mm",
+                "Slot": "",
+                "DamageType": "EXPLOSIVE",
+                "Explosion": {
+                  "Default": "EXP_TAG_TITAN2_40MM_CANNON",
+                  "HitCar": "DONTCARE",
+                  "HitTruck": "DONTCARE",
+                  "HitBike": "DONTCARE",
+                  "HitBoat": "DONTCARE",
+                  "HitPlane": "DONTCARE"
+                },
+                "FireType": "DELAYED_HIT",
+                "WheelSlot": "WHEEL_PISTOL",
+                "Group": "",
+                "AmmoInfo": {
+                  "@_ref": "AMMO_MINIGUN"
+                },
+                "AimingInfo": {
+                  "@_ref": "HELI_TARGETING_RESTRAINTS"
+                },
+                "ClipSize": {
+                  "@_value": 5
+                },
+                "AccuracySpread": {
+                  "@_value": 1
+                },
+                "AccurateModeAccuracyModifier": {
+                  "@_value": 0.5
+                },
+                "RunAndGunAccuracyModifier": {
+                  "@_value": 2
+                },
+                "RunAndGunAccuracyMinOverride": {
+                  "@_value": -1
+                },
+                "RecoilAccuracyMax": {
+                  "@_value": 1
+                },
+                "RecoilErrorTime": {
+                  "@_value": 3
+                },
+                "RecoilRecoveryRate": {
+                  "@_value": 1
+                },
+                "RecoilAccuracyToAllowHeadShotAI": {
+                  "@_value": 1000
+                },
+                "MinHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "MaxHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "HeadShotDamageModifierAI": {
+                  "@_value": 1000
+                },
+                "RecoilAccuracyToAllowHeadShotPlayer": {
+                  "@_value": 0.175
+                },
+                "MinHeadShotDistancePlayer": {
+                  "@_value": 5
+                },
+                "MaxHeadShotDistancePlayer": {
+                  "@_value": 40
+                },
+                "HeadShotDamageModifierPlayer": {
+                  "@_value": 18
+                },
+                "Damage": {
+                  "@_value": 30
+                },
+                "DamageTime": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicle": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicleHeadShot": {
+                  "@_value": 0
+                },
+                "HitLimbsDamageModifier": {
+                  "@_value": 0.5
+                },
+                "NetworkHitLimbsDamageModifier": {
+                  "@_value": 0.8
+                },
+                "LightlyArmouredDamageModifier": {
+                  "@_value": 0.75
+                },
+                "VehicleDamageModifier": {
+                  "@_value": 1
+                },
+                "Force": {
+                  "@_value": 100
+                },
+                "ForceHitPed": {
+                  "@_value": 100
+                },
+                "ForceHitVehicle": {
+                  "@_value": 2000
+                },
+                "ForceHitFlyingHeli": {
+                  "@_value": 3000
+                },
+                "OverrideForces": "",
+                "ForceMaxStrengthMult": {
+                  "@_value": 1
+                },
+                "ForceFalloffRangeStart": {
+                  "@_value": 0
+                },
+                "ForceFalloffRangeEnd": {
+                  "@_value": 50
+                },
+                "ForceFalloffMin": {
+                  "@_value": 1
+                },
+                "ProjectileForce": {
+                  "@_value": 0
+                },
+                "FragImpulse": {
+                  "@_value": 1000
+                },
+                "Penetration": {
+                  "@_value": 0.1
+                },
+                "VerticalLaunchAdjustment": {
+                  "@_value": 0
+                },
+                "DropForwardVelocity": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 4000
+                },
+                "BulletsInBatch": {
+                  "@_value": 1
+                },
+                "BatchSpread": {
+                  "@_value": 0
+                },
+                "ReloadTimeMP": {
+                  "@_value": 6
+                },
+                "ReloadTimeSP": {
+                  "@_value": 6
+                },
+                "VehicleReloadTime": {
+                  "@_value": 6
+                },
+                "AnimReloadRate": {
+                  "@_value": 1
+                },
+                "BulletsPerAnimLoop": {
+                  "@_value": 1
+                },
+                "TimeBetweenShots": {
+                  "@_value": 0.5
+                },
+                "TimeLeftBetweenShotsWhereShouldFireIsCached": {
+                  "@_value": -1
+                },
+                "SpinUpTime": {
+                  "@_value": 0
+                },
+                "SpinTime": {
+                  "@_value": 0
+                },
+                "SpinDownTime": {
+                  "@_value": 0
+                },
+                "AlternateWaitTime": {
+                  "@_value": 0.5
+                },
+                "BulletBendingNearRadius": {
+                  "@_value": 0
+                },
+                "BulletBendingFarRadius": {
+                  "@_value": 0.75
+                },
+                "BulletBendingZoomedRadius": {
+                  "@_value": 0.375
+                },
+                "FirstPersonBulletBendingNearRadius": {
+                  "@_value": 0
+                },
+                "FirstPersonBulletBendingFarRadius": {
+                  "@_value": 0
+                },
+                "FirstPersonBulletBendingZoomedRadius": {
+                  "@_value": 0
+                },
+                "Fx": {
+                  "EffectGroup": "WEAPON_EFFECT_GROUP_ROCKET",
+                  "FlashFx": "muz_hr_titan2_40",
+                  "FlashFxAlt": "",
+                  "MuzzleSmokeFx": "muz_smoking_barrel_rocket",
+                  "MuzzleSmokeFxMinLevel": {
+                    "@_value": 0.3
+                  },
+                  "MuzzleSmokeFxIncPerShot": {
+                    "@_value": 0.05
+                  },
+                  "MuzzleSmokeFxDecPerSec": {
+                    "@_value": 0.05
+                  },
+                  "ShellFx": "",
+                  "TracerFx": "",
+                  "PedDamageHash": "",
+                  "TracerFxChanceSP": {
+                    "@_value": 0
+                  },
+                  "TracerFxChanceMP": {
+                    "@_value": 0
+                  },
+                  "FlashFxChanceSP": {
+                    "@_value": 1
+                  },
+                  "FlashFxChanceMP": {
+                    "@_value": 1
+                  },
+                  "FlashFxAltChance": {
+                    "@_value": 0
+                  },
+                  "FlashFxScale": {
+                    "@_value": 1
+                  },
+                  "FlashFxLightEnabled": {
+                    "@_value": true
+                  },
+                  "FlashFxLightCastsShadows": {
+                    "@_value": false
+                  },
+                  "FlashFxLightOffsetDist": {
+                    "@_value": 0
+                  },
+                  "FlashFxLightRGBAMin": {
+                    "@_x": 255,
+                    "@_y": 93,
+                    "@_z": 25
+                  },
+                  "FlashFxLightRGBAMax": {
+                    "@_x": 255,
+                    "@_y": 136,
+                    "@_z": 50
+                  },
+                  "FlashFxLightIntensityMinMax": {
+                    "@_x": 1.4,
+                    "@_y": 1.8
+                  },
+                  "FlashFxLightRangeMinMax": {
+                    "@_x": 2.3,
+                    "@_y": 2.7
+                  },
+                  "FlashFxLightFalloffMinMax": {
+                    "@_x": 700,
+                    "@_y": 900
+                  },
+                  "GroundDisturbFxEnabled": {
+                    "@_value": true
+                  },
+                  "GroundDisturbFxDist": {
+                    "@_value": 8
+                  },
+                  "GroundDisturbFxNameDefault": "weap_veh_turbulance_default",
+                  "GroundDisturbFxNameSand": "weap_veh_turbulance_sand",
+                  "GroundDisturbFxNameDirt": "weap_veh_turbulance_dirt",
+                  "GroundDisturbFxNameWater": "weap_veh_turbulance_water",
+                  "GroundDisturbFxNameFoliage": "weap_veh_turbulance_dirt"
+                },
+                "InitialRumbleDuration": {
+                  "@_value": 90
+                },
+                "InitialRumbleIntensity": {
+                  "@_value": 0.5
+                },
+                "InitialRumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDuration": {
+                  "@_value": 90
+                },
+                "RumbleIntensity": {
+                  "@_value": 0.075
+                },
+                "RumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDamageIntensity": {
+                  "@_value": 1
+                },
+                "InitialRumbleDurationFps": {
+                  "@_value": 0
+                },
+                "InitialRumbleIntensityFps": {
+                  "@_value": 0
+                },
+                "RumbleDurationFps": {
+                  "@_value": 0
+                },
+                "RumbleIntensityFps": {
+                  "@_value": 0
+                },
+                "NetworkPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkPedDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkHeadShotPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "LockOnRange": {
+                  "@_value": 0
+                },
+                "WeaponRange": {
+                  "@_value": 500
+                },
+                "BulletDirectionOffsetInDegrees": {
+                  "@_value": 0.5
+                },
+                "BulletDirectionPitchOffset": {
+                  "@_value": 0
+                },
+                "BulletDirectionPitchHomingOffset": {
+                  "@_value": 0
+                },
+                "AiSoundRange": {
+                  "@_value": 200
+                },
+                "AiPotentialBlastEventRange": {
+                  "@_value": -1
+                },
+                "DamageFallOffRangeMin": {
+                  "@_value": 500
+                },
+                "DamageFallOffRangeMax": {
+                  "@_value": 500
+                },
+                "DamageFallOffModifier": {
+                  "@_value": 1
+                },
+                "VehicleWeaponHash": "VEHICLE_DATA_PLAYER_BULLET",
+                "DefaultCameraHash": "",
+                "AimCameraHash": "",
+                "FireCameraHash": "",
+                "CoverCameraHash": "",
+                "CoverReadyToFireCameraHash": "",
+                "RunAndGunCameraHash": "",
+                "CinematicShootingCameraHash": "",
+                "AlternativeOrScopedCameraHash": "",
+                "RunAndGunAlternativeOrScopedCameraHash": "",
+                "CinematicShootingAlternativeOrScopedCameraHash": "",
+                "PovTurretCameraHash": "",
+                "CameraFov": {
+                  "@_value": 45
+                },
+                "FirstPersonAimFovMin": {
+                  "@_value": 42
+                },
+                "FirstPersonAimFovMax": {
+                  "@_value": 47
+                },
+                "FirstPersonScopeFov": {
+                  "@_value": 0
+                },
+                "FirstPersonScopeAttachmentFov": {
+                  "@_value": 0
+                },
+                "FirstPersonDrivebyIKOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonRNGOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonRNGRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonLTOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonLTRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeAttachmentOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeAttachmentRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonIdleOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonRNGOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonLTOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonScopeOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonWeaponBlockedOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonDofSubjectMagnificationPowerFactorNear": {
+                  "@_value": 1.025
+                },
+                "FirstPersonDofMaxNearInFocusDistance": {
+                  "@_value": 0
+                },
+                "FirstPersonDofMaxNearInFocusDistanceBlendLevel": {
+                  "@_value": 0.3
+                },
+                "FirstPersonScopeAttachmentData": "",
+                "ZoomFactorForAccurateMode": {
+                  "@_value": 1
+                },
+                "RecoilShakeHash": "",
+                "RecoilShakeHashFirstPerson": "",
+                "AccuracyOffsetShakeHash": "",
+                "MinTimeBetweenRecoilShakes": {
+                  "@_value": 150
+                },
+                "RecoilShakeAmplitude": {
+                  "@_value": 1
+                },
+                "ExplosionShakeAmplitude": {
+                  "@_value": 0.0333
+                },
+                "IkRecoilDisplacement": {
+                  "@_value": 0
+                },
+                "IkRecoilDisplacementScope": {
+                  "@_value": 0
+                },
+                "IkRecoilDisplacementScaleBackward": {
+                  "@_value": 1
+                },
+                "IkRecoilDisplacementScaleVertical": {
+                  "@_value": 0.4
+                },
+                "ReticuleHudPosition": {
+                  "@_x": 0.5,
+                  "@_y": 0.5
+                },
+                "ReticuleHudPositionOffsetForPOVTurret": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "AimOffsetMin": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMin": {
+                  "@_value": 0
+                },
+                "AimOffsetMax": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMax": {
+                  "@_value": 0
+                },
+                "AimOffsetMinFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMedFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSRNG": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSRNG": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSScope": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSScope": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMinFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMedFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMaxFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMinFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMedFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMaxFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeRadiusOverrideFPSIdle": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSIdleStealth": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSLT": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSRNG": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSScope": {
+                  "@_value": 0
+                },
+                "TorsoAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "TorsoCrouchedAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "LeftHandIkOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "ReticuleMinSizeStanding": {
+                  "@_value": 1
+                },
+                "ReticuleMinSizeCrouched": {
+                  "@_value": 1
+                },
+                "ReticuleScale": {
+                  "@_value": 1
+                },
+                "ReticuleStyleHash": "",
+                "FirstPersonReticuleStyleHash": "COCKPIT_VIEW",
+                "PickupHash": "",
+                "MPPickupHash": "",
+                "HumanNameHash": "WT_V_BSHK_CANN",
+                "MovementModeConditionalIdle": "",
+                "StatName": "40M",
+                "KnockdownCount": {
+                  "@_value": -1
+                },
+                "KillshotImpulseScale": {
+                  "@_value": 1
+                },
+                "NmShotTuningSet": "normal",
+                "AttachPoints": "",
+                "GunFeedBone": "",
+                "TargetSequenceGroup": "",
+                "WeaponFlags": "Gun UsableOnFoot Vehicle StaticReticulePosition CreateBulletExplosionWhenOutOfTime CanBlowUpVehicleAtZeroBodyHealth Turret DisableAimAngleChecksForReticule SkipVehiclePetrolTankDamage FiringEntityIgnoresExplosionDamage",
+                "TintSpecValues": {
+                  "@_ref": "TINT_DEFAULT"
+                },
+                "FiringPatternAliases": {
+                  "@_ref": "NULL"
+                },
+                "ReloadUpperBodyFixupExpressionData": {
+                  "@_ref": "default"
+                },
+                "AmmoDiminishingRate": {
+                  "@_value": 0
+                },
+                "AimingBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "AimingLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "ExpandPedCapsuleRadius": {
+                  "@_value": 0
+                },
+                "AudioCollisionHash": "",
+                "HudDamage": {
+                  "@_value": 30
+                },
+                "HudSpeed": {
+                  "@_value": 98
+                },
+                "HudCapacity": {
+                  "@_value": 100
+                },
+                "HudAccuracy": {
+                  "@_value": 10
+                },
+                "HudRange": {
+                  "@_value": 65
+                },
+                "VehicleAttackAngle": {
+                  "@_value": 25
+                },
+                "TorsoIKAngleLimit": {
+                  "@_value": -1
+                },
+                "MeleeRightFistTargetHealthDamageScaler": {
+                  "@_value": -1
+                },
+                "AirborneAircraftLockOnMultiplier": {
+                  "@_value": 1
+                },
+                "ArmouredVehicleGlassDamageOverride": {
+                  "@_value": -1
+                },
+                "CamoDiffuseTexIdxs": "",
+                "RotateBarrelBone": "",
+                "RotateBarrelBone2": "",
+                "FrontClearTestParams": {
+                  "ShouldPerformFrontClearTest": {
+                    "@_value": false
+                  },
+                  "ForwardOffset": {
+                    "@_value": 0
+                  },
+                  "VerticalOffset": {
+                    "@_value": 0
+                  },
+                  "HorizontalOffset": {
+                    "@_value": 0
+                  },
+                  "CapsuleRadius": {
+                    "@_value": 0
+                  },
+                  "CapsuleLength": {
+                    "@_value": 0
+                  }
+                },
+                "@_type": "CWeaponInfo"
+              },
+              {
+                "Name": "VEHICLE_WEAPON_TITAN2_25MM",
+                "Model": "",
+                "Audio": "audio_item_titan2_25mm",
+                "Slot": "",
+                "DamageType": "EXPLOSIVE",
+                "Explosion": {
+                  "Default": "EXP_TAG_TITAN2_25MM_CANNON",
+                  "HitCar": "DONTCARE",
+                  "HitTruck": "DONTCARE",
+                  "HitBike": "DONTCARE",
+                  "HitBoat": "DONTCARE",
+                  "HitPlane": "DONTCARE"
+                },
+                "FireType": "INSTANT_HIT",
+                "WheelSlot": "WHEEL_PISTOL",
+                "Group": "",
+                "AmmoInfo": {
+                  "@_ref": "AMMO_MINIGUN"
+                },
+                "AimingInfo": {
+                  "@_ref": "HELI_TARGETING_RESTRAINTS"
+                },
+                "ClipSize": {
+                  "@_value": 30
+                },
+                "AccuracySpread": {
+                  "@_value": 1
+                },
+                "AccurateModeAccuracyModifier": {
+                  "@_value": 0.5
+                },
+                "RunAndGunAccuracyModifier": {
+                  "@_value": 2
+                },
+                "RunAndGunAccuracyMinOverride": {
+                  "@_value": -1
+                },
+                "RecoilAccuracyMax": {
+                  "@_value": 1
+                },
+                "RecoilErrorTime": {
+                  "@_value": 3
+                },
+                "RecoilRecoveryRate": {
+                  "@_value": 1
+                },
+                "RecoilAccuracyToAllowHeadShotAI": {
+                  "@_value": 1000
+                },
+                "MinHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "MaxHeadShotDistanceAI": {
+                  "@_value": 1000
+                },
+                "HeadShotDamageModifierAI": {
+                  "@_value": 1000
+                },
+                "RecoilAccuracyToAllowHeadShotPlayer": {
+                  "@_value": 0.175
+                },
+                "MinHeadShotDistancePlayer": {
+                  "@_value": 5
+                },
+                "MaxHeadShotDistancePlayer": {
+                  "@_value": 40
+                },
+                "HeadShotDamageModifierPlayer": {
+                  "@_value": 18
+                },
+                "Damage": {
+                  "@_value": 30
+                },
+                "DamageTime": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicle": {
+                  "@_value": 0
+                },
+                "DamageTimeInVehicleHeadShot": {
+                  "@_value": 0
+                },
+                "HitLimbsDamageModifier": {
+                  "@_value": 0.5
+                },
+                "NetworkHitLimbsDamageModifier": {
+                  "@_value": 0.8
+                },
+                "LightlyArmouredDamageModifier": {
+                  "@_value": 0.75
+                },
+                "VehicleDamageModifier": {
+                  "@_value": 1
+                },
+                "Force": {
+                  "@_value": 100
+                },
+                "ForceHitPed": {
+                  "@_value": 100
+                },
+                "ForceHitVehicle": {
+                  "@_value": 2000
+                },
+                "ForceHitFlyingHeli": {
+                  "@_value": 3000
+                },
+                "OverrideForces": "",
+                "ForceMaxStrengthMult": {
+                  "@_value": 1
+                },
+                "ForceFalloffRangeStart": {
+                  "@_value": 0
+                },
+                "ForceFalloffRangeEnd": {
+                  "@_value": 50
+                },
+                "ForceFalloffMin": {
+                  "@_value": 1
+                },
+                "ProjectileForce": {
+                  "@_value": 0
+                },
+                "FragImpulse": {
+                  "@_value": 600
+                },
+                "Penetration": {
+                  "@_value": 0.1
+                },
+                "VerticalLaunchAdjustment": {
+                  "@_value": 0
+                },
+                "DropForwardVelocity": {
+                  "@_value": 0
+                },
+                "Speed": {
+                  "@_value": 2000
+                },
+                "BulletsInBatch": {
+                  "@_value": 1
+                },
+                "BatchSpread": {
+                  "@_value": 0
+                },
+                "ReloadTimeMP": {
+                  "@_value": 4
+                },
+                "ReloadTimeSP": {
+                  "@_value": 4
+                },
+                "VehicleReloadTime": {
+                  "@_value": 4
+                },
+                "AnimReloadRate": {
+                  "@_value": 1
+                },
+                "BulletsPerAnimLoop": {
+                  "@_value": 1
+                },
+                "TimeBetweenShots": {
+                  "@_value": 0.125
+                },
+                "TimeLeftBetweenShotsWhereShouldFireIsCached": {
+                  "@_value": -1
+                },
+                "SpinUpTime": {
+                  "@_value": 0.001
+                },
+                "SpinTime": {
+                  "@_value": 0.25
+                },
+                "SpinDownTime": {
+                  "@_value": 0.5
+                },
+                "AlternateWaitTime": {
+                  "@_value": 0.125
+                },
+                "BulletBendingNearRadius": {
+                  "@_value": 0
+                },
+                "BulletBendingFarRadius": {
+                  "@_value": 0.75
+                },
+                "BulletBendingZoomedRadius": {
+                  "@_value": 0.375
+                },
+                "FirstPersonBulletBendingNearRadius": {
+                  "@_value": 0
+                },
+                "FirstPersonBulletBendingFarRadius": {
+                  "@_value": 0.75
+                },
+                "FirstPersonBulletBendingZoomedRadius": {
+                  "@_value": 0.375
+                },
+                "Fx": {
+                  "EffectGroup": "WEAPON_EFFECT_GROUP_VEHICLE_MG",
+                  "FlashFx": "muz_hr_titan2_25",
+                  "FlashFxAlt": "",
+                  "FlashFxFP": "",
+                  "FlashFxFPAlt": "",
+                  "MuzzleSmokeFx": "",
+                  "MuzzleSmokeFxFP": "",
+                  "MuzzleSmokeFxMinLevel": {
+                    "@_value": 0
+                  },
+                  "MuzzleSmokeFxIncPerShot": {
+                    "@_value": 0
+                  },
+                  "MuzzleSmokeFxDecPerSec": {
+                    "@_value": 0
+                  },
+                  "MuzzleOverrideOffset": {
+                    "@_x": 0,
+                    "@_y": 0,
+                    "@_z": 0
+                  },
+                  "ShellFx": "",
+                  "ShellFxFP": "",
+                  "TracerFx": "bullet_tracer_jet",
+                  "PedDamageHash": "BulletLarge",
+                  "TracerFxChanceSP": {
+                    "@_value": 0.6
+                  },
+                  "TracerFxChanceMP": {
+                    "@_value": 0.8
+                  },
+                  "FlashFxChanceSP": {
+                    "@_value": 1
+                  },
+                  "FlashFxChanceMP": {
+                    "@_value": 1
+                  },
+                  "FlashFxAltChance": {
+                    "@_value": 0
+                  },
+                  "FlashFxScale": {
+                    "@_value": 1
+                  },
+                  "FlashFxLightEnabled": {
+                    "@_value": true
+                  },
+                  "FlashFxLightCastsShadows": {
+                    "@_value": true
+                  },
+                  "FlashFxLightOffsetDist": {
+                    "@_value": 0
+                  },
+                  "FlashFxLightRGBAMin": {
+                    "@_x": 1,
+                    "@_y": 0.45,
+                    "@_z": 0.3
+                  },
+                  "FlashFxLightRGBAMax": {
+                    "@_x": 1,
+                    "@_y": 0.45,
+                    "@_z": 0.3
+                  },
+                  "FlashFxLightIntensityMinMax": {
+                    "@_x": 15,
+                    "@_y": 20
+                  },
+                  "FlashFxLightRangeMinMax": {
+                    "@_x": 1.2,
+                    "@_y": 1.6
+                  },
+                  "FlashFxLightFalloffMinMax": {
+                    "@_x": 24,
+                    "@_y": 32
+                  },
+                  "GroundDisturbFxEnabled": {
+                    "@_value": false
+                  },
+                  "GroundDisturbFxDist": {
+                    "@_value": 5
+                  },
+                  "GroundDisturbFxNameDefault": "",
+                  "GroundDisturbFxNameSand": "",
+                  "GroundDisturbFxNameDirt": "",
+                  "GroundDisturbFxNameWater": "",
+                  "GroundDisturbFxNameFoliage": ""
+                },
+                "InitialRumbleDuration": {
+                  "@_value": 90
+                },
+                "InitialRumbleIntensity": {
+                  "@_value": 0.5
+                },
+                "InitialRumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDuration": {
+                  "@_value": 90
+                },
+                "RumbleIntensity": {
+                  "@_value": 0.075
+                },
+                "RumbleIntensityTrigger": {
+                  "@_value": 0
+                },
+                "RumbleDamageIntensity": {
+                  "@_value": 1
+                },
+                "InitialRumbleDurationFps": {
+                  "@_value": 0
+                },
+                "InitialRumbleIntensityFps": {
+                  "@_value": 0
+                },
+                "RumbleDurationFps": {
+                  "@_value": 0
+                },
+                "RumbleIntensityFps": {
+                  "@_value": 0
+                },
+                "NetworkPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkPedDamageModifier": {
+                  "@_value": 1
+                },
+                "NetworkHeadShotPlayerDamageModifier": {
+                  "@_value": 1
+                },
+                "LockOnRange": {
+                  "@_value": 0
+                },
+                "WeaponRange": {
+                  "@_value": 500
+                },
+                "BulletDirectionOffsetInDegrees": {
+                  "@_value": 0
+                },
+                "BulletDirectionPitchOffset": {
+                  "@_value": 2
+                },
+                "BulletDirectionPitchHomingOffset": {
+                  "@_value": 0
+                },
+                "AiSoundRange": {
+                  "@_value": 200
+                },
+                "AiPotentialBlastEventRange": {
+                  "@_value": -1
+                },
+                "DamageFallOffRangeMin": {
+                  "@_value": 500
+                },
+                "DamageFallOffRangeMax": {
+                  "@_value": 500
+                },
+                "DamageFallOffModifier": {
+                  "@_value": 1
+                },
+                "VehicleWeaponHash": "VEHICLE_DATA_PLAYER_BULLET",
+                "DefaultCameraHash": "",
+                "AimCameraHash": "",
+                "FireCameraHash": "",
+                "CoverCameraHash": "",
+                "CoverReadyToFireCameraHash": "",
+                "RunAndGunCameraHash": "",
+                "CinematicShootingCameraHash": "",
+                "AlternativeOrScopedCameraHash": "",
+                "RunAndGunAlternativeOrScopedCameraHash": "",
+                "CinematicShootingAlternativeOrScopedCameraHash": "",
+                "PovTurretCameraHash": "",
+                "CameraFov": {
+                  "@_value": 45
+                },
+                "FirstPersonAimFovMin": {
+                  "@_value": 42
+                },
+                "FirstPersonAimFovMax": {
+                  "@_value": 47
+                },
+                "FirstPersonScopeFov": {
+                  "@_value": 0
+                },
+                "FirstPersonScopeAttachmentFov": {
+                  "@_value": 0
+                },
+                "FirstPersonDrivebyIKOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonRNGOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonRNGRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonLTOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonLTRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeAttachmentOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonScopeAttachmentRotationOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonIdleOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonRNGOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonLTOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonScopeOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonAsThirdPersonWeaponBlockedOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "FirstPersonDofSubjectMagnificationPowerFactorNear": {
+                  "@_value": 1.025
+                },
+                "FirstPersonDofMaxNearInFocusDistance": {
+                  "@_value": 0
+                },
+                "FirstPersonDofMaxNearInFocusDistanceBlendLevel": {
+                  "@_value": 0.3
+                },
+                "FirstPersonScopeAttachmentData": "",
+                "ZoomFactorForAccurateMode": {
+                  "@_value": 1
+                },
+                "RecoilShakeHash": "",
+                "RecoilShakeHashFirstPerson": "",
+                "AccuracyOffsetShakeHash": "",
+                "MinTimeBetweenRecoilShakes": {
+                  "@_value": 150
+                },
+                "RecoilShakeAmplitude": {
+                  "@_value": 1
+                },
+                "ExplosionShakeAmplitude": {
+                  "@_value": 0.0333
+                },
+                "IkRecoilDisplacement": {
+                  "@_value": 0
+                },
+                "IkRecoilDisplacementScope": {
+                  "@_value": 0
+                },
+                "IkRecoilDisplacementScaleBackward": {
+                  "@_value": 1
+                },
+                "IkRecoilDisplacementScaleVertical": {
+                  "@_value": 0.4
+                },
+                "ReticuleHudPosition": {
+                  "@_x": 0.5,
+                  "@_y": 0.5
+                },
+                "ReticuleHudPositionOffsetForPOVTurret": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "AimOffsetMin": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMin": {
+                  "@_value": 0
+                },
+                "AimOffsetMax": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeLengthMax": {
+                  "@_value": 0
+                },
+                "AimOffsetMinFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMedFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSRNG": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSRNG": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMinFPSScope": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetMaxFPSScope": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMinFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMedFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMaxFPSIdle": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMinFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMedFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimOffsetEndPosMaxFPSLT": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "AimProbeRadiusOverrideFPSIdle": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSIdleStealth": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSLT": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSRNG": {
+                  "@_value": 0
+                },
+                "AimProbeRadiusOverrideFPSScope": {
+                  "@_value": 0
+                },
+                "TorsoAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "TorsoCrouchedAimOffset": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "LeftHandIkOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "ReticuleMinSizeStanding": {
+                  "@_value": 1
+                },
+                "ReticuleMinSizeCrouched": {
+                  "@_value": 1
+                },
+                "ReticuleScale": {
+                  "@_value": 1
+                },
+                "ReticuleStyleHash": "WEAPON_VULKAN_GUNS",
+                "FirstPersonReticuleStyleHash": "COCKPIT_VIEW",
+                "PickupHash": "",
+                "MPPickupHash": "",
+                "HumanNameHash": "WT_V_ROG_CANN",
+                "MovementModeConditionalIdle": "",
+                "StatName": "25M",
+                "KnockdownCount": {
+                  "@_value": -1
+                },
+                "KillshotImpulseScale": {
+                  "@_value": 1
+                },
+                "NmShotTuningSet": "normal",
+                "AttachPoints": "",
+                "GunFeedBone": "",
+                "TargetSequenceGroup": "",
+                "WeaponFlags": "Gun UsableOnFoot Vehicle StaticReticulePosition CreateBulletExplosionWhenOutOfTime CanBlowUpVehicleAtZeroBodyHealth Turret DisableAimAngleChecksForReticule SkipVehiclePetrolTankDamage FiringEntityIgnoresExplosionDamage",
+                "TintSpecValues": {
+                  "@_ref": "TINT_DEFAULT"
+                },
+                "FiringPatternAliases": {
+                  "@_ref": "NULL"
+                },
+                "ReloadUpperBodyFixupExpressionData": {
+                  "@_ref": "default"
+                },
+                "AmmoDiminishingRate": {
+                  "@_value": 0
+                },
+                "AimingBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringBreathingAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringBreathingAdditiveWeight": {
+                  "@_value": 0
+                },
+                "AimingLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "FiringLeanAdditiveWeight": {
+                  "@_value": 1
+                },
+                "StealthAimingLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "StealthFiringLeanAdditiveWeight": {
+                  "@_value": 0
+                },
+                "ExpandPedCapsuleRadius": {
+                  "@_value": 0
+                },
+                "AudioCollisionHash": "",
+                "HudDamage": {
+                  "@_value": 30
+                },
+                "HudSpeed": {
+                  "@_value": 98
+                },
+                "HudCapacity": {
+                  "@_value": 100
+                },
+                "HudAccuracy": {
+                  "@_value": 10
+                },
+                "HudRange": {
+                  "@_value": 65
+                },
+                "VehicleAttackAngle": {
+                  "@_value": 25
+                },
+                "TorsoIKAngleLimit": {
+                  "@_value": -1
+                },
+                "MeleeRightFistTargetHealthDamageScaler": {
+                  "@_value": -1
+                },
+                "AirborneAircraftLockOnMultiplier": {
+                  "@_value": 1
+                },
+                "ArmouredVehicleGlassDamageOverride": {
+                  "@_value": -1
+                },
+                "CamoDiffuseTexIdxs": "",
+                "RotateBarrelBone": "",
+                "RotateBarrelBone2": "",
+                "FrontClearTestParams": {
+                  "ShouldPerformFrontClearTest": {
+                    "@_value": false
+                  },
+                  "ForwardOffset": {
+                    "@_value": 0
+                  },
+                  "VerticalOffset": {
+                    "@_value": 0
+                  },
+                  "HorizontalOffset": {
+                    "@_value": 0
+                  },
+                  "CapsuleRadius": {
+                    "@_value": 0
+                  },
+                  "CapsuleLength": {
+                    "@_value": 0
+                  }
+                },
+                "@_type": "CWeaponInfo"
+              }
+            ]
+          }
+        },
+        {
+          "Infos": ""
+        }
+      ]
+    },
+    "VehicleWeaponInfos": "",
+    "WeaponGroupDamageForArmouredVehicleGlass": "",
+    "Name": "DLC - Vehicle - Titan2"
+  }
+}

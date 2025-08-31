@@ -1,0 +1,6232 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleModelInfoVarGlobal": {
+    "Kits": {
+      "Item": [
+        {
+          "kitName": "150_buffalo3_modkit",
+          "id": {
+            "@_value": 150
+          },
+          "kitType": "MKT_SPORT",
+          "visibleMods": {
+            "Item": [
+              {
+                "modelName": "buf3_wing1",
+                "modShopLabel": "MNU_WING5",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_wing2",
+                "modShopLabel": "MNU_WING9",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "mod_col_3",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_wing3",
+                "modShopLabel": "MNU_WING8",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "mod_col_2",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_wing5",
+                "modShopLabel": "MNU_WING1",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "mod_col_4",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_wing4",
+                "modShopLabel": "MNU_WING11",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_cage",
+                "modShopLabel": "MNU_CAGE",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_strip",
+                "modShopLabel": "SUL_STRIP",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_roof",
+                "modShopLabel": "MNU_ROOFC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_a"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_skt_2",
+                "modShopLabel": "MNU_SKIRT",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SKIRT",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_skt_1",
+                "modShopLabel": "MNU_SKIRT2",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SKIRT",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_bumr_1",
+                "modShopLabel": "MNU_BUMR",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bumper_r"
+                },
+                "type": "VMT_BUMPER_R",
+                "bone": "bumper_r",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_bumr_2",
+                "modShopLabel": "MNU_BUMR8",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bumper_r"
+                },
+                "type": "VMT_BUMPER_R",
+                "bone": "bumper_r",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_hood_3",
+                "modShopLabel": "MNU_BONV",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_hood_4",
+                "modShopLabel": "MNU_BONR",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "mod_col_1",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_hood_1",
+                "modShopLabel": "MNU_BONC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_hood_2",
+                "modShopLabel": "MNU_BONVC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_grill_1",
+                "modShopLabel": "MNU_GRLB",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_c"
+                },
+                "type": "VMT_GRILL",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_grill_2",
+                "modShopLabel": "MNU_GRL7",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_c"
+                },
+                "type": "VMT_GRILL",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_grill_3",
+                "modShopLabel": "MNU_GRL6",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_c"
+                },
+                "type": "VMT_GRILL",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_grill_4a",
+                "modShopLabel": "MNU_BUMF4",
+                "linkedModels": {
+                  "Item": "buf3_grill_4b"
+                },
+                "turnOffBones": {
+                  "Item": [
+                    "misc_c",
+                    "misc_d"
+                  ]
+                },
+                "type": "VMT_GRILL",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_split_1",
+                "modShopLabel": "MNU_BUMF1",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_split_2",
+                "modShopLabel": "MNU_BUMF2",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_bumf_1",
+                "modShopLabel": "MNU_BUMF5",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_e"
+                },
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_bumf_2",
+                "modShopLabel": "MNU_BUMF9",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_e"
+                },
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_bumf_3",
+                "modShopLabel": "MNU_BUMF10",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_e"
+                },
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_exh1",
+                "modShopLabel": "MNU_EXH3",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 0.5
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_exh2",
+                "modShopLabel": "MNU_EXH2",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_b",
+                    "exhaust",
+                    "exhaust_2",
+                    "exhaust_3",
+                    "exhaust_4"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 0.6
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_exh3",
+                "modShopLabel": "MNU_EXH11",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 0.7
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_exh4",
+                "modShopLabel": "MNU_EXH12",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_b",
+                    "exhaust",
+                    "exhaust_2",
+                    "exhaust_3",
+                    "exhaust_4"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 0.85
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "buf3_exh5",
+                "modShopLabel": "MNU_EXH6",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "linkMods": {
+            "Item": [
+              {
+                "modelName": "buf3_split_2",
+                "bone": "bumper_f",
+                "turnOffExtra": {
+                  "@_value": false
+                }
+              },
+              {
+                "modelName": "buf3_split_1",
+                "bone": "bumper_f",
+                "turnOffExtra": {
+                  "@_value": false
+                }
+              },
+              {
+                "modelName": "buf3_grill_4b",
+                "bone": "bumper_f",
+                "turnOffExtra": {
+                  "@_value": false
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 75
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 40
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 60
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 80
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 30
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 40
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "HORN_TRUCK",
+                "modifier": {
+                  "@_value": 1766676233
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_COP",
+                "modifier": {
+                  "@_value": 2904189469
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_CLOWN",
+                "modifier": {
+                  "@_value": 2543206147
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_1",
+                "modifier": {
+                  "@_value": 1732399718
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_2",
+                "modifier": {
+                  "@_value": 2046162893
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_3",
+                "modifier": {
+                  "@_value": 2194999691
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_4",
+                "modifier": {
+                  "@_value": 2508304100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_5",
+                "modifier": {
+                  "@_value": 3707223535
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_SAD_TROMBONE",
+                "modifier": {
+                  "@_value": 632950117
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 5
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 10
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 15
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_1",
+                "modifier": {
+                  "@_value": 3628534289
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_2",
+                "modifier": {
+                  "@_value": 3892554122
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_3",
+                "modifier": {
+                  "@_value": 4112892878
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_4",
+                "modifier": {
+                  "@_value": 116877169
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_5",
+                "modifier": {
+                  "@_value": 2684983719
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_6",
+                "modifier": {
+                  "@_value": 2982690084
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_7",
+                "modifier": {
+                  "@_value": 3203290992
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C0",
+                "modifier": {
+                  "@_value": 771284519
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_D0",
+                "modifier": {
+                  "@_value": 2586621229
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_E0",
+                "modifier": {
+                  "@_value": 283386134
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_F0",
+                "modifier": {
+                  "@_value": 3884502400
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_G0",
+                "modifier": {
+                  "@_value": 265723083
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_A0",
+                "modifier": {
+                  "@_value": 1746883687
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_B0",
+                "modifier": {
+                  "@_value": 1919870950
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C1",
+                "modifier": {
+                  "@_value": 1085277077
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_1",
+                "modifier": {
+                  "@_value": 444549672
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_2",
+                "modifier": {
+                  "@_value": 1603064898
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_3",
+                "modifier": {
+                  "@_value": 240366033
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_4",
+                "modifier": {
+                  "@_value": 960137118
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_1",
+                "modifier": {
+                  "@_value": 3572144790
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_2",
+                "modifier": {
+                  "@_value": 3801396714
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_3",
+                "modifier": {
+                  "@_value": 2843657151
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_4",
+                "modifier": {
+                  "@_value": 3341811489
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              }
+            ]
+          },
+          "slotNames": {
+            "Item": {
+              "slot": "VMT_CHASSIS",
+              "name": "TOP_CAGE"
+            }
+          },
+          "liveryNames": ""
+        },
+        {
+          "kitName": "151_dominator2_modkit",
+          "id": {
+            "@_value": 151
+          },
+          "kitType": "MKT_SPORT",
+          "visibleMods": {
+            "Item": [
+              {
+                "modelName": "dom2_spoiler_1a",
+                "modShopLabel": "MNU_WING5",
+                "linkedModels": {
+                  "Item": "dom2_spoiler_1b"
+                },
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "mod_col_1",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_spoiler_2",
+                "modShopLabel": "MNU_WING4",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "mod_col_2",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_exh1",
+                "modShopLabel": "MNU_EXH4",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_a"
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_skirt_1",
+                "modShopLabel": "",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SKIRT",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_vents",
+                "modShopLabel": "DOM_VENTS",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_splitter_1",
+                "modShopLabel": "MNU_BUMF1",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_c"
+                },
+                "type": "VMT_BUMPER_F",
+                "bone": "bumper_f",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_grill_1",
+                "modShopLabel": "",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_GRILL",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_louver",
+                "modShopLabel": "MNU_LOU",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_roof_1",
+                "modShopLabel": "MNU_ROOFC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_d"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_roof_2",
+                "modShopLabel": "DOM_ROOFC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_d"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_hood_1",
+                "modShopLabel": "MNU_BONC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dom2_bumr_1",
+                "modShopLabel": "MNU_BUMR1",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bumper_r"
+                },
+                "type": "VMT_BUMPER_R",
+                "bone": "bumper_r",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "linkMods": {
+            "Item": {
+              "modelName": "dom2_spoiler_1b",
+              "bone": "chassis",
+              "turnOffExtra": {
+                "@_value": false
+              }
+            }
+          },
+          "statMods": {
+            "Item": [
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 75
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 40
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 60
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 80
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 30
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 40
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "HORN_TRUCK",
+                "modifier": {
+                  "@_value": 1766676233
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_COP",
+                "modifier": {
+                  "@_value": 2904189469
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_CLOWN",
+                "modifier": {
+                  "@_value": 2543206147
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_1",
+                "modifier": {
+                  "@_value": 1732399718
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_2",
+                "modifier": {
+                  "@_value": 2046162893
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_3",
+                "modifier": {
+                  "@_value": 2194999691
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_4",
+                "modifier": {
+                  "@_value": 2508304100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_5",
+                "modifier": {
+                  "@_value": 3707223535
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_SAD_TROMBONE",
+                "modifier": {
+                  "@_value": 632950117
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 2
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 4
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 7
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 10
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_1",
+                "modifier": {
+                  "@_value": 3628534289
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_2",
+                "modifier": {
+                  "@_value": 3892554122
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_3",
+                "modifier": {
+                  "@_value": 4112892878
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_4",
+                "modifier": {
+                  "@_value": 116877169
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_5",
+                "modifier": {
+                  "@_value": 2684983719
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_6",
+                "modifier": {
+                  "@_value": 2982690084
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_7",
+                "modifier": {
+                  "@_value": 3203290992
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C0",
+                "modifier": {
+                  "@_value": 771284519
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_D0",
+                "modifier": {
+                  "@_value": 2586621229
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_E0",
+                "modifier": {
+                  "@_value": 283386134
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_F0",
+                "modifier": {
+                  "@_value": 3884502400
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_G0",
+                "modifier": {
+                  "@_value": 265723083
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_A0",
+                "modifier": {
+                  "@_value": 1746883687
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_B0",
+                "modifier": {
+                  "@_value": 1919870950
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C1",
+                "modifier": {
+                  "@_value": 1085277077
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_1",
+                "modifier": {
+                  "@_value": 444549672
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_2",
+                "modifier": {
+                  "@_value": 1603064898
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_3",
+                "modifier": {
+                  "@_value": 240366033
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_4",
+                "modifier": {
+                  "@_value": 960137118
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_1",
+                "modifier": {
+                  "@_value": 3572144790
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_2",
+                "modifier": {
+                  "@_value": 3801396714
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_3",
+                "modifier": {
+                  "@_value": 2843657151
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_4",
+                "modifier": {
+                  "@_value": 3341811489
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              }
+            ]
+          },
+          "slotNames": {
+            "Item": {
+              "slot": "VMT_CHASSIS",
+              "name": "TOP_BODY"
+            }
+          },
+          "liveryNames": ""
+        },
+        {
+          "kitName": "152_dukes_modkit",
+          "id": {
+            "@_value": 152
+          },
+          "kitType": "MKT_SPORT",
+          "visibleMods": {
+            "Item": [
+              {
+                "modelName": "dukes_wing_1",
+                "modShopLabel": "MNU_WING9",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_exh_1",
+                "modShopLabel": "MNU_EXH3",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_d"
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_exh_2",
+                "modShopLabel": "MNU_EXH9",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_d",
+                    "exhaust",
+                    "exhaust_2"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_cage",
+                "modShopLabel": "MNU_CAGE",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_deathproof",
+                "modShopLabel": "SABRE_CAG",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_c"
+                },
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_bumf_1",
+                "modShopLabel": "MNU_BUMF1",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BUMPER_F",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_1",
+                "modShopLabel": "MNU_ROOFP",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_2",
+                "modShopLabel": "DUKES_ROOF2",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_3",
+                "modShopLabel": "DUKES_ROOF3",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_4",
+                "modShopLabel": "DUKES_ROOF4",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_5",
+                "modShopLabel": "DUKES_ROOF5",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_6",
+                "modShopLabel": "DUKES_ROOF6",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_7",
+                "modShopLabel": "DUKES_ROOF7",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_8",
+                "modShopLabel": "DUKES_ROOF8",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_9",
+                "modShopLabel": "DUKES_ROOF9",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_10",
+                "modShopLabel": "DUKES_ROOF10",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_11",
+                "modShopLabel": "DUKES_ROOF11",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_12",
+                "modShopLabel": "DUKES_ROOF12",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_13",
+                "modShopLabel": "DUKES_ROOF13",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_14",
+                "modShopLabel": "DUKES_ROOF14",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_15",
+                "modShopLabel": "DUKES_ROOF15",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_16",
+                "modShopLabel": "DUKES_ROOF16",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_17",
+                "modShopLabel": "DUKES_ROOF17",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_18",
+                "modShopLabel": "DUKES_ROOF18",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_19",
+                "modShopLabel": "DUKES_ROOF19",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_20",
+                "modShopLabel": "DUKES_ROOF20",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_21",
+                "modShopLabel": "DUKES_ROOF21",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_22",
+                "modShopLabel": "DUKES_ROOF22",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_23",
+                "modShopLabel": "DUKES_ROOF23",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_24",
+                "modShopLabel": "DUKES_ROOF24",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_25",
+                "modShopLabel": "DUKES_ROOF25",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_roof_26",
+                "modShopLabel": "DUKES_ROOF26",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_wbar_1",
+                "modShopLabel": "MNU_WBAR",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BUMPER_R",
+                "bone": "chassis",
+                "collisionBone": "mod_col_3",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_hood_1",
+                "modShopLabel": "MNU_BONP",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_hood_2",
+                "modShopLabel": "MNU_BONR",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_hood_3",
+                "modShopLabel": "MNU_BONC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_hood_4",
+                "modShopLabel": "MNU_BONB",
+                "linkedModels": {
+                  "Item": "dukes_blower_2"
+                },
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "mod_col_1",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "dukes_hood_5",
+                "modShopLabel": "MNU_BONB2",
+                "linkedModels": {
+                  "Item": "dukes_blower_1"
+                },
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "mod_col_1",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": false
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "linkMods": {
+            "Item": [
+              {
+                "modelName": "dukes_blower_2",
+                "bone": "chassis",
+                "turnOffExtra": {
+                  "@_value": false
+                }
+              },
+              {
+                "modelName": "dukes_blower_1",
+                "bone": "chassis",
+                "turnOffExtra": {
+                  "@_value": false
+                }
+              }
+            ]
+          },
+          "statMods": {
+            "Item": [
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 75
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 40
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 60
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 80
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 30
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 40
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "HORN_TRUCK",
+                "modifier": {
+                  "@_value": 1766676233
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_COP",
+                "modifier": {
+                  "@_value": 2904189469
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_CLOWN",
+                "modifier": {
+                  "@_value": 2543206147
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_1",
+                "modifier": {
+                  "@_value": 1732399718
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_2",
+                "modifier": {
+                  "@_value": 2046162893
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_3",
+                "modifier": {
+                  "@_value": 2194999691
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_4",
+                "modifier": {
+                  "@_value": 2508304100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_5",
+                "modifier": {
+                  "@_value": 3707223535
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_SAD_TROMBONE",
+                "modifier": {
+                  "@_value": 632950117
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 2
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 4
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 7
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 10
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_1",
+                "modifier": {
+                  "@_value": 3628534289
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_2",
+                "modifier": {
+                  "@_value": 3892554122
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_3",
+                "modifier": {
+                  "@_value": 4112892878
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_4",
+                "modifier": {
+                  "@_value": 116877169
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_5",
+                "modifier": {
+                  "@_value": 2684983719
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_6",
+                "modifier": {
+                  "@_value": 2982690084
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_7",
+                "modifier": {
+                  "@_value": 3203290992
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C0",
+                "modifier": {
+                  "@_value": 771284519
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_D0",
+                "modifier": {
+                  "@_value": 2586621229
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_E0",
+                "modifier": {
+                  "@_value": 283386134
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_F0",
+                "modifier": {
+                  "@_value": 3884502400
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_G0",
+                "modifier": {
+                  "@_value": 265723083
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_A0",
+                "modifier": {
+                  "@_value": 1746883687
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_B0",
+                "modifier": {
+                  "@_value": 1919870950
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C1",
+                "modifier": {
+                  "@_value": 1085277077
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_1",
+                "modifier": {
+                  "@_value": 444549672
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_2",
+                "modifier": {
+                  "@_value": 1603064898
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_3",
+                "modifier": {
+                  "@_value": 240366033
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_4",
+                "modifier": {
+                  "@_value": 960137118
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_1",
+                "modifier": {
+                  "@_value": 3572144790
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_2",
+                "modifier": {
+                  "@_value": 3801396714
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_3",
+                "modifier": {
+                  "@_value": 2843657151
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_4",
+                "modifier": {
+                  "@_value": 3341811489
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              }
+            ]
+          },
+          "slotNames": {
+            "Item": [
+              {
+                "slot": "VMT_CHASSIS",
+                "name": "TOP_CAGE"
+              },
+              {
+                "slot": "VMT_BUMPER_R",
+                "name": "TOP_WBAR"
+              }
+            ]
+          },
+          "liveryNames": ""
+        },
+        {
+          "kitName": "154_blista2_modkit",
+          "id": {
+            "@_value": 154
+          },
+          "kitType": "MKT_STANDARD",
+          "visibleMods": {
+            "Item": [
+              {
+                "modelName": "blista2_wing1",
+                "modShopLabel": "MNU_WING3",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_wing2",
+                "modShopLabel": "MNU_WING13",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_wing3",
+                "modShopLabel": "MNU_WING10",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_sunstrip",
+                "modShopLabel": "SUL_STRIP",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_skirts",
+                "modShopLabel": "MNU_SKIRT",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SKIRT",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_cage",
+                "modShopLabel": "MNU_CAGE",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_exh1",
+                "modShopLabel": "MNU_EXH3",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_exh2",
+                "modShopLabel": "MNU_EXH2",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_exh3",
+                "modShopLabel": "MNU_EXH6",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_hood_1",
+                "modShopLabel": "MNU_BONC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "bonnet",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista2_hood_2",
+                "modShopLabel": "MNU_BONV",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "bonnet",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "linkMods": "",
+          "statMods": {
+            "Item": [
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 75
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 40
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 60
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 80
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 30
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 40
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "HORN_TRUCK",
+                "modifier": {
+                  "@_value": 1766676233
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_COP",
+                "modifier": {
+                  "@_value": 2904189469
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_CLOWN",
+                "modifier": {
+                  "@_value": 2543206147
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_1",
+                "modifier": {
+                  "@_value": 1732399718
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_2",
+                "modifier": {
+                  "@_value": 2046162893
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_3",
+                "modifier": {
+                  "@_value": 2194999691
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_4",
+                "modifier": {
+                  "@_value": 2508304100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_5",
+                "modifier": {
+                  "@_value": 3707223535
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_SAD_TROMBONE",
+                "modifier": {
+                  "@_value": 632950117
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 5
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 10
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 15
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_1",
+                "modifier": {
+                  "@_value": 3628534289
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_2",
+                "modifier": {
+                  "@_value": 3892554122
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_3",
+                "modifier": {
+                  "@_value": 4112892878
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_4",
+                "modifier": {
+                  "@_value": 116877169
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_5",
+                "modifier": {
+                  "@_value": 2684983719
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_6",
+                "modifier": {
+                  "@_value": 2982690084
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_7",
+                "modifier": {
+                  "@_value": 3203290992
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C0",
+                "modifier": {
+                  "@_value": 771284519
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_D0",
+                "modifier": {
+                  "@_value": 2586621229
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_E0",
+                "modifier": {
+                  "@_value": 283386134
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_F0",
+                "modifier": {
+                  "@_value": 3884502400
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_G0",
+                "modifier": {
+                  "@_value": 265723083
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_A0",
+                "modifier": {
+                  "@_value": 1746883687
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_B0",
+                "modifier": {
+                  "@_value": 1919870950
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C1",
+                "modifier": {
+                  "@_value": 1085277077
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_1",
+                "modifier": {
+                  "@_value": 444549672
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_2",
+                "modifier": {
+                  "@_value": 1603064898
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_3",
+                "modifier": {
+                  "@_value": 240366033
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_4",
+                "modifier": {
+                  "@_value": 960137118
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_1",
+                "modifier": {
+                  "@_value": 3572144790
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_2",
+                "modifier": {
+                  "@_value": 3801396714
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_3",
+                "modifier": {
+                  "@_value": 2843657151
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_4",
+                "modifier": {
+                  "@_value": 3341811489
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              }
+            ]
+          },
+          "slotNames": {
+            "Item": {
+              "slot": "VMT_CHASSIS",
+              "name": "TOP_CAGE"
+            }
+          },
+          "liveryNames": ""
+        },
+        {
+          "kitName": "155_blista3_modkit",
+          "id": {
+            "@_value": 155
+          },
+          "kitType": "MKT_STANDARD",
+          "visibleMods": {
+            "Item": [
+              {
+                "modelName": "blista3_wing1",
+                "modShopLabel": "MNU_WING3",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_wing2",
+                "modShopLabel": "MNU_WING13",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_wing3",
+                "modShopLabel": "MNU_WING10",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SPOILER",
+                "bone": "boot",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_sunstrip",
+                "modShopLabel": "SUL_STRIP",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_ROOF",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_skirts",
+                "modShopLabel": "MNU_SKIRT",
+                "linkedModels": "",
+                "turnOffBones": "",
+                "type": "VMT_SKIRT",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_cage",
+                "modShopLabel": "MNU_CAGE",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "misc_b"
+                },
+                "type": "VMT_CHASSIS",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_exh1",
+                "modShopLabel": "MNU_EXH3",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_exh2",
+                "modShopLabel": "MNU_EXH2",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_exh3",
+                "modShopLabel": "MNU_EXH6",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": [
+                    "misc_a",
+                    "exhaust"
+                  ]
+                },
+                "type": "VMT_EXHAUST",
+                "bone": "chassis",
+                "collisionBone": "chassis",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_hood_1",
+                "modShopLabel": "MNU_BONC",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "bonnet",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              },
+              {
+                "modelName": "blista3_hood_2",
+                "modShopLabel": "MNU_BONV",
+                "linkedModels": "",
+                "turnOffBones": {
+                  "Item": "bonnet"
+                },
+                "type": "VMT_BONNET",
+                "bone": "bonnet",
+                "collisionBone": "bonnet",
+                "cameraPos": "VMCP_DEFAULT",
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "turnOffExtra": {
+                  "@_value": false
+                },
+                "disableBonnetCamera": {
+                  "@_value": true
+                },
+                "allowBonnetSlide": {
+                  "@_value": true
+                }
+              }
+            ]
+          },
+          "linkMods": "",
+          "statMods": {
+            "Item": [
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 75
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ENGINE"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_BRAKES"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 25
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 50
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 5
+                },
+                "type": "VMT_GEARBOX"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 40
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 10
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 60
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 20
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 80
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 30
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 40
+                },
+                "type": "VMT_ARMOUR"
+              },
+              {
+                "identifier": "HORN_TRUCK",
+                "modifier": {
+                  "@_value": 1766676233
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_COP",
+                "modifier": {
+                  "@_value": 2904189469
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_CLOWN",
+                "modifier": {
+                  "@_value": 2543206147
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_1",
+                "modifier": {
+                  "@_value": 1732399718
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_2",
+                "modifier": {
+                  "@_value": 2046162893
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_3",
+                "modifier": {
+                  "@_value": 2194999691
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_4",
+                "modifier": {
+                  "@_value": 2508304100
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_MUSICAL_5",
+                "modifier": {
+                  "@_value": 3707223535
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HORN_SAD_TROMBONE",
+                "modifier": {
+                  "@_value": 632950117
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 5
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 10
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 15
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "",
+                "modifier": {
+                  "@_value": 20
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_SUSPENSION"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_1",
+                "modifier": {
+                  "@_value": 3628534289
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_2",
+                "modifier": {
+                  "@_value": 3892554122
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_3",
+                "modifier": {
+                  "@_value": 4112892878
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_4",
+                "modifier": {
+                  "@_value": 116877169
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_5",
+                "modifier": {
+                  "@_value": 2684983719
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_6",
+                "modifier": {
+                  "@_value": 2982690084
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "MUSICAL_HORN_BUSINESS_7",
+                "modifier": {
+                  "@_value": 3203290992
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C0",
+                "modifier": {
+                  "@_value": 771284519
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_D0",
+                "modifier": {
+                  "@_value": 2586621229
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_E0",
+                "modifier": {
+                  "@_value": 283386134
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_F0",
+                "modifier": {
+                  "@_value": 3884502400
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_G0",
+                "modifier": {
+                  "@_value": 265723083
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_A0",
+                "modifier": {
+                  "@_value": 1746883687
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_B0",
+                "modifier": {
+                  "@_value": 1919870950
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "DLC_BUSI2_C_MAJOR_NOTES_C1",
+                "modifier": {
+                  "@_value": 1085277077
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_1",
+                "modifier": {
+                  "@_value": 444549672
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_2",
+                "modifier": {
+                  "@_value": 1603064898
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_3",
+                "modifier": {
+                  "@_value": 240366033
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "HIPSTER_HORN_4",
+                "modifier": {
+                  "@_value": 960137118
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_1",
+                "modifier": {
+                  "@_value": 3572144790
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_2",
+                "modifier": {
+                  "@_value": 3801396714
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_3",
+                "modifier": {
+                  "@_value": 2843657151
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              },
+              {
+                "identifier": "INDEP_HORN_4",
+                "modifier": {
+                  "@_value": 3341811489
+                },
+                "audioApply": {
+                  "@_value": 1
+                },
+                "weight": {
+                  "@_value": 0
+                },
+                "type": "VMT_HORN"
+              }
+            ]
+          },
+          "slotNames": {
+            "Item": {
+              "slot": "VMT_CHASSIS",
+              "name": "TOP_CAGE"
+            }
+          },
+          "liveryNames": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CActionFacialAnimSetContainer": {
+    "aActionFacialAnimSets": {
+      "Item": [
+        {
+          "Name": "AFAS_pain",
+          "aFacialAnimClipIds": {
+            "Item": [
+              "pain_1",
+              "pain_2",
+              "pain_3"
+            ]
+          },
+          "@_type": "CActionFacialAnimSet"
+        },
+        {
+          "Name": "AFAS_effort",
+          "aFacialAnimClipIds": {
+            "Item": "melee_effort_1"
+          },
+          "@_type": "CActionFacialAnimSet"
+        },
+        {
+          "Name": "AFAS_knockout",
+          "aFacialAnimClipIds": {
+            "Item": "mood_knockout_1"
+          },
+          "@_type": "CActionFacialAnimSet"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,204 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAgitatedPersonalities": {
+    "Personalities": {
+      "Item": [
+        {
+          "Contexts": {
+            "Item": [
+              {
+                "Situations": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Conditions": {
+                                "Condition": [
+                                  {
+                                    "@_type": "CAgitatedConditionIsTerritoryIntruded"
+                                  },
+                                  {
+                                    "@_type": "CAgitatedConditionIsUsingTerritoryScenario"
+                                  }
+                                ]
+                              },
+                              "@_type": "CAgitatedConditionOr"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionCanFight"
+                            },
+                            {
+                              "Flags": "BF_ALLOW_CONFRONT_FOR_TERRITORY_REACTIONS",
+                              "@_type": "CAgitatedConditionCheckBraveryFlags"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Response": "Confront"
+                    },
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsProvoked"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionCanFight"
+                            },
+                            {
+                              "Flags": "BF_BOOST_BRAVERY_IN_GROUP",
+                              "@_type": "CAgitatedConditionCheckBraveryFlags"
+                            },
+                            {
+                              "Min": {
+                                "@_value": 2
+                              },
+                              "@_type": "CAgitatedConditionHasFriendsNearby"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Response": "Confront"
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsRanting"
+                      },
+                      "Response": "Rant"
+                    },
+                    {
+                      "Response": "Coward"
+                    }
+                  ]
+                },
+                "@_key": "Default"
+              },
+              {
+                "Situations": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Name": "Confront",
+                              "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionCanFight"
+                            },
+                            {
+                              "Flags": "BF_BOOST_BRAVERY_IN_GROUP",
+                              "@_type": "CAgitatedConditionCheckBraveryFlags"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Response": "HelpWithConfront"
+                    },
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsIntervene"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionCanFight"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Response": "Confront"
+                    },
+                    {
+                      "Response": "Coward"
+                    }
+                  ]
+                },
+                "@_key": "Help"
+              }
+            ]
+          },
+          "@_key": "Default"
+        },
+        {
+          "Flags": "IsAggressive",
+          "Contexts": {
+            "Item": [
+              {
+                "Situations": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionCanFight"
+                      },
+                      "Response": "Confront"
+                    },
+                    {
+                      "Response": "Coward"
+                    }
+                  ]
+                },
+                "@_key": "Default"
+              },
+              {
+                "Situations": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "Name": "Confront",
+                        "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                      },
+                      "Response": "HelpWithConfront"
+                    },
+                    {
+                      "Response": "Confront"
+                    }
+                  ]
+                },
+                "@_key": "Help"
+              }
+            ]
+          },
+          "@_key": "Confront"
+        },
+        {
+          "Contexts": {
+            "Item": {
+              "Situations": {
+                "Item": [
+                  {
+                    "Condition": {
+                      "@_type": "CAgitatedConditionIsTerritoryIntruded"
+                    },
+                    "Response": "Fight"
+                  },
+                  {
+                    "Response": "DogConfront"
+                  }
+                ]
+              },
+              "@_key": "Default"
+            }
+          },
+          "@_key": "GuardDog"
+        },
+        {
+          "Contexts": "",
+          "@_key": "None"
+        }
+      ]
+    }
+  }
+}

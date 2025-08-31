@@ -1,0 +1,5928 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "FirstPersonAssetDataManager": {
+    "peds": {
+      "Item": [
+        {
+          "name": "Player_One",
+          "objects": {
+            "Item": [
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba01",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_blue",
+                    "intensity": {
+                      "@_value": 0.25
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 3
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_purple",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_green",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_green",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 5
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_green",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.25
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.85
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 10
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_orange",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_Mask_motobike_b",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.023,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 10
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 12
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 13
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 14
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 17
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_motox",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.022,
+                  "@_z": -0.038
+                },
+                "seWeather": {
+                  "@_value": 0
+                },
+                "seEnvironment": {
+                  "@_value": 0
+                },
+                "seDamage": {
+                  "@_value": 0
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 20
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 21
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "fpsPropModel": "Prop_mask_flight",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.056,
+                  "@_z": -0.075
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 3
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 5
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_bugstar",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.033,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba02",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 18
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba03",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 5
+                },
+                "eCompType": "PV_COMP_TASK",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Player_Zero",
+          "objects": {
+            "Item": [
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.25
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_Scuba",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba02",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba02",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 3
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_orange",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_green",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 5
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_blue",
+                    "intensity": {
+                      "@_value": 0.2
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 10
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 11
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 10
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_orange",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_Mask_motobike_b",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.023,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 14
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 16
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 17
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 18
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 19
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 20
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "tcModFadeOffSecs": {
+                  "@_value": "80.0f"
+                },
+                "tcModInterpType": "FPTC_POW4"
+              },
+              {
+                "localIndex": {
+                  "@_value": 23
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_motox",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.022,
+                  "@_z": -0.038
+                },
+                "seWeather": {
+                  "@_value": 0
+                },
+                "seEnvironment": {
+                  "@_value": 0
+                },
+                "seDamage": {
+                  "@_value": 0
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 25
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.8
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_Mask_motobike_b",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.023,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 26
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_mask_ballistic",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.016,
+                  "@_z": -0.037
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 28
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "fpsPropModel": "Prop_mask_flight",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.056,
+                  "@_z": -0.075
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba03",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_bugstar",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.033,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 14
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 21
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba03",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_TASK",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "Player_Two",
+          "objects": {
+            "Item": [
+              {
+                "localIndex": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba04",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.049,
+                  "@_z": -0.055
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_pink",
+                    "intensity": {
+                      "@_value": 0.8
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_pink",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 3
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.2
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.2
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_green",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba04",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.051
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_orange",
+                    "intensity": {
+                      "@_value": 0.2
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.2
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.2
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 8
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 11
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.9
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_Darkblue",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.7
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 10
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "glasses_purple",
+                      "intensity": {
+                        "@_value": 0.6
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "glasses_black",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.8
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "glasses_yellow",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "glasses_brown",
+                      "intensity": {
+                        "@_value": 0.3
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 6
+                      },
+                      "timeCycleMod": "glasses_blue",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 7
+                      },
+                      "timeCycleMod": "glasses_red",
+                      "intensity": {
+                        "@_value": 0.4
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 8
+                      },
+                      "timeCycleMod": "glasses_green",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 9
+                      },
+                      "timeCycleMod": "glasses_orange",
+                      "intensity": {
+                        "@_value": 0.5
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_EYES",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_orange",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 9
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 11
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_motobike_b",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.049,
+                  "@_z": -0.056
+                },
+                "seWeather": {
+                  "@_value": 0
+                },
+                "seEnvironment": {
+                  "@_value": 0
+                },
+                "seDamage": {
+                  "@_value": 0
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 14
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 16
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 17
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 18
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 19
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 20
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 21
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.2
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 23
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_motox",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.022,
+                  "@_z": -0.038
+                },
+                "seWeather": {
+                  "@_value": 0
+                },
+                "seEnvironment": {
+                  "@_value": 0
+                },
+                "seDamage": {
+                  "@_value": 0
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 24
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_mask_ballistic",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.016,
+                  "@_z": -0.037
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 25
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.8
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "Prop_Mask_motobike_b",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.023,
+                  "@_z": -0.045
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 27
+                },
+                "eCompType": "PV_COMP_MAX",
+                "eAnchorPoint": "ANCHOR_HEAD",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_visor",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "fpsPropModel": "Prop_mask_flight",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": -0.056,
+                  "@_z": -0.075
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                },
+                "putOnAnim": {
+                  "timeCycleMod": "DefaultBlinkIntro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.6
+                  }
+                },
+                "takeOffAnim": {
+                  "timeCycleMod": "DefaultBlinkOutro",
+                  "maxIntensity": {
+                    "@_value": 1
+                  },
+                  "duration": {
+                    "@_value": 0.4
+                  },
+                  "delay": {
+                    "@_value": 0.1
+                  }
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.3
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba03",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.053,
+                  "@_z": -0.058
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 13
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "fp_vig_black",
+                    "intensity": {
+                      "@_value": 1
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 15
+                },
+                "eCompType": "PV_COMP_ACCS",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": {
+                    "textureId": {
+                      "@_value": 0
+                    },
+                    "timeCycleMod": "glasses_black",
+                    "intensity": {
+                      "@_value": 0.5
+                    }
+                  }
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "prop_mask_scuba03",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.053,
+                  "@_z": -0.058
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 2
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 3
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 4
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 5
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              },
+              {
+                "localIndex": {
+                  "@_value": 7
+                },
+                "eCompType": "PV_COMP_TASK",
+                "eAnchorPoint": "NUM_ANCHORS",
+                "dlcHash": "",
+                "timeCycleMods": {
+                  "Item": [
+                    {
+                      "textureId": {
+                        "@_value": 0
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    },
+                    {
+                      "textureId": {
+                        "@_value": 1
+                      },
+                      "timeCycleMod": "fp_vig_black",
+                      "intensity": {
+                        "@_value": 1
+                      }
+                    }
+                  ]
+                },
+                "audioId": "",
+                "flags": {
+                  "@_value": 0
+                },
+                "fpsPropModel": "",
+                "fpsPropModelOffset": {
+                  "@_x": 0,
+                  "@_y": 0.04,
+                  "@_z": -0.018
+                },
+                "seWeather": {
+                  "@_value": 1
+                },
+                "seEnvironment": {
+                  "@_value": 1
+                },
+                "seDamage": {
+                  "@_value": 1
+                }
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

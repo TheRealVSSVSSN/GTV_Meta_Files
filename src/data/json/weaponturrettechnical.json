@@ -1,0 +1,443 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CWeaponInfoBlob": {
+    "SlotNavigateOrder": {
+      "Item": [
+        "",
+        ""
+      ]
+    },
+    "SlotBestOrder": "",
+    "AimingInfos": "",
+    "Infos": {
+      "Item": [
+        "",
+        "",
+        {
+          "Infos": {
+            "Item": {
+              "Name": "VEHICLE_WEAPON_TURRET_TECHNICAL",
+              "Model": "",
+              "Audio": "AUDIO_ITEM_TECHNICAL_TURRET",
+              "Slot": "",
+              "DamageType": "BULLET",
+              "Explosion": {
+                "Default": "DONTCARE",
+                "HitCar": "DONTCARE",
+                "HitTruck": "DONTCARE",
+                "HitBike": "DONTCARE",
+                "HitBoat": "DONTCARE",
+                "HitPlane": "DONTCARE"
+              },
+              "FireType": "INSTANT_HIT",
+              "WheelSlot": "WHEEL_SMG",
+              "Group": "",
+              "AmmoInfo": {
+                "@_ref": "AMMO_MG"
+              },
+              "AimingInfo": {
+                "@_ref": "MG_LOW_BASE_STRAFE"
+              },
+              "ClipSize": {
+                "@_value": 750
+              },
+              "AccuracySpread": {
+                "@_value": 1
+              },
+              "AccurateModeAccuracyModifier": {
+                "@_value": 0.5
+              },
+              "RunAndGunAccuracyModifier": {
+                "@_value": 2
+              },
+              "RecoilAccuracyMax": {
+                "@_value": 1
+              },
+              "RecoilErrorTime": {
+                "@_value": 3
+              },
+              "RecoilRecoveryRate": {
+                "@_value": 1
+              },
+              "RecoilAccuracyToAllowHeadShotAI": {
+                "@_value": 1000
+              },
+              "MinHeadShotDistanceAI": {
+                "@_value": 1000
+              },
+              "MaxHeadShotDistanceAI": {
+                "@_value": 1000
+              },
+              "HeadShotDamageModifierAI": {
+                "@_value": 1000
+              },
+              "RecoilAccuracyToAllowHeadShotPlayer": {
+                "@_value": 0.175
+              },
+              "MinHeadShotDistancePlayer": {
+                "@_value": 5
+              },
+              "MaxHeadShotDistancePlayer": {
+                "@_value": 40
+              },
+              "HeadShotDamageModifierPlayer": {
+                "@_value": 18
+              },
+              "Damage": {
+                "@_value": 200
+              },
+              "DamageTime": {
+                "@_value": 0
+              },
+              "DamageTimeInVehicle": {
+                "@_value": 0
+              },
+              "DamageTimeInVehicleHeadShot": {
+                "@_value": 0
+              },
+              "HitLimbsDamageModifier": {
+                "@_value": 0.5
+              },
+              "NetworkHitLimbsDamageModifier": {
+                "@_value": 0.8
+              },
+              "LightlyArmouredDamageModifier": {
+                "@_value": 0.75
+              },
+              "Force": {
+                "@_value": 400
+              },
+              "ForceHitPed": {
+                "@_value": 200
+              },
+              "ForceHitVehicle": {
+                "@_value": 5000
+              },
+              "ForceHitFlyingHeli": {
+                "@_value": 5000
+              },
+              "OverrideForces": "",
+              "ForceMaxStrengthMult": {
+                "@_value": 1
+              },
+              "ForceFalloffRangeStart": {
+                "@_value": 0
+              },
+              "ForceFalloffRangeEnd": {
+                "@_value": 50
+              },
+              "ForceFalloffMin": {
+                "@_value": 1
+              },
+              "ProjectileForce": {
+                "@_value": 0
+              },
+              "FragImpulse": {
+                "@_value": 2000
+              },
+              "Penetration": {
+                "@_value": 0.1
+              },
+              "VerticalLaunchAdjustment": {
+                "@_value": 0
+              },
+              "DropForwardVelocity": {
+                "@_value": 0
+              },
+              "Speed": {
+                "@_value": 2000
+              },
+              "BulletsInBatch": {
+                "@_value": 1
+              },
+              "BatchSpread": {
+                "@_value": 0
+              },
+              "ReloadTimeMP": {
+                "@_value": -1
+              },
+              "ReloadTimeSP": {
+                "@_value": -1
+              },
+              "VehicleReloadTime": {
+                "@_value": -1
+              },
+              "AnimReloadRate": {
+                "@_value": 1
+              },
+              "BulletsPerAnimLoop": {
+                "@_value": 1
+              },
+              "TimeBetweenShots": {
+                "@_value": 0.18
+              },
+              "TimeLeftBetweenShotsWhereShouldFireIsCached": {
+                "@_value": -1
+              },
+              "SpinUpTime": {
+                "@_value": 0
+              },
+              "SpinTime": {
+                "@_value": 0
+              },
+              "SpinDownTime": {
+                "@_value": 0
+              },
+              "AlternateWaitTime": {
+                "@_value": -1
+              },
+              "BulletBendingNearRadius": {
+                "@_value": 0
+              },
+              "BulletBendingFarRadius": {
+                "@_value": 0.75
+              },
+              "BulletBendingZoomedRadius": {
+                "@_value": 0.375
+              },
+              "Fx": {
+                "EffectGroup": "WEAPON_EFFECT_GROUP_VEHICLE_MG",
+                "FlashFx": "muz_mounted_turret",
+                "FlashFxAlt": "",
+                "ShellFx": "eject_mounted_turret_technical",
+                "TracerFx": "bullet_tracer_turret",
+                "PedDamageHash": "BulletLarge",
+                "TracerFxChanceSP": {
+                  "@_value": 0.6
+                },
+                "TracerFxChanceMP": {
+                  "@_value": 0.8
+                },
+                "FlashFxChanceSP": {
+                  "@_value": 1
+                },
+                "FlashFxChanceMP": {
+                  "@_value": 1
+                },
+                "FlashFxAltChance": {
+                  "@_value": 0
+                },
+                "FlashFxScale": {
+                  "@_value": 1.5
+                }
+              },
+              "InitialRumbleDuration": {
+                "@_value": 50
+              },
+              "InitialRumbleIntensity": {
+                "@_value": 1
+              },
+              "InitialRumbleIntensityTrigger": {
+                "@_value": 0.95
+              },
+              "RumbleDuration": {
+                "@_value": 80
+              },
+              "RumbleIntensity": {
+                "@_value": 0.9
+              },
+              "RumbleIntensityTrigger": {
+                "@_value": 0.85
+              },
+              "RumbleDamageIntensity": {
+                "@_value": 1
+              },
+              "NetworkPlayerDamageModifier": {
+                "@_value": 1
+              },
+              "NetworkPedDamageModifier": {
+                "@_value": 1
+              },
+              "NetworkHeadShotPlayerDamageModifier": {
+                "@_value": 1.5
+              },
+              "LockOnRange": {
+                "@_value": 0
+              },
+              "WeaponRange": {
+                "@_value": 500
+              },
+              "BulletDirectionOffsetInDegrees": {
+                "@_value": 0
+              },
+              "AiSoundRange": {
+                "@_value": -1
+              },
+              "AiPotentialBlastEventRange": {
+                "@_value": -1
+              },
+              "DamageFallOffRangeMin": {
+                "@_value": 500
+              },
+              "DamageFallOffRangeMax": {
+                "@_value": 500
+              },
+              "DamageFallOffModifier": {
+                "@_value": 1
+              },
+              "VehicleWeaponHash": "VEHICLE_DATA_TURRET_TECHNICAL",
+              "DefaultCameraHash": "TECHNICAL_TURRET_CAMERA",
+              "AimCameraHash": "TECHNICAL_TURRET_AIM_CAMERA",
+              "FireCameraHash": "TECHNICAL_TURRET_FIRE_CAMERA",
+              "CoverCameraHash": "",
+              "CoverReadyToFireCameraHash": "",
+              "AssistedAimingCameraHash": "",
+              "AlternativeOrScopedCameraHash": "",
+              "AssistedAlternativeOrScopedCameraHash": "",
+              "CameraFov": {
+                "@_value": 35
+              },
+              "ZoomFactorForAccurateMode": {
+                "@_value": 1
+              },
+              "RecoilShakeHash": "MG_RECOIL_SHAKE",
+              "RecoilShakeHashFirstPerson": "FPS_MG_RECOIL_SHAKE",
+              "AccuracyOffsetShakeHash": "DEFAULT_THIRD_PERSON_ACCURACY_OFFSET_SHAKE",
+              "MinTimeBetweenRecoilShakes": {
+                "@_value": 100
+              },
+              "RecoilShakeAmplitude": {
+                "@_value": 1
+              },
+              "ExplosionShakeAmplitude": {
+                "@_value": -1
+              },
+              "ReticuleHudPosition": {
+                "@_x": 0.5,
+                "@_y": 0.5
+              },
+              "AimOffsetMin": {
+                "@_x": 0.285,
+                "@_y": 0.175,
+                "@_z": 0.275
+              },
+              "AimProbeLengthMin": {
+                "@_value": 0.525
+              },
+              "AimOffsetMax": {
+                "@_x": 0.225,
+                "@_y": -0.05,
+                "@_z": 0.4
+              },
+              "AimProbeLengthMax": {
+                "@_value": 0.415
+              },
+              "TorsoAimOffset": {
+                "@_x": -0.9,
+                "@_y": 0.55
+              },
+              "TorsoCrouchedAimOffset": {
+                "@_x": 0.1,
+                "@_y": 0.12
+              },
+              "LeftHandIkOffset": {
+                "@_x": 0.015,
+                "@_y": 0.095,
+                "@_z": -0.008
+              },
+              "ReticuleMinSizeStanding": {
+                "@_value": 0.6
+              },
+              "ReticuleMinSizeCrouched": {
+                "@_value": 0.5
+              },
+              "ReticuleScale": {
+                "@_value": 0.3
+              },
+              "ReticuleStyleHash": "WEAPONTYPE_RIFLE",
+              "FirstPersonReticuleStyleHash": "",
+              "PickupHash": "",
+              "MPPickupHash": "",
+              "HumanNameHash": "WT_V_TURRET",
+              "MovementModeConditionalIdle": "",
+              "StatName": "TURR",
+              "KnockdownCount": {
+                "@_value": -1
+              },
+              "KillshotImpulseScale": {
+                "@_value": 1
+              },
+              "NmShotTuningSet": "Normal",
+              "AttachPoints": "",
+              "GunFeedBone": "",
+              "TargetSequenceGroup": "",
+              "WeaponFlags": "Gun UsableOnFoot  ForceEjectShellAfterFiring Turret StaticReticulePosition ApplyVehicleDamageToEngine Vehicle",
+              "TintSpecValues": {
+                "@_ref": "TINT_DEFAULT"
+              },
+              "FiringPatternAliases": {
+                "@_ref": "NULL"
+              },
+              "ReloadUpperBodyFixupExpressionData": {
+                "@_ref": "DEFAULT"
+              },
+              "AmmoDiminishingRate": {
+                "@_value": 0
+              },
+              "AimingBreathingAdditiveWeight": {
+                "@_value": 1
+              },
+              "FiringBreathingAdditiveWeight": {
+                "@_value": 1
+              },
+              "StealthAimingBreathingAdditiveWeight": {
+                "@_value": 0
+              },
+              "StealthFiringBreathingAdditiveWeight": {
+                "@_value": 0
+              },
+              "AimingLeanAdditiveWeight": {
+                "@_value": 1
+              },
+              "FiringLeanAdditiveWeight": {
+                "@_value": 1
+              },
+              "StealthAimingLeanAdditiveWeight": {
+                "@_value": 0
+              },
+              "StealthFiringLeanAdditiveWeight": {
+                "@_value": 0
+              },
+              "ExpandPedCapsuleRadius": {
+                "@_value": 0
+              },
+              "HudDamage": {
+                "@_value": 30
+              },
+              "HudSpeed": {
+                "@_value": 60
+              },
+              "HudCapacity": {
+                "@_value": 50
+              },
+              "HudAccuracy": {
+                "@_value": 40
+              },
+              "HudRange": {
+                "@_value": 60
+              },
+              "@_type": "CWeaponInfo"
+            }
+          }
+        },
+        ""
+      ]
+    },
+    "VehicleWeaponInfos": {
+      "Item": {
+        "Name": "VEHICLE_DATA_TURRET_TECHNICAL",
+        "KickbackAmplitude": {
+          "@_value": 0.015
+        },
+        "KickbackImpulse": {
+          "@_value": 0.15
+        },
+        "@_type": "CVehicleWeaponInfo"
+      }
+    },
+    "Name": "DLC - Turret (Technical)"
+  }
+}

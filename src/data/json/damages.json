@@ -1,0 +1,396 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDamageAndReactionContainer": {
+    "aDamageAndReactions": {
+      "Item": [
+        {
+          "Name": "DAR_counter",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 25
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 25
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_STOP_TARGET_DISTANCE_HOMING DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_counter_armed",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 75
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 75
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_STOP_TARGET_DISTANCE_HOMING DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_dodge",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_STOP_TARGET_DISTANCE_HOMING",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_shove",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_heavy",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 20
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 20
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_MOVE_LOWER_ARM_AND_HAND_HITS_TO_CLAVICLE DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_heavy_cardinal",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 20
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 20
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_FATAL_SHOT DRA_MOVE_LOWER_ARM_AND_HAND_HITS_TO_CLAVICLE DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_dog_bite",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 50
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 50
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_shark_bite",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 100
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 100
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_cougar_attack",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 50
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 50
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_cougar_finish",
+          "ActionRumble": "ARBL_large",
+          "OnHitDamageAmountMin": {
+            "@_value": 500
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 500
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_knife",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 75
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 75
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_FATAL_SHOT DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_bat",
+          "ActionRumble": "ARBL_large",
+          "OnHitDamageAmountMin": {
+            "@_value": 75
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 75
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_FATAL_HEAD_SHOT DRA_FATAL_SHOT DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_small_wpn",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 75
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 75
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_FATAL_SHOT DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_stealth_kill",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_FORCE_IMMEDIATE_REACTION DRA_DROP_WEAPON DRA_KNOCK_OFF_PROPS DRA_PRESERVE_STEALTH_MODE",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_kill_self_head",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 500
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_HEAD",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_DISABLE_INJURED_GROUND_BEHAVIOR DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_kill_self_neck",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 500
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_NECK",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_DISABLE_INJURED_GROUND_BEHAVIOR DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_kill_self_spine_1",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 500
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_SPINE1",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_DISABLE_INJURED_GROUND_BEHAVIOR DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_kill_self_pelvis",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 500
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_PELVIS",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_DISABLE_INJURED_GROUND_BEHAVIOR DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_knockout",
+          "ActionRumble": "ARBL_large",
+          "OnHitDamageAmountMin": {
+            "@_value": 50
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 50
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_DROP_WEAPON DRA_KNOCK_OFF_PROPS DRA_IGNORE_ARMOR DRA_IGNORE_STAT_MODIFIERS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_stomp",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 25
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 25
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_USE_DEFAULT_UNARMED_WEAPON DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_kick_surface",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 75
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 75
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_USE_DEFAULT_UNARMED_WEAPON DRA_DONT_DAMAGE_PEDS",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_armed_melee",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 20
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 20
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_special_ability_recharge",
+          "ActionRumble": "",
+          "OnHitDamageAmountMin": {
+            "@_value": 0
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 0
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_ADD_SMALL_ABILITY_CHARGE",
+          "@_type": "CDamageAndReaction"
+        },
+        {
+          "Name": "DAR_coyote_bite",
+          "ActionRumble": "ARBL_small",
+          "OnHitDamageAmountMin": {
+            "@_value": 20
+          },
+          "OnHitDamageAmountMax": {
+            "@_value": 20
+          },
+          "SelfDamageAmount": {
+            "@_value": 0
+          },
+          "ForcedSelfDamageBoneTag": "BONETAG_INVALID",
+          "DamageReactionAttrs": "DRA_KNOCK_OFF_PROPS DRA_INVOKE_FACIAL_PAIN_ANIMATION",
+          "@_type": "CDamageAndReaction"
+        }
+      ]
+    }
+  }
+}

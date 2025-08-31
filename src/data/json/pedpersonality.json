@@ -1,0 +1,942 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedModelInfo__PersonalityDataList": {
+    "MovementModeUnholsterData": {
+      "Item": [
+        {
+          "Name": "UNHOLSTER_UNARMED",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "unarmed_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "unarmed_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_2H_MELEE",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "2h_melee_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "2h_melee_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_1H",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "1h_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "1h_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_2H",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "2h_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "2h_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_MINIGUN",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "mini_holster_2h_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "mini_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_UNARMED_STEALTH",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "unarmed_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "unarmed_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_2H_MELEE_STEALTH",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "unarmed_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "unarmed_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_1H_STEALTH",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "1h_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "1h_holster_2h"
+              }
+            ]
+          }
+        },
+        {
+          "Name": "UNHOLSTER_2H_STEALTH",
+          "UnholsterClips": {
+            "Item": [
+              {
+                "Weapons": {
+                  "Item": "WEAPON_HATCHET"
+                },
+                "Clip": "2h_holster_unarmed"
+              },
+              {
+                "Weapons": {
+                  "Item": "WEAPON_RAILGUN"
+                },
+                "Clip": "2h_holster_2h"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "MovementModes": {
+      "Item": [
+        {
+          "Name": "DEFAULT_ACTION",
+          "MovementModes": {
+            "Item": [
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "",
+                        "WeaponClipFilterId": "",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": false
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": true
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@GENERIC@TRANS@UNARMED"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@armed@core",
+                        "WeaponClipSetId": "move_action@p_m_zero@armed@2H@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@GENERIC@TRANS@2H"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "weapons@melee_stealth_1h",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@generic@trans@unarmed"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED_STEALTH"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "move_stealth@p_m_zero@2h@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@generic@trans@2h"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H_STEALTH"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Name": "MP_FEMALE_ACTION",
+          "MovementModes": {
+            "Item": [
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "",
+                        "WeaponClipFilterId": "",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": false
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": true
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@MP_FEMALE@UNARMED@TRANS@"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@armed@core",
+                        "WeaponClipSetId": "move_action@mp_female@armed@2H@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@MP_FEMALE@ARMED@2H@TRANS"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "weapons@melee_stealth_1h",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_STEALTH@MP_FEMALE@UNARMED@TRANS"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED_STEALTH"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "move_stealth@p_m_zero@2h@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_STEALTH@MP_FEMALE@2H@TRANS"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H_STEALTH"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Name": "MICHAEL_ACTION",
+          "MovementModes": {
+            "Item": [
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "",
+                        "WeaponClipFilterId": "",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": false
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": true
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_ZERO@UNARMED@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_zero@armed@core",
+                        "WeaponClipSetId": "move_action@p_m_zero@armed@2H@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_ZERO@ARMED@2H@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ZERO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "weapons@melee_stealth_1h",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_zero@unarmed@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED_STEALTH"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_zero@unarmed@core",
+                        "WeaponClipSetId": "move_stealth@p_m_zero@2h@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_zero@2h@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "move_stealth@p_m_zero@holster",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H_STEALTH"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Name": "FRANKLIN_ACTION",
+          "MovementModes": {
+            "Item": [
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_one@unarmed@core",
+                        "WeaponClipSetId": "",
+                        "WeaponClipFilterId": "",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": false
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": true
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_ONE@UNARMED@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ONE@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_one@armed@core",
+                        "WeaponClipSetId": "move_action@P_M_ONE@armed@2H@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_ONE@ARMED@2H@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_ONE@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_one@unarmed@core",
+                        "WeaponClipSetId": "weapons@melee_stealth_1h@p_m_one",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_one@unarmed@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_STEALTH@P_M_ONE@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED_STEALTH"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_one@unarmed@core",
+                        "WeaponClipSetId": "move_stealth@p_m_one@2h@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_one@2h@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_STEALTH@P_M_ONE@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H_STEALTH"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "Name": "TREVOR_ACTION",
+          "MovementModes": {
+            "Item": [
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_two@unarmed@core",
+                        "WeaponClipSetId": "",
+                        "WeaponClipFilterId": "",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": false
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": true
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_TWO@UNARMED@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_TWO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_action@p_m_two@armed@core",
+                        "WeaponClipSetId": "move_action@p_m_two@armed@2H@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "MOVE_ACTION@P_M_TWO@ARMED@2H@TRANS@A"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_ACTION@P_M_TWO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H"
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              {
+                "Item": [
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_HATCHET"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_two@unarmed@core",
+                        "WeaponClipSetId": "weapons@melee_stealth_1h@p_m_two",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": false
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": false
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_two@unarmed@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_STEALTH@P_M_TWO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_UNARMED_STEALTH"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "Weapons": {
+                      "Item": "WEAPON_RAILGUN"
+                    },
+                    "ClipSets": {
+                      "Item": {
+                        "MovementClipSetId": "move_stealth@p_m_two@unarmed@core",
+                        "WeaponClipSetId": "move_stealth@p_m_two@2h@upper",
+                        "WeaponClipFilterId": "UpperbodyAndIk_filter",
+                        "UpperBodyShadowExpressionEnabled": {
+                          "@_value": true
+                        },
+                        "UpperBodyFeatheredLeanEnabled": {
+                          "@_value": true
+                        },
+                        "UseWeaponAnimsForGrip": {
+                          "@_value": false
+                        },
+                        "UseLeftHandIk": {
+                          "@_value": true
+                        },
+                        "IdleTransitions": {
+                          "Item": "move_stealth@p_m_two@2h@trans@a"
+                        },
+                        "IdleTransitionBlendOutTime": {
+                          "@_value": 0.5
+                        },
+                        "UnholsterClipSetId": "MOVE_STEALTH@P_M_TWO@HOLSTER",
+                        "UnholsterClipData": {
+                          "@_ref": "UNHOLSTER_2H_STEALTH"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

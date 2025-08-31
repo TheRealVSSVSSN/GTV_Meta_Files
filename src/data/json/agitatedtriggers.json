@@ -1,0 +1,438 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAgitatedTriggers": {
+    "Reactions": {
+      "Item": [
+        {
+          "Type": "AT_Intimidate",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 0.3
+            },
+            "Max": {
+              "@_value": 1
+            }
+          },
+          "TimeAfterLastSuccessfulReaction": {
+            "Min": {
+              "@_value": 15
+            },
+            "Max": {
+              "@_value": 25
+            }
+          },
+          "TimeAfterInitialReactionFailure": {
+            "Min": {
+              "@_value": 15
+            },
+            "Max": {
+              "@_value": 25
+            }
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenario MustBeStationary",
+          "@_key": "Intimidate"
+        },
+        {
+          "Type": "AT_Loitering",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 0.35
+            },
+            "Max": {
+              "@_value": 0.6
+            }
+          },
+          "MinDotToTarget": {
+            "@_value": 0
+          },
+          "MaxTargetSpeed": {
+            "@_value": 0.5
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenarioBeforeInitialReaction NoLineOfSightNeeded MustBeOnFoot MustBeStationary",
+          "@_key": "LoiteringOnFootFromFront"
+        },
+        {
+          "Type": "AT_Loitering",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 3.5
+            },
+            "Max": {
+              "@_value": 5
+            }
+          },
+          "MaxDotToTarget": {
+            "@_value": 0
+          },
+          "MaxTargetSpeed": {
+            "@_value": 0.5
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "DisableWhenAgitated DisableWhenFriendlyIsAgitated MustBeUsingScenarioBeforeInitialReaction NoLineOfSightNeeded MustBeOnFoot MustBeStationary",
+          "@_key": "LoiteringOnFootFromBehind"
+        },
+        {
+          "Type": "AT_Loitering",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 4.5
+            },
+            "Max": {
+              "@_value": 6
+            }
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "DisableWhenAgitated DisableWhenFriendlyIsAgitated TargetMustBeOnFoot MustBeInVehicle MustBeStationary",
+          "@_key": "LoiteringInVehicle"
+        },
+        {
+          "Type": "AT_Following",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 8
+            },
+            "Max": {
+              "@_value": 12
+            }
+          },
+          "TimeBetweenEscalatingReactions": {
+            "Min": {
+              "@_value": 2.5
+            },
+            "Max": {
+              "@_value": 3.5
+            }
+          },
+          "MaxDotToTarget": {
+            "@_value": 0.707
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "MustBeWanderingBeforeInitialReaction NoLineOfSightNeeded DisableWhenStill",
+          "@_key": "Following"
+        },
+        {
+          "Type": "AT_TerritoryIntruded",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 0.1
+            },
+            "Max": {
+              "@_value": 1.5
+            }
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "MustBeUsingScenarioBeforeInitialReaction UseDistanceFromScenario MustBeUsingATerritorialScenario",
+          "@_key": "TerritoryIntruded"
+        },
+        {
+          "Type": "AT_TerritoryIntruded",
+          "TimeBeforeInitialReaction": {
+            "Min": {
+              "@_value": 0.1
+            },
+            "Max": {
+              "@_value": 1.5
+            }
+          },
+          "MaxReactions": {
+            "@_value": 1
+          },
+          "Flags": "MustBeUsingScenarioBeforeInitialReaction UseDistanceFromScenario MustBeUsingATerritorialScenario NoLineOfSightNeeded",
+          "@_key": "DogTerritoryIntruded"
+        }
+      ]
+    },
+    "Sets": {
+      "Item": [
+        {
+          "Triggers": {
+            "Item": [
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1
+                },
+                "Reaction": "LoiteringOnFootFromFront"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1
+                },
+                "Reaction": "LoiteringOnFootFromBehind"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 3
+                },
+                "Reaction": "Following"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Reaction": "TerritoryIntruded"
+              }
+            ]
+          },
+          "@_key": "Default"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": [
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1.5
+                },
+                "Reaction": "LoiteringInVehicle"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Chances": {
+                  "@_value": 0.25
+                },
+                "Distance": {
+                  "@_value": 10
+                },
+                "Reaction": "Intimidate"
+              }
+            ]
+          },
+          "@_key": "Gang"
+        },
+        {
+          "Parent": "Gang",
+          "Triggers": {
+            "Item": {
+              "PedTypes": {
+                "Item": "PLAYER_2"
+              },
+              "Chances": {
+                "@_value": 0.5
+              },
+              "Distance": {
+                "@_value": 10
+              },
+              "Reaction": "Intimidate"
+            }
+          },
+          "@_key": "Biker"
+        },
+        {
+          "Parent": "Gang",
+          "Triggers": {
+            "Item": [
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1
+                },
+                "Reaction": "LoiteringOnFootFromFront"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1
+                },
+                "Reaction": "LoiteringOnFootFromBehind"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 1.5
+                },
+                "Reaction": "LoiteringInVehicle"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 3
+                },
+                "Reaction": "Following"
+              },
+              {
+                "PedTypes": {
+                  "Item": "PLAYER_0"
+                },
+                "Chances": {
+                  "@_value": 0.5
+                },
+                "Distance": {
+                  "@_value": 10
+                },
+                "Reaction": "Intimidate"
+              }
+            ]
+          },
+          "@_key": "Family"
+        },
+        {
+          "Parent": "Gang",
+          "Triggers": {
+            "Item": {
+              "PedTypes": {
+                "Item": [
+                  "PLAYER_0",
+                  "PLAYER_1"
+                ]
+              },
+              "Chances": {
+                "@_value": 0.5
+              },
+              "Distance": {
+                "@_value": 10
+              },
+              "Reaction": "Intimidate"
+            }
+          },
+          "@_key": "Vagos"
+        },
+        {
+          "Parent": "Default",
+          "Triggers": {
+            "Item": {
+              "PedTypes": {
+                "Item": [
+                  "PLAYER_0",
+                  "PLAYER_1",
+                  "PLAYER_2"
+                ]
+              },
+              "Distance": {
+                "@_value": 1.5
+              },
+              "Reaction": "LoiteringInVehicle"
+            }
+          },
+          "@_key": "LawEnforcement"
+        },
+        {
+          "Triggers": "",
+          "@_key": "Animal"
+        },
+        {
+          "Triggers": {
+            "Item": [
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Reaction": "DogTerritoryIntruded"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 3
+                },
+                "Reaction": "LoiteringOnFootFromFront"
+              },
+              {
+                "PedTypes": {
+                  "Item": [
+                    "PLAYER_0",
+                    "PLAYER_1",
+                    "PLAYER_2"
+                  ]
+                },
+                "Distance": {
+                  "@_value": 3
+                },
+                "Reaction": "LoiteringOnFootFromBehind"
+              }
+            ]
+          },
+          "@_key": "GuardDog"
+        },
+        {
+          "Parent": "Default",
+          "Flags": "IgnoreHonkedAt",
+          "@_key": "Hooker"
+        }
+      ]
+    }
+  }
+}

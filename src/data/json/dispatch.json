@@ -1,0 +1,1002 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDispatchData": {
+    "ParoleDuration": {
+      "@_value": 9000
+    },
+    "InHeliRadiusMultiplier": {
+      "@_value": 1.5
+    },
+    "ImmediateDetectionRange": {
+      "@_value": 25
+    },
+    "OnScreenImmediateDetectionRange": {
+      "@_value": "45.0f"
+    },
+    "LawSpawnDelayMin": {
+      "SLOW": {
+        "@_value": 20
+      },
+      "MEDIUM": {
+        "@_value": 10
+      },
+      "FAST": {
+        "@_value": 10
+      }
+    },
+    "LawSpawnDelayMax": {
+      "SLOW": {
+        "@_value": 30
+      },
+      "MEDIUM": {
+        "@_value": 20
+      },
+      "FAST": {
+        "@_value": 20
+      }
+    },
+    "AmbulanceSpawnDelayMin": {
+      "SLOW": {
+        "@_value": 45
+      },
+      "MEDIUM": {
+        "@_value": 20
+      },
+      "FAST": {
+        "@_value": 20
+      }
+    },
+    "AmbulanceSpawnDelayMax": {
+      "SLOW": {
+        "@_value": 60
+      },
+      "MEDIUM": {
+        "@_value": 30
+      },
+      "FAST": {
+        "@_value": 30
+      }
+    },
+    "FireSpawnDelayMin": {
+      "SLOW": {
+        "@_value": 45
+      },
+      "MEDIUM": {
+        "@_value": 20
+      },
+      "FAST": {
+        "@_value": 20
+      }
+    },
+    "FireSpawnDelayMax": {
+      "SLOW": {
+        "@_value": 60
+      },
+      "MEDIUM": {
+        "@_value": 30
+      },
+      "FAST": {
+        "@_value": 30
+      }
+    },
+    "DispatchOrderDistances": {
+      "Item": [
+        {
+          "DispatchType": "DT_PoliceAutomobile",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceHelicopter",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_SwatHelicopter",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_FireDepartment",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_SwatAutomobile",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_AmbulanceDepartment",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_Gangs",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceRiders",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "InVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceVehicleRequest",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceRoadBlock",
+          "OnFootOrderDistance": {
+            "@_value": 350
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceBoat",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_ArmyVehicle",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_BikerBackup",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        },
+        {
+          "DispatchType": "DT_Assassins",
+          "OnFootOrderDistance": {
+            "@_value": 200
+          },
+          "MinInVehicleOrderDistance": {
+            "@_value": 350
+          },
+          "MaxInVehicleOrderDistance": {
+            "@_value": 350
+          }
+        }
+      ]
+    },
+    "WantedLevelThresholds": {
+      "WantedLevelClean": {
+        "@_value": 0
+      },
+      "WantedLevel1": {
+        "@_value": 50
+      },
+      "WantedLevel2": {
+        "@_value": 180
+      },
+      "WantedLevel3": {
+        "@_value": 550
+      },
+      "WantedLevel4": {
+        "@_value": 1200
+      },
+      "WantedLevel5": {
+        "@_value": 3800
+      }
+    },
+    "SingleplayerWantedLevelRadius": {
+      "WantedLevelClean": {
+        "@_value": 0
+      },
+      "WantedLevel1": {
+        "@_value": 145
+      },
+      "WantedLevel2": {
+        "@_value": 227.5
+      },
+      "WantedLevel3": {
+        "@_value": 340
+      },
+      "WantedLevel4": {
+        "@_value": 510
+      },
+      "WantedLevel5": {
+        "@_value": 850
+      }
+    },
+    "MultiplayerWantedLevelRadius": {
+      "WantedLevelClean": {
+        "@_value": 0
+      },
+      "WantedLevel1": {
+        "@_value": 217.5
+      },
+      "WantedLevel2": {
+        "@_value": 341.25
+      },
+      "WantedLevel3": {
+        "@_value": 450
+      },
+      "WantedLevel4": {
+        "@_value": 645
+      },
+      "WantedLevel5": {
+        "@_value": 1275
+      }
+    },
+    "HiddenEvasionTimes": {
+      "WantedLevelClean": {
+        "@_value": 0
+      },
+      "WantedLevel1": {
+        "@_value": 30000
+      },
+      "WantedLevel2": {
+        "@_value": 37500
+      },
+      "WantedLevel3": {
+        "@_value": 45000
+      },
+      "WantedLevel4": {
+        "@_value": 56250
+      },
+      "WantedLevel5": {
+        "@_value": 82500
+      }
+    },
+    "MultiplayerHiddenEvasionTimes": {
+      "WantedLevelClean": {
+        "@_value": 0
+      },
+      "WantedLevel1": {
+        "@_value": 30000
+      },
+      "WantedLevel2": {
+        "@_value": 37500
+      },
+      "WantedLevel3": {
+        "@_value": 40500
+      },
+      "WantedLevel4": {
+        "@_value": 50625
+      },
+      "WantedLevel5": {
+        "@_value": 74250
+      }
+    },
+    "VehicleSets": {
+      "Vehicle": [
+        {
+          "Name": "POLICE_CAR",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE",
+                "VehicleModels": {
+                  "Vehicle": "crusader"
+                },
+                "PedModels": {
+                  "Ped": "S_M_M_Marine_01"
+                }
+              },
+              {
+                "ZoneType": "VEHICLE_RESPONSE_COUNTRYSIDE",
+                "VehicleModels": {
+                  "Vehicle": "SHERIFF"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Sheriff_01"
+                }
+              },
+              {
+                "VehicleModels": {
+                  "Vehicle": "police3"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Cop_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "POLICE_MOTORCYCLE",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "policeb"
+              },
+              "PedModels": {
+                "Ped": "S_M_Y_Cop_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "SWAT_JEEP",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE",
+                "VehicleModels": {
+                  "Vehicle": "crusader"
+                },
+                "PedModels": {
+                  "Ped": "S_M_M_Marine_01"
+                }
+              },
+              {
+                "ZoneType": "VEHICLE_RESPONSE_COUNTRYSIDE",
+                "VehicleModels": {
+                  "Vehicle": "sheriff2"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Swat_01"
+                }
+              },
+              {
+                "VehicleModels": {
+                  "Vehicle": "fbi2"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Swat_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "POLICE_HELI_1",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE"
+              },
+              {
+                "VehicleModels": {
+                  "Vehicle": "polmav"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Swat_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "POLICE_HELI_2",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE"
+              },
+              {
+                "VehicleModels": {
+                  "Vehicle": "annihilator"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Swat_01"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "AMBULANCE",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "ambulance"
+              },
+              "PedModels": {
+                "Ped": "S_M_M_Paramedic_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "FIRE_TRUCK",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "firetruk"
+              },
+              "PedModels": {
+                "Ped": "S_M_Y_Fireman_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "POLICE_ROAD_BLOCK_CARS",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE"
+              },
+              {
+                "ZoneType": "VEHICLE_RESPONSE_COUNTRYSIDE",
+                "VehicleModels": {
+                  "Vehicle": "SHERIFF"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Sheriff_01"
+                },
+                "ObjectModels": {
+                  "Object": "prop_roadcone01a"
+                }
+              },
+              {
+                "VehicleModels": {
+                  "Vehicle": "police3"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Cop_01"
+                },
+                "ObjectModels": {
+                  "Object": "prop_roadcone01a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "POLICE_ROAD_BLOCK_RIOT",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE"
+              },
+              {
+                "IsMutuallyExclusive": {
+                  "@_value": true
+                },
+                "VehicleModels": {
+                  "Vehicle": "riot"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Cop_01"
+                },
+                "ObjectModels": {
+                  "Object": "prop_roadcone01a"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "POLICE_ROAD_BLOCK_SPIKE_STRIP",
+          "ConditionalVehicleSets": {
+            "Item": [
+              {
+                "ZoneType": "VEHICLE_RESPONSE_ARMY_BASE"
+              },
+              {
+                "IsMutuallyExclusive": {
+                  "@_value": true
+                },
+                "VehicleModels": {
+                  "Vehicle": "policet"
+                },
+                "PedModels": {
+                  "Ped": "S_M_Y_Cop_01"
+                },
+                "ObjectModels": {
+                  "Object": "p_ld_stinger_s"
+                }
+              }
+            ]
+          }
+        },
+        {
+          "Name": "GANGS",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "cavalcade"
+              },
+              "PedModels": {
+                "Ped": "G_M_Y_PoloGoon_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "POLICE_BOAT",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "predator"
+              },
+              "PedModels": {
+                "Ped": "S_M_Y_Cop_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "ARMY",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "mesa3"
+              },
+              "PedModels": {
+                "Ped": "S_M_Y_BlackOps_01"
+              }
+            }
+          }
+        },
+        {
+          "Name": "BIKER",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": "gburrito2"
+              },
+              "PedModels": {
+                "Ped": "S_M_Y_XMech_02_MP"
+              }
+            }
+          }
+        },
+        {
+          "Name": "ASSASSINS",
+          "ConditionalVehicleSets": {
+            "Item": {
+              "VehicleModels": {
+                "Vehicle": [
+                  "cog55",
+                  "cog552"
+                ]
+              },
+              "PedModels": {
+                "Ped": "S_M_M_HighSec_01"
+              }
+            }
+          }
+        }
+      ]
+    },
+    "PedVariations": {
+      "Item": [
+        {
+          "ModelVariations": {
+            "Item": [
+              {
+                "Component": "PV_COMP_TASK",
+                "DrawableId": {
+                  "@_value": 2
+                },
+                "MinWantedLevel": {
+                  "@_value": 3
+                },
+                "Armour": {
+                  "@_value": 20
+                }
+              },
+              {
+                "Component": "PV_COMP_ACCS",
+                "DrawableId": {
+                  "@_value": 2
+                },
+                "MinWantedLevel": {
+                  "@_value": 3
+                },
+                "Armour": {
+                  "@_value": 20
+                }
+              }
+            ]
+          },
+          "@_key": "S_M_Y_Cop_01"
+        },
+        {
+          "ModelVariations": {
+            "Item": {
+              "Component": "PV_COMP_TASK",
+              "DrawableId": {
+                "@_value": 2
+              },
+              "MinWantedLevel": {
+                "@_value": 3
+              },
+              "Armour": {
+                "@_value": 20
+              }
+            }
+          },
+          "@_key": "S_M_Y_Sheriff_01"
+        },
+        {
+          "ModelVariations": {
+            "Item": {
+              "Component": "PV_COMP_JBIB",
+              "DrawableId": {
+                "@_value": 0
+              }
+            }
+          },
+          "@_key": "S_M_M_HighSec_01"
+        }
+      ]
+    },
+    "WantedResponses": {
+      "WantedLevel1": {
+        "DispatchServices": {
+          "Item": [
+            {
+              "DispatchType": "DT_PoliceAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 4
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_CAR"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceBoat",
+              "NumPedsToSpawn": {
+                "@_value": 3
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_BOAT"
+              }
+            }
+          ]
+        }
+      },
+      "WantedLevel2": {
+        "DispatchServices": {
+          "Item": [
+            {
+              "DispatchType": "DT_PoliceAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_CAR"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceBoat",
+              "NumPedsToSpawn": {
+                "@_value": 3
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_BOAT"
+              }
+            }
+          ]
+        }
+      },
+      "WantedLevel3": {
+        "DispatchServices": {
+          "Item": [
+            {
+              "DispatchType": "DT_PoliceAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 8
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_CAR"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceHelicopter",
+              "NumPedsToSpawn": {
+                "@_value": 3
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_HELI_1"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceRoadBlock",
+              "NumPedsToSpawn": {
+                "@_value": 2
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": [
+                  "POLICE_ROAD_BLOCK_CARS",
+                  "POLICE_ROAD_BLOCK_SPIKE_STRIP"
+                ]
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceBoat",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_BOAT"
+              }
+            }
+          ]
+        }
+      },
+      "WantedLevel4": {
+        "DispatchServices": {
+          "Item": [
+            {
+              "DispatchType": "DT_PoliceAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_CAR"
+              }
+            },
+            {
+              "DispatchType": "DT_SwatAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "SWAT_JEEP"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceHelicopter",
+              "NumPedsToSpawn": {
+                "@_value": 3
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_HELI_1"
+              }
+            },
+            {
+              "DispatchType": "DT_SwatHelicopter",
+              "NumPedsToSpawn": {
+                "@_value": 5
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_HELI_1"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceRoadBlock",
+              "NumPedsToSpawn": {
+                "@_value": 4
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": [
+                  "POLICE_ROAD_BLOCK_CARS",
+                  "POLICE_ROAD_BLOCK_RIOT",
+                  "POLICE_ROAD_BLOCK_SPIKE_STRIP"
+                ]
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceBoat",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_BOAT"
+              }
+            }
+          ]
+        }
+      },
+      "WantedLevel5": {
+        "DispatchServices": {
+          "Item": [
+            {
+              "DispatchType": "DT_PoliceAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_CAR"
+              }
+            },
+            {
+              "DispatchType": "DT_SwatAutomobile",
+              "NumPedsToSpawn": {
+                "@_value": 6
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "SWAT_JEEP"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceHelicopter",
+              "NumPedsToSpawn": {
+                "@_value": 3
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_HELI_1"
+              }
+            },
+            {
+              "DispatchType": "DT_SwatHelicopter",
+              "NumPedsToSpawn": {
+                "@_value": 5
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_HELI_1"
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceRoadBlock",
+              "NumPedsToSpawn": {
+                "@_value": 4
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": [
+                  "POLICE_ROAD_BLOCK_CARS",
+                  "POLICE_ROAD_BLOCK_RIOT",
+                  "POLICE_ROAD_BLOCK_SPIKE_STRIP"
+                ]
+              }
+            },
+            {
+              "DispatchType": "DT_PoliceBoat",
+              "NumPedsToSpawn": {
+                "@_value": 9
+              },
+              "DispatchVehicleSets": {
+                "Dispatch": "POLICE_BOAT"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "EmergencyResponses": {
+      "Item": [
+        {
+          "DispatchType": "DT_FireDepartment",
+          "NumPedsToSpawn": {
+            "@_value": 4
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "FIRE_TRUCK"
+          }
+        },
+        {
+          "DispatchType": "DT_AmbulanceDepartment",
+          "NumPedsToSpawn": {
+            "@_value": 2
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "AMBULANCE"
+          }
+        },
+        {
+          "DispatchType": "DT_PoliceVehicleRequest",
+          "NumPedsToSpawn": {
+            "@_value": 2
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "POLICE_CAR"
+          }
+        },
+        {
+          "DispatchType": "DT_Gangs",
+          "NumPedsToSpawn": {
+            "@_value": 6
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "GANGS"
+          }
+        },
+        {
+          "DispatchType": "DT_ArmyVehicle",
+          "NumPedsToSpawn": {
+            "@_value": 6
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "ARMY"
+          }
+        },
+        {
+          "DispatchType": "DT_BikerBackup",
+          "NumPedsToSpawn": {
+            "@_value": 4
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "BIKER"
+          }
+        },
+        {
+          "DispatchType": "DT_Assassins",
+          "NumPedsToSpawn": {
+            "@_value": 4
+          },
+          "DispatchVehicleSets": {
+            "Dispatch": "ASSASSINS"
+          }
+        }
+      ]
+    }
+  }
+}

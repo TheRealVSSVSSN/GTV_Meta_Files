@@ -1,0 +1,388 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CStrikeBoneSetContainer": {
+    "aStrikeBoneSets": {
+      "Item": [
+        {
+          "Name": "SB_left_arm",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_L_FOREARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_left_arm_large",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_L_FOREARM",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_FOREARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm_large",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_FOREARM",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm_very_large",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.25
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_FOREARM",
+                "Radius": {
+                  "@_value": 0.25
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_UPPERARM",
+                "Radius": {
+                  "@_value": 0.25
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_elbow",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_R_FOREARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_UPPERARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm_weapon",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_R_HAND",
+              "Radius": {
+                "@_value": 0.25
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm_melee_weapon",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_R_HAND",
+              "Radius": {
+                "@_value": 0.2
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_left_arm_melee_weapon",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_L_HAND",
+              "Radius": {
+                "@_value": 0.2
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_arm_swimming_knife",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_R_HAND",
+              "Radius": {
+                "@_value": 0.4
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_both_arms",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_L_FOREARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_FOREARM",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_right_leg",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_R_FOOT",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_CALF",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_left_leg",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_FOOT",
+                "Radius": {
+                  "@_value": 0.115
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_L_CALF",
+                "Radius": {
+                  "@_value": 0.075
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_animal_paws",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.2
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.2
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_deer_paws",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.3
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.3
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_cougar_paws",
+          "aStrikeBones": {
+            "Item": [
+              {
+                "StrikeBoneTag": "BONETAG_L_HAND",
+                "Radius": {
+                  "@_value": 0.3
+                },
+                "@_type": "CStrikeBone"
+              },
+              {
+                "StrikeBoneTag": "BONETAG_R_HAND",
+                "Radius": {
+                  "@_value": 0.3
+                },
+                "@_type": "CStrikeBone"
+              }
+            ]
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_animal_head",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_HEAD",
+              "Radius": {
+                "@_value": 0.2
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_shark_head",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_HEAD",
+              "Radius": {
+                "@_value": 0.4
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        },
+        {
+          "Name": "SB_boar_head",
+          "aStrikeBones": {
+            "Item": {
+              "StrikeBoneTag": "BONETAG_NECK2",
+              "Radius": {
+                "@_value": 0.5
+              },
+              "@_type": "CStrikeBone"
+            }
+          },
+          "@_type": "CStrikeBoneSet"
+        }
+      ]
+    }
+  }
+}

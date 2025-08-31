@@ -1,0 +1,2729 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDoorTuningFile": {
+    "NamedTuningArray": {
+      "Item": [
+        {
+          "Name": "BarrierArmCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3,
+              "@_z": -3.5
+            },
+            "Flags": "DontCloseWhenTouched AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3,
+                "@_y": -3,
+                "@_z": -1.5,
+                "@_w": -3.402823038553211e+35
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 3,
+                "@_z": 4.25,
+                "@_w": -3.402823038553211e+35
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 0.01
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "ChopShopGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -2.6,
+              "@_z": -2
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -6.25,
+                "@_y": -19.975,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 2.975,
+                "@_y": 11.125,
+                "@_z": 3.35,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "CultistGate",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 20
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultBarrierArm",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultGarage",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": -2
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.275
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultGarageBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -2.6,
+              "@_z": -2
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": -2
+            },
+            "Flags": "DontCloseWhenTouched",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.275
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -2,
+                "@_y": -5.95,
+                "@_z": -1,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 1.9,
+                "@_y": 5.95,
+                "@_z": 3.675,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultSlidingHorizontal",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 2
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultSlidingVertical",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultStandard",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DelayDoorClosingForPlayer",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "DefaultStandardLatchShut",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DelayDoorClosingForPlayer",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": true
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "NoRotationLimitStandardLatchShut",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DelayDoorClosingForPlayer",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": true
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 89
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FBISecurityGate",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 2.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -0.125,
+                "@_y": -1.725,
+                "@_z": -0.495,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0.525,
+                "@_y": 1.725,
+                "@_z": 0.65,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FenceGate",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DontCloseWhenTouched IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.25
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 10000
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0.4
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FenceGateLight",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DontCloseWhenTouched IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.25
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 5000
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0.4
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FragBarrierArm",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FragBarrierArmCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": 0.707
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -2.575,
+                "@_y": -12,
+                "@_z": -1.275,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3.3,
+                "@_y": 0,
+                "@_z": 4.15,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FragBarrierArmCustomBoxBoth",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3,
+              "@_z": "-3.5.000000"
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": 0.707
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -2.575,
+                "@_y": -200,
+                "@_z": -1.275,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3.3,
+                "@_y": 200,
+                "@_z": 4.15,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FranklinGarage2",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": -2
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.275
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3.8,
+                "@_y": -6.3,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3.8,
+                "@_y": 8.8,
+                "@_z": 6,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "FranklinGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3.5,
+              "@_z": -2
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -2.45,
+                "@_y": -5,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 1.8,
+                "@_y": 11,
+                "@_z": 3.35,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "GangGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3.5,
+              "@_z": -2
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3,
+                "@_y": -1,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 11,
+                "@_z": 3.35,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "HeavyVaultDoor",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DontCloseWhenTouched IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": true
+            },
+            "MassMultiplier": {
+              "@_value": 15
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 170
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenNegDir"
+          }
+        },
+        {
+          "Name": "HeavyWoodDoor",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.2
+            },
+            "AutoOpenRate": {
+              "@_value": 0.2
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "LargeFenceGate",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "DelayDoorClosingForPlayer IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.2
+            },
+            "AutoOpenRate": {
+              "@_value": 0.2
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 40000
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0.1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "LargeGate",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "IgnoreOpenDoorTaskEdgeLerp",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.985
+            },
+            "AutoOpenRate": {
+              "@_value": 0.51
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 10
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0.1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 0
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "MichaelGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -2.6,
+              "@_z": -2
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3.25,
+                "@_y": -4.175,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 11.225,
+                "@_z": 3.35,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "ReduceOpenGarage",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": -2
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.635
+            },
+            "AutoOpenRate": {
+              "@_value": 0.275
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "SlidingHorizontalExtendedRange",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1.8
+            },
+            "AutoOpenRate": {
+              "@_value": 2.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "SlidingHorizontalSPVehiclesAndMPPlayerPeds",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "SlidingHorizontalVehiclesOnly",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPVehicleWithPedsOnly AutoOpensForMPVehicleWithPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "SprayDoors",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 1
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1.0099
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "StandardHeavy",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": false
+            },
+            "CustomTriggerBox": {
+              "@_value": false
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 15
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 0.01
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "TollBarrierArmCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3,
+              "@_z": -3.5
+            },
+            "Flags": "DontCloseWhenTouched AutoOpensForAllVehicles",
+            "AutoOpenRadiusModifier": {
+              "@_value": 5
+            },
+            "AutoOpenRate": {
+              "@_value": 0.75
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3,
+                "@_y": -3,
+                "@_z": -1.5,
+                "@_w": -3.402823038553211e+35
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 3,
+                "@_z": 4.25,
+                "@_w": -3.402823038553211e+35
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": true
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 0.01
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "TrevorGarageCustomBox",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": -3.5,
+              "@_z": -2
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 0.75
+            },
+            "AutoOpenRate": {
+              "@_value": 0.5
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": true
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -2.75,
+                "@_y": -5,
+                "@_z": 0,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 1.85,
+                "@_y": 15.5,
+                "@_z": 3.35,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "TowTruckYardSlidingHorizontal",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly AutoOpensForMPPlayerPedsOnly",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 2.25
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3,
+                "@_y": -6.25,
+                "@_z": -1.5,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 8,
+                "@_z": 3,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        },
+        {
+          "Name": "SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds",
+          "Tuning": {
+            "AutoOpenVolumeOffset": {
+              "@_x": 0,
+              "@_y": 0,
+              "@_z": 0
+            },
+            "Flags": "AutoOpensForSPPlayerPedsOnly AutoOpensForMPPlayerPedsOnly AutoOpensForLawEnforcement",
+            "AutoOpenRadiusModifier": {
+              "@_value": 1
+            },
+            "AutoOpenRate": {
+              "@_value": 2.25
+            },
+            "AutoOpenCosineAngleBetweenThreshold": {
+              "@_value": -1
+            },
+            "AutoOpenCloseRateTaper": {
+              "@_value": false
+            },
+            "UseAutoOpenTriggerBox": {
+              "@_value": true
+            },
+            "CustomTriggerBox": {
+              "@_value": true
+            },
+            "TriggerBoxMinMax": {
+              "min": {
+                "@_x": -3,
+                "@_y": -6.25,
+                "@_z": -1.5,
+                "@_w": 0
+              },
+              "max": {
+                "@_x": 3,
+                "@_y": 8,
+                "@_z": 3,
+                "@_w": 0
+              }
+            },
+            "BreakableByVehicle": {
+              "@_value": false
+            },
+            "BreakingImpulse": {
+              "@_value": 0
+            },
+            "ShouldLatchShut": {
+              "@_value": false
+            },
+            "MassMultiplier": {
+              "@_value": 1
+            },
+            "WeaponImpulseMultiplier": {
+              "@_value": 1
+            },
+            "RotationLimitAngle": {
+              "@_value": 0
+            },
+            "TorqueAngularVelocityLimit": {
+              "@_value": 5
+            },
+            "StdDoorRotDir": "StdDoorOpenBothDir"
+          }
+        }
+      ]
+    },
+    "ModelToTuneMapping": {
+      "Item": [
+        {
+          "ModelName": "bh1_48_gate_1",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_arm_gate_l",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_bh1_48_backdoor_l",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_bh1_48_backdoor_r",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_ch_025c_g_door_01",
+          "TuningName": "FranklinGarage2"
+        },
+        {
+          "ModelName": "prop_com_gar_door_01",
+          "TuningName": "DefaultGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_com_ls_door_01",
+          "TuningName": "ChopShopGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_cs4_05_tdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_cs4_10_tr_gd_01",
+          "TuningName": "TrevorGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_door_balcony_left",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_door_balcony_right",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_facgate_01",
+          "TuningName": "SlidingHorizontalSPVehiclesAndMPPlayerPeds"
+        },
+        {
+          "ModelName": "prop_facgate_01b",
+          "TuningName": "SlidingHorizontalSPVehiclesAndMPPlayerPeds"
+        },
+        {
+          "ModelName": "prop_facgate_03_l",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_facgate_03_r",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_facgate_04_l",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_facgate_04_r",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_facgate_05_r",
+          "TuningName": "LargeGate"
+        },
+        {
+          "ModelName": "prop_facgate_06_l",
+          "TuningName": "StandardHeavy"
+        },
+        {
+          "ModelName": "prop_facgate_06_r",
+          "TuningName": "StandardHeavy"
+        },
+        {
+          "ModelName": "prop_facgate_11",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_01gate1",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_02gate1",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_02gate5",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_02gate6_l",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_02gate6_r",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_02gate7",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_03gate4",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_03gate5",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_04gate1",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_06gate2",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_06gate3",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_07gate1",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_07gate1",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_07gate2",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_07gate3",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fnclink_09gate1",
+          "TuningName": "LargeFenceGate"
+        },
+        {
+          "ModelName": "prop_fncres_02_gate1",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fncres_03gate1",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_fncwood_07gate1",
+          "TuningName": "FenceGateLight"
+        },
+        {
+          "ModelName": "prop_gar_door_03_ld",
+          "TuningName": "GangGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_gate_cult_01_l",
+          "TuningName": "CultistGate"
+        },
+        {
+          "ModelName": "prop_gate_cult_01_r",
+          "TuningName": "CultistGate"
+        },
+        {
+          "ModelName": "prop_gate_tep_01_l",
+          "TuningName": "LargeGate"
+        },
+        {
+          "ModelName": "prop_gate_tep_01_r",
+          "TuningName": "LargeGate"
+        },
+        {
+          "ModelName": "prop_gate_farm_01a",
+          "TuningName": "FenceGate"
+        },
+        {
+          "ModelName": "prop_ld_bankdoors_01",
+          "TuningName": "HeavyWoodDoor"
+        },
+        {
+          "ModelName": "prop_ld_garaged_01",
+          "TuningName": "MichaelGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_lrggate_02_ld",
+          "TuningName": "LargeGate"
+        },
+        {
+          "ModelName": "prop_police_door_l",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_police_door_r",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "prop_sc1_21_g_door_01",
+          "TuningName": "FranklinGarageCustomBox"
+        },
+        {
+          "ModelName": "prop_sec_barrier_ld_01a",
+          "TuningName": "FragBarrierArmCustomBox"
+        },
+        {
+          "ModelName": "prop_sec_barrier_ld_02a",
+          "TuningName": "TollBarrierArmCustomBox"
+        },
+        {
+          "ModelName": "v_ilev_arm_secdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_bk_vaultdoor",
+          "TuningName": "HeavyVaultDoor"
+        },
+        {
+          "ModelName": "v_ilev_bl_doorsl_l",
+          "TuningName": "SlidingHorizontalExtendedRange"
+        },
+        {
+          "ModelName": "v_ilev_bl_doorsl_r",
+          "TuningName": "SlidingHorizontalExtendedRange"
+        },
+        {
+          "ModelName": "v_ilev_cd_entrydoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_cor_firedoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_cor_firedoorwide",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_fa_dinedoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_fa_frontdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_fa_roomdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_fbisecgate",
+          "TuningName": "FBISecurityGate"
+        },
+        {
+          "ModelName": "v_ilev_fib_door3",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_gc_door01",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_gc_door02",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_gc_door03",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_gc_door04",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_lostdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_mm_door",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_mm_doorm_l",
+          "TuningName": "NoRotationLimitStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_mm_doorm_r",
+          "TuningName": "NoRotationLimitStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_mm_doorw",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ph_gendoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ph_gendoor002",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ph_gendoor003",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_phroofdoor",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_spraydoor",
+          "TuningName": "SprayDoors"
+        },
+        {
+          "ModelName": "v_ilev_ss_door02",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ss_door5_l",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ss_door5_r",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ss_door7",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_ss_door8",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_trev_door",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_trev_door",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_trev_doorbath",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_trev_doorfront",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "v_ilev_trevtrailerdr",
+          "TuningName": "DefaultStandardLatchShut"
+        },
+        {
+          "ModelName": "vb_35_lifeguarddoor2",
+          "TuningName": "ReduceOpenGarage"
+        },
+        {
+          "ModelName": "prop_facgate_08",
+          "TuningName": "TowTruckYardSlidingHorizontal"
+        },
+        {
+          "ModelName": "hei_prop_station_gate",
+          "TuningName": "SlidingHorizontalPoliceSPVehiclesAndMPPlayerPeds"
+        },
+        {
+          "ModelName": "h4_prop_h4_sec_barrier_ld_01a",
+          "TuningName": "FragBarrierArmCustomBoxBoth"
+        }
+      ]
+    }
+  }
+}

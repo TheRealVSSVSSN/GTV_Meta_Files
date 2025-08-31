@@ -1,0 +1,2904 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleModelInfo__InitDataList": {
+    "residentTxd": "vehshare",
+    "residentAnims": "",
+    "InitDatas": {
+      "Item": [
+        {
+          "modelName": "submersible2",
+          "txdName": "submersible2",
+          "handlingId": "SUBMERSIBLE2",
+          "gameName": "SUBMERS2",
+          "vehicleMakeName": "",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_BOAT_SUBMERSIBLE2",
+          "coverBoundOffsets": "STANDARD_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "FOLLOW_MINISUB_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "",
+          "povCameraName": "",
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_SUBMERSIBLE",
+          "shouldUseCinematicViewMode": {
+            "@_value": false
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.5
+          },
+          "wheelScaleRear": {
+            "@_value": 0.5
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.5
+          },
+          "damageOffsetScale": {
+            "@_value": 0.5
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "18.000000\n        60.000000\n        120.000000\n        240.000000\n        500.000000\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 100
+          },
+          "swankness": "SWANKNESS_2",
+          "maxNum": {
+            "@_value": 999
+          },
+          "flags": "FLAG_NO_BOOT FLAG_EXTRAS_REQUIRE FLAG_EXTRAS_STRONG FLAG_PEDS_CAN_STAND_ON_TOP FLAG_DRIVER_NO_DRIVE_BY FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_DONT_SPAWN_AS_AMBIENT FLAG_GIVE_SCUBA_GEAR_ON_EXIT",
+          "type": "VEHICLE_TYPE_SUBMARINE",
+          "plateType": "VPT_NONE",
+          "vehicleClass": "VC_BOAT",
+          "wheelType": "VWT_SPORT",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": "",
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          }
+        },
+        {
+          "modelName": "dukes",
+          "txdName": "dukes",
+          "handlingId": "DUKES",
+          "gameName": "DUKES",
+          "vehicleMakeName": "IMPONTE",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_LOW",
+          "coverBoundOffsets": "DUKES_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.045,
+            "@_z": -0.008
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0.063,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0.063,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": -0.02,
+            "@_y": -0.005,
+            "@_z": -0.03
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.168,
+            "@_z": 0.401
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.155,
+            "@_y": 0.185,
+            "@_z": 0.535
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.205,
+            "@_z": 0.63
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2106
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2106
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.7
+          },
+          "damageOffsetScale": {
+            "@_value": 0.7
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 0.7
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 1
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 4
+          },
+          "flags": "FLAG_EXTRAS_STRONG FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "vehicleClass": "VC_MUSCLE",
+          "dashboardType": "VDT_DUKES",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_RATLOADER_FRONT_LEFT",
+              "STD_RATLOADER_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "dukes2",
+          "txdName": "dukes2",
+          "handlingId": "DUKES2",
+          "gameName": "DUKES2",
+          "vehicleMakeName": "IMPONTE",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_LOW_DUKES2",
+          "coverBoundOffsets": "DUKES_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG",
+          "povCameraName": "DEFAULT_POV_CAMERA_NO_REVERSE",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.04
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.075,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.155,
+            "@_y": 0.185,
+            "@_z": 0.53
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.135,
+            "@_y": 0.12,
+            "@_z": 0.44
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.205,
+            "@_z": 0.63
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.224
+          },
+          "wheelScaleRear": {
+            "@_value": 0.224
+          },
+          "dirtLevelMin": {
+            "@_value": 0.4
+          },
+          "dirtLevelMax": {
+            "@_value": 0.9
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.5
+          },
+          "damageOffsetScale": {
+            "@_value": 0.5
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 0.7
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 1
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 10
+          },
+          "flags": "FLAG_EXTRAS_STRONG FLAG_DISABLE_THROUGH_WINDSCREEN FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_MUSCLE",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          }
+        },
+        {
+          "modelName": "buffalo3",
+          "txdName": "buffalo3",
+          "handlingId": "BUFFALO3",
+          "gameName": "BUFFALO3",
+          "vehicleMakeName": "BRAVADO",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_STANDARD",
+          "coverBoundOffsets": "BUFFALO_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.055,
+            "@_z": -0.035
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0.018,
+            "@_y": -0.135,
+            "@_z": -0.058
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.148,
+            "@_z": -0.056
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": -0.023,
+            "@_y": -0.06,
+            "@_z": -0.038
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.143,
+            "@_y": 0.223,
+            "@_z": 0.531
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.136,
+            "@_y": 0.223,
+            "@_z": 0.425
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.125,
+            "@_z": 0.64
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2968
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2968
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.9
+          },
+          "damageOffsetScale": {
+            "@_value": 0.7
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 100
+          },
+          "swankness": "SWANKNESS_3",
+          "maxNum": {
+            "@_value": 999
+          },
+          "flags": "FLAG_AVERAGE_CAR FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "dashboardType": "VDT_GENTAXI",
+          "vehicleClass": "VC_SPORT",
+          "wheelType": "VWT_SPORT",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": {
+            "Item": "EXTRA_1 EXTRA_2 EXTRA_3 EXTRA_4 EXTRA_5"
+          },
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "EXTRA_1",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_BUFFALO2_FRONT_LEFT",
+              "STD_BUFFALO2_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "dominator2",
+          "txdName": "dominator2",
+          "handlingId": "DOMINATOR2",
+          "gameName": "DOMINATO2",
+          "vehicleMakeName": "VAPID",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_STD_EXITFIXUP",
+          "coverBoundOffsets": "DOMINATOR_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.055,
+            "@_z": 0.02
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.025,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.12,
+            "@_z": 0.03
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.12,
+            "@_z": 0.03
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.055,
+            "@_z": 0.02
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": 0
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.133,
+            "@_y": 0.228,
+            "@_z": 0.543
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.136,
+            "@_y": 0.223,
+            "@_z": 0.425
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.145,
+            "@_z": 0.66
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2794
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2794
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.6
+          },
+          "damageOffsetScale": {
+            "@_value": 1
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "12.000000\n        30.000000\n        60.000000\n        120.000000\n        500.000000\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 90
+          },
+          "swankness": "SWANKNESS_2",
+          "maxNum": {
+            "@_value": 20
+          },
+          "flags": "FLAG_SPAWN_ON_TRAILER FLAG_PARKING_SENSORS FLAG_AVERAGE_CAR FLAG_RECESSED_HEADLIGHT_CORONAS FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_MUSCLE",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_DOMINATOR_FRONT_LEFT",
+              "STD_DOMINATOR_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "dodo",
+          "txdName": "dodo",
+          "handlingId": "SEAPLANE",
+          "gameName": "DODO",
+          "vehicleMakeName": "",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_PLANE_SEAPLANE",
+          "coverBoundOffsets": "STANDARD_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "FOLLOW_PLANE_CAMERA",
+          "aimCameraName": "PLANE_AIM_CAMERA",
+          "bonnetCameraName": "SEAPLANE_BONNET_CAMERA",
+          "povCameraName": "PLANE_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.053
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.053
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.241,
+            "@_z": 0.441
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.135,
+            "@_y": 0.295,
+            "@_z": 0.563
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.075,
+            "@_z": 0.68
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_PLANE_DODO",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": false
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.1176
+          },
+          "wheelScaleRear": {
+            "@_value": 0.1176
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.4
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.25
+          },
+          "damageOffsetScale": {
+            "@_value": 0.25
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "5\n       10\n       25\n       60\n       500\n       500",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1.4
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 100
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 999
+          },
+          "flags": "FLAG_NO_BOOT FLAG_HAS_LIVERY FLAG_DRIVER_NO_DRIVE_BY FLAG_DONT_SPAWN_IN_CARGEN FLAG_DONT_SPAWN_AS_AMBIENT FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO FLAG_DONT_TIMESLICE_WHEELS",
+          "type": "VEHICLE_TYPE_PLANE",
+          "plateType": "VPT_NONE",
+          "dashboardType": "VDT_MAVERICK",
+          "vehicleClass": "VC_PLANE",
+          "wheelType": "VWT_SPORT",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": {
+            "Item": {
+              "driverName": "s_m_m_gentransport",
+              "npcName": "Pilot"
+            }
+          },
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "MAMMATUS_WINGLIGHT_LEFT_CAMERA",
+              "MAMMATUS_WINGLIGHT_RIGHT_CAMERA",
+              "PLANE_TAIL_LEFT_CAMERA",
+              "PLANE_TAIL_RIGHT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_FRONT_LEFT",
+              "PLANE_LUXOR_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "marshall",
+          "txdName": "marshall",
+          "handlingId": "MARSHALL",
+          "gameName": "MARSHALL",
+          "vehicleMakeName": "CHEVAL",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_TRUCK_MARSHALL",
+          "coverBoundOffsets": "MARSHALL_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG_EXTRA_LOW",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.053,
+            "@_z": -0.035
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0.195,
+            "@_y": -0.068,
+            "@_z": -0.08
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": -0.218,
+            "@_y": 0.01,
+            "@_z": -0.048
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.06,
+            "@_z": -0.038
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.238,
+            "@_z": 0.466
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.15,
+            "@_y": 0.284,
+            "@_z": 0.581
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": 0.705
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_OFFROAD",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.388
+          },
+          "wheelScaleRear": {
+            "@_value": 0.388
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.2
+          },
+          "damageOffsetScale": {
+            "@_value": 0.2
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_1",
+          "maxNum": {
+            "@_value": 5
+          },
+          "flags": "FLAG_IS_OFFROAD_VEHICLE FLAG_IS_BULKY FLAG_USE_RESTRICTED_DRIVEBY_HEIGHT FLAG_HAS_LIVERY",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_FRONT_AND_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_OFF_ROAD",
+          "wheelType": "VWT_SUV",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": {
+            "Item": "VEH_EXT_BONNET"
+          },
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_WIDE_REAR_RIGHT_CAMERA",
+              "WHEEL_WIDE_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "Truck",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "MARSHALL_FRONT_LEFT",
+              "MARSHALL_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "blimp2",
+          "txdName": "blimp2",
+          "handlingId": "BLIMP2",
+          "gameName": "BLIMP2",
+          "vehicleMakeName": "",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_BLIMP2",
+          "coverBoundOffsets": "STANDARD_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_BLIMP2",
+          "scenarioLayout": "",
+          "cameraName": "FOLLOW_MAVERICK_CAMERA",
+          "aimCameraName": "MAVERICK_AIM_CAMERA",
+          "bonnetCameraName": "MAVERICK_BONNET_CAMERA",
+          "povCameraName": "PLANE_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": -0.08,
+            "@_y": 0.025,
+            "@_z": -0.05
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.015,
+            "@_z": -0.053
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.241,
+            "@_z": 0.473
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.148,
+            "@_y": 0.315,
+            "@_z": 0.508
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.125,
+            "@_z": 0.655
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0.02,
+            "@_z": 0.05
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_HELI_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": false
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2001
+          },
+          "wheelScaleRear": {
+            "@_value": 0.1176
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.4
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.6
+          },
+          "damageOffsetScale": {
+            "@_value": 1
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\n        120.000000\n        200.000000\n        400.000000\n        2500.000000\n        3500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 4.25
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 100
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 999
+          },
+          "flags": "FLAG_NO_BOOT FLAG_PEDS_CAN_STAND_ON_TOP FLAG_DRIVER_NO_DRIVE_BY FLAG_NO_RESPRAY FLAG_ALLOWS_RAPPEL FLAG_HEADLIGHTS_USE_ACTUAL_BONE_POS FLAG_DONT_SPAWN_AS_AMBIENT FLAG_BLOCK_FROM_ATTRACTOR_SCENARIO FLAG_DONT_TIMESLICE_WHEELS",
+          "type": "VEHICLE_TYPE_BLIMP",
+          "plateType": "VPT_NONE",
+          "dashboardType": "VDT_MAVERICK",
+          "vehicleClass": "VC_PLANE",
+          "wheelType": "VWT_SPORT",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": true
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "BLIMP_WHEEL_REAR_RIGHT_CAMERA",
+              "BLIMP_WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 6
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 6
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_FRONT_LEFT",
+              "BLIMP_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "gauntlet2",
+          "txdName": "gauntlet2",
+          "handlingId": "GAUNTLET2",
+          "gameName": "GAUNTLET2",
+          "vehicleMakeName": "BRAVADO",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_LOW",
+          "coverBoundOffsets": "GAUNTLET_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.055,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": -0.05,
+            "@_y": -0.08,
+            "@_z": -0.02
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": -0.01
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": -0.01
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.01,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0.05,
+            "@_y": -0.11,
+            "@_z": -0.02
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.135,
+            "@_y": 0.173,
+            "@_z": 0.55
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.136,
+            "@_y": 0.138,
+            "@_z": 0.445
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.225,
+            "@_z": 0.655
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2797
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2797
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.5
+          },
+          "damageOffsetScale": {
+            "@_value": 0.5
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 0.8
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        60.000000\t\n        120.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 90
+          },
+          "swankness": "SWANKNESS_3",
+          "maxNum": {
+            "@_value": 5
+          },
+          "flags": "FLAG_CAN_HAVE_NEONS FLAG_SPORTS FLAG_SPAWN_ON_TRAILER FLAG_PARKING_SENSORS FLAG_RICH_CAR FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_FRONT_AND_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_MUSCLE",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "LOW_RAPIDGT_FRONT_LEFT",
+              "LOW_RAPIDGT_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "stalion",
+          "txdName": "stalion",
+          "handlingId": "STALION",
+          "gameName": "STALION",
+          "vehicleMakeName": "DECLASSE",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_LOW",
+          "coverBoundOffsets": "STALLION_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.013
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.013
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.126,
+            "@_z": 0.421
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.115,
+            "@_y": 0.179,
+            "@_z": 0.518
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.205,
+            "@_z": 0.63
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2333
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2333
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.5
+          },
+          "damageOffsetScale": {
+            "@_value": 0.5
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 0.7
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 1
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 4
+          },
+          "flags": "FLAG_EXTRAS_STRONG EXTRAS_CONVERTIBLE FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_MUSCLE",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_DILETTANTE_FRONT_LEFT",
+              "STD_DILETTANTE_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "stalion2",
+          "txdName": "stalion2",
+          "handlingId": "STALION2",
+          "gameName": "STALION2",
+          "vehicleMakeName": "DECLASSE",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_LOW",
+          "coverBoundOffsets": "STALLION_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "MID_BOX_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_STANDARD_LONG",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.013
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.088,
+            "@_z": -0.05
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": -0.013
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.153,
+            "@_y": 0.126,
+            "@_z": 0.421
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.115,
+            "@_y": 0.179,
+            "@_z": 0.518
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.205,
+            "@_z": 0.63
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.238
+          },
+          "wheelScaleRear": {
+            "@_value": 0.238
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.8
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.5
+          },
+          "damageOffsetScale": {
+            "@_value": 0.5
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 0.7
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        70.000000\t\n        140.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 1
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_4",
+          "maxNum": {
+            "@_value": 10
+          },
+          "flags": "FLAG_EXTRAS_STRONG EXTRAS_CONVERTIBLE FLAG_AVERAGE_CAR FLAG_HAS_INTERIOR_EXTRAS",
+          "type": "VEHICLE_TYPE_CAR",
+          "plateType": "VPT_BACK_PLATES",
+          "dashboardType": "VDT_DUKES",
+          "vehicleClass": "VC_MUSCLE",
+          "wheelType": "VWT_MUSCLE",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_DILETTANTE_FRONT_LEFT",
+              "STD_DILETTANTE_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "blista2",
+          "txdName": "blista2",
+          "handlingId": "BLISTA2",
+          "gameName": "BLISTA2",
+          "vehicleMakeName": "DINKA",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_STD_BLISTA2",
+          "coverBoundOffsets": "BLISTA2_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_MID",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.06,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.025,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": 0.03
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": 0.03
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.06,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": 0
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.1,
+            "@_y": 0.21,
+            "@_z": 0.53
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.135,
+            "@_y": 0.165,
+            "@_z": 0.425
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.175,
+            "@_z": 0.645
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2284
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2284
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.4
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.6
+          },
+          "damageOffsetScale": {
+            "@_value": 1
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        60.000000\t\n        120.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_1",
+          "maxNum": {
+            "@_value": 10
+          },
+          "flags": "FLAG_CAN_HAVE_NEONS FLAG_EXTRAS_STRONG FLAG_POOR_CAR",
+          "type": "VEHICLE_TYPE_CAR",
+          "dashboardType": "VDT_FUTO",
+          "plateType": "VPT_FRONT_AND_BACK_PLATES",
+          "vehicleClass": "VC_SPORT",
+          "wheelType": "VWT_TUNER",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_BLISTA_FRONT_LEFT",
+              "STD_BLISTA_FRONT_RIGHT"
+            ]
+          }
+        },
+        {
+          "modelName": "blista3",
+          "txdName": "blista3",
+          "handlingId": "BLISTA2",
+          "gameName": "BLISTA3",
+          "vehicleMakeName": "DINKA",
+          "expressionDictName": "null",
+          "expressionName": "null",
+          "animConvRoofDictName": "null",
+          "animConvRoofName": "null",
+          "animConvRoofWindowsAffected": "",
+          "ptfxAssetName": "null",
+          "audioNameHash": "",
+          "layout": "LAYOUT_STD_BLISTA2",
+          "coverBoundOffsets": "BLISTA2_COVER_OFFSET_INFO",
+          "explosionInfo": "EXPLOSION_INFO_DEFAULT",
+          "scenarioLayout": "",
+          "cameraName": "DEFAULT_FOLLOW_VEHICLE_CAMERA",
+          "aimCameraName": "DEFAULT_THIRD_PERSON_VEHICLE_AIM_CAMERA",
+          "bonnetCameraName": "VEHICLE_BONNET_CAMERA_MID",
+          "povCameraName": "DEFAULT_POV_CAMERA",
+          "FirstPersonDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.06,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.025,
+            "@_z": 0
+          },
+          "FirstPersonProjectileDriveByIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": 0.03
+          },
+          "FirstPersonProjectileDriveByPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.1,
+            "@_z": 0.03
+          },
+          "FirstPersonDriveByLeftPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerIKOffset": {
+            "@_x": 0,
+            "@_y": -0.06,
+            "@_z": -0.02
+          },
+          "FirstPersonDriveByLeftPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "FirstPersonDriveByRightPassengerUnarmedIKOffset": {
+            "@_x": 0,
+            "@_y": -0.035,
+            "@_z": 0
+          },
+          "FirstPersonMobilePhoneOffset": {
+            "@_x": 0.1,
+            "@_y": 0.21,
+            "@_z": 0.53
+          },
+          "FirstPersonPassengerMobilePhoneOffset": {
+            "@_x": 0.135,
+            "@_y": 0.165,
+            "@_z": 0.425
+          },
+          "PovCameraOffset": {
+            "@_x": 0,
+            "@_y": -0.175,
+            "@_z": 0.645
+          },
+          "PovCameraVerticalAdjustmentForRollCage": {
+            "@_value": 0
+          },
+          "PovPassengerCameraOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "vfxInfoName": "VFXVEHICLEINFO_CAR_GENERIC",
+          "shouldUseCinematicViewMode": {
+            "@_value": true
+          },
+          "shouldCameraTransitionOnClimbUpDown": {
+            "@_value": false
+          },
+          "shouldCameraIgnoreExiting": {
+            "@_value": false
+          },
+          "AllowPretendOccupants": {
+            "@_value": true
+          },
+          "AllowJoyriding": {
+            "@_value": true
+          },
+          "AllowSundayDriving": {
+            "@_value": true
+          },
+          "AllowBodyColorMapping": {
+            "@_value": true
+          },
+          "wheelScale": {
+            "@_value": 0.2284
+          },
+          "wheelScaleRear": {
+            "@_value": 0.2284
+          },
+          "dirtLevelMin": {
+            "@_value": 0
+          },
+          "dirtLevelMax": {
+            "@_value": 0.4
+          },
+          "envEffScaleMin": {
+            "@_value": 0
+          },
+          "envEffScaleMax": {
+            "@_value": 1
+          },
+          "envEffScaleMin2": {
+            "@_value": 0
+          },
+          "envEffScaleMax2": {
+            "@_value": 1
+          },
+          "damageMapScale": {
+            "@_value": 0.6
+          },
+          "damageOffsetScale": {
+            "@_value": 1
+          },
+          "diffuseTint": {
+            "@_value": 16777215
+          },
+          "steerWheelMult": {
+            "@_value": 1
+          },
+          "HDTextureDist": {
+            "@_value": 5
+          },
+          "lodDistances": {
+            "#text": "10.000000\t\n        25.000000\t\n        60.000000\t\n        120.000000\t\n        500.000000\t\n        500.000000",
+            "@_content": "float_array"
+          },
+          "identicalModelSpawnDistance": {
+            "@_value": 20
+          },
+          "maxNumOfSameColor": {
+            "@_value": 10
+          },
+          "defaultBodyHealth": {
+            "@_value": 1000
+          },
+          "pretendOccupantsScale": {
+            "@_value": 1
+          },
+          "visibleSpawnDistScale": {
+            "@_value": 1
+          },
+          "trackerPathWidth": {
+            "@_value": 2
+          },
+          "weaponForceMult": {
+            "@_value": 1
+          },
+          "frequency": {
+            "@_value": 30
+          },
+          "swankness": "SWANKNESS_1",
+          "maxNum": {
+            "@_value": 10
+          },
+          "flags": "FLAG_CAN_HAVE_NEONS FLAG_EXTRAS_STRONG FLAG_POOR_CAR",
+          "type": "VEHICLE_TYPE_CAR",
+          "dashboardType": "VDT_FUTO",
+          "plateType": "VPT_FRONT_AND_BACK_PLATES",
+          "vehicleClass": "VC_SPORT",
+          "wheelType": "VWT_TUNER",
+          "trailers": "",
+          "additionalTrailers": "",
+          "drivers": "",
+          "extraIncludes": "",
+          "doorsWithCollisionWhenClosed": "",
+          "driveableDoors": "",
+          "bumpersNeedToCollideWithMap": {
+            "@_value": false
+          },
+          "needsRopeTexture": {
+            "@_value": false
+          },
+          "requiredExtras": "",
+          "rewards": "",
+          "cinematicPartCamera": {
+            "Item": [
+              "WHEEL_FRONT_RIGHT_CAMERA",
+              "WHEEL_FRONT_LEFT_CAMERA",
+              "WHEEL_REAR_RIGHT_CAMERA",
+              "WHEEL_REAR_LEFT_CAMERA"
+            ]
+          },
+          "NmBraceOverrideSet": "",
+          "buoyancySphereOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancySphereSizeScale": {
+            "@_value": 1
+          },
+          "pOverrideRagdollThreshold": {
+            "@_type": "NULL"
+          },
+          "firstPersonDrivebyData": {
+            "Item": [
+              "STD_BLISTA_FRONT_LEFT",
+              "STD_BLISTA_FRONT_RIGHT"
+            ]
+          }
+        }
+      ]
+    },
+    "txdRelationships": {
+      "Item": [
+        {
+          "parent": "vehicles_poltax_interior",
+          "child": "buffalo3"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "dominator2"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "gauntlet2"
+        },
+        {
+          "parent": "vehicles_flyer_interior",
+          "child": "blimp2"
+        },
+        {
+          "parent": "vehicles_flyer_interior",
+          "child": "blimp2"
+        },
+        {
+          "parent": "vehicles_monster_interior",
+          "child": "marshall"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "dukes"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "dukes2"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "stalion"
+        },
+        {
+          "parent": "vehicles_dom_interior",
+          "child": "stalion2"
+        },
+        {
+          "parent": "vehicles_blista2_interior",
+          "child": "blista2"
+        },
+        {
+          "parent": "vehicles_blista2_interior",
+          "child": "blista3"
+        },
+        {
+          "parent": "vehicles_flyer_interior",
+          "child": "dodo"
+        }
+      ]
+    }
+  }
+}

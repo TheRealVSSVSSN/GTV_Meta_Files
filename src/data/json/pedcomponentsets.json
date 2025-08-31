@@ -1,0 +1,125 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CPedComponentSetManager": {
+    "Infos": {
+      "Item": [
+        {
+          "Name": "PLAYER",
+          "HasFacial": {
+            "@_value": true
+          },
+          "HasRagdollConstraints": {
+            "@_value": true
+          },
+          "HasInventory": {
+            "@_value": true
+          },
+          "HasVfx": {
+            "@_value": true
+          },
+          "HasSpeech": {
+            "@_value": true
+          },
+          "HasPhone": {
+            "@_value": true
+          },
+          "HasHelmet": {
+            "@_value": true
+          },
+          "HasShockingEventReponse": {
+            "@_value": true
+          },
+          "IsRidable": {
+            "@_value": false
+          },
+          "@_type": "CPedComponentSetInfo"
+        },
+        {
+          "Name": "STANDARD_PED",
+          "HasRagdollConstraints": {
+            "@_value": true
+          },
+          "@_type": "CPedComponentSetInfo"
+        },
+        {
+          "Name": "HIPPIE",
+          "HasRagdollConstraints": {
+            "@_value": true
+          },
+          "HasPhone": {
+            "@_value": false
+          },
+          "@_type": "CPedComponentSetInfo"
+        },
+        {
+          "Name": "HEN",
+          "HasFacial": {
+            "@_value": false
+          },
+          "HasRagdollConstraints": {
+            "@_value": false
+          },
+          "HasInventory": {
+            "@_value": true
+          },
+          "HasVfx": {
+            "@_value": true
+          },
+          "HasSpeech": {
+            "@_value": true
+          },
+          "HasPhone": {
+            "@_value": false
+          },
+          "HasHelmet": {
+            "@_value": false
+          },
+          "HasShockingEventReponse": {
+            "@_value": true
+          },
+          "IsRidable": {
+            "@_value": false
+          },
+          "@_type": "CPedComponentSetInfo"
+        },
+        {
+          "Name": "ANIMAL",
+          "HasFacial": {
+            "@_value": false
+          },
+          "HasRagdollConstraints": {
+            "@_value": false
+          },
+          "HasInventory": {
+            "@_value": true
+          },
+          "HasVfx": {
+            "@_value": true
+          },
+          "HasSpeech": {
+            "@_value": true
+          },
+          "HasPhone": {
+            "@_value": false
+          },
+          "HasHelmet": {
+            "@_value": false
+          },
+          "HasShockingEventReponse": {
+            "@_value": true
+          },
+          "IsRidable": {
+            "@_value": false
+          },
+          "@_type": "CPedComponentSetInfo"
+        }
+      ]
+    },
+    "DefaultSet": {
+      "@_ref": "STANDARD_PED"
+    }
+  }
+}

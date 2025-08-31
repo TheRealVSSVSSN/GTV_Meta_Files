@@ -1,0 +1,2692 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CTunableObjectManager": {
+    "TunableObjects": {
+      "Item": [
+        {
+          "objectName": "prop_dock_bouy_1",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 2.5,
+            "@_y": 2.5,
+            "@_z": 2.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": -2
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "objectMass": {
+            "@_value": 1000
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0.19352233
+          },
+          "@_key": "prop_dock_bouy_1"
+        },
+        {
+          "objectName": "prop_dock_bouy_2",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 2.5,
+            "@_y": 2.5,
+            "@_z": 2.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": -2
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "objectMass": {
+            "@_value": 1000
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0.10488534
+          },
+          "@_key": "prop_dock_bouy_2"
+        },
+        {
+          "objectName": "prop_dock_bouy_3",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 2.5,
+            "@_y": 2.5,
+            "@_z": 2.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": -2
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "objectMass": {
+            "@_value": 1000
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0.16221094
+          },
+          "@_key": "prop_dock_bouy_3"
+        },
+        {
+          "objectName": "prop_dock_bouy_5",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 2.5,
+            "@_y": 2.5,
+            "@_z": 2.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": -1.2
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "objectMass": {
+            "@_value": 500
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": -0.55401903
+          },
+          "@_key": "prop_dock_bouy_5"
+        },
+        {
+          "objectName": "prop_dock_float_1",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.03
+          },
+          "objectMass": {
+            "@_value": 10
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 5
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": -0.32336103
+          },
+          "lowLodBuoyancyNoCollision": {
+            "@_value": true
+          },
+          "@_key": "prop_dock_float_1"
+        },
+        {
+          "objectName": "prop_jetski_ramp_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.03
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 0
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0.5
+          },
+          "knockOffBikeImpulseScalar": {
+            "@_value": 0.8
+          },
+          "@_key": "prop_jetski_ramp_01"
+        },
+        {
+          "objectName": "prop_cablespool_01a",
+          "objectMass": {
+            "@_value": 7000
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_cablespool_01a"
+        },
+        {
+          "objectName": "prop_cablespool_01b",
+          "objectMass": {
+            "@_value": 12000
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_cablespool_01b"
+        },
+        {
+          "objectName": "Prop_beach_volball01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "Prop_beach_volball01"
+        },
+        {
+          "objectName": "Prop_beach_volball02",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "Prop_beach_volball02"
+        },
+        {
+          "objectName": "prop_beachball_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "buoyancyFactor": {
+            "@_value": 6
+          },
+          "@_key": "prop_beachball_01"
+        },
+        {
+          "objectName": "prop_golf_ball",
+          "lowLodBuoyancyDistance": {
+            "@_value": 1000
+          },
+          "buoyancyFactor": {
+            "@_value": 0
+          },
+          "@_key": "prop_golf_ball"
+        },
+        {
+          "objectName": "prop_tennis_ball",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_tennis_ball"
+        },
+        {
+          "objectName": "prop_hacky_sack_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_hacky_sack_01"
+        },
+        {
+          "objectName": "prop_bskball_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_bskball_01"
+        },
+        {
+          "objectName": "p_ld_am_ball_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "p_ld_am_ball_01"
+        },
+        {
+          "objectName": "v_ind_cs_gascanister",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "v_ind_cs_gascanister"
+        },
+        {
+          "objectName": "prop_barrel_01a",
+          "objectMass": {
+            "@_value": 50
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "@_key": "prop_barrel_01a"
+        },
+        {
+          "objectName": "prop_bin_12a",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_bin_12a"
+        },
+        {
+          "objectName": "Prop_CS_Ciggy_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.02,
+            "@_y": 0.02,
+            "@_z": 0.02
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0.02,
+            "@_y": 0.02,
+            "@_z": 0.02
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "Prop_CS_Ciggy_01"
+        },
+        {
+          "objectName": "prop_cs_fertilizer",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.2,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "prop_cs_fertilizer"
+        },
+        {
+          "objectName": "physics_hat",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 0.02,
+            "@_y": 0.2,
+            "@_z": 0.2
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.05,
+            "@_y": 0.05,
+            "@_z": 0.05
+          },
+          "@_key": "physics_hat"
+        },
+        {
+          "objectName": "prop_byard_rowboat2",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0.5,
+            "@_z": -1
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 2.2
+          },
+          "@_key": "prop_byard_rowboat2"
+        },
+        {
+          "objectName": "prop_byard_rowboat4",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 2.2
+          },
+          "@_key": "prop_byard_rowboat4"
+        },
+        {
+          "objectName": "prop_byard_dingy",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": -0.5,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 5
+          },
+          "boundIndexForWaterSamples": {
+            "@_value": 0
+          },
+          "@_key": "prop_byard_dingy"
+        },
+        {
+          "objectName": "prop_coffin_01",
+          "objectMass": {
+            "@_value": 100
+          },
+          "@_key": "prop_coffin_01"
+        },
+        {
+          "objectName": "Prop_TankTrailer_01A",
+          "maxHealth": {
+            "@_value": "1000.0f"
+          },
+          "@_key": "Prop_TankTrailer_01A"
+        },
+        {
+          "objectName": "p_pallet_02a_s",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "@_key": "p_pallet_02a_s"
+        },
+        {
+          "objectName": "Prop_Crate_10A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.3,
+            "@_y": 1.3,
+            "@_z": 0.1
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.07
+          },
+          "@_key": "Prop_Crate_10A"
+        },
+        {
+          "objectName": "Prop_Pallet_01A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "@_key": "Prop_Pallet_01A"
+        },
+        {
+          "objectName": "Prop_Pallet_02A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": false
+          },
+          "@_key": "Prop_Pallet_02A"
+        },
+        {
+          "objectName": "Prop_Pallet_03A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_key": "Prop_Pallet_03A"
+        },
+        {
+          "objectName": "Prop_Pallet_03B",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_key": "Prop_Pallet_03B"
+        },
+        {
+          "objectName": "Prop_Pallet_pile_01",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_key": "Prop_Pallet_pile_01"
+        },
+        {
+          "objectName": "Prop_Pallet_pile_02",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_key": "Prop_Pallet_pile_02"
+        },
+        {
+          "objectName": "Prop_BoxPile_02B",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_BoxPile_02B"
+        },
+        {
+          "objectName": "Prop_BoxPile_02C",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_BoxPile_02C"
+        },
+        {
+          "objectName": "Prop_BoxPile_06A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_BoxPile_06A"
+        },
+        {
+          "objectName": "prop_boxpile_06b",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "prop_boxpile_06b"
+        },
+        {
+          "objectName": "Prop_BoxPile_07A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_BoxPile_07A"
+        },
+        {
+          "objectName": "Prop_BoxPile_07d",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_BoxPile_07d"
+        },
+        {
+          "objectName": "Prop_conc_Blocks01A",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_conc_Blocks01A"
+        },
+        {
+          "objectName": "Prop_conc_Blocks01B",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_conc_Blocks01B"
+        },
+        {
+          "objectName": "Prop_conc_Blocks01C",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.125
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_conc_Blocks01C"
+        },
+        {
+          "objectName": "Prop_CementBags01",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.3,
+            "@_y": 1.18,
+            "@_z": 0.12
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0.087
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_CementBags01"
+        },
+        {
+          "objectName": "Prop_cons_cements01",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.3,
+            "@_y": 1.18,
+            "@_z": 0.12
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "Prop_cons_cements01"
+        },
+        {
+          "objectName": "Prop_Box_Wood01A",
+          "objectMass": {
+            "@_value": 1000
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.2
+          },
+          "@_key": "Prop_Box_Wood01A"
+        },
+        {
+          "objectName": "Prop_Box_Wood02A_Pu",
+          "bCanBePickedUpByCargobob": {
+            "@_value": false
+          },
+          "@_key": "Prop_Box_Wood02A_Pu"
+        },
+        {
+          "objectName": "Prop_Box_Wood03A",
+          "objectMass": {
+            "@_value": 1500
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.2
+          },
+          "@_key": "Prop_Box_Wood03A"
+        },
+        {
+          "objectName": "Prop_Box_Wood04A",
+          "objectMass": {
+            "@_value": 2000
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.2
+          },
+          "@_key": "Prop_Box_Wood04A"
+        },
+        {
+          "objectName": "Prop_Box_Wood06A",
+          "objectMass": {
+            "@_value": 1800
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.2
+          },
+          "@_key": "Prop_Box_Wood06A"
+        },
+        {
+          "objectName": "Prop_Box_Wood07A",
+          "objectMass": {
+            "@_value": 1700
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.2
+          },
+          "@_key": "Prop_Box_Wood07A"
+        },
+        {
+          "objectName": "prop_barriercrash_01",
+          "knockOffBikeImpulseScalar": {
+            "@_value": 0.6
+          },
+          "@_key": "prop_barriercrash_01"
+        },
+        {
+          "objectName": "prop_drug_package",
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "bCanBePickedUpByCargobob": {
+            "@_value": false
+          },
+          "@_key": "prop_drug_package"
+        },
+        {
+          "objectName": "prop_drug_package_02",
+          "objectMass": {
+            "@_value": 50
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 1.5,
+            "@_y": 1.5,
+            "@_z": 1.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "@_key": "prop_drug_package_02"
+        },
+        {
+          "objectName": "w_lr_rpg_rocket",
+          "buoyancyFactor": {
+            "@_value": 0
+          },
+          "@_key": "w_lr_rpg_rocket"
+        },
+        {
+          "objectName": "w_lr_homing_rocket",
+          "buoyancyFactor": {
+            "@_value": 0
+          },
+          "@_key": "w_lr_homing_rocket"
+        },
+        {
+          "objectName": "w_lr_firework_rocket",
+          "buoyancyFactor": {
+            "@_value": 0
+          },
+          "@_key": "w_lr_firework_rocket"
+        },
+        {
+          "objectName": "Prop_Byard_float_01",
+          "lowLodBuoyancyDistance": {
+            "@_value": 0
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "@_key": "Prop_Byard_float_01"
+        },
+        {
+          "objectName": "Prop_Byard_float_02",
+          "lowLodBuoyancyDistance": {
+            "@_value": 0
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0
+          },
+          "@_key": "Prop_Byard_float_02"
+        },
+        {
+          "objectName": "v_med_cor_divider",
+          "glassFrameFlags": {
+            "@_value": 3
+          },
+          "@_key": "v_med_cor_divider"
+        },
+        {
+          "objectName": "prop_cash_pile_01",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.1,
+            "@_y": 0.1,
+            "@_z": 0.1
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "@_key": "prop_cash_pile_01"
+        },
+        {
+          "objectName": "prop_flare_01",
+          "objectMass": {
+            "@_value": 15
+          },
+          "buoyancyFactor": {
+            "@_value": 0.1
+          },
+          "@_key": "prop_flare_01"
+        },
+        {
+          "objectName": "prop_bar_stool_01",
+          "objectMass": {
+            "@_value": 50
+          },
+          "@_key": "prop_bar_stool_01"
+        },
+        {
+          "objectName": "prop_patio_lounger1",
+          "objectMass": {
+            "@_value": 80
+          },
+          "@_key": "prop_patio_lounger1"
+        },
+        {
+          "objectName": "prop_bin_beach_01d",
+          "objectMass": {
+            "@_value": 50
+          },
+          "@_key": "prop_bin_beach_01d"
+        },
+        {
+          "objectName": "prop_patio_lounger_3",
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": -0.2,
+            "@_z": 0.4
+          },
+          "@_key": "prop_patio_lounger_3"
+        },
+        {
+          "objectName": "w_am_baseball",
+          "objectMass": {
+            "@_value": 1
+          },
+          "objectLinearSpeedDamping": {
+            "@_x": 0.3,
+            "@_y": 0.3,
+            "@_z": 0.3
+          },
+          "objectLinearVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectLinearVelocitySquaredDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularSpeedDamping": {
+            "@_x": 40,
+            "@_y": 40,
+            "@_z": 40
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_key": "w_am_baseball"
+        },
+        {
+          "objectName": "prop_beach_ring_01",
+          "buoyancyDragFactor": {
+            "@_value": 0.1
+          },
+          "@_key": "prop_beach_ring_01"
+        },
+        {
+          "objectName": "P_Parachute1_SP_S",
+          "buoyancyDragFactor": {
+            "@_value": 0.1
+          },
+          "@_key": "P_Parachute1_SP_S"
+        },
+        {
+          "objectName": "P_Parachute1_MP_S",
+          "buoyancyDragFactor": {
+            "@_value": 0.1
+          },
+          "@_key": "P_Parachute1_MP_S"
+        },
+        {
+          "objectName": "prop_skip_01a",
+          "objectMass": {
+            "@_value": 10000
+          },
+          "bUnreachableByMeleeNavigation": {
+            "@_value": true
+          },
+          "@_key": "prop_skip_01a"
+        },
+        {
+          "objectName": "prop_plant_int_01a",
+          "boundIndexForWaterSamples": {
+            "@_value": 0
+          },
+          "@_key": "prop_plant_int_01a"
+        },
+        {
+          "objectName": "prop_aircon_m_02",
+          "notDamagedByFlames": {
+            "@_value": true
+          },
+          "@_key": "prop_aircon_m_02"
+        },
+        {
+          "objectName": "prop_aircon_l_01",
+          "notDamagedByFlames": {
+            "@_value": true
+          },
+          "@_key": "prop_aircon_l_01"
+        },
+        {
+          "objectName": "prop_aircon_l_02",
+          "notDamagedByFlames": {
+            "@_value": true
+          },
+          "@_key": "prop_aircon_l_02"
+        },
+        {
+          "objectName": "prop_aircon_l_03",
+          "notDamagedByFlames": {
+            "@_value": true
+          },
+          "@_key": "prop_aircon_l_03"
+        },
+        {
+          "objectName": "prop_aircon_l_04",
+          "notDamagedByFlames": {
+            "@_value": true
+          },
+          "@_key": "prop_aircon_l_04"
+        },
+        {
+          "objectName": "prop_fnccorgm_02a",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnccorgm_02a"
+        },
+        {
+          "objectName": "prop_fnccorgm_02b",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnccorgm_02b"
+        },
+        {
+          "objectName": "prop_fnccorgm_02c",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnccorgm_02c"
+        },
+        {
+          "objectName": "prop_fnccorgm_02d",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnccorgm_02d"
+        },
+        {
+          "objectName": "prop_fnccorgm_02e",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnccorgm_02e"
+        },
+        {
+          "objectName": "prop_fnc_omesh_02a",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnc_omesh_01a"
+        },
+        {
+          "objectName": "prop_fnc_omesh_02a",
+          "collidesWithLowLodVehicleChassis": {
+            "@_value": true
+          },
+          "@_key": "prop_fnc_omesh_02a"
+        },
+        {
+          "objectName": "prop_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "@_key": "prop_ld_case_01"
+        },
+        {
+          "objectName": "prop_security_case_01",
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "@_key": "prop_security_case_01"
+        },
+        {
+          "objectName": "prop_toolchest_05",
+          "objectMass": {
+            "@_value": 150
+          },
+          "@_key": "prop_toolchest_05"
+        },
+        {
+          "objectName": "ind_prop_dlc_flag_02",
+          "buoyancyFactor": {
+            "@_value": 2.5
+          },
+          "@_key": "ind_prop_dlc_flag_02"
+        },
+        {
+          "objectName": "prop_gascyl_03a",
+          "buoyancyFactor": {
+            "@_value": 0
+          },
+          "@_key": "prop_gascyl_03a"
+        },
+        {
+          "objectName": "prop_sec_barier_02a",
+          "knockOffBikeImpulseScalar": {
+            "@_value": 0.4
+          },
+          "@_key": "prop_sec_barier_02a"
+        },
+        {
+          "objectName": "prop_sec_barier_02b",
+          "knockOffBikeImpulseScalar": {
+            "@_value": 0.4
+          },
+          "@_key": "prop_sec_barier_02b"
+        },
+        {
+          "objectName": "ex_prop_adv_case_sm",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ex_prop_adv_case_sm"
+        },
+        {
+          "objectName": "ex_prop_adv_case_sm_02",
+          "buoyancyFactor": {
+            "@_value": 2.5
+          },
+          "@_key": "ex_prop_adv_case_sm_02"
+        },
+        {
+          "objectName": "ex_prop_adv_case_sm_03",
+          "buoyancyFactor": {
+            "@_value": 1.5
+          },
+          "@_key": "ex_prop_adv_case_sm_03"
+        },
+        {
+          "objectName": "hei_prop_hei_timetable",
+          "buoyancyFactor": {
+            "@_value": 2.5
+          },
+          "@_key": "hei_prop_hei_timetable"
+        },
+        {
+          "objectName": "prop_cs_heist_bag_01",
+          "buoyancyFactor": {
+            "@_value": 2.5
+          },
+          "@_key": "prop_cs_heist_bag_01"
+        },
+        {
+          "objectName": "Imp_Prop_ImpExp_Cargo_01",
+          "buoyancyFactor": {
+            "@_value": 2.5
+          },
+          "@_key": "Imp_Prop_ImpExp_Cargo_01"
+        },
+        {
+          "objectName": "prop_GR_rsply_crate02a",
+          "buoyancyFactor": {
+            "@_value": 1.7
+          },
+          "@_key": "prop_GR_rsply_crate02a"
+        },
+        {
+          "objectName": "gr_prop_gr_rsply_crate02a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "gr_prop_gr_rsply_crate02a"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Narc",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Narc"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Hazard",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Hazard"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Medical",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Medical"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Bones",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Bones"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Antiques",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Antiques"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Jewellery",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Jewellery"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Fake",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Fake"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Tobacco",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_Prop_Smug_Crate_S_Tobacco"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Tobacco",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_prop_smug_rsply_crate01a"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Tobacco",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sm_prop_smug_rsply_crate02a"
+        },
+        {
+          "objectName": "sm_Prop_Smug_Crate_S_Tobacco",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_bag_01a"
+        },
+        {
+          "objectName": "xm_prop_x17_mine_01a",
+          "usePositionForLockOnTarget": {
+            "@_value": true
+          },
+          "@_key": "xm_prop_x17_mine_01a"
+        },
+        {
+          "objectName": "xm_prop_x17_mine_02a",
+          "usePositionForLockOnTarget": {
+            "@_value": true
+          },
+          "@_key": "xm_prop_x17_mine_02a"
+        },
+        {
+          "objectName": "xm_prop_x17_mine_03a",
+          "usePositionForLockOnTarget": {
+            "@_value": true
+          },
+          "@_key": "xm_prop_x17_mine_03a"
+        },
+        {
+          "objectName": "xm_prop_x17_Bag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_Bag_01a"
+        },
+        {
+          "objectName": "xm_prop_x17_Bag_01b",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_Bag_01b"
+        },
+        {
+          "objectName": "xm_prop_x17_Bag_01c",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_Bag_01c"
+        },
+        {
+          "objectName": "xm_prop_x17_Bag_01d",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_Bag_01d"
+        },
+        {
+          "objectName": "xm_Prop_x17_LAP_TOP_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_Prop_x17_LAP_TOP_01"
+        },
+        {
+          "objectName": "xm_prop_x17_flight_rec_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_flight_rec_01a"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm_prop_x17_ld_case_01"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_Prop_Battle_Bag_01a"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_Prop_Battle_Bag_01b"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_Prop_Battle_drug_package_02"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_Prop_Battle_rsply_crate_gr_02a"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_prop_battle_handbag"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_prop_battle_amb_phone"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ba_prop_battle_wallet_pickup"
+        },
+        {
+          "objectName": "xm_prop_x17_ld_case_01",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "BA_PROP_BATTLE_VINYL_CASE"
+        },
+        {
+          "objectName": "vw_Prop_VW_Backpack_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "vw_Prop_VW_Backpack_01a"
+        },
+        {
+          "objectName": "ch_Prop_Ch_Box_Ammo_06A",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Ch_Box_Ammo_06A"
+        },
+        {
+          "objectName": "ch_prop_vault_drill_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_vault_drill_01a"
+        },
+        {
+          "objectName": "ch_Prop_CH_Duffbag_stealth_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_CH_Duffbag_stealth_01a"
+        },
+        {
+          "objectName": "ch_Prop_EMP_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_EMP_01a"
+        },
+        {
+          "objectName": "ch_prop_LaserDrill_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_LaserDrill_01a"
+        },
+        {
+          "objectName": "ch_prop_heist_drill_Bag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_heist_drill_Bag_01a"
+        },
+        {
+          "objectName": "ch_Prop_CH_Duffbag_Gruppe_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_CH_Duffbag_Gruppe_01a"
+        },
+        {
+          "objectName": "ch_prop_Ch_Bag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_Ch_Bag_01a"
+        },
+        {
+          "objectName": "ch_prop_Ch_Bag_02a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_Ch_Bag_02a"
+        },
+        {
+          "objectName": "ch_Prop_Ch_Security_Case_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Ch_Security_Case_01a"
+        },
+        {
+          "objectName": "ch_Prop_Ch_GunCase_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Ch_GunCase_01a"
+        },
+        {
+          "objectName": "ch_Prop_Mil_Crate_02b",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Mil_Crate_02b"
+        },
+        {
+          "objectName": "ch_Prop_Box_Ammo01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Box_Ammo01a"
+        },
+        {
+          "objectName": "ch_Prop_Box_Ammo01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Box_Ammo01a"
+        },
+        {
+          "objectName": "ch_Prop_Box_Ammo01b",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_Prop_Box_Ammo01b"
+        },
+        {
+          "objectName": "ch_prop_ch_case_sm_01x",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "ch_prop_ch_case_sm_01x"
+        },
+        {
+          "objectName": "sum_prop_ac_Papers_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sum_prop_ac_Papers_01a"
+        },
+        {
+          "objectName": "sum_Prop_SUM_Power_Cell",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sum_Prop_SUM_Power_Cell"
+        },
+        {
+          "objectName": "h4_prop_h4_mb_crate_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_mb_crate_01a"
+        },
+        {
+          "objectName": "h4_prop_h4_loch_monster",
+          "objectLinearSpeedDamping": {
+            "@_x": 0.5,
+            "@_y": 0.5,
+            "@_z": 0.5
+          },
+          "objectAngularVelocityDamping": {
+            "@_x": 2.5,
+            "@_y": 2.5,
+            "@_z": 2.5
+          },
+          "objectAngularVelocitySquaredDamping": {
+            "@_x": 1,
+            "@_y": 1,
+            "@_z": 1
+          },
+          "objectCentreOfMassOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": -2
+          },
+          "lowLodBuoyancyDistance": {
+            "@_value": 30
+          },
+          "objectMass": {
+            "@_value": 1000
+          },
+          "lowLodBuoyancyHeightOffset": {
+            "@_value": 0.19352233
+          },
+          "@_key": "h4_prop_h4_loch_monster"
+        },
+        {
+          "objectName": "h4_prop_h4_jammer_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_jammer_01a"
+        },
+        {
+          "objectName": "h4_prop_h4_card_hack_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_card_hack_01a"
+        },
+        {
+          "objectName": "h4_prop_h4_gascutter_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_gascutter_01a"
+        },
+        {
+          "objectName": "h4_prop_h4_bag_cutter_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_bag_cutter_01a"
+        },
+        {
+          "objectName": "h4_Prop_h4_Michael_Backpack",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_Prop_h4_Michael_Backpack"
+        },
+        {
+          "objectName": "tr_prop_tr_bag_thermite_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "tr_prop_tr_bag_thermite_01a"
+        },
+        {
+          "objectName": "tr_prop_tr_bag_bombs_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "tr_prop_tr_bag_bombs_01a"
+        },
+        {
+          "objectName": "tr_prop_tr_bag_grinder_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "tr_prop_tr_bag_grinder_01a"
+        },
+        {
+          "objectName": "tr_prop_tr_usb_drive_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "tr_prop_tr_usb_drive_01a"
+        },
+        {
+          "objectName": "tr_prop_tr_acc_pass_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "tr_prop_tr_acc_pass_01a"
+        },
+        {
+          "objectName": "sf_prop_sf_npc_phone_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "sf_prop_sf_npc_phone_01a"
+        },
+        {
+          "objectName": "reh_prop_reh_supply_caps_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "reh_prop_reh_supply_caps_01a"
+        },
+        {
+          "objectName": "xm3_prop_xm3_crate_supp_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm3_prop_xm3_crate_supp_01a"
+        },
+        {
+          "objectName": "xm3_prop_xm3_pallet_ch_01a",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "xm3_prop_xm3_pallet_ch_01a"
+        },
+        {
+          "objectName": "xm3_prop_xm3_pallet_ch_02a",
+          "objectMass": {
+            "@_value": 500
+          },
+          "forkliftAttachAngledAreaDims": {
+            "@_x": 1.8,
+            "@_y": 1.5,
+            "@_z": 0.175
+          },
+          "forkliftAttachAngledAreaOrigin": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "forkliftCanAttachWhenFragBroken": {
+            "@_value": true
+          },
+          "@_key": "xm3_prop_xm3_pallet_ch_02a"
+        },
+        {
+          "objectName": "xm3_Prop_XM3_Box_Ch_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "xm3_Prop_XM3_Box_Ch_01a"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_bones",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_bones"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_antiques",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_antiques"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_hazard",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_hazard"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_fake",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_fake"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_jewellery",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_jewellery"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_medical",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_medical"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_narc",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_narc"
+        },
+        {
+          "objectName": "m23_1_prop_m31_crate_tobacco",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_prop_m31_crate_tobacco"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Professionals_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Professionals_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Marabunta_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Marabunta_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Army_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Army_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Open_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Open_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Weapons_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Weapons_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Rappel_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Rappel_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Panic_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Panic_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_Scuba_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_Scuba_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_CoastGuard",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_CoastGuard"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Bag_CoastGuard",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Bag_CoastGuard"
+        },
+        {
+          "objectName": "h4_prop_h4_bolt_cutter_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "h4_prop_h4_bolt_cutter_01a"
+        },
+        {
+          "objectName": "m23_1_Prop_M31_Flarebox_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_1_Prop_M31_Flarebox_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Guncase_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Guncase_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_HDDCase",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_HDDCase"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_MazeBankCard_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_MazeBankCard_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_AccessCard_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_AccessCard_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_MaskCrate",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_MaskCrate"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_Sonar_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_Sonar_01a"
+        },
+        {
+          "objectName": "m23_2_prop_m32_blowtorch_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_prop_m32_blowtorch_01a"
+        },
+        {
+          "objectName": "m23_2_Prop_M32_AccessCard_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_Prop_M32_AccessCard_01a"
+        },
+        {
+          "objectName": "m23_2_prop_m32_mazebankcard_01b",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_prop_m32_mazebankcard_01b"
+        },
+        {
+          "objectName": "m23_2_prop_m32_sonar_01b",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m23_2_prop_m32_sonar_01b"
+        },
+        {
+          "objectName": "m24_1_prop_m41_weed_block_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_prop_m41_weed_block_01a"
+        },
+        {
+          "objectName": "m24_1_prop_m41_weed_bigbag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_prop_m41_weed_bigbag_01a"
+        },
+        {
+          "objectName": "m24_1_prop_m41_cokeBag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_prop_m41_cokeBag_01a"
+        },
+        {
+          "objectName": "m24_1_prop_m41_smallBag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_prop_m41_smallBag_01a"
+        },
+        {
+          "objectName": "m24_1_Prop_M41_Pill_Bag_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_Prop_M41_Pill_Bag_01a"
+        },
+        {
+          "objectName": "m24_1_Prop_M41_Drug_Pkg_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_1_Prop_M41_Drug_Pkg_01a"
+        },
+        {
+          "objectName": "m24_2_Prop_M42_WeaponDrop_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_Prop_M42_WeaponDrop_01a"
+        },
+        {
+          "objectName": "m24_2_Prop_M42_ArmorDrop_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_Prop_M42_ArmorDrop_01a"
+        },
+        {
+          "objectName": "m24_2_prop_m42_shellcrate_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_prop_m42_shellcrate_01a"
+        },
+        {
+          "objectName": "m24_2_Prop_M42_UpgradeCrate_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_Prop_M42_UpgradeCrate_01a"
+        },
+        {
+          "objectName": "m24_2_prop_m42_containersmall_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_prop_m42_containersmall_01a"
+        },
+        {
+          "objectName": "m24_2_prop_m42_weaponcrates_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_prop_m42_weaponcrates_01a"
+        },
+        {
+          "objectName": "m24_2_prop_m42_empcase_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_prop_m42_empcase_01a"
+        },
+        {
+          "objectName": "m24_2_prop_m42_guncase_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m24_2_prop_m42_guncase_01a"
+        },
+        {
+          "objectName": "m25_1_prop_m51_supply_caps_01a",
+          "buoyancyFactor": {
+            "@_value": 2
+          },
+          "@_key": "m25_1_prop_m51_supply_caps_01a"
+        }
+      ]
+    }
+  }
+}

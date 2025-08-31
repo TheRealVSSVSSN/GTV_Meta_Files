@@ -1,0 +1,1184 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDataFileMgr__ContentsOfDataFileXml": {
+    "disabledFiles": "",
+    "includedXmlFiles": {
+      "Item": [
+        {
+          "xi:include": {
+            "@_href": "commoncrc:/data/common.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        },
+        {
+          "xi:include": {
+            "@_href": "commoncrc:/data/common_anim.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        },
+        {
+          "xi:include": {
+            "@_href": "commoncrc:/data/levels/gta5/images.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        }
+      ]
+    },
+    "includedDataFiles": {
+      "Item": "commoncrc:/data/common_cutscene.meta"
+    },
+    "dataFiles": {
+      "Item": [
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/hotknife_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/speedo2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/khamelion_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/elegy2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/intruder_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/zion2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/zion_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/oracle2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/cheetah_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sabregt_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/infernus_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/rapidgt2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/rapidgt_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/vacca_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/carbonizzare_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/coquette_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/buffalo2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/entityxf_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/peyote_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/bagger_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/tornado_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/manana_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sentinel2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sandking2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sandking_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/schwarzer_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/vigero_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/prairie_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/comet2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/primo_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/schafter2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/banshee_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sentinel_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/fusilade_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/rebel_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/pcj_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/serrano_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/sultan_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ruiner_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/landstalker_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/premier_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/penumbra_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/issi2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/bjxl_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/gresley_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/voltic_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/dominator_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/blista_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/felon_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/phoenix_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ninef_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/dubsta2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ratloader_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/jackal_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/surano_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/asea_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/surge_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/youga_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/double_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/baller_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ztype_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ruffian_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/tailgater_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/daemon_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/ninef2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/police3_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/cavalcade_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/bodhi2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/akuma_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/feltzer2_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/futo_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/buccaneer_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/buffalo_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/dubsta_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/vehiclemods/wheels_mods.rpf",
+          "fileType": "RPF_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/script/script.rpf",
+          "fileType": "RPF_FILE_PRE_INSTALL",
+          "locked": {
+            "@_value": true
+          },
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/data/cdimages/carrec.rpf",
+          "fileType": "RPF_FILE"
+        },
+        {
+          "filename": "platform:/data/cdimages/moviesubs.rpf",
+          "fileType": "RPF_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/generic/gtxd.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/generic/gtxd.rpf",
+          "fileType": "RPF_FILE",
+          "contents": "CONTENTS_MAP"
+        },
+        {
+          "filename": "platform:/data/effects/ptfx.rpf",
+          "fileType": "RPF_FILE",
+          "locked": {
+            "@_value": true
+          }
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/water.xml",
+          "fileType": "WATER_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/time.xml",
+          "fileType": "TIME_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/weather.xml",
+          "fileType": "WEATHER_FILE"
+        },
+        {
+          "filename": "common:/data/timecycle/underwater_deep.xml",
+          "fileType": "TIMECYCLE_FILE"
+        },
+        {
+          "filename": "common:/data/timecycle/timecycle_mods_1.xml",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "common:/data/timecycle/timecycle_mods_2.xml",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "common:/data/timecycle/timecycle_mods_3.xml",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "common:/data/timecycle/timecycle_mods_4.xml",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "common:/data/materials/procedural.dat",
+          "fileType": "PROCOBJ_FILE"
+        },
+        {
+          "filename": "common:/data/materials/procedural.meta",
+          "fileType": "PROC_META_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/vfx.dat",
+          "fileType": "VFX_SETTINGS_FILE"
+        },
+        {
+          "filename": "common:/data/effects/bloodfx.dat",
+          "fileType": "BLOODFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/entityfx.dat",
+          "fileType": "ENTITYFX_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/effects/explosionfx.dat",
+          "fileType": "EXPLOSIONFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/firefx.dat",
+          "fileType": "FIREFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/liquidfx.dat",
+          "fileType": "LIQUIDFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/materialfx.dat",
+          "fileType": "MATERIALFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/wheelfx.dat",
+          "fileType": "WHEELFX_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/effects/weaponfx.dat",
+          "fileType": "WEAPONFX_FILE"
+        },
+        {
+          "filename": "common:/data/effects/decals.dat",
+          "fileType": "DECALS_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxvehicleinfo",
+          "fileType": "VFXVEHICLEINFO_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxpedinfo",
+          "fileType": "VFXPEDINFO_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxweaponinfo",
+          "fileType": "VFXWEAPONINFO_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxinteriorinfo",
+          "fileType": "VFXINTERIORINFO_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxregioninfo",
+          "fileType": "VFXREGIONINFO_FILE"
+        },
+        {
+          "filename": "common:/data/effects/scriptfx.dat",
+          "fileType": "SCRIPTFX_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/ptfxassetinfo",
+          "fileType": "PTFXASSETINFO_FILE"
+        },
+        {
+          "filename": "platform:/data/effects/vfxfogvolumeinfo",
+          "fileType": "VFXFOGVOLUMEINFO_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/vehicles.meta",
+          "fileType": "VEHICLE_METADATA_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/generic/icons.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/generic/procobj.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/interiors/int_props/int_lev_des.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/interiors/int_props/int_light_rig.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/rt_bink/vfx_reference.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/building/v_rooftop.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/recreational/v_coin_op.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/recreational/v_sports.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_bathroom.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_garden.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_electrical.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_seating.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_kitchen.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_bar.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_fastfood.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_garage.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_office.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/procedural/v_proc1.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/procedural/v_proc2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/procedural/v_proc3.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_ext_veg.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_fanpalm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_palm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_trees.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_bush.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_potted.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_cacti.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_crops.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_rocks.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_snow.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/industrial/v_airport.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/industrial/v_industrial.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/industrial/v_industrial_2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_bins.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_construction.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_fences.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_fences_2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/_citye/downtown_01/downtown_01_metadata_permanent.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_MAP",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_rubbish.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_seating_tables.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_signs.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_storage.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_traffic_lights.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_utility.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/rural/v_farm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/Lev_Des.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/v_minigame.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/V_Set_Pieces.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/V_Lev_Doors.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/P_V_Lev_Des_skin.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/outsource/building_xrefs.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/_hills/cs_xref.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/_citye/citye_xr.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/_citye/port_xr.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/_cityw/marina_xr.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fib_door.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fib_ceiling.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fib_floor.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fib_glass.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_jewel_cab.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_jewel_cab2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_jewel_cab3.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_showroom.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_vaultdoor.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_tvsmash.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fibstairs.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_jewel_cab4.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_hospitaldoors.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_finale_tunnel.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_finale_vault.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_frenchdoors.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_server.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/DES_prologue_door.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/int_props/int_retail.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_setpiece2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_stilthouse.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_scaffolding.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_gasstation.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_farmhouse.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_methtrailer.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_traincrash.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_trailerparka.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_trailerparkb.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_trailerparkc.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_trailerparkd.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_trailerparke.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_protree.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_apartmentblock.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_tankercrash.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_tankerexplosion.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/exterior/des_shipsink.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "platform:/levels/gta5/popgroups",
+          "fileType": "POPGRP_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/popcycle.dat",
+          "fileType": "POPSCHED_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/MAPAREA.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/POPZONE.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/zonebind",
+          "fileType": "ZONEBIND_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/ambient.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/ambient_Leeds.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/ambient_MP.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/ambient_SD.IPL",
+          "fileType": "IPL_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/trains.xml",
+          "fileType": "TRAINCONFIGS_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/traintracks.xml",
+          "fileType": "TRAINTRACK_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/cloudhats/v_clouds.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "installPartition": "PARTITION_2"
+        },
+        {
+          "filename": "common:/data/levels/gta5/NavmeshIndexMapping.dat",
+          "fileType": "NAVMESH_INDEXREMAPPING_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/junctions.xml",
+          "fileType": "JUNCTION_TEMPLATES_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/junctions.pso",
+          "fileType": "JUNCTION_TEMPLATES_PSO_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/pathzones.xml",
+          "fileType": "PATH_ZONES_FILE"
+        },
+        {
+          "filename": "commoncrc:/data/levels/gta5/vehiclepopulation.xml",
+          "fileType": "VEHICLE_POPULATION_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/vehgen_markup.xml",
+          "fileType": "VEHGEN_MARKUP_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/streetvehicleassoc.xml",
+          "fileType": "STREET_VEHICLE_ASSOCIATION_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/distantlights.dat",
+          "fileType": "DISTANT_LIGHTS_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/distantlights_hd.dat",
+          "fileType": "DISTANT_LIGHTS_HD_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/sp_manifest.#mt",
+          "fileType": "SCENARIO_POINTS_PSO_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/generic/objectcovertuning",
+          "fileType": "OBJ_COVER_TUNING_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/doortuning",
+          "fileType": "DOOR_TUNING_FILE"
+        },
+        {
+          "filename": "platformcrc:/levels/gta5/slownesszones",
+          "fileType": "SLOWNESS_ZONES_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/mapzones.xml",
+          "fileType": "MAPZONES_FILE"
+        },
+        {
+          "filename": "COMMON:/data/levels/gta5/heightmap.dat",
+          "fileType": "WORLD_HEIGHTMAP_FILE"
+        },
+        {
+          "filename": "COMMON:/data/levels/gta5/waterheight.dat",
+          "fileType": "WORLD_WATERHEIGHT_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_prop_patch.ityp",
+          "fileType": "PERMANENT_ITYP_FILE",
+          "contents": "CONTENTS_PROPS",
+          "installPartition": "PARTITION_2"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1590 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": "",
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@side_left@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@side_right@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@rear_back@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR_ONVEH",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@rear_back@enter_exit_on_veh",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@rear_back@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "anim@veh@truck@phantom2@rear_back@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": {
+      "Item": {
+        "Name": "PHANTOM2_COVER_OFFSET_INFO",
+        "ExtraSideOffset": {
+          "@_value": 0
+        },
+        "ExtraForwardOffset": {
+          "@_value": 0
+        },
+        "ExtraBackwardOffset": {
+          "@_value": 0
+        },
+        "ExtraZOffset": {
+          "@_value": 0
+        },
+        "CoverBoundInfos": {
+          "Item": [
+            {
+              "Name": "Main",
+              "Position": {
+                "@_x": 0,
+                "@_y": 2,
+                "@_z": 0
+              },
+              "Length": {
+                "@_value": 5
+              },
+              "Width": {
+                "@_value": 2.9
+              },
+              "Height": {
+                "@_value": 2
+              },
+              "ActiveBoundExclusions": ""
+            },
+            {
+              "Name": "REAR",
+              "Position": {
+                "@_x": 0,
+                "@_y": -2.54,
+                "@_z": -0.25
+              },
+              "Length": {
+                "@_value": 4.06
+              },
+              "Width": {
+                "@_value": 2.9
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": ""
+            }
+          ]
+        },
+        "@_type": "CVehicleCoverBoundOffsetInfo"
+      }
+    },
+    "BicycleInfos": "",
+    "POVTuningInfos": "",
+    "EntryAnimVariations": "",
+    "VehicleExtraPointsInfos": "",
+    "DrivebyWeaponGroups": "",
+    "VehicleDriveByAnimInfos": {
+      "Item": [
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_RDS",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_BIKE_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rds",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_RDS",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rds_2h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "STD_CAR_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_RPS",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_BIKE_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rps",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_RPS",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rps_2h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_BIKE_ONE_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rb",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_DEFAULT_TWO_HANDED"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rb_2h",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_RPG_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_HELI_RPG"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rb_rpg",
+          "FirstPersonDriveByClipSet": "",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "REAR_HELI_DRIVEBY",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_THROW_REAR",
+          "WeaponGroup": {
+            "@_ref": "DRIVEBY_MOUNTED_THROW"
+          },
+          "DriveByClipSet": "anim@veh@drivebytruck@phantom2@_rb_grenades",
+          "FirstPersonDriveByClipSet": "driveby@first_person@passenger_right_handed@throw",
+          "AltFirstPersonDriveByClipSets": "",
+          "RestrictedDriveByClipSet": "",
+          "VehicleMeleeClipSet": "",
+          "FirstPersonVehicleMeleeClipSet": "",
+          "Network": "MOUNTED_THROW",
+          "UseOverrideAngles": {
+            "@_value": false
+          },
+          "OverrideMinAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMinRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "OverrideMaxRestrictedAimAngle": {
+            "@_value": 0
+          },
+          "@_type": "CVehicleDriveByAnimInfo"
+        }
+      ]
+    },
+    "VehicleDriveByInfos": {
+      "Item": [
+        {
+          "Name": "DRIVEBY_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -225
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -225
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_RDS"
+              },
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_RDS"
+              },
+              {
+                "@_ref": "HELI_DB_ANIM_INFO_RPG_RDS"
+              }
+            ]
+          },
+          "DriveByCamera": "PHANTOM2_DRIVEBY_REAR_LEFT_CAMERA",
+          "DriveByFlags": "DampenRecoil UseThreeAnimIntroOutro UseBlockingAnimsOutsideAimRange AllowSingleSideOvershoot",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 225
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 225
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_RPS"
+              },
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_RPS"
+              },
+              {
+                "@_ref": "HELI_DB_ANIM_INFO_RPG_RPS"
+              }
+            ]
+          },
+          "DriveByCamera": "PHANTOM2_DRIVEBY_REAR_RIGHT_CAMERA",
+          "DriveByFlags": "DampenRecoil UseThreeAnimIntroOutro LeftHandedFirstPersonAnims UseBlockingAnimsOutsideAimRange AllowSingleSideOvershoot",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_TRUCK_PHANTOMBULL_REAR",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -140
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 140
+          },
+          "FirstPersonMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -155
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 155
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": -180
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleFirstPersonDegs": {
+            "@_value": -180
+          },
+          "MaxSmashWindowAngleFirstPersonDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "MinUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": -3.14
+          },
+          "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+            "@_value": 3.14
+          },
+          "DriveByAnimInfos": {
+            "Item": [
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_ONE_HANDED_REAR"
+              },
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_TWO_HANDED_REAR"
+              },
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_RPG_REAR"
+              },
+              {
+                "@_ref": "TRUCK_PHANTOMBULL_DB_ANIM_INFO_THROW_REAR"
+              }
+            ]
+          },
+          "DriveByCamera": "PHANTOM2_DRIVEBY_REAR_CAMERA",
+          "DriveByFlags": "UseMountedProjectileTask LeftHandedUnarmedFirstPersonAnims",
+          "@_type": "CVehicleDriveByInfo"
+        }
+      ]
+    },
+    "VehicleSeatInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "SeatBoneName": "seat_dside_r",
+          "ShuffleLink": "SEAT_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp DisableWhenTrailerAttached",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "SEAT_TRUCK_PHANTOMBULL_REAR",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "SeatBoneName": "seat_pside_r",
+          "ShuffleLink": "SEAT_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp DisableWhenTrailerAttached",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "SEAT_TRUCK_PHANTOMBULL_REAR",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_TRUCK_PHANTOMBULL_REAR",
+          "SeatBoneName": "seat_dside_r1",
+          "ShuffleLink": "SEAT_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsIdleSeat KeepOnHeadProp IsExtraShuffleSeat DisableWhenTrailerAttached",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "SEAT_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "@_type": "CVehicleSeatInfo"
+        }
+      ]
+    },
+    "VehicleSeatAnimInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_ANIM_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_PHANTOMBULL_SIDE_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_HELI_REAR_LEFT"
+          },
+          "PanicClipSet": "clipset@veh@helicopter@rds@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "HELI_REAR_DS_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll UseStandardInVehicleAnims HasPanicAnims PreventShuffleJack RagdollWhenVehicleUpsideDown FallsOutWhenDead KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_HELI_REAR_RIGHT"
+          },
+          "PanicClipSet": "clipset@veh@helicopter@rps@idle_panic",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "HELI_REAR_PS_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll UseStandardInVehicleAnims HasPanicAnims PreventShuffleJack RagdollWhenVehicleUpsideDown FallsOutWhenDead KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_TRUCK_PHANTOMBULL_REAR",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_TRUCK_PHANTOMBULL_REAR"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "FemaleClipSet": "",
+          "LowriderLeanClipSet": "",
+          "AltLowriderLeanClipSet": "",
+          "LowLODIdleAnim": "PHANTOMBULL_REAR_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "CanDetachViaRagdoll CannotBeJacked UseStandardInVehicleAnims PreventShuffleJack RagdollWhenVehicleUpsideDown KeepCollisionOnWhenInVehicle",
+          "SteeringSmoothing": {
+            "@_value": 0.05
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "FPSMinSteeringRateOverride": {
+            "@_value": -1
+          },
+          "FPSMaxSteeringRateOverride": {
+            "@_value": -1
+          },
+          "SeatCollisionBoundsOffset": {
+            "@_x": 0,
+            "@_y": 0,
+            "@_z": 0
+          },
+          "@_type": "CVehicleSeatAnimInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_PHANTOMBULL_SIDE_LEFT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_TRUCK_PHANTOMBULL_REAR",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "INVALID",
+          "VehicleSide": "SIDE_REAR",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_TRUCK_PHANTOMBULL_REAR"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "BreakoutTestPoint": "POINT_TYPE_MAX",
+          "@_type": "CVehicleEntryPointInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointAnimInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_SIDE_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_HELI_REAR_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.1692,
+            "@_y": -0.3766,
+            "@_z": 0.0538
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 1.57
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELICOPTER_REAR_LEFT"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_HELI_REAR_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.0612,
+            "@_y": -0.2321,
+            "@_z": 0.0431
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": -1.57
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELICOPTER_REAR_RIGHT"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_REAR",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 0.1,
+            "@_y": 1.35,
+            "@_z": -0.6
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -3.14
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "ExitAnimHasLongDrop DisableJacking",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_REAR_ONVEH",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_AUTOMOBILE_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR_ONVEH"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_TRUCK_PHANTOMBULL_REAR"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 0,
+            "@_y": -0.82,
+            "@_z": 1
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "ExitAnimHasLongDrop DisableJacking HasOnVehicleEntry",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        }
+      ]
+    },
+    "VehicleExplosionInfos": "",
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_TRUCK_PHANTOMBULL",
+        "Seats": {
+          "Item": [
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_FRONT_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_STANDARD_FRONT_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_FRONT_RIGHT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_PHANTOMBULL_SIDE_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_PHANTOMBULL_SIDE_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_TRUCK_PHANTOMBULL_REAR"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_TRUCK_PHANTOMBULL_REAR"
+              }
+            }
+          ]
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_STANDARD_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_FRONT_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_PHANTOMBULL_SIDE_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_SIDE_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_SIDE_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_PHANTOMBULL_REAR"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_REAR"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_TRUCK_PHANTOMBULL_REAR"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_TRUCK_PHANTOMBULL_REAR_ONVEH"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims UseLeanSteerAnims UseFinerAlignTolerance",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "NULL"
+        },
+        "HandsUpClipSetId": "busted_vehicle_truck",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "MaxXAcceleration": {
+          "@_value": 4
+        },
+        "BodyLeanXApproachSpeed": {
+          "@_value": 5
+        },
+        "BodyLeanXSmallDelta": {
+          "@_value": 0.1
+        },
+        "LookBackApproachSpeedScale": {
+          "@_value": 1
+        },
+        "FirstPersonAdditiveIdleClipSets": {
+          "Item": [
+            "clipset@veh@truck@ds@idle_a",
+            "clipset@veh@truck@ds@idle_b",
+            "clipset@veh@truck@ds@idle_c",
+            "clipset@veh@truck@ds@idle_d",
+            "clipset@veh@truck@ds@idle_e"
+          ]
+        },
+        "FirstPersonRoadRageClipSets": {
+          "Item": [
+            "clipset@veh@truck@ds@hit_wheel@idle_a",
+            "clipset@veh@truck@ds@hit_wheel@idle_b",
+            "clipset@veh@truck@ds@hit_wheel@idle_c"
+          ]
+        },
+        "CellphoneClipsets": {
+          "CellphoneClipsetDS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS",
+          "CellphoneClipsetPS": "ANIM_GROUP_CELLPHONE_IN_CAR_PS",
+          "CellphoneClipsetDS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS",
+          "CellphoneClipsetPS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS"
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    },
+    "VehicleScenarioLayoutInfos": "",
+    "SeatOverrideAnimInfos": "",
+    "InVehicleOverrideInfos": "",
+    "FirstPersonDriveByLookAroundData": {
+      "Item": [
+        {
+          "Name": "TRUCK_PHANTOMBULL_SIDE_LEFT",
+          "AllowLookback": {
+            "@_value": false
+          },
+          "HeadingLimits": {
+            "@_x": -90,
+            "@_y": 135
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.3
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 45,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_SIDE_RIGHT",
+          "AllowLookback": {
+            "@_value": false
+          },
+          "HeadingLimits": {
+            "@_x": -90,
+            "@_y": 135
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0.3
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 45,
+                    "@_y": 90
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 90,
+                    "@_y": 210
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -10,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        },
+        {
+          "Name": "TRUCK_PHANTOMBULL_REAR",
+          "AllowLookback": {
+            "@_value": true
+          },
+          "HeadingLimits": {
+            "@_x": -145,
+            "@_y": 145
+          },
+          "DataLeft": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -5,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "DataRight": {
+            "Offsets": {
+              "Item": [
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": -0.1
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 90,
+                    "@_y": 210
+                  }
+                },
+                {
+                  "Offset": {
+                    "@_value": 0
+                  },
+                  "AngleToBlendInOffset": {
+                    "@_x": 0,
+                    "@_y": 0
+                  }
+                }
+              ]
+            },
+            "ExtraRelativePitch": {
+              "@_x": -5,
+              "@_y": 30
+            },
+            "AngleToBlendInExtraPitch": {
+              "@_x": 0,
+              "@_y": 0
+            }
+          },
+          "WheelClipInfo": {
+            "HeadingLimitsLeft": {
+              "@_x": 0.38,
+              "@_y": 0.43
+            },
+            "HeadingLimitsRight": {
+              "@_x": 0.48,
+              "@_y": 0.53
+            },
+            "PitchLimits": {
+              "@_x": 0.47,
+              "@_y": 0.53
+            },
+            "PitchOffset": {
+              "@_x": 0,
+              "@_y": 0.05
+            },
+            "WheelAngleLimits": {
+              "@_x": -0.7,
+              "@_y": 0
+            },
+            "WheelAngleOffset": {
+              "@_x": 0.01,
+              "@_y": 0.04
+            },
+            "MaxWheelOffsetY": {
+              "@_value": 0.17
+            },
+            "WheelClipLerpInRate": {
+              "@_value": 0.15
+            },
+            "WheelClipLerpOutRate": {
+              "@_value": 0.18
+            }
+          },
+          "@_type": "CFirstPersonDriveByLookAroundData"
+        }
+      ]
+    }
+  }
+}

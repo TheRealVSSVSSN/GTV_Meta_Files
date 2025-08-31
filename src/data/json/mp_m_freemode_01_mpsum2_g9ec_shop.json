@@ -1,0 +1,2309 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_m_freemode_01",
+    "dlcName": "mp_m_sum2_g9ec",
+    "fullDlcName": "mp_m_freemode_01_mp_m_sum2_g9ec",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER",
+    "creatureMetaData": "MP_CreatureMetadata_Sum2_g9ec",
+    "pedOutfits": {
+      "Item": {
+        "lockHash": "CU_SUM2_G9EC_CLOTHES",
+        "cost": {
+          "@_value": 99
+        },
+        "textLabel": "CLO_E1M_O_MUM",
+        "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_OUTFIT_MUMMY",
+        "eShopEnum": "CLO_SHOP_LOW",
+        "locate": {
+          "@_value": 234
+        },
+        "includedPedComponents": {
+          "Item": [
+            {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_BERD_3_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_BERD"
+            },
+            {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 3
+              },
+              "eCompType": "PV_COMP_UPPR"
+            },
+            {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_LEGS_1_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_LOWR"
+            },
+            {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_FEET_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_FEET"
+            },
+            {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_SPECIAL_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_ACCS"
+            },
+            {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_JBIB_5_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          ]
+        },
+        "includedPedProps": ""
+      }
+    },
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_0_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_1_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_1_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_2_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "SHRINK_HEAD"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "IE_CLOTH"
+              },
+              {
+                "tagNameHash": "IE_DRAW_11"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "MORPH_SUIT"
+              },
+              {
+                "tagNameHash": "SHRINK_HEAD"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_4_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_MASKS",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_B_4_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_BERD_4_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_L_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_LEGS_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 265
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "STUNT_CLOTH"
+              },
+              {
+                "tagNameHash": "STUNT_DRAW_3"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_L_0_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_LEGS_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 265
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "STUNT_CLOTH"
+              },
+              {
+                "tagNameHash": "STUNT_DRAW_3"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_LEGS_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "IE_CLOTH"
+              },
+              {
+                "tagNameHash": "IE_DRAW_7"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "MORPH_SUIT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_FEET_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "IE_CLOTH"
+              },
+              {
+                "tagNameHash": "IE_DRAW_1"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "MORPH_SUIT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_SPECIAL_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "STUNT_CLOTH"
+              },
+              {
+                "tagNameHash": "STUNT_DRAW_0"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_D_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_DECL_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 153
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_G9EC_M_JBIB_4_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_DECL",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "FX_DRAW_2"
+              },
+              {
+                "tagNameHash": "APART_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "BLOCK_SCARFS"
+              },
+              {
+                "tagNameHash": "BLOCK_CHAINS"
+              },
+              {
+                "tagNameHash": "FITTED_HOOD"
+              },
+              {
+                "tagNameHash": "HOOD_DOWN"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "CREW_LOGO_FIXER_0"
+              },
+              {
+                "tagNameHash": "PARA_ALT10"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 26
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_0_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "FX_DRAW_2"
+              },
+              {
+                "tagNameHash": "APART_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "BLOCK_SCARFS"
+              },
+              {
+                "tagNameHash": "BLOCK_CHAINS"
+              },
+              {
+                "tagNameHash": "FITTED_HOOD"
+              },
+              {
+                "tagNameHash": "HOOD_DOWN"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "CREW_LOGO_FIXER_0"
+              },
+              {
+                "tagNameHash": "PARA_ALT10"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_1_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 26
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "FX_DRAW_3"
+              },
+              {
+                "tagNameHash": "APART_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "BLOCK_SCARFS"
+              },
+              {
+                "tagNameHash": "BLOCK_CHAINS"
+              },
+              {
+                "tagNameHash": "FITTED_HOOD"
+              },
+              {
+                "tagNameHash": "HOOD_UP"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "CREW_LOGO_FIXER_1"
+              },
+              {
+                "tagNameHash": "PARA_ALT10"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 26
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_0_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 13
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "FX_DRAW_3"
+              },
+              {
+                "tagNameHash": "APART_DRAW_5"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "BLOCK_SCARFS"
+              },
+              {
+                "tagNameHash": "BLOCK_CHAINS"
+              },
+              {
+                "tagNameHash": "FITTED_HOOD"
+              },
+              {
+                "tagNameHash": "HOOD_UP"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "CREW_LOGO_FIXER_1"
+              },
+              {
+                "tagNameHash": "PARA_ALT10"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 26
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_2_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 167
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HEIST_GEAR"
+              },
+              {
+                "tagNameHash": "HEIST_DRAW_16"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "HOOD_DOWN"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "PARA_ALT08"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 34
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_3_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 41
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_2_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 167
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HEIST_GEAR"
+              },
+              {
+                "tagNameHash": "HEIST_DRAW_15"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "HOOD_UP"
+              },
+              {
+                "tagNameHash": "HOODED_JACKET"
+              },
+              {
+                "tagNameHash": "PARA_ALT08"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 4
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 34
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_M_JBIB_2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 41
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 3
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "LUXE2_DRAW_2"
+              },
+              {
+                "tagNameHash": "LUXE_SWEAT"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 26
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 4
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": -99
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "IE_CLOTH"
+              },
+              {
+                "tagNameHash": "IE_DRAW_15"
+              },
+              {
+                "tagNameHash": "OUTFIT_CHECKS"
+              },
+              {
+                "tagNameHash": "MORPH_SUIT"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              },
+              {
+                "tagNameHash": "BLOCK_CHAINS"
+              },
+              {
+                "tagNameHash": "PARA_ALT02"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_SUM2_G9EC_M_LEGS_1_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_LOWR"
+              },
+              {
+                "nameHash": "DLC_MP_SUM2_G9EC_M_FEET_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_FEET"
+              },
+              {
+                "nameHash": "DLC_MP_SUM2_G9EC_M_BERD_3_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_BERD"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 3
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": "DLC_MP_SUM2_G9EC_M_SPECIAL_0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 5
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_6_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_6_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 169
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_0"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 6
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_U_7_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_JBIB_7_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 175
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "APART_DRAW_17"
+              },
+              {
+                "tagNameHash": "SMOKING_JACKET"
+              },
+              {
+                "tagNameHash": "LONG_SLEEVE"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 14
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 240
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 7
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    },
+    "pedProps": {
+      "Item": [
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 266
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "HOOD_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_1_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_1_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 267
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "BACKWARDS_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_2_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 207
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HELMET"
+              },
+              {
+                "tagNameHash": "DOME_HELMET"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_3_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_3_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 266
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "HOOD_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_4_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 3
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_4_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_4_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 267
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "BACKWARDS_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_3_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 4
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_1",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_2",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_3",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_4",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_4",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 4
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_5",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_5",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 5
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_6",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_6",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 6
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_7",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_7",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 7
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_5_8",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_5_8",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 156
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 5
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 8
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_6_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_6_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 267
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "BACKWARDS_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_7_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 6
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_PH_7_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_7_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 266
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "HAT"
+              },
+              {
+                "tagNameHash": "HOOD_HAT"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": {
+            "Item": {
+              "nameHash": "DLC_MP_SUM2_G9EC_M_PHEAD_6_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eAnchorPoint": "ANCHOR_HEAD"
+            }
+          },
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 7
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_E_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PEARS_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 270
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "EARRING"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_EARS",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_LW_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PLEFT_WRIST_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 166
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "WATCH"
+              },
+              {
+                "tagNameHash": "CUFF"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_LEFT_WRIST",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_SUM2_G9EC_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_E1M_RW_0_0",
+          "uniqueNameHash": "DLC_MP_SUM2_G9EC_M_PRIGHT_WRIST_0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 166
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "WATCH"
+              },
+              {
+                "tagNameHash": "CUFF"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_RIGHT_WRIST",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,4330 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CAgitatedResponses": {
+    "Responses": {
+      "Item": [
+        {
+          "TalkResponse": {
+            "Audio": {
+              "Context": "GENERIC_INSULT_MED",
+              "Flags": "IsInsulting ForcePlay AllowRepeat"
+            }
+          },
+          "FollowUps": {
+            "Item": {
+              "Audio": {
+                "Context": "DONT_IGNORE_ME_INSULT",
+                "Flags": "IsInsulting ForcePlay AllowRepeat"
+              },
+              "@_key": "DONT_IGNORE_ME"
+            }
+          },
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": [
+                    "HandleSwimming",
+                    "HandleNoPavementHarassed",
+                    "HandleNoPavement",
+                    "HandleTerritoryIntrusion",
+                    "EvaluateDueToProvoked",
+                    "WalkAway",
+                    "HurryAway"
+                  ]
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "Actions": {
+                    "Action": [
+                      {
+                        "@_type": "CAgitatedActionIgnoreForcedAudioFailures"
+                      },
+                      {
+                        "Min": {
+                          "@_value": 1
+                        },
+                        "@_type": "CAgitatedActionFear"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedActionMulti"
+                },
+                "Flags": "UseWhenForcedAudioFails",
+                "Reactions": {
+                  "Item": "HandleForcedAudioFailure"
+                },
+                "@_key": "HandleForcedAudioFailure"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "RunAwayDueToHostility",
+                    "DodgedVehicle",
+                    "Harassed",
+                    "Loitering",
+                    "WalkAwayDueToFear",
+                    "HurryAwayDueToFear",
+                    "RunAwayDueToFear",
+                    "BumpedInVehicle",
+                    "Griefing",
+                    "ThreatenToCallPolice",
+                    "WalkAwayDueToUsingScenario",
+                    "HurryAwayDueToUsingScenario",
+                    "Ignore"
+                  ]
+                },
+                "@_key": "Evaluate"
+              },
+              {
+                "Action": {
+                  "Actions": {
+                    "Item": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "Action": {
+                          "@_type": "CAgitatedScenarioNormalCowardExit"
+                        },
+                        "@_type": "CAgitatedActionConditional"
+                      },
+                      {
+                        "@_type": "CAgitatedActionFace"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedActionMulti"
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartFaceDueToScenario",
+                    "RestartFaceDueToNoAction",
+                    "NoPavementThreatenToCallPolice",
+                    "HurryAwayDueToCantCallPolice",
+                    "RunAwayDueToHostility",
+                    "WalkAwayDueToTimeout",
+                    "HurryAwayDueToTimeout",
+                    "ResumeDueToDistance"
+                  ]
+                },
+                "@_key": "Face"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "HurryAwayAfterCallingPolice",
+                    "RunAwayDueToHostility"
+                  ]
+                },
+                "@_key": "CallingPolice"
+              },
+              {
+                "Action": {
+                  "@_type": "CAgitatedActionHurryAway"
+                },
+                "Reactions": {
+                  "Item": "RunAwayDueToHostility"
+                },
+                "@_key": "HurryAwayNoPavement"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "NoPavementCallPoliceTimeout",
+                    "RunAwayDueToHostility",
+                    "ResumeDueToDistance"
+                  ]
+                },
+                "@_key": "NoPavementWait"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsWandering"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsGettingUp"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsAvoiding"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Item": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "@_type": "CAgitatedActionFace"
+                            },
+                            {
+                              "Condition": {
+                                "Conditions": {
+                                  "Condition": [
+                                    {
+                                      "Type": "AT_Bumped",
+                                      "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                                    },
+                                    {
+                                      "Type": "AT_BumpedByVehicle",
+                                      "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                                    }
+                                  ]
+                                },
+                                "@_type": "CAgitatedConditionOr"
+                              },
+                              "Action": {
+                                "Say": {
+                                  "Audio": {
+                                    "Context": "GENERIC_WHATEVER",
+                                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                                  },
+                                  "Flags": "IgnoreForcedFailure WaitForExistingAudioToFinish WaitUntilFacing"
+                                },
+                                "@_type": "CAgitatedActionSay"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "Condition": {
+                                "Type": "AT_DodgedVehicle",
+                                "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                              },
+                              "Action": {
+                                "Say": {
+                                  "Audio": {
+                                    "Context": "GENERIC_INSULT_HIGH",
+                                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                                  },
+                                  "Flags": "IgnoreForcedFailure WaitForExistingAudioToFinish WaitUntilFacing"
+                                },
+                                "@_type": "CAgitatedActionSay"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartIgnoreDueToNoAction",
+                    "FinishDueToTimeout",
+                    "RunAwayDueToHostility",
+                    "WalkAwayDueToTimeout",
+                    "HurryAwayDueToTimeout",
+                    "EscalateDueToInactivity",
+                    "IgnoreProvokedDueToUsingScenario",
+                    "EvaluateDueToProvoked"
+                  ]
+                },
+                "@_key": "Ignore"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "@_type": "CAgitatedActionFace"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": "FinishDueToTimeout"
+                },
+                "@_key": "BumpedInVehicle"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToTimeoutAfterHarassed",
+                    "WalkAwayDueToProvokedAfterHarassed"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "DONT_IGNORE_ME",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Harassed"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToTimeoutAfterHarassed",
+                    "NoPavementProgressDueToProvoked"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "DONT_IGNORE_ME",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "HarassedNoPavement"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      },
+                      "Action": {
+                        "@_type": "CAgitatedActionMakeAggressiveDriver"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFleeing"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "MoveBlendRatio": {
+                                "@_value": 1
+                              },
+                              "@_type": "CAgitatedActionFlee"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartWalkAwayDueToScenario",
+                    "RestartWalkAwayDueToNoAction",
+                    "RunAwayDueToHostility",
+                    "IgnoreProvokedDueToUsingScenario",
+                    "RunAwayDueToProvoked"
+                  ]
+                },
+                "@_key": "WalkAway"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      },
+                      "Action": {
+                        "@_type": "CAgitatedActionMakeAggressiveDriver"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsHurryingAway"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "@_type": "CAgitatedActionHurryAway"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartHurryAwayDueToScenario",
+                    "RestartHurryAwayDueToNoAction",
+                    "RunAwayDueToHostility",
+                    "IgnoreProvokedDueToUsingScenario",
+                    "RunAwayDueToProvoked"
+                  ]
+                },
+                "@_key": "HurryAway"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFleeing"
+                      },
+                      "Action": {
+                        "MoveBlendRatio": {
+                          "@_value": 1.75
+                        },
+                        "@_type": "CAgitatedActionSetFleeMoveBlendRatio"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "MoveBlendRatio": {
+                                "@_value": 1.75
+                              },
+                              "AmbientClips": "HURRY",
+                              "@_type": "CAgitatedActionFlee"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartRunAwayDueToScenario",
+                    "RestartRunAwayDueToNoAction",
+                    "IgnoreProvokedDueToUsingScenario",
+                    "SprintAwayDueToProvoked"
+                  ]
+                },
+                "@_key": "RunAway"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFleeing"
+                      },
+                      "Action": {
+                        "MoveBlendRatio": {
+                          "@_value": 1.75
+                        },
+                        "@_type": "CAgitatedActionSetFleeMoveBlendRatio"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "MoveBlendRatio": {
+                                "@_value": 1.75
+                              },
+                              "@_type": "CAgitatedActionFlee"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartRunAwayDueToScenario",
+                    "RestartRunAwayDueToNoAction",
+                    "IgnoreProvokedDueToUsingScenario",
+                    "SprintAwayDueToProvoked"
+                  ]
+                },
+                "@_key": "SwimAway"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFleeing"
+                      },
+                      "Action": {
+                        "MoveBlendRatio": {
+                          "@_value": 2.75
+                        },
+                        "@_type": "CAgitatedActionSetFleeMoveBlendRatio"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioNormalCowardExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "MoveBlendRatio": {
+                                "@_value": 2.75
+                              },
+                              "AmbientClips": "HURRY",
+                              "@_type": "CAgitatedActionFlee"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartSprintAwayDueToScenario",
+                    "RestartSprintAwayDueToNoAction"
+                  ]
+                },
+                "@_key": "SprintAway"
+              },
+              {
+                "Flags": "FinalState",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "State": "Evaluate",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HandleForcedAudioFailure"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsSwimming"
+                },
+                "Action": {
+                  "Time": {
+                    "@_value": "45.0f"
+                  },
+                  "@_type": "CAgitatedSetWaterSurvivalTime"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsUsingScenario"
+                  },
+                  "Action": {
+                    "@_type": "CAgitatedScenarioNormalCowardExit"
+                  }
+                },
+                "State": "SwimAway",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HandleSwimming"
+              },
+              {
+                "Condition": {
+                  "Condition": {
+                    "Conditions": {
+                      "Condition": [
+                        {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        {
+                          "@_type": "CAgitatedConditionCanWalkAway"
+                        }
+                      ]
+                    },
+                    "@_type": "CAgitatedConditionOr"
+                  },
+                  "@_type": "CAgitatedConditionNot"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsUsingScenario"
+                  },
+                  "Action": {
+                    "@_type": "CAgitatedScenarioNormalCowardExit"
+                  }
+                },
+                "State": "Face",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HandleNoPavement"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsTerritoryIntruded"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsUsingScenario"
+                  },
+                  "Action": {
+                    "@_type": "CAgitatedScenarioNormalCowardExit"
+                  }
+                },
+                "State": "Face",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HandleTerritoryIntrusion"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Time": {
+                          "@_value": 2
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionOr"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "Conditions": {
+                      "Condition": [
+                        {
+                          "Value": "HasThreatenedToCallPolice",
+                          "@_type": "CAgitatedConditionIsHash"
+                        },
+                        {
+                          "@_type": "CAgitatedConditionCanCallPolice"
+                        }
+                      ]
+                    },
+                    "@_type": "CAgitatedConditionAnd"
+                  },
+                  "Action": {
+                    "@_type": "CAgitatedActionCallPolice"
+                  }
+                },
+                "State": "CallingPolice",
+                "Fear": {
+                  "@_value": 0.4
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "NoPavementCallPoliceTimeout"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Time": {
+                          "@_value": "2.0f"
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsCallingPolice"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAwayNoPavement",
+                "Fear": {
+                  "@_value": 0
+                },
+                "Flags": "",
+                "@_key": "HurryAwayAfterCallingPolice"
+              },
+              {
+                "Condition": {
+                  "Distance": {
+                    "@_value": 5
+                  },
+                  "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                },
+                "State": "Finish",
+                "@_key": "ResumeDueToDistance"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "Value": "HasThreatenedToCallPolice",
+                    "@_type": "CAgitatedConditionIsHash"
+                  },
+                  "Action": {
+                    "Actions": {
+                      "Action": [
+                        {
+                          "@_type": "CAgitatedActionReportCrime"
+                        },
+                        {
+                          "Value": "HasReportedCrime",
+                          "@_type": "CAgitatedActionSetHash"
+                        }
+                      ]
+                    },
+                    "@_type": "CAgitatedActionMulti"
+                  }
+                },
+                "State": "Evaluate",
+                "Fear": {
+                  "@_value": 0.4
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "EvaluateDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsDodgedVehicle"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "DodgedVehicle"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsHarassed"
+                },
+                "State": "Harassed",
+                "@_key": "Harassed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsHarassed"
+                },
+                "State": "HarassedNoPavement",
+                "@_key": "HandleNoPavementHarassed"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "ConditionalAction": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsUsingScenario"
+                  },
+                  "Action": {
+                    "@_type": "CAgitatedScenarioNormalCowardExit"
+                  }
+                },
+                "State": "Face",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "NoPavementProgressDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsLoitering"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "Loitering"
+              },
+              {
+                "State": "Ignore",
+                "ConditionalSays": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsBumped"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionWasRecentlyBumpedWhenStill"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "GENERIC_INSULT_MED",
+                          "Flags": "ForcePlay AllowRepeat"
+                        },
+                        "Flags": "CanInterrupt IgnoreForcedFailure"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsBumped"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "BUMP",
+                          "Flags": "ForcePlay AllowRepeat"
+                        },
+                        "Flags": "CanInterrupt IgnoreForcedFailure"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsBumpedByVehicle"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "DODGE",
+                          "Flags": "ForcePlay AllowRepeat"
+                        },
+                        "Flags": "CanInterrupt IgnoreForcedFailure"
+                      }
+                    },
+                    {
+                      "Say": {
+                        "Audio": {
+                          "Context": "APOLOGY_NO_TROUBLE",
+                          "Flags": "ForcePlay AllowRepeat"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "@_key": "Ignore"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsWandering"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Ignore",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartIgnoreDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Time": {
+                          "@_value": 2
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsWandering"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "Distance": {
+                            "@_value": 3
+                          },
+                          "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAgitatorMovingAway"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "Action": {
+                  "Type": "AT_Loitering",
+                  "@_type": "CAgitatedActionApplyAgitation"
+                },
+                "State": "Evaluate",
+                "Fear": {
+                  "@_value": 0.4
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "EscalateDueToInactivity"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionCanCallPolice"
+                      },
+                      {
+                        "Chances": {
+                          "@_value": 0.15
+                        },
+                        "@_type": "CAgitatedConditionRandom"
+                      },
+                      {
+                        "Condition": {
+                          "Value": "HasThreatenedToCallPolice",
+                          "@_type": "CAgitatedConditionIsHash"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "Value": "HasReportedCrime",
+                          "@_type": "CAgitatedConditionIsHash"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsInsulted"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "Action": {
+                  "Value": "HasThreatenedToCallPolice",
+                  "@_type": "CAgitatedActionSetHash"
+                },
+                "State": "Ignore",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "CALL_COPS_THREAT",
+                    "Flags": "ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "ThreatenToCallPolice"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionCanCallPolice"
+                      },
+                      {
+                        "Condition": {
+                          "Value": "HasThreatenedToCallPolice",
+                          "@_type": "CAgitatedConditionIsHash"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Time": {
+                                "@_value": 2
+                              },
+                              "@_type": "CAgitatedConditionTimeout"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsProvoked"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "Action": {
+                  "Value": "HasThreatenedToCallPolice",
+                  "@_type": "CAgitatedActionSetHash"
+                },
+                "State": "NoPavementWait",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "CALL_COPS_THREAT",
+                    "Flags": "ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "NoPavementThreatenToCallPolice"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionCanCallPolice"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Time": {
+                                "@_value": 4
+                              },
+                              "@_type": "CAgitatedConditionTimeout"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsProvoked"
+                            },
+                            {
+                              "Conditions": {
+                                "Condition": [
+                                  {
+                                    "Time": {
+                                      "@_value": 1
+                                    },
+                                    "@_type": "CAgitatedConditionTimeout"
+                                  },
+                                  {
+                                    "Condition": {
+                                      "Distance": {
+                                        "@_value": 1.5
+                                      },
+                                      "@_type": "CAgitatedConditionIsOutsideDistance"
+                                    },
+                                    "@_type": "CAgitatedConditionNot"
+                                  }
+                                ]
+                              },
+                              "@_type": "CAgitatedConditionAnd"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAwayNoPavement",
+                "Fear": {
+                  "@_value": 1
+                },
+                "@_key": "HurryAwayDueToCantCallPolice"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsBumpedInVehicle"
+                },
+                "State": "BumpedInVehicle",
+                "Say": {
+                  "Audio": {
+                    "Context": "CRASH_GENERIC",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "BumpedInVehicle"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsGriefing"
+                },
+                "State": "Face",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_INSULT_MED",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure WaitUntilFacing"
+                },
+                "@_key": "Griefing"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "Chances": {
+                          "@_value": 0.5
+                        },
+                        "@_type": "CAgitatedConditionRandom"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "WalkAway"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "Threshold": {
+                          "@_value": 0.75
+                        },
+                        "@_type": "CAgitatedConditionIsFearful"
+                      },
+                      {
+                        "Chances": {
+                          "@_value": 0.5
+                        },
+                        "@_type": "CAgitatedConditionRandom"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "ConditionalSay": {
+                  "Condition": {
+                    "Condition": {
+                      "Value": "HasReportedCrime",
+                      "@_type": "CAgitatedConditionIsHash"
+                    },
+                    "@_type": "CAgitatedConditionNot"
+                  },
+                  "Say": {
+                    "Audio": {
+                      "Context": "GENERIC_WHATEVER",
+                      "Flags": "ForcePlay AllowRepeat"
+                    },
+                    "Flags": "IgnoreForcedFailure"
+                  }
+                },
+                "@_key": "WalkAwayDueToFear"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "Fear": {
+                  "@_value": 1
+                },
+                "@_key": "WalkAwayDueToProvokedAfterHarassed"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsWandering"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Type": "AT_Bumped",
+                              "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                            },
+                            {
+                              "Type": "AT_BumpedByVehicle",
+                              "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                            },
+                            {
+                              "Type": "AT_BumpedInVehicle",
+                              "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                            },
+                            {
+                              "Type": "AT_Dodged",
+                              "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                            },
+                            {
+                              "Type": "AT_Griefing",
+                              "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      },
+                      {
+                        "Time": {
+                          "@_value": 0.1
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "@_key": "WalkAwayDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Chances": {
+                          "@_value": 0.5
+                        },
+                        "@_type": "CAgitatedConditionRandom"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "WalkAwayDueToUsingScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Flags": "DontClearSay",
+                "@_key": "RestartWalkAwayDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFleeing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WalkAway",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartWalkAwayDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Face",
+                "Flags": "DontClearSay",
+                "@_key": "RestartFaceDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Face",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartFaceDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanWalkAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "@_key": "IgnoreProvokedDueToUsingScenario"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionCanHurryAway"
+                },
+                "State": "HurryAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HurryAway"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "Threshold": {
+                          "@_value": 0.75
+                        },
+                        "@_type": "CAgitatedConditionIsFearful"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "ConditionalSay": {
+                  "Condition": {
+                    "Condition": {
+                      "Value": "HasReportedCrime",
+                      "@_type": "CAgitatedConditionIsHash"
+                    },
+                    "@_type": "CAgitatedConditionNot"
+                  },
+                  "Say": {
+                    "Audio": {
+                      "Context": "GENERIC_WHATEVER",
+                      "Flags": "ForcePlay AllowRepeat"
+                    },
+                    "Flags": "IgnoreForcedFailure"
+                  }
+                },
+                "@_key": "HurryAwayDueToFear"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsWandering"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": {
+                            "Type": "AT_DodgedVehicle",
+                            "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                          }
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      },
+                      {
+                        "Time": {
+                          "@_value": 0.1
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "@_key": "HurryAwayDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HurryAwayDueToUsingScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_WHATEVER",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HurryAwayDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "Flags": "DontClearSay",
+                "@_key": "RestartHurryAwayDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionCanHurryAway"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsHurryingAway"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "HurryAway",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartHurryAwayDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "State": "RunAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_FRIGHTENED_MED",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "RunAwayDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsHostile"
+                },
+                "State": "RunAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_FRIGHTENED_MED",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "RunAwayDueToHostility"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "RunAway",
+                "Flags": "DontClearSay",
+                "@_key": "RestartRunAwayDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFleeing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "RunAway",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartRunAwayDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": {
+                      "Threshold": {
+                        "@_value": 0.75
+                      },
+                      "@_type": "CAgitatedConditionIsFearful"
+                    }
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "RunAway",
+                "ConditionalSay": {
+                  "Condition": {
+                    "Condition": {
+                      "Value": "HasReportedCrime",
+                      "@_type": "CAgitatedConditionIsHash"
+                    },
+                    "@_type": "CAgitatedConditionNot"
+                  },
+                  "Say": {
+                    "Audio": {
+                      "Context": "GENERIC_FRIGHTENED_MED",
+                      "Flags": "ForcePlay AllowRepeat"
+                    },
+                    "Flags": "IgnoreForcedFailure"
+                  }
+                },
+                "@_key": "RunAwayDueToFear"
+              },
+              {
+                "Condition": {
+                  "IgnoreHostility": {
+                    "@_value": true
+                  },
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "State": "SprintAway",
+                "Fear": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "DISPUTE_FLEE"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "SprintAwayDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "SprintAway",
+                "Flags": "DontClearSay",
+                "@_key": "RestartSprintAwayDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFleeing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "SprintAway",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartSprintAwayDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 3
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 10
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToTimeoutAfterHarassed"
+              }
+            ]
+          },
+          "@_key": "Coward"
+        },
+        {
+          "Flags": "ProcessLeader",
+          "OnFootClipSets": {
+            "Item": {
+              "Condition": {
+                "@_type": "CAgitatedConditionIsMale"
+              },
+              "Name": "move_m@brave@b",
+              "Flags": "DontReset"
+            }
+          },
+          "TalkResponses": {
+            "Item": [
+              {
+                "Audio": {
+                  "Context": "GENERIC_INSULT_MED",
+                  "Flags": "IsInsulting ForcePlay AllowRepeat"
+                }
+              },
+              {
+                "Audio": {
+                  "Context": "GENERIC_FUCK_YOU",
+                  "Flags": "IsInsulting ForcePlay AllowRepeat"
+                }
+              }
+            ]
+          },
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "ConditionalAction": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsAgitatorArmed"
+                  },
+                  "Action": {
+                    "Add": {
+                      "@_value": 0.25
+                    },
+                    "@_type": "CAgitatedActionAnger"
+                  }
+                },
+                "Reactions": {
+                  "Item": [
+                    "HandleSwimming",
+                    "Ignore",
+                    "EvaluateDueToProvoked",
+                    "Evaluate"
+                  ]
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "Actions": {
+                    "Action": [
+                      {
+                        "@_type": "CAgitatedActionIgnoreForcedAudioFailures"
+                      },
+                      {
+                        "Min": {
+                          "@_value": 0.5
+                        },
+                        "@_type": "CAgitatedActionAnger"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedActionMulti"
+                },
+                "Flags": "UseWhenForcedAudioFails",
+                "Reactions": {
+                  "Item": "HandleForcedAudioFailure"
+                },
+                "@_key": "HandleForcedAudioFailure"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "CowardDueToCantFight",
+                    "FightDueToHostility",
+                    "FightDueToAnger",
+                    "ConfrontDueToAnger",
+                    "ChallengeDueToAnger"
+                  ]
+                },
+                "@_key": "Evaluate"
+              },
+              {
+                "Action": {
+                  "Response": "Coward",
+                  "@_type": "CAgitatedActionChangeResponse"
+                },
+                "@_key": "Coward"
+              },
+              {
+                "Action": {
+                  "Response": "HelpWithConfront",
+                  "@_type": "CAgitatedActionChangeResponse"
+                },
+                "@_key": "Help"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToTimeoutAfterIgnore",
+                    "EvaluateDueToProvoked"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "DONT_IGNORE_ME",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Ignore"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      },
+                      "Action": {
+                        "@_type": "CAgitatedActionMakeAggressiveDriver"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsConfronting"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsLawEnforcement"
+                              },
+                              "Action": {
+                                "AmbientClips": "BRAVE_IDLES",
+                                "@_type": "CAgitatedActionConfront"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "Condition": {
+                                "Condition": {
+                                  "@_type": "CAgitatedConditionIsLawEnforcement"
+                                },
+                                "@_type": "CAgitatedConditionNot"
+                              },
+                              "Action": {
+                                "AmbientClips": "BRAVE_IDLES",
+                                "@_type": "CAgitatedActionFace"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "HelpDueToLeader",
+                    "RestartChallengeDueToScenario",
+                    "RestartChallengeDueToNoAction",
+                    "VictoryDueToDistance",
+                    "VictoryDueToInactivity",
+                    "FightDueToHostility",
+                    "ConfrontDueToInactivity",
+                    "EvaluateDueToProvoked"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "GENERIC_FUCK_YOU",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Challenge"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsInVehicle"
+                            },
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsLawEnforcement"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            },
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsFlippingOff"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Action": {
+                        "Time": {
+                          "@_value": 3
+                        },
+                        "@_type": "CAgitatedActionFlipOff"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsDrivingVehicle"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsLawEnforcement"
+                            },
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsSirenOn"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Action": {
+                        "Time": {
+                          "@_value": 1
+                        },
+                        "@_type": "CAgitatedActionTurnOnSiren"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsConfronting"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "AmbientClips": "BRAVE_IDLES",
+                              "@_type": "CAgitatedActionConfront"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "HelpDueToLeader",
+                    "RestartConfrontDueToScenario",
+                    "RestartConfrontDueToNoAction",
+                    "VictoryDueToDistance",
+                    "VictoryDueToInactivity",
+                    "FightDueToHostility",
+                    "FightDueToInactivity",
+                    "EvaluateDueToProvoked"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "FIGHT",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Confront"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFighting"
+                      },
+                      "Action": {
+                        "Value": "HasStartedFighting",
+                        "@_type": "CAgitatedActionSetHash"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "@_type": "CAgitatedActionFight"
+                            },
+                            {
+                              "Value": "HasStartedFighting",
+                              "@_type": "CAgitatedActionSetHash"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartFightDueToScenario",
+                    "RestartFightDueToNoAction",
+                    "VictoryDueToEnd",
+                    "FinishDueToEnd"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "GENERIC_FUCK_YOU",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Fight"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInVehicle"
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "AmbientClips": "BRAVE_IDLES",
+                        "@_type": "CAgitatedActionFace"
+                      }
+                    }
+                  ]
+                },
+                "Flags": "ClearHostility",
+                "Reactions": {
+                  "Item": [
+                    "RestartVictoryDueToNoAction",
+                    "EvaluateDueToProvoked",
+                    "FinishDueToTimeout"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "GENERIC_FUCK_YOU",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Victory"
+              },
+              {
+                "Flags": "FinalState",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "State": "Evaluate",
+                "@_key": "Evaluate"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsSwimming"
+                },
+                "State": "Coward",
+                "@_key": "HandleSwimming"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsHarassed"
+                },
+                "State": "Ignore",
+                "@_key": "Ignore"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "State": "Evaluate",
+                "Anger": {
+                  "@_value": 0.25
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "EvaluateDueToProvoked"
+              },
+              {
+                "State": "Evaluate",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_INSULT_MED",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "HandleForcedAudioFailure"
+              },
+              {
+                "Condition": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionCanFight"
+                  },
+                  "@_type": "CAgitatedConditionNot"
+                },
+                "State": "Coward",
+                "Flags": "DontClearFlags",
+                "@_key": "CowardDueToCantFight"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionHasLeader"
+                      },
+                      {
+                        "Name": "Confront",
+                        "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Help",
+                "@_key": "HelpDueToLeader"
+              },
+              {
+                "State": "Challenge",
+                "ConditionalSays": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsInsulted"
+                      },
+                      "Say": {
+                        "Audios": {
+                          "Item": [
+                            {
+                              "Context": "GENERIC_FUCK_YOU",
+                              "Flags": "IsInsulting ForcePlay AllowRepeat"
+                            },
+                            {
+                              "Context": "GENERIC_INSULT_MED",
+                              "Flags": "IsInsulting ForcePlay AllowRepeat"
+                            }
+                          ]
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsBumped"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsDodged"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_BUMPED_INTO",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsBumpedInVehicle"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_HIT_CAR",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsLoitering"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_STARING",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFollowing"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_FOLLOWING",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsTerritoryIntruded"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_TRESPASS",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsIntervene"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionWasLeaderHit"
+                            },
+                            {
+                              "Context": "HIT_WOMAN",
+                              "@_type": "CAgitatedConditionHasContext"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "HIT_WOMAN",
+                          "Flags": "IsInsulting"
+                        }
+                      }
+                    },
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      },
+                      "Say": {
+                        "Audio": {
+                          "Context": "PROVOKE_GENERIC",
+                          "Flags": "IsInsulting ForcePlay AllowRepeat"
+                        }
+                      }
+                    }
+                  ]
+                },
+                "@_key": "ChallengeDueToAnger"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Challenge",
+                "Flags": "DontClearSay",
+                "@_key": "RestartChallengeDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsConfronting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Challenge",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartChallengeDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Time": {
+                          "@_value": 2
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAgitatorMovingAway"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Condition": {
+                                "Distance": {
+                                  "@_value": 1
+                                },
+                                "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsAgitatorInOurTerritory"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      },
+                      {
+                        "Condition": {
+                          "Type": "AT_DodgedVehicle",
+                          "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "Type": "AT_HonkedAt",
+                          "@_type": "CAgitatedConditionIsLastAgitationApplied"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "Action": {
+                  "Type": "AT_Loitering",
+                  "@_type": "CAgitatedActionApplyAgitation"
+                },
+                "State": "Evaluate",
+                "Anger": {
+                  "@_value": 0.25
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "ConfrontDueToInactivity"
+              },
+              {
+                "Condition": {
+                  "Threshold": {
+                    "@_value": 0.3
+                  },
+                  "@_type": "CAgitatedConditionIsAngry"
+                },
+                "State": "Confront",
+                "Say": {
+                  "Audio": {
+                    "Context": "CHALLENGE_THREATEN",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "ConfrontDueToAnger"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Confront",
+                "Flags": "DontClearSay",
+                "@_key": "RestartConfrontDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsConfronting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Confront",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartConfrontDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Time": {
+                          "@_value": 1.5
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAgitatorMovingAway"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "Condition": {
+                                "Distance": {
+                                  "@_value": 1
+                                },
+                                "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsAgitatorInOurTerritory"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "Action": {
+                  "Type": "AT_Loitering",
+                  "@_type": "CAgitatedActionApplyAgitation"
+                },
+                "State": "Evaluate",
+                "Anger": {
+                  "@_value": 0.25
+                },
+                "Flags": "DontClearFlags",
+                "@_key": "FightDueToInactivity"
+              },
+              {
+                "Condition": {
+                  "Threshold": {
+                    "@_value": 0.55
+                  },
+                  "@_type": "CAgitatedConditionIsAngry"
+                },
+                "State": "Fight",
+                "Say": {
+                  "Audio": {
+                    "Context": "FIGHT",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  },
+                  "Flags": "IgnoreForcedFailure"
+                },
+                "@_key": "FightDueToAnger"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsHostile"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionWasUsingTerritorialScenario"
+                            },
+                            {
+                              "@_type": "CAgitatedConditionIsAgitatorEnteringVehicle"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionAnd"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionOr"
+                },
+                "State": "Fight",
+                "Anger": {
+                  "@_value": 1
+                },
+                "Say": {
+                  "Audio": {
+                    "Context": "FIGHT",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "FightDueToHostility"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Fight",
+                "Flags": "DontClearSay",
+                "@_key": "RestartFightDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFighting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "Value": "HasStartedFighting",
+                          "@_type": "CAgitatedConditionIsHash"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Fight",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartFightDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Distance": {
+                    "@_value": 5
+                  },
+                  "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                },
+                "State": "Victory",
+                "Say": {
+                  "Audio": {
+                    "Context": "WON_DISPUTE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "VictoryDueToDistance"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 3.5
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Victory",
+                "Say": {
+                  "Audio": {
+                    "Context": "WON_DISPUTE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "VictoryDueToInactivity"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInjured"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsAgitatorInjured"
+                            },
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsFighting"
+                              },
+                              "@_type": "CAgitatedConditionNot"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      },
+                      {
+                        "Time": {
+                          "@_value": 0.5
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Victory",
+                "Say": {
+                  "Audio": {
+                    "Context": "WON_DISPUTE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "VictoryDueToEnd"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsInVehicle"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Victory",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartVictoryDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFighting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsInjured"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToEnd"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 1
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 10
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToTimeoutAfterIgnore"
+              }
+            ]
+          },
+          "@_key": "Confront"
+        },
+        {
+          "OnFootClipSets": {
+            "Item": {
+              "Condition": {
+                "@_type": "CAgitatedConditionIsMale"
+              },
+              "Name": "move_m@brave@b",
+              "Flags": "DontReset"
+            }
+          },
+          "TalkResponses": {
+            "Item": [
+              {
+                "Audio": {
+                  "Context": "GENERIC_INSULT_MED",
+                  "Flags": "IsInsulting ForcePlay AllowRepeat"
+                }
+              },
+              {
+                "Audio": {
+                  "Context": "GENERIC_FUCK_YOU",
+                  "Flags": "IsInsulting ForcePlay AllowRepeat"
+                }
+              }
+            ]
+          },
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": [
+                    "Ignore",
+                    "Face"
+                  ]
+                },
+                "@_key": "Start"
+              },
+              {
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToLeaderNotConfronting",
+                    "FightDueToLeader",
+                    "FightDueToHostility",
+                    "ConfrontDueToNoLeader",
+                    "ConfrontDueToProvoked",
+                    "FaceDueToLeader"
+                  ]
+                },
+                "@_key": "Ignore"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "AmbientClips": "BRAVE_IDLES",
+                              "@_type": "CAgitatedActionFace"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Flags": "UseWhenForcedAudioFails",
+                "Reactions": {
+                  "Item": [
+                    "RestartFaceDueToNoAction",
+                    "FinishDueToLeaderNotConfronting",
+                    "FightDueToLeader",
+                    "FightDueToHostility",
+                    "ConfrontDueToNoLeader",
+                    "ConfrontDueToProvoked",
+                    "ListenToLeader"
+                  ]
+                },
+                "@_key": "Face"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "AmbientClips": "BRAVE_IDLES",
+                              "@_type": "CAgitatedActionFace"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartWaitForLeaderToStopTalkingDueToNoAction",
+                    "FinishDueToLeaderNotConfronting",
+                    "FightDueToLeader",
+                    "FightDueToHostility",
+                    "ConfrontDueToNoLeader",
+                    "ConfrontDueToProvoked",
+                    "DelayBeforeTalking"
+                  ]
+                },
+                "@_key": "WaitForLeaderToStopTalking"
+              },
+              {
+                "ConditionalActions": {
+                  "Item": [
+                    {
+                      "Condition": {
+                        "@_type": "CAgitatedConditionIsFacing"
+                      }
+                    },
+                    {
+                      "Action": {
+                        "Actions": {
+                          "Action": [
+                            {
+                              "Condition": {
+                                "@_type": "CAgitatedConditionIsUsingScenario"
+                              },
+                              "Action": {
+                                "@_type": "CAgitatedScenarioExit"
+                              },
+                              "@_type": "CAgitatedActionConditional"
+                            },
+                            {
+                              "AmbientClips": "BRAVE_IDLES",
+                              "@_type": "CAgitatedActionFace"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedActionMulti"
+                      }
+                    }
+                  ]
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartWaitForDelayDueToNoAction",
+                    "FinishDueToLeaderNotConfronting",
+                    "FightDueToLeader",
+                    "FightDueToHostility",
+                    "ConfrontDueToNoLeader",
+                    "ConfrontDueToProvoked",
+                    "ListenToLeader",
+                    "ListenToFriendly",
+                    "Talk"
+                  ]
+                },
+                "@_key": "WaitForDelay"
+              },
+              {
+                "Action": {
+                  "Response": "Confront",
+                  "@_type": "CAgitatedActionChangeResponse"
+                },
+                "@_key": "Confront"
+              },
+              {
+                "Action": {
+                  "Response": "Confront",
+                  "State": "Fight",
+                  "@_type": "CAgitatedActionChangeResponse"
+                },
+                "@_key": "Fight"
+              },
+              {
+                "Flags": "FinalState",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionHasLeader"
+                      },
+                      {
+                        "Name": "Confront",
+                        "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                      },
+                      {
+                        "State": "Ignore",
+                        "@_type": "CAgitatedConditionIsLeaderInState"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Ignore",
+                "@_key": "Ignore"
+              },
+              {
+                "State": "Face",
+                "@_key": "Face"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionHasLeader"
+                      },
+                      {
+                        "Condition": {
+                          "Conditions": {
+                            "Condition": [
+                              {
+                                "Name": "Confront",
+                                "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                              },
+                              {
+                                "State": "Ignore",
+                                "@_type": "CAgitatedConditionIsLeaderInState"
+                              }
+                            ]
+                          },
+                          "@_type": "CAgitatedConditionAnd"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Face",
+                "@_key": "FaceDueToLeader"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Face",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartFaceDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsLeaderTalking"
+                      },
+                      {
+                        "Condition": {
+                          "State": "Victory",
+                          "@_type": "CAgitatedConditionIsLeaderInState"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WaitForLeaderToStopTalking",
+                "@_key": "ListenToLeader"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WaitForLeaderToStopTalking",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartWaitForLeaderToStopTalkingDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionIsLeaderTalking"
+                  },
+                  "@_type": "CAgitatedConditionNot"
+                },
+                "State": "WaitForDelay",
+                "@_key": "DelayBeforeTalking"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsStanding"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFacing"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingRagdoll"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsGettingUp"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAvoiding"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "WaitForDelay",
+                "Flags": "DontClearFlags DontClearSay",
+                "@_key": "RestartWaitForDelayDueToNoAction"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsFriendlyTalking"
+                },
+                "State": "Face",
+                "@_key": "ListenToFriendly"
+              },
+              {
+                "Condition": {
+                  "MinTime": {
+                    "@_value": 0.3
+                  },
+                  "MaxTime": {
+                    "@_value": 0.6
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Face",
+                "Say": {
+                  "Audios": {
+                    "Item": [
+                      {
+                        "Context": "GENERIC_FUCK_YOU",
+                        "Flags": "IsInsulting ForcePlay AllowRepeat IsIgnored"
+                      },
+                      {
+                        "Context": "PROVOKE_GENERIC",
+                        "Flags": "IsInsulting ForcePlay AllowRepeat IsIgnored"
+                      },
+                      {
+                        "Context": "GENERIC_INSULT_MED",
+                        "Flags": "IsInsulting ForcePlay AllowRepeat IsIgnored"
+                      }
+                    ]
+                  },
+                  "Flags": "CanInterrupt"
+                },
+                "@_key": "Talk"
+              },
+              {
+                "Condition": {
+                  "Condition": {
+                    "@_type": "CAgitatedConditionHasLeader"
+                  },
+                  "@_type": "CAgitatedConditionNot"
+                },
+                "State": "Confront",
+                "@_key": "ConfrontDueToNoLeader"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsProvoked"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsHostile"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Confront",
+                "Flags": "DontClearFlags",
+                "@_key": "ConfrontDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "MinTime": {
+                    "@_value": 0.35
+                  },
+                  "MaxTime": {
+                    "@_value": 0.6
+                  },
+                  "@_type": "CAgitatedConditionHasLeaderBeenFightingFor"
+                },
+                "State": "Fight",
+                "@_key": "FightDueToLeader"
+              },
+              {
+                "Condition": {
+                  "MinTime": {
+                    "@_value": 0.35
+                  },
+                  "MaxTime": {
+                    "@_value": 0.6
+                  },
+                  "@_type": "CAgitatedConditionHasBeenHostileFor"
+                },
+                "State": "Fight",
+                "@_key": "FightDueToHostility"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionHasLeader"
+                      },
+                      {
+                        "Condition": {
+                          "Name": "Confront",
+                          "@_type": "CAgitatedConditionIsLeaderUsingResponse"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToLeaderNotConfronting"
+              }
+            ]
+          },
+          "@_key": "HelpWithConfront"
+        },
+        {
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": "InsultDueToProvoked"
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "@_type": "CAgitatedActionFace"
+                },
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToProvoked",
+                    "FinishDueToTimeout",
+                    "FinishDueToDistance"
+                  ]
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "GENERIC_INSULT_MED",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Insult"
+              },
+              {
+                "Flags": "FinalState UseWhenForcedAudioFails",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "State": "Insult",
+                "Say": {
+                  "Audio": {
+                    "Context": "GENERIC_INSULT_HIGH",
+                    "Flags": "IsInsulting ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "InsultDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "@_type": "CAgitatedConditionIsProvoked"
+                },
+                "State": "Finish",
+                "Say": {
+                  "Audio": {
+                    "Context": "APOLOGY_NO_TROUBLE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "FinishDueToProvoked"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 5
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Finish",
+                "Say": {
+                  "Audio": {
+                    "Context": "WON_DISPUTE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "FinishDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Distance": {
+                    "@_value": 30
+                  },
+                  "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                },
+                "State": "Finish",
+                "Say": {
+                  "Audio": {
+                    "Context": "WON_DISPUTE",
+                    "Flags": "ForcePlay AllowRepeat"
+                  },
+                  "Flags": "CanInterrupt IgnoreForcedFailure"
+                },
+                "@_key": "FinishDueToDistance"
+              }
+            ]
+          },
+          "@_key": "FlashOfAnger"
+        },
+        {
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": "Rant"
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "@_type": "CAgitatedActionFollow"
+                },
+                "Reactions": {
+                  "Item": "ResumeDueToTimeout"
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "PED_RANT_RESP",
+                    "Flags": "ForcePlay"
+                  }
+                },
+                "@_key": "Rant"
+              },
+              {
+                "Action": {
+                  "@_type": "CAgitatedActionReset"
+                },
+                "Reactions": {
+                  "Item": "CommentDueToTimeout"
+                },
+                "TalkResponse": {
+                  "Audio": {
+                    "Context": "PED_RANT_RESP",
+                    "Flags": "ForcePlay"
+                  }
+                },
+                "@_key": "Resume"
+              },
+              {
+                "Action": {
+                  "Audio": {
+                    "Context": "THATS_INTERESTING",
+                    "Flags": "ForcePlay"
+                  },
+                  "@_type": "CAgitatedActionSayAgitator"
+                },
+                "Reactions": {
+                  "Item": "Finish"
+                },
+                "@_key": "Comment"
+              },
+              {
+                "Flags": "FinalState UseWhenForcedAudioFails",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "State": "Rant",
+                "Say": {
+                  "Audio": {
+                    "Context": "PED_RANT",
+                    "Flags": "ForcePlay AllowRepeat"
+                  }
+                },
+                "@_key": "Rant"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 0.5
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Resume",
+                "@_key": "ResumeDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 2
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Comment",
+                "@_key": "CommentDueToTimeout"
+              },
+              {
+                "State": "Finish",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "@_key": "Rant"
+        },
+        {
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": "Fight"
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "Actions": {
+                    "Action": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "Action": {
+                          "@_type": "CAgitatedScenarioExit"
+                        },
+                        "@_type": "CAgitatedActionConditional"
+                      },
+                      {
+                        "@_type": "CAgitatedActionFight"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedActionMulti"
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartFightDueToScenario",
+                    "FinishDueToLeftTerritory",
+                    "FinishDueToEnd"
+                  ]
+                },
+                "@_key": "Fight"
+              },
+              {
+                "Flags": "FinalState",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "State": "Fight",
+                "@_key": "Fight"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Fight",
+                "@_key": "RestartFightDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsAgitatorInOurTerritory"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsTargetDoingAMeleeMove"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Time": {
+                          "@_value": 3
+                        },
+                        "@_type": "CAgitatedConditionTimeout"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToLeftTerritory"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFighting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsInjured"
+                            },
+                            {
+                              "Time": {
+                                "@_value": 1
+                              },
+                              "@_type": "CAgitatedConditionTimeout"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToEnd"
+              },
+              {
+                "State": "Finish",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "@_key": "Fight"
+        },
+        {
+          "States": {
+            "Item": [
+              {
+                "Flags": "InitialState",
+                "Reactions": {
+                  "Item": "Face"
+                },
+                "@_key": "Start"
+              },
+              {
+                "Action": {
+                  "Actions": {
+                    "Action": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsUsingScenario"
+                        },
+                        "Action": {
+                          "@_type": "CAgitatedScenarioExit"
+                        },
+                        "@_type": "CAgitatedActionConditional"
+                      },
+                      {
+                        "@_type": "CAgitatedActionFace"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedActionMulti"
+                },
+                "Reactions": {
+                  "Item": [
+                    "RestartFaceDueToScenario",
+                    "FinishDueToDistance",
+                    "FightDueToTimeout"
+                  ]
+                },
+                "@_key": "Face"
+              },
+              {
+                "Action": {
+                  "@_type": "CAgitatedActionFight"
+                },
+                "Reactions": {
+                  "Item": [
+                    "FinishDueToDistance",
+                    "FinishDueToEnd"
+                  ]
+                },
+                "@_key": "Fight"
+              },
+              {
+                "Flags": "FinalState",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "Reactions": {
+            "Item": [
+              {
+                "State": "Face",
+                "@_key": "Face"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "@_type": "CAgitatedConditionIsUsingScenario"
+                      },
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsExitingScenario"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "@_type": "CAgitatedConditionIsReadyForScenarioResponse"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Face",
+                "@_key": "RestartFaceDueToScenario"
+              },
+              {
+                "Condition": {
+                  "Time": {
+                    "@_value": 3
+                  },
+                  "@_type": "CAgitatedConditionTimeout"
+                },
+                "State": "Fight",
+                "@_key": "FightDueToTimeout"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsFighting"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Conditions": {
+                          "Condition": [
+                            {
+                              "@_type": "CAgitatedConditionIsInjured"
+                            },
+                            {
+                              "Time": {
+                                "@_value": 1
+                              },
+                              "@_type": "CAgitatedConditionTimeout"
+                            }
+                          ]
+                        },
+                        "@_type": "CAgitatedConditionOr"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "@_key": "FinishDueToEnd"
+              },
+              {
+                "Condition": {
+                  "Conditions": {
+                    "Condition": [
+                      {
+                        "Condition": {
+                          "@_type": "CAgitatedConditionIsTargetDoingAMeleeMove"
+                        },
+                        "@_type": "CAgitatedConditionNot"
+                      },
+                      {
+                        "Distance": {
+                          "@_value": 5
+                        },
+                        "@_type": "CAgitatedConditionIsOutsideClosestDistance"
+                      }
+                    ]
+                  },
+                  "@_type": "CAgitatedConditionAnd"
+                },
+                "State": "Finish",
+                "Say": "",
+                "@_key": "FinishDueToDistance"
+              },
+              {
+                "State": "Finish",
+                "@_key": "Finish"
+              }
+            ]
+          },
+          "@_key": "DogConfront"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1636 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_f_freemode_01",
+    "dlcName": "Female_freemode_business2",
+    "fullDlcName": "mp_f_freemode_01_female_freemode_business2",
+    "creatureMetaData": "",
+    "nameHash": "",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER_F",
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_0",
+          "uniqueNameHash": "DLC_MP_BUS2_F_JBIB0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_ACCS0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_A",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_B",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_C",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_D",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_E",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_F",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_G",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_H",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_I",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_T",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_014",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_015",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_017",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_018",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_019",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_020",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Rstar_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_014",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_015",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_017",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_020",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_021",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_022",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_023",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_025",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_026",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_LTS_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_000_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_001_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_1",
+          "uniqueNameHash": "DLC_MP_BUS2_F_JBIB0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_ACCS0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_J",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Rstar_F_Tshirt_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Award_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Fli_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_002_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_003_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_2",
+          "uniqueNameHash": "DLC_MP_BUS2_F_JBIB0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_2"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 2
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_ACCS0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 6
+                },
+                "eCompType": "PV_COMP_TASK"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_K",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_L",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_M",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_N",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_O",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_P",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_Q",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_R",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_S",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_JBIB"
+        },
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_0",
+          "uniqueNameHash": "DLC_MP_BUS2_F_ACCS0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_JBIB0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_A",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_B",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_C",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_D",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_E",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_F",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_G",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_H",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_I",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_T",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_014",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_015",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_017",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_018",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_019",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_020",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Rstar_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Award_F_Tshirt_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_005",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_014",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_015",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_017",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_020",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_021",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_022",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_023",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_025",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_026",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_LTS_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_000_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_001_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_1",
+          "uniqueNameHash": "DLC_MP_BUS2_F_ACCS0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_JBIB0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_J",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_007",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_008",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Tshirt_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_002",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_003",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_004",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_006",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_009",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_012",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Rstar_F_Tshirt_001",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Award_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Fli_F_Tshirt_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_002_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_FM_OGA_003_f",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        },
+        {
+          "lockHash": "CU_VAL_CLOTHES",
+          "cost": {
+            "@_value": 99
+          },
+          "textLabel": "CLO_VALF_U_2_2",
+          "uniqueNameHash": "DLC_MP_BUS2_F_ACCS0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "MULTI_DECAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_BUS2_F_JBIB0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_JBIB"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_K",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_L",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_M",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_N",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_O",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_P",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_Q",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_R",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "MP_Val_F_Tshirt_S",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_000",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_010",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Hip_F_Retro_013",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              },
+              {
+                "nameHash": "FM_Ind_F_Tshirt_011",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_DECL"
+              }
+            ]
+          },
+          "variantProps": "",
+          "locate": {
+            "@_value": 20
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          },
+          "eCompType": "PV_COMP_ACCS"
+        }
+      ]
+    },
+    "pedProps": "",
+    "pedOutfits": ""
+  }
+}

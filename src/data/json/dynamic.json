@@ -1,0 +1,4008 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__DynamicMappingList": {
+    "DynamicMappings": {
+      "Item": [
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UP_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_DOWN_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LEFT_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_RIGHT_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "Default"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_SPRINT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "INPUT_COVER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_SELECT_WEAPON"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "Tennis"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FBI5A_Cutting_Torch"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Rappelling"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Agency_Heist_3A_Mopping"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": [
+                    "INPUT_AIM",
+                    "INPUT_ATTACK"
+                  ]
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_RELOAD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "INPUT_SPECIAL_ABILITY_PC"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_SELECT_WEAPON"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_SPRINT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "INPUT_SELECT_NEXT_WEAPON"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "INPUT_SELECT_PREV_WEAPON"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "GOLF"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Exile2_Thermal_Scope"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_VEH_MOVE_UP_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "INPUT_VEH_MOVE_DOWN_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Carsteal4_spycar"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_SNIPER_ZOOM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "INPUT_VEH_MOVE_DOWN_ONLY"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Carsteal5_spycar_crane"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_SPRINT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "INPUT_SELECT_CHARACTER_MICHAEL"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Darts"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "StripClub"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_ENTER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "BusTours"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Lester1A_PopUpMinigame"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Jewel_Heist_smash"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_FRONTEND_AXIS_X"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_FRONTEND_AXIS_Y"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "TV_Controls"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_SNIPER_ZOOM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "Port_LS_Heist_crane"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_SNIPER_ZOOM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Ob_Telescope"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_ENTER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_COVER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_RELOAD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Chop"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_WEAPON_WHEEL_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_WEAPON_WHEEL_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Yoga"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "INPUT_SPECIAL_ABILITY_PC"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_BEHIND"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_LEFT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_RIGHT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "NET GTA RACE"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FBI3 MINIGAME SELECT"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FBI3 MINIGAME DEFAULT"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FBI3 MINIGAME ELECTRODES"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "INPUT_DETONATE"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "HUNTING ELK CALL"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "Sofa Activity"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_WEAPON_WHEEL_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_WEAPON_WHEEL_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FAMILY6"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "SAFEHOUSE ACTIVITY"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "JEWEL HEIST SPY GLASSES"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_VEH_ROOF"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FINALE HEIST STINGER"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "FINALE B CHOICE"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "CARSTEAL2 HELICAM"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "UNDEFINED_INPUT"
+                }
+              }
+            ]
+          },
+          "@_key": "MYSTERY LETTER CAM"
+        },
+        {
+          "Mappings": {
+            "Item": [
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LEFT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_MOVE_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_X",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_LR"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_UD"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RUP",
+                "Mappings": {
+                  "Item": "INPUT_ENTER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RDOWN",
+                "Mappings": {
+                  "Item": "INPUT_ATTACK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RLEFT",
+                "Mappings": {
+                  "Item": "INPUT_JUMP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RRIGHT",
+                "Mappings": {
+                  "Item": "INPUT_AIM"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LB",
+                "Mappings": {
+                  "Item": "INPUT_COVER"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RB",
+                "Mappings": {
+                  "Item": "INPUT_CONTEXT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LT",
+                "Mappings": {
+                  "Item": "INPUT_HUD_SPECIAL"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RT",
+                "Mappings": {
+                  "Item": "INPUT_LOOK_BEHIND"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_LS",
+                "Mappings": {
+                  "Item": "INPUT_DUCK"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_RS",
+                "Mappings": {
+                  "Item": "INPUT_SPRINT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_UP",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_UP"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_DOWN",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_DOWN"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_LEFT",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_LEFT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_PAD_RIGHT",
+                "Mappings": {
+                  "Item": "INPUT_CELLPHONE_RIGHT"
+                }
+              },
+              {
+                "Input": "INPUT_SCRIPT_SELECT",
+                "Mappings": {
+                  "Item": "INPUT_NEXT_CAMERA"
+                }
+              }
+            ]
+          },
+          "@_key": "REPLAY CAMERA"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1269 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "ShopPedApparel": {
+    "pedName": "mp_f_freemode_01",
+    "dlcName": "female_xmas",
+    "fullDlcName": "mp_f_freemode_01_female_xmas",
+    "eCharacter": "SCR_CHAR_MULTIPLAYER_F",
+    "creatureMetaData": "MP_CreatureMetadata_xmas",
+    "pedComponents": {
+      "Item": [
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_M_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_BERD0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_M_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_BERD0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_M_0_2",
+          "uniqueNameHash": "DLC_MP_XMAS_F_BERD0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_M_1_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_BERD1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_M_2_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_BERD2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 0
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 2
+          },
+          "eCompType": "PV_COMP_BERD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_L_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_LEGS0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 39
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "SKIRT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_L_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_LEGS0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 39
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "SKIRT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_LOWR",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_0"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS0_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS2_0",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_0"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS0_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS2_1",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_2",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_0"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS0_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS2_2",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_3",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "DRAW_0"
+            }
+          },
+          "forcedComponents": {
+            "Item": [
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_UPPR"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 33
+                },
+                "eCompType": "PV_COMP_ACCS"
+              }
+            ]
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": [
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS0_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": "DLC_MP_XMAS_F_ACCS2_3",
+                "enumValue": {
+                  "@_value": 0
+                },
+                "eCompType": "PV_COMP_ACCS"
+              },
+              {
+                "nameHash": 0,
+                "enumValue": {
+                  "@_value": 1
+                },
+                "eCompType": "PV_COMP_TASK"
+              }
+            ]
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_1_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 7
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_6"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 5
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 21
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_1_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_JBIB1_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 7
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "DRAW_6"
+              },
+              {
+                "tagNameHash": "JACKET"
+              }
+            ]
+          },
+          "forcedComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 5
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": 0,
+              "enumValue": {
+                "@_value": 21
+              },
+              "eCompType": "PV_COMP_TASK"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 1
+          },
+          "eCompType": "PV_COMP_JBIB",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_2",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS0_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_2",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_3",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS0_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "DRAW_0"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_3",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_JBIB"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "ALT_SPECIAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_0",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS2_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "ALT_SPECIAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_1",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_2",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS2_2",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "ALT_SPECIAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_2",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 2
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_U_0_3",
+          "uniqueNameHash": "DLC_MP_XMAS_F_ACCS2_3",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 11
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": [
+              {
+                "tagNameHash": "UNDER_JACKET"
+              },
+              {
+                "tagNameHash": "ALT_SPECIAL"
+              }
+            ]
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": {
+            "Item": {
+              "nameHash": "DLC_MP_XMAS_F_JBIB0_3",
+              "enumValue": {
+                "@_value": 0
+              },
+              "eCompType": "PV_COMP_UPPR"
+            }
+          },
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_ACCS",
+          "textureIndex": {
+            "@_value": 3
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMASF_F_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_FEET0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 57
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": "",
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "drawableIndex": {
+            "@_value": 0
+          },
+          "localDrawableIndex": {
+            "@_value": 0
+          },
+          "eCompType": "PV_COMP_FEET",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    },
+    "pedProps": {
+      "Item": [
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_H_0_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_HAT0_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 62
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_H_0_1",
+          "uniqueNameHash": "DLC_MP_XMAS_F_HAT0_1",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 62
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 0
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 1
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_H_1_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_HAT1_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 62
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 1
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        },
+        {
+          "lockHash": "CU_XMAS_CLOTHES",
+          "cost": {
+            "@_value": 0
+          },
+          "textLabel": "CLO_XMAS_H_2_0",
+          "uniqueNameHash": "DLC_MP_XMAS_F_HAT2_0",
+          "eShopEnum": "CLO_SHOP_LOW",
+          "locate": {
+            "@_value": 62
+          },
+          "scriptSaveData": {
+            "@_value": 0
+          },
+          "restrictionTags": {
+            "Item": {
+              "tagNameHash": "HAT"
+            }
+          },
+          "forcedComponents": "",
+          "forcedProps": "",
+          "variantComponents": "",
+          "variantProps": "",
+          "propIndex": {
+            "@_value": 0
+          },
+          "localPropIndex": {
+            "@_value": 2
+          },
+          "eAnchorPoint": "ANCHOR_HEAD",
+          "textureIndex": {
+            "@_value": 0
+          },
+          "isInOutfit": {
+            "@_value": false
+          }
+        }
+      ]
+    }
+  }
+}

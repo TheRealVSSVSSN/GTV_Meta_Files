@@ -1,0 +1,3090 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CHomingContainer": {
+    "aHomings": {
+      "Item": [
+        {
+          "Name": "HOM_counter_right",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.65
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_counter_right_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.9
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_counter_right_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_counter_left",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_counter_left_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_counter_left_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_no_cache",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 2.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 2.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_away",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 2.5
+          },
+          "TargetHeading": {
+            "@_value": 180
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_surface",
+          "TargetType": "TT_SURFACE_PROBE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.51
+          },
+          "ActivationDistance": {
+            "@_value": 1.75
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_surface_horizontal_bat",
+          "TargetType": "TT_SURFACE_PROBE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 1.75
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_surface_horizontal_small_wpn",
+          "TargetType": "TT_SURFACE_PROBE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.85
+          },
+          "ActivationDistance": {
+            "@_value": 1.75
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE HA_USE_LOW_ROOT_Z_OFFSET",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_surface_vertical_bat",
+          "TargetType": "TT_SURFACE_PROBE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.45
+          },
+          "ActivationDistance": {
+            "@_value": 1.75
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_surface_vertical_small_wpn",
+          "TargetType": "TT_SURFACE_PROBE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.25
+          },
+          "ActivationDistance": {
+            "@_value": 1.75
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_CACHED_POSITION HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_walking",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_walking_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 4.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_walking_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 4.3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_walking_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 4.3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 8
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_pistol_whip",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_rifle_whip",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.85
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 5.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 12.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_shove",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_long_range",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 8.3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 12.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_long_range_large_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 8.25
+          },
+          "ActivationDistance": {
+            "@_value": 20
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 5.25
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 4.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 12.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_running_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 5.5
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_medium_cougar",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.25
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_medium_dodge",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 2.5
+          },
+          "MaxSpeed": {
+            "@_value": 2.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_medium_dog",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3905
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_knockout",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_face_knockout_far",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_c",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.55
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_c_var_1",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_a",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.1
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_shove",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.6
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_a_var_1",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_b_var_1",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.35
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_heavy_b_var_2",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.65
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_kick_close_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 7.5
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_kick_close_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 7.5
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_kick_far_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 3.85
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 12.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_stealth_kill_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_front",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_front_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_front_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_front_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_rear",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_rear_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_rear_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_failed_takedown_rear_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.7
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.72
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.2
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_c",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_d",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_e",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_g",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.95
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_h",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_psycho",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.18
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_psycho_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.18
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_psycho_c",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.15
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 5
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_knife_var_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_knife_var_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.72
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0.4,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_hatchet_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": -0.1,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_hatchet_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0.18,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_pistol",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_rifle",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_dog",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.875
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_front_cougar",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.85
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_c",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.69
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_psycho",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.65
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_psycho_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_knife",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_knife_var_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.65
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_knife_var_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.22
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_bat",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.85
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.55
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_hatchet_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0.08,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_hatchet_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.4
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_pistol",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.23
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_rifle",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.97
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_rear_cougar",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_stealth_kill_a",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.68
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_stealth_kill_b",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.67
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_stealth_kill_c",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_stealth_kill_d",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.1
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_long",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 6
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_long_psycho",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 6
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_long_bat",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.9
+          },
+          "ActivationDistance": {
+            "@_value": 6
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.9
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_psycho",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_on_spot",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.45
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 3.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_on_spot_psycho",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.75
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 3.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_dog",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.7
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_cougar",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_var_a",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.7
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_var_b",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.1
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_0_var_a_knife",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 0.9
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_swimming_underwater",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 4
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_swimming_surface_still",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 2
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_swimming_surface_moving",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_0",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_0_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_0_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.2
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_0_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.7
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_0",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.7
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_0_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 3.2
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_0_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.5
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_0_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_mid_cardinal_0",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 12
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_180",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_180_small_wpn",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_90",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_90_small_wpn",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_-180",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_-180_small_wpn",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_-90",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_ground_cardinal_turn_-90_small_wpn",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 4
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_90",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_90_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.85
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_90_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.75
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_90_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.7
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_mid_cardinal_90",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_90",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.425
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_90_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.95
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_90_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_90_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.75
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-90",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.5
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-90_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-90_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-90_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.75
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_mid_cardinal_-90",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.4
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-90",
+          "TargetType": "TT_PED_NECK",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-90_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.3
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-90_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.1
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-90_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_180",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_180_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 3.1
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_180_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.75
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_180_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.9
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_mid_cardinal_180",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.5
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-180",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-180_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.6
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-180_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_long_cardinal_-180_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0.2,
+            "@_y": 2.8
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_mid_cardinal_-180",
+          "TargetType": "TT_PED_CLOSEST_BONE",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2.3
+          },
+          "ActivationDistance": {
+            "@_value": 10
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_180",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_180_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_180_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.8
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_180_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.7
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-180",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-180_knife",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.5
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7.5
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-180_bat",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 2
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_short_cardinal_-180_small_wpn",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1.6
+          },
+          "ActivationDistance": {
+            "@_value": 3
+          },
+          "MaxSpeed": {
+            "@_value": 10
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_DISPLACEMENT_MAGNITUDE HA_USE_ACTIVATION_DISTANCE",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_takedown_dog_retriever",
+          "TargetType": "TT_ENTITY_ROOT",
+          "TargetOffset": {
+            "@_x": -0.075,
+            "@_y": 1.15
+          },
+          "ActivationDistance": {
+            "@_value": 100
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING",
+          "@_type": "CHoming"
+        },
+        {
+          "Name": "HOM_shark",
+          "TargetType": "TT_ENTITY_ROOT_PREDICTED",
+          "TargetOffset": {
+            "@_x": 0,
+            "@_y": 1
+          },
+          "ActivationDistance": {
+            "@_value": 50
+          },
+          "MaxSpeed": {
+            "@_value": 7
+          },
+          "TargetHeading": {
+            "@_value": 0
+          },
+          "HomingAttrs": "HA_CHECK_TARGET_DISTANCE HA_CHECK_TARGET_HEADING HA_USE_ACTIVATION_DISTANCE HA_IGNORE_SPEED_MATCHING_CHECK",
+          "@_type": "CHoming"
+        }
+      ]
+    }
+  }
+}

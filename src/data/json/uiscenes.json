@@ -1,0 +1,2512 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "UI3DDrawManager": {
+    "scenePresets": {
+      "Item": [
+        {
+          "name": "PAUSE_SINGLE_LEFT",
+          "elements": {
+            "Item": {
+              "position": {
+                "@_x": 0,
+                "@_y": -1.9,
+                "@_z": 0.02
+              },
+              "position_43": {
+                "@_x": 0,
+                "@_y": -1.7,
+                "@_z": 0.025
+              },
+              "rotationXYZ": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0
+              },
+              "bgRectXYWH": {
+                "@_x": 0.161,
+                "@_y": 0.222,
+                "@_z": 0.2265,
+                "@_w": 0.59775
+              },
+              "bgRectXYWH_43": {
+                "@_x": 0.0805,
+                "@_y": 0.222,
+                "@_z": 0.2785,
+                "@_w": 0.59775
+              },
+              "bgRectColor": {
+                "@_value": 0
+              },
+              "blendColor": {
+                "@_value": 4278190080
+              },
+              "perspectiveShear": {
+                "@_x": 0,
+                "@_y": 0
+              },
+              "postfxData": {
+                "blackWhiteWeights": {
+                  "@_value": 0
+                },
+                "tintColor": {
+                  "@_value": 0
+                },
+                "blend": {
+                  "@_value": 0
+                }
+              },
+              "enabled": {
+                "@_value": true
+              }
+            }
+          }
+        },
+        {
+          "name": "PAUSE_SINGLE_MIDDLE",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.9,
+                  "@_z": 0.02
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.7,
+                  "@_z": 0.025
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.38675,
+                  "@_y": 0.2225,
+                  "@_z": 0.22875,
+                  "@_w": 0.59925
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36225,
+                  "@_y": 0.2225,
+                  "@_z": 0.269,
+                  "@_w": 0.59925
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.9,
+                  "@_z": 0.02
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.7,
+                  "@_z": 0.025
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.38675,
+                  "@_y": 0.2225,
+                  "@_z": 0.22875,
+                  "@_w": 0.59925
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36225,
+                  "@_y": 0.2225,
+                  "@_z": 0.269,
+                  "@_w": 0.59925
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "PAUSE_SINGLE_RIGHT",
+          "elements": {
+            "Item": {
+              "position": {
+                "@_x": 0.425,
+                "@_y": -2.1,
+                "@_z": 0.04
+              },
+              "position_43": {
+                "@_x": 0.425,
+                "@_y": -2.7,
+                "@_z": 0.04
+              },
+              "rotationXYZ": {
+                "@_x": 0,
+                "@_y": 0,
+                "@_z": 0
+              },
+              "bgRectXYWH": {
+                "@_x": 0.616,
+                "@_y": 0.222,
+                "@_z": 0.227,
+                "@_w": 0.598
+              },
+              "bgRectXYWH_43": {
+                "@_x": 0.616,
+                "@_y": 0.222,
+                "@_z": 0.2765,
+                "@_w": 0.598
+              },
+              "bgRectColor": {
+                "@_value": 0
+              },
+              "blendColor": {
+                "@_value": 4278190080
+              },
+              "perspectiveShear": {
+                "@_x": 0,
+                "@_y": 0
+              },
+              "postfxData": {
+                "blackWhiteWeights": {
+                  "@_value": 0
+                },
+                "tintColor": {
+                  "@_value": 0
+                },
+                "blend": {
+                  "@_value": 0
+                }
+              },
+              "enabled": {
+                "@_value": true
+              }
+            }
+          }
+        },
+        {
+          "name": "FACE_CREATION_PRESET",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -0.82,
+                  "@_z": -0.525
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -0.67,
+                  "@_z": -0.525
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": -5
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.615,
+                  "@_y": 0.221,
+                  "@_z": 0.225,
+                  "@_w": 0.599
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.64,
+                  "@_y": 0.221,
+                  "@_z": 0.28,
+                  "@_w": 0.599
+                },
+                "bgRectColor": {
+                  "@_value": 1342177280
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.7,
+                  "@_z": -0.72
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -2.2,
+                  "@_z": -0.7
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.3883,
+                  "@_y": 0.2214,
+                  "@_z": 0.225,
+                  "@_w": 0.1105
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36,
+                  "@_y": 0.221,
+                  "@_z": 0.279,
+                  "@_w": 0.111
+                },
+                "bgRectColor": {
+                  "@_value": 505638585
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0.17,
+                  "@_y": -1.62,
+                  "@_z": -0.76
+                },
+                "position_43": {
+                  "@_x": 0.17,
+                  "@_y": -1.22,
+                  "@_z": -0.76
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 6
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.388,
+                  "@_y": 0.3354,
+                  "@_z": 0.225,
+                  "@_w": 0.184
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36,
+                  "@_y": 0.334,
+                  "@_z": 0.279,
+                  "@_w": 0.187
+                },
+                "bgRectColor": {
+                  "@_value": 505638585
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": -0.175,
+                  "@_y": -1.59,
+                  "@_z": -0.644
+                },
+                "position_43": {
+                  "@_x": -0.175,
+                  "@_y": -1.19,
+                  "@_z": -0.644
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": -15
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.388,
+                  "@_y": 0.337,
+                  "@_z": 0.225,
+                  "@_w": 0.183
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36,
+                  "@_y": 0.334,
+                  "@_z": 0.279,
+                  "@_w": 0.187
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.7,
+                  "@_z": -0.63
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -2.2,
+                  "@_z": -0.61
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.388,
+                  "@_y": 0.221,
+                  "@_z": 0.225,
+                  "@_w": 0.111
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36,
+                  "@_y": 0.221,
+                  "@_z": 0.279,
+                  "@_w": 0.111
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "MPLOBBY_ALL5SLOTS",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.025
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.16325,
+                  "@_y": 0.222,
+                  "@_z": 0.111,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.08,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.6
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.025
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.2765,
+                  "@_y": 0.222,
+                  "@_z": 0.111,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.2715,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.025
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.389,
+                  "@_y": 0.222,
+                  "@_z": 0.111,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.42475,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.9,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.562,
+                  "@_y": 0.18,
+                  "@_z": 0.149,
+                  "@_w": 0.619
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.593,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.9,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": -2.2,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.692,
+                  "@_y": 0.236,
+                  "@_z": 0.149,
+                  "@_w": 0.535
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.754,
+                  "@_y": 0.236,
+                  "@_z": 0.179,
+                  "@_w": 0.549
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "FACE_CREATION_CONFIRM",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.435,
+                  "@_z": -0.28
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.435,
+                  "@_z": -0.18
+                },
+                "rotationXYZ": {
+                  "@_x": -5.6,
+                  "@_y": 0,
+                  "@_z": -15
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.234,
+                  "@_y": 0.07,
+                  "@_z": 0.675,
+                  "@_w": 0.93
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.234,
+                  "@_y": 0.07,
+                  "@_z": 0.675,
+                  "@_w": 0.93
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "CELEBRATION_WINNER",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "rotationXYZ": {
+                  "@_x": 3,
+                  "@_y": 0,
+                  "@_z": 11.5
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0.06,
+                  "@_z": 1,
+                  "@_w": 0.94
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0.03,
+                  "@_z": 1,
+                  "@_w": 0.94
+                },
+                "bgRectColor": {
+                  "@_value": 16777215
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "rotationXYZ": {
+                  "@_x": 3,
+                  "@_y": 0,
+                  "@_z": 11.5
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.63075,
+                  "@_y": 0.06,
+                  "@_z": 0.3,
+                  "@_w": 0.94
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.631,
+                  "@_y": 0.03,
+                  "@_z": 0.3,
+                  "@_w": 0.94
+                },
+                "bgRectColor": {
+                  "@_value": 16777215
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 2,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.1,
+                  "@_z": -0.24
+                },
+                "rotationXYZ": {
+                  "@_x": 3,
+                  "@_y": 0,
+                  "@_z": 11.5
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0.06,
+                  "@_z": 0.437,
+                  "@_w": 0.94
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0.03,
+                  "@_z": 0.437,
+                  "@_w": 0.94
+                },
+                "bgRectColor": {
+                  "@_value": 16777215
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": -2,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "MPLOBBY_ALL5SLOTS",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.16325,
+                  "@_y": 0.222,
+                  "@_z": 0.11125,
+                  "@_w": 0.5995
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.08,
+                  "@_y": 0.18,
+                  "@_z": 0.17975,
+                  "@_w": 0.6
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.275,
+                  "@_y": 0.222,
+                  "@_z": 0.111,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.2715,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.389,
+                  "@_y": 0.222,
+                  "@_z": 0.111,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.42475,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.562,
+                  "@_y": 0.18,
+                  "@_z": 0.149,
+                  "@_w": 0.619
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.593,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": -2.2,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.692,
+                  "@_y": 0.236,
+                  "@_z": 0.149,
+                  "@_w": 0.535
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.754,
+                  "@_y": 0.236,
+                  "@_z": 0.179,
+                  "@_w": 0.549
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "AllSlot5_Slot_SD",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.025,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -2.25,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0.5995
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.08,
+                  "@_y": 0.223,
+                  "@_z": 0.139,
+                  "@_w": 0.598
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -2.25,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.2205,
+                  "@_y": 0.223,
+                  "@_z": 0.139,
+                  "@_w": 0.598
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -2.25,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0.6
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.36075,
+                  "@_y": 0.223,
+                  "@_z": 0.139,
+                  "@_w": 0.598
+                },
+                "bgRectColor": {
+                  "@_value": 2600468480
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.562,
+                  "@_y": 0.18,
+                  "@_z": 0.149,
+                  "@_w": 0.619
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.593,
+                  "@_y": 0.18,
+                  "@_z": 0.179,
+                  "@_w": 0.605
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -2.525,
+                  "@_z": 0.125
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.95,
+                  "@_z": 0.15
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": -2.2,
+                  "@_z": -12.25
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.692,
+                  "@_y": 0.236,
+                  "@_z": 0.149,
+                  "@_w": 0.535
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.754,
+                  "@_y": 0.236,
+                  "@_z": 0.179,
+                  "@_w": 0.549
+                },
+                "bgRectColor": {
+                  "@_value": 0
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        },
+        {
+          "name": "CHARACTER_CREATOR_HERITAGE",
+          "elements": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.02,
+                  "@_z": -0.68
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.12,
+                  "@_z": -0.668
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.051,
+                  "@_y": 0.20125,
+                  "@_z": 0.224,
+                  "@_w": 0.222
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.051,
+                  "@_y": 0.201,
+                  "@_z": 0.224,
+                  "@_w": 0.222
+                },
+                "bgRectColor": {
+                  "@_value": 3120562176
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": -1.02,
+                  "@_z": -0.68
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": -1.12,
+                  "@_z": -0.668
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0.051,
+                  "@_y": 0.425,
+                  "@_z": 0.224,
+                  "@_w": 0.222
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0.051,
+                  "@_y": 0.425,
+                  "@_z": 0.224,
+                  "@_w": 0.222
+                },
+                "bgRectColor": {
+                  "@_value": 3120562176
+                },
+                "blendColor": {
+                  "@_value": 4278190080
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 16777215
+                  },
+                  "tintColor": {
+                    "@_value": 16777215
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": true
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "position_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "rotationXYZ": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0
+                },
+                "bgRectXYWH": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectXYWH_43": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 0,
+                  "@_w": 0
+                },
+                "bgRectColor": {
+                  "@_value": 4294967295
+                },
+                "blendColor": {
+                  "@_value": 4294967295
+                },
+                "perspectiveShear": {
+                  "@_x": 0,
+                  "@_y": 0
+                },
+                "postfxData": {
+                  "blackWhiteWeights": {
+                    "@_value": 0
+                  },
+                  "tintColor": {
+                    "@_value": 0
+                  },
+                  "blend": {
+                    "@_value": 0
+                  }
+                },
+                "enabled": {
+                  "@_value": false
+                }
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "lightRigs": {
+      "Item": [
+        {
+          "lights": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": -2.375,
+                  "@_y": -2.35,
+                  "@_z": 2
+                },
+                "intensity": {
+                  "@_value": 16
+                },
+                "radius": {
+                  "@_value": 10.9
+                },
+                "color": {
+                  "@_value": 4294963158
+                }
+              },
+              {
+                "position": {
+                  "@_x": -2.8,
+                  "@_y": 1.65,
+                  "@_z": 1.025
+                },
+                "intensity": {
+                  "@_value": 6.006
+                },
+                "radius": {
+                  "@_value": 10.9
+                },
+                "color": {
+                  "@_value": 4294960801
+                }
+              },
+              {
+                "position": {
+                  "@_x": 11.6,
+                  "@_y": 1.65,
+                  "@_z": 7.9
+                },
+                "intensity": {
+                  "@_value": 6.002
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4288462591
+                }
+              },
+              {
+                "position": {
+                  "@_x": -1.275,
+                  "@_y": -0.2,
+                  "@_z": -5.1
+                },
+                "intensity": {
+                  "@_value": 2
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4294953351
+                }
+              }
+            ]
+          },
+          "ambientBaseCol": {
+            "@_value": 4283339202
+          },
+          "ambientBaseMult": {
+            "@_value": 1
+          },
+          "ambientDownCol": {
+            "@_value": 4279320924
+          },
+          "ambientDownMult": {
+            "@_value": 1
+          },
+          "ambientDownWrap": {
+            "@_value": 0.547
+          },
+          "id": {
+            "@_value": 0
+          }
+        },
+        {
+          "lights": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": -1.275,
+                  "@_y": -1.8,
+                  "@_z": 2
+                },
+                "intensity": {
+                  "@_value": 15
+                },
+                "radius": {
+                  "@_value": 10.6
+                },
+                "color": {
+                  "@_value": 4294952015
+                }
+              },
+              {
+                "position": {
+                  "@_x": -2.8,
+                  "@_y": 0.75,
+                  "@_z": 1.025
+                },
+                "intensity": {
+                  "@_value": 5.006
+                },
+                "radius": {
+                  "@_value": 10
+                },
+                "color": {
+                  "@_value": 4294945638
+                }
+              },
+              {
+                "position": {
+                  "@_x": 3.85,
+                  "@_y": 1.65,
+                  "@_z": 3.125
+                },
+                "intensity": {
+                  "@_value": 5
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4287091711
+                }
+              },
+              {
+                "position": {
+                  "@_x": -1.275,
+                  "@_y": 1.55,
+                  "@_z": -5.1
+                },
+                "intensity": {
+                  "@_value": 1.065
+                },
+                "radius": {
+                  "@_value": 7.2
+                },
+                "color": {
+                  "@_value": 4289260543
+                }
+              }
+            ]
+          },
+          "ambientBaseCol": {
+            "@_value": 4283066759
+          },
+          "ambientBaseMult": {
+            "@_value": 1
+          },
+          "ambientDownCol": {
+            "@_value": 4278195494
+          },
+          "ambientDownMult": {
+            "@_value": 1
+          },
+          "ambientDownWrap": {
+            "@_value": 0.309
+          },
+          "id": {
+            "@_value": 1
+          }
+        },
+        {
+          "lights": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 2
+                },
+                "intensity": {
+                  "@_value": 4
+                },
+                "radius": {
+                  "@_value": 10
+                },
+                "color": {
+                  "@_value": 4294967295
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0.1,
+                  "@_z": -1
+                },
+                "intensity": {
+                  "@_value": 3
+                },
+                "radius": {
+                  "@_value": 5
+                },
+                "color": {
+                  "@_value": 4293970293
+                }
+              },
+              {
+                "position": {
+                  "@_x": -2,
+                  "@_y": 0.1,
+                  "@_z": 0.5
+                },
+                "intensity": {
+                  "@_value": 2
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4290964720
+                }
+              },
+              {
+                "position": {
+                  "@_x": 2,
+                  "@_y": 0.1,
+                  "@_z": 0.5
+                },
+                "intensity": {
+                  "@_value": 2
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4293316711
+                }
+              }
+            ]
+          },
+          "ambientBaseCol": {
+            "@_value": 0
+          },
+          "ambientBaseMult": {
+            "@_value": 1
+          },
+          "ambientDownCol": {
+            "@_value": 0
+          },
+          "ambientDownMult": {
+            "@_value": 1
+          },
+          "ambientDownWrap": {
+            "@_value": 0
+          },
+          "id": {
+            "@_value": 2
+          }
+        },
+        {
+          "lights": {
+            "Item": [
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0,
+                  "@_z": 2
+                },
+                "intensity": {
+                  "@_value": 4
+                },
+                "radius": {
+                  "@_value": 10
+                },
+                "color": {
+                  "@_value": 4294967295
+                }
+              },
+              {
+                "position": {
+                  "@_x": 0,
+                  "@_y": 0.1,
+                  "@_z": -1
+                },
+                "intensity": {
+                  "@_value": 3
+                },
+                "radius": {
+                  "@_value": 5
+                },
+                "color": {
+                  "@_value": 4293970293
+                }
+              },
+              {
+                "position": {
+                  "@_x": -2,
+                  "@_y": 0.1,
+                  "@_z": 0.5
+                },
+                "intensity": {
+                  "@_value": 2
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4290964720
+                }
+              },
+              {
+                "position": {
+                  "@_x": 2,
+                  "@_y": 0.1,
+                  "@_z": 0.5
+                },
+                "intensity": {
+                  "@_value": 2
+                },
+                "radius": {
+                  "@_value": 20
+                },
+                "color": {
+                  "@_value": 4293316711
+                }
+              }
+            ]
+          },
+          "ambientBaseCol": {
+            "@_value": 0
+          },
+          "ambientBaseMult": {
+            "@_value": 1
+          },
+          "ambientDownCol": {
+            "@_value": 0
+          },
+          "ambientDownMult": {
+            "@_value": 1
+          },
+          "ambientDownWrap": {
+            "@_value": 0
+          },
+          "id": {
+            "@_value": 3
+          }
+        }
+      ]
+    },
+    "globalRenderData": {
+      "exposure": {
+        "@_value": 0.5
+      },
+      "dynamicBakeBoostMin": {
+        "@_value": 0.5
+      },
+      "dynamicBakeBoostMax": {
+        "@_value": 1.5
+      }
+    }
+  }
+}

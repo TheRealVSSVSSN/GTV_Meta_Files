@@ -1,0 +1,820 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "rage__ControlInput__MappingSettings": {
+    "Categories": {
+      "Item": [
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_HUD_SPECIAL",
+              "INPUT_NEXT_CAMERA",
+              "INPUT_CHARACTER_WHEEL",
+              "INPUT_SPECIAL_ABILITY_PC",
+              "INPUT_SELECT_CHARACTER_MICHAEL",
+              "INPUT_SELECT_CHARACTER_FRANKLIN",
+              "INPUT_SELECT_CHARACTER_TREVOR",
+              "INPUT_SELECT_CHARACTER_MULTIPLAYER",
+              "INPUT_PHONE",
+              "INPUT_INTERACTION_MENU",
+              "INPUT_SAVE_REPLAY_CLIP",
+              "INPUT_REPLAY_START_STOP_RECORDING"
+            ]
+          },
+          "@_key": "GENERAL"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CELLPHONE_LEFT",
+              "INPUT_CELLPHONE_RIGHT",
+              "INPUT_CELLPHONE_UP",
+              "INPUT_CELLPHONE_DOWN",
+              "INPUT_CELLPHONE_SELECT",
+              "INPUT_CELLPHONE_CANCEL",
+              "INPUT_CELLPHONE_OPTION",
+              "INPUT_CELLPHONE_EXTRA_OPTION",
+              "INPUT_CELLPHONE_SCROLL_FORWARD",
+              "INPUT_CELLPHONE_SCROLL_BACKWARD"
+            ]
+          },
+          "@_key": "CELLPHONE"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CELLPHONE_CAMERA_SELFIE",
+              "INPUT_CELLPHONE_CAMERA_EXPRESSION",
+              "INPUT_CELLPHONE_CAMERA_GRID",
+              "INPUT_CELLPHONE_CAMERA_DOF",
+              "INPUT_CELLPHONE_CAMERA_FOCUS_LOCK"
+            ]
+          },
+          "@_key": "CELLPHONE_CAMERA"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_LOOK_BEHIND",
+              "INPUT_MOVE_UP_ONLY",
+              "INPUT_MOVE_DOWN_ONLY",
+              "INPUT_MOVE_LEFT_ONLY",
+              "INPUT_MOVE_RIGHT_ONLY",
+              "INPUT_JUMP",
+              "INPUT_SPRINT",
+              "INPUT_ENTER",
+              "INPUT_CONTEXT",
+              "INPUT_DUCK",
+              "INPUT_AIM",
+              "INPUT_COVER",
+              "INPUT_DETONATE",
+              "INPUT_SELECT_WEAPON",
+              "INPUT_SELECT_WEAPON_UNARMED",
+              "INPUT_SELECT_WEAPON_MELEE",
+              "INPUT_SELECT_WEAPON_HANDGUN",
+              "INPUT_SELECT_WEAPON_SHOTGUN",
+              "INPUT_SELECT_WEAPON_SMG",
+              "INPUT_SELECT_WEAPON_AUTO_RIFLE",
+              "INPUT_SELECT_WEAPON_SNIPER",
+              "INPUT_SELECT_WEAPON_HEAVY",
+              "INPUT_SELECT_WEAPON_SPECIAL",
+              "INPUT_WEAPON_WHEEL_NEXT",
+              "INPUT_WEAPON_WHEEL_PREV",
+              "INPUT_SELECT_NEXT_WEAPON",
+              "INPUT_SELECT_PREV_WEAPON"
+            ]
+          },
+          "@_key": "ON_FOOT_GENERAL"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_MELEE_ATTACK_LIGHT",
+              "INPUT_MELEE_ATTACK_HEAVY"
+            ]
+          },
+          "@_key": "ON_FOOT_MELEE"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_ATTACK",
+              "INPUT_RELOAD",
+              "INPUT_ACCURATE_AIM",
+              "INPUT_WEAPON_SPECIAL_TWO"
+            ]
+          },
+          "@_key": "ON_FOOT_SHOOTING"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_SNIPER_ZOOM_IN_ONLY",
+              "INPUT_SNIPER_ZOOM_OUT_ONLY"
+            ]
+          },
+          "@_key": "ON_FOOT_SNIPER_ZOOM"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_EXIT",
+              "INPUT_VEH_LOOK_BEHIND",
+              "INPUT_VEH_NEXT_RADIO",
+              "INPUT_VEH_PREV_RADIO",
+              "INPUT_VEH_CIN_CAM",
+              "INPUT_VEH_RADIO_WHEEL",
+              "INPUT_CINEMATIC_SLOWMO",
+              "INPUT_VEH_DUCK"
+            ]
+          },
+          "@_key": "VEHICLE_GENERAL"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_ACCELERATE",
+              "INPUT_VEH_BRAKE",
+              "INPUT_VEH_MOVE_LEFT_ONLY",
+              "INPUT_VEH_MOVE_RIGHT_ONLY",
+              "INPUT_VEH_HEADLIGHT",
+              "INPUT_VEH_HANDBRAKE",
+              "INPUT_VEH_AIM",
+              "INPUT_VEH_HORN",
+              "INPUT_VEH_MOVE_UP_ONLY",
+              "INPUT_VEH_MOVE_DOWN_ONLY",
+              "INPUT_VEH_ROOF",
+              "INPUT_VEH_PUSHBIKE_SPRINT",
+              "INPUT_VEH_PUSHBIKE_FRONT_BRAKE",
+              "INPUT_VEH_SELECT_NEXT_WEAPON",
+              "INPUT_VEH_SELECT_PREV_WEAPON"
+            ]
+          },
+          "@_key": "VEHICLE_GROUND"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_FLY_THROTTLE_UP",
+              "INPUT_VEH_FLY_THROTTLE_DOWN",
+              "INPUT_VEH_FLY_YAW_LEFT",
+              "INPUT_VEH_FLY_YAW_RIGHT",
+              "INPUT_VEH_FLY_ROLL_LEFT_ONLY",
+              "INPUT_VEH_FLY_ROLL_RIGHT_ONLY",
+              "INPUT_VEH_FLY_PITCH_UP_ONLY",
+              "INPUT_VEH_FLY_PITCH_DOWN_ONLY",
+              "INPUT_VEH_FLY_UNDERCARRIAGE",
+              "INPUT_VEH_FLY_ATTACK",
+              "INPUT_VEH_FLY_SELECT_NEXT_WEAPON",
+              "INPUT_VEH_FLY_SELECT_PREV_WEAPON",
+              "INPUT_VEH_FLY_SELECT_TARGET_LEFT",
+              "INPUT_VEH_FLY_SELECT_TARGET_RIGHT",
+              "INPUT_VEH_GRAPPLING_HOOK"
+            ]
+          },
+          "@_key": "VEHICLE_FLY"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_SUB_THROTTLE_UP",
+              "INPUT_VEH_SUB_THROTTLE_DOWN",
+              "INPUT_VEH_SUB_TURN_LEFT_ONLY",
+              "INPUT_VEH_SUB_TURN_RIGHT_ONLY",
+              "INPUT_VEH_SUB_TURN_HARD_LEFT",
+              "INPUT_VEH_SUB_TURN_HARD_RIGHT",
+              "INPUT_VEH_SUB_PITCH_UP_ONLY",
+              "INPUT_VEH_SUB_PITCH_DOWN_ONLY",
+              "INPUT_VEH_SUB_ASCEND",
+              "INPUT_VEH_SUB_DESCEND"
+            ]
+          },
+          "@_key": "VEHICLE_SUB"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_PARACHUTE_TURN_LEFT_ONLY",
+              "INPUT_PARACHUTE_TURN_RIGHT_ONLY",
+              "INPUT_PARACHUTE_PITCH_UP_ONLY",
+              "INPUT_PARACHUTE_PITCH_DOWN_ONLY",
+              "INPUT_PARACHUTE_BRAKE_LEFT",
+              "INPUT_PARACHUTE_BRAKE_RIGHT",
+              "INPUT_PARACHUTE_PRECISION_LANDING",
+              "INPUT_PARACHUTE_DEPLOY",
+              "INPUT_PARACHUTE_DETACH",
+              "INPUT_PARACHUTE_SMOKE"
+            ]
+          },
+          "@_key": "PARACHUTE"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_MULTIPLAYER_INFO",
+              "INPUT_MP_TEXT_CHAT_ALL",
+              "INPUT_MP_TEXT_CHAT_TEAM",
+              "INPUT_MP_TEXT_CHAT_FRIENDS",
+              "INPUT_MP_TEXT_CHAT_CREW"
+            ]
+          },
+          "@_key": "MULTIPLAYER"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_DROP_WEAPON",
+              "INPUT_DROP_AMMO"
+            ]
+          },
+          "@_key": "MULTIPLAYER_DROP"
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_MELEE_BLOCK",
+              "INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE",
+              "INPUT_SNIPER_ZOOM",
+              "INPUT_VEH_JUMP",
+              "INPUT_ENTER_CHEAT_CODE",
+              "INPUT_CURSOR_CANCEL>",
+              "INPUT_CURSOR_SCROLL_UP>",
+              "INPUT_CURSOR_SCROLL_DOWN>",
+              "INPUT_DIVE",
+              "INPUT_SPECIAL_ABILITY",
+              "INPUT_SPECIAL_ABILITY_SECONDARY",
+              "INPUT_LOOK_LR",
+              "INPUT_LOOK_UD",
+              "INPUT_LOOK_UP_ONLY",
+              "INPUT_LOOK_DOWN_ONLY",
+              "INPUT_LOOK_LEFT_ONLY",
+              "INPUT_LOOK_RIGHT_ONLY",
+              "INPUT_SCRIPTED_FLY_UD",
+              "INPUT_SCRIPTED_FLY_LR",
+              "INPUT_SCRIPTED_FLY_ZUP",
+              "INPUT_SCRIPTED_FLY_ZDOWN",
+              "INPUT_WEAPON_WHEEL_UD",
+              "INPUT_WEAPON_WHEEL_LR",
+              "INPUT_SKIP_CUTSCENE",
+              "INPUT_WEAPON_SPECIAL",
+              "INPUT_MOVE_LR",
+              "INPUT_MOVE_UD",
+              "INPUT_ARREST",
+              "INPUT_VEH_MOVE_LR",
+              "INPUT_VEH_MOVE_UD",
+              "INPUT_VEH_SPECIAL",
+              "INPUT_VEH_GUN_LR",
+              "INPUT_VEH_GUN_UD",
+              "INPUT_VEH_ATTACK",
+              "INPUT_VEH_ATTACK2",
+              "INPUT_VEH_HOTWIRE_LEFT",
+              "INPUT_VEH_HOTWIRE_RIGHT",
+              "INPUT_VEH_PASSENGER_AIM",
+              "INPUT_VEH_PASSENGER_ATTACK",
+              "INPUT_VEH_SPECIAL_ABILITY_FRANKLIN",
+              "INPUT_VEH_STUNT_UD",
+              "INPUT_VEH_CINEMATIC_UD",
+              "INPUT_VEH_CINEMATIC_UP_ONLY",
+              "INPUT_VEH_CINEMATIC_DOWN_ONLY",
+              "INPUT_VEH_CINEMATIC_LR",
+              "INPUT_VEH_FLY_ROLL_LR",
+              "INPUT_VEH_FLY_PITCH_UD",
+              "INPUT_VEH_SUB_TURN_LR",
+              "INPUT_VEH_SUB_PITCH_UD",
+              "INPUT_VEH_SHUFFLE",
+              "INPUT_MELEE_ATTACK_ALTERNATE",
+              "INPUT_PARACHUTE_TURN_LR",
+              "INPUT_PARACHUTE_PITCH_UD",
+              "INPUT_MAP",
+              "INPUT_FRONTEND_DOWN",
+              "INPUT_FRONTEND_UP",
+              "INPUT_FRONTEND_LEFT",
+              "INPUT_FRONTEND_RIGHT",
+              "INPUT_FRONTEND_RDOWN",
+              "INPUT_FRONTEND_RUP",
+              "INPUT_FRONTEND_RLEFT",
+              "INPUT_FRONTEND_RRIGHT",
+              "INPUT_FRONTEND_AXIS_X",
+              "INPUT_FRONTEND_AXIS_Y",
+              "INPUT_FRONTEND_RIGHT_AXIS_X",
+              "INPUT_FRONTEND_RIGHT_AXIS_Y",
+              "INPUT_FRONTEND_PAUSE",
+              "INPUT_FRONTEND_ACCEPT",
+              "INPUT_FRONTEND_CANCEL",
+              "INPUT_FRONTEND_X",
+              "INPUT_FRONTEND_Y",
+              "INPUT_FRONTEND_LB",
+              "INPUT_FRONTEND_RB",
+              "INPUT_FRONTEND_LT",
+              "INPUT_FRONTEND_RT",
+              "INPUT_FRONTEND_LS",
+              "INPUT_FRONTEND_RS",
+              "INPUT_FRONTEND_SELECT",
+              "INPUT_SCRIPT_LEFT_AXIS_X",
+              "INPUT_SCRIPT_LEFT_AXIS_Y",
+              "INPUT_SCRIPT_RIGHT_AXIS_X",
+              "INPUT_SCRIPT_RIGHT_AXIS_Y",
+              "INPUT_SCRIPT_RUP",
+              "INPUT_SCRIPT_RDOWN",
+              "INPUT_SCRIPT_RLEFT",
+              "INPUT_SCRIPT_RRIGHT",
+              "INPUT_SCRIPT_LB",
+              "INPUT_SCRIPT_RB",
+              "INPUT_SCRIPT_LT",
+              "INPUT_SCRIPT_RT",
+              "INPUT_SCRIPT_LS",
+              "INPUT_SCRIPT_RS",
+              "INPUT_SCRIPT_PAD_UP",
+              "INPUT_SCRIPT_PAD_DOWN",
+              "INPUT_SCRIPT_PAD_LEFT",
+              "INPUT_SCRIPT_PAD_RIGHT",
+              "INPUT_SCRIPT_SELECT",
+              "INPUT_ATTACK2",
+              "INPUT_RAPPEL_JUMP",
+              "INPUT_RAPPEL_LONG_JUMP",
+              "INPUT_RAPPEL_SMASH_WINDOW",
+              "INPUT_PREV_WEAPON",
+              "INPUT_NEXT_WEAPON",
+              "INPUT_MELEE_ATTACK1",
+              "INPUT_MELEE_ATTACK2",
+              "INPUT_WHISTLE",
+              "INPUT_MOVE_LEFT",
+              "INPUT_MOVE_RIGHT",
+              "INPUT_MOVE_UP",
+              "INPUT_MOVE_DOWN",
+              "INPUT_LOOK_LEFT",
+              "INPUT_LOOK_RIGHT",
+              "INPUT_LOOK_UP",
+              "INPUT_LOOK_DOWN",
+              "INPUT_SNIPER_ZOOM_IN",
+              "INPUT_SNIPER_ZOOM_OUT",
+              "INPUT_SNIPER_ZOOM_IN_ALTERNATE",
+              "INPUT_SNIPER_ZOOM_OUT_ALTERNATE",
+              "INPUT_SNIPER_ZOOM_IN_SECONDARY",
+              "INPUT_SNIPER_ZOOM_OUT_SECONDARY",
+              "INPUT_VEH_MOVE_LEFT",
+              "INPUT_VEH_MOVE_RIGHT",
+              "INPUT_VEH_MOVE_UP",
+              "INPUT_VEH_MOVE_DOWN",
+              "INPUT_VEH_GUN_LEFT",
+              "INPUT_VEH_GUN_RIGHT",
+              "INPUT_VEH_GUN_UP",
+              "INPUT_VEH_GUN_DOWN",
+              "INPUT_VEH_LOOK_LEFT",
+              "INPUT_VEH_LOOK_RIGHT",
+              "INPUT_REPLAY_MARKER_DELETE",
+              "INPUT_REPLAY_PAUSE",
+              "INPUT_REPLAY_REWIND",
+              "INPUT_REPLAY_FFWD",
+              "INPUT_REPLAY_NEWMARKER",
+              "INPUT_REPLAY_RECORD",
+              "INPUT_REPLAY_SCREENSHOT",
+              "INPUT_REPLAY_HIDEHUD",
+              "INPUT_REPLAY_STARTPOINT",
+              "INPUT_REPLAY_ENDPOINT",
+              "INPUT_REPLAY_ADVANCE",
+              "INPUT_REPLAY_BACK",
+              "INPUT_REPLAY_TOOLS",
+              "INPUT_REPLAY_RESTART",
+              "INPUT_REPLAY_SHOWHOTKEY",
+              "INPUT_REPLAY_CYCLEMARKERLEFT",
+              "INPUT_REPLAY_CYCLEMARKERRIGHT",
+              "INPUT_REPLAY_FOVINCREASE",
+              "INPUT_REPLAY_FOVDECREASE",
+              "INPUT_REPLAY_CAMERAUP",
+              "INPUT_REPLAY_CAMERADOWN",
+              "INPUT_REPLAY_SAVE",
+              "INPUT_REPLAY_TOGGLETIME",
+              "INPUT_REPLAY_TOGGLETIPS",
+              "INPUT_REPLAY_PREVIEW",
+              "INPUT_CURSOR_ACCEPT",
+              "INPUT_CURSOR_X",
+              "INPUT_CURSOR_Y",
+              "INPUT_VEH_PUSHBIKE_PEDAL",
+              "INPUT_PICKUP",
+              "INPUT_TALK",
+              "INPUT_VEH_PUSHBIKE_REAR_BRAKE",
+              "INPUT_REPLAY_START_STOP_RECORDING_SECONDARY",
+              "INPUT_THROW_GRENADE",
+              "INPUT_VEH_FLY_DUCK"
+            ]
+          },
+          "@_key": "TODO"
+        }
+      ]
+    },
+    "ConflictList": {
+      "Item": [
+        {
+          "Categories": {
+            "Item": [
+              "VEHICLE_GROUND",
+              "VEHICLE_GENERAL",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "GENERAL"
+            ]
+          }
+        },
+        {
+          "Categories": {
+            "Item": [
+              "VEHICLE_FLY",
+              "VEHICLE_GENERAL",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "GENERAL"
+            ]
+          }
+        },
+        {
+          "Categories": {
+            "Item": [
+              "VEHICLE_SUB",
+              "VEHICLE_GENERAL",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "GENERAL"
+            ]
+          }
+        },
+        {
+          "Categories": {
+            "Item": [
+              "ON_FOOT_GENERAL",
+              "ON_FOOT_MELEE",
+              "ON_FOOT_SHOOTING",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "MULTIPLAYER_DROP",
+              "GENERAL"
+            ]
+          }
+        },
+        {
+          "Categories": {
+            "Item": [
+              "ON_FOOT_SNIPER_ZOOM",
+              "CELLPHONE_CAMERA",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "GENERAL"
+            ]
+          }
+        },
+        {
+          "Categories": {
+            "Item": [
+              "PARACHUTE",
+              "ON_FOOT_SHOOTING",
+              "CELLPHONE",
+              "MULTIPLAYER",
+              "GENERAL"
+            ]
+          }
+        }
+      ]
+    },
+    "ConflictExceptions": {
+      "Item": [
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_SNIPER_ZOOM_OUT_ONLY",
+              "INPUT_ACCURATE_AIM",
+              "INPUT_CELLPHONE_SCROLL_FORWARD",
+              "INPUT_SELECT_PREV_WEAPON",
+              "INPUT_VEH_NEXT_RADIO",
+              "INPUT_WEAPON_WHEEL_PREV"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_SNIPER_ZOOM_IN_ONLY",
+              "INPUT_ACCURATE_AIM",
+              "INPUT_CELLPHONE_SCROLL_BACKWARD",
+              "INPUT_SELECT_NEXT_WEAPON",
+              "INPUT_WEAPON_WHEEL_NEXT",
+              "INPUT_VEH_SELECT_NEXT_WEAPON"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_PHONE",
+              "INPUT_CELLPHONE_UP"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_CIN_CAM",
+              "INPUT_RELOAD",
+              "INPUT_MELEE_ATTACK_LIGHT"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CONTEXT",
+              "INPUT_WEAPON_SPECIAL_TWO",
+              "INPUT_PHONE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CHARACTER_WHEEL",
+              "INPUT_PARACHUTE_SMOKE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_ATTACK",
+              "INPUT_PARACHUTE_DEPLOY",
+              "INPUT_MELEE_ATTACK_ALTERNATE",
+              "INPUT_CELLPHONE_SELECT",
+              "INPUT_VEH_AIM",
+              "INPUT_VEH_FLY_ATTACK"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CELLPHONE_CANCEL",
+              "INPUT_AIM"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CELLPHONE_EXTRA_OPTION",
+              "INPUT_JUMP",
+              "INPUT_PHONE",
+              "INPUT_CELLPHONE_CAMERA_SELFIE",
+              "INPUT_CELLPHONE_CAMERA_DOF",
+              "INPUT_CELLPHONE_CAMERA_EXPRESSION",
+              "INPUT_CELLPHONE_CAMERA_GRID",
+              "INPUT_CELLPHONE_CAMERA_FOCUS_LOCK"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_JUMP",
+              "INPUT_MELEE_ATTACK_HEAVY"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_PARACHUTE_DEPLOY",
+              "INPUT_PARACHUTE_DETACH"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_ROOF",
+              "INPUT_VEH_PUSHBIKE_FRONT_BRAKE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_HEADLIGHT",
+              "INPUT_VEH_SHUFFLE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_PUSHBIKE_SPRINT",
+              "INPUT_SPECIAL_ABILITY_PC"
+            ]
+          }
+        }
+      ]
+    },
+    "MappingList": {
+      "Item": [
+        {
+          "Name": "General",
+          "Categories": {
+            "Item": "GENERAL"
+          }
+        },
+        {
+          "Name": "Cellphone",
+          "Categories": {
+            "Item": [
+              "CELLPHONE",
+              "CELLPHONE_CAMERA"
+            ]
+          }
+        },
+        {
+          "Name": "On Foot",
+          "Categories": {
+            "Item": [
+              "ON_FOOT_GENERAL",
+              "ON_FOOT_MELEE",
+              "ON_FOOT_SHOOTING",
+              "ON_FOOT_SNIPER_ZOOM"
+            ]
+          }
+        },
+        {
+          "Name": "Vehicle",
+          "Categories": {
+            "Item": "VEHICLE_GENERAL"
+          }
+        },
+        {
+          "Name": "Driving",
+          "Categories": {
+            "Item": [
+              "VEHICLE_GROUND",
+              "VEHICLE_SUB"
+            ]
+          }
+        },
+        {
+          "Name": "Flying",
+          "Categories": {
+            "Item": [
+              "VEHICLE_FLY",
+              "PARACHUTE"
+            ]
+          }
+        },
+        {
+          "Name": "Multiplayer",
+          "Categories": {
+            "Item": [
+              "MULTIPLAYER",
+              "MULTIPLAYER_DROP"
+            ]
+          }
+        }
+      ]
+    },
+    "IdenticalMappingLists": {
+      "Item": [
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_CONTEXT",
+              "INPUT_PICKUP",
+              "INPUT_TALK"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_ACCELERATE",
+              "INPUT_VEH_PUSHBIKE_PEDAL"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_BRAKE",
+              "INPUT_VEH_PUSHBIKE_REAR_BRAKE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_AIM",
+              "INPUT_VEH_PASSENGER_AIM"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_AIM",
+              "INPUT_VEH_PASSENGER_ATTACK"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_ATTACK",
+              "INPUT_ATTACK2",
+              "INPUT_MELEE_ATTACK_ALTERNATE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_JUMP",
+              "INPUT_DIVE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_HANDBRAKE",
+              "INPUT_VEH_JUMP"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_GRAPPLING_HOOK",
+              "INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_DETONATE",
+              "INPUT_THROW_GRENADE"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_VEH_DUCK",
+              "INPUT_VEH_FLY_DUCK"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_SNIPER_ZOOM_IN_ONLY",
+              "INPUT_SNIPER_ZOOM_IN_SECONDARY"
+            ]
+          }
+        },
+        {
+          "Inputs": {
+            "Item": [
+              "INPUT_SNIPER_ZOOM_OUT_ONLY",
+              "INPUT_SNIPER_ZOOM_OUT_SECONDARY"
+            ]
+          }
+        }
+      ]
+    },
+    "RelatedInputs": {
+      "Item": {
+        "Inputs": {
+          "Item": [
+            "INPUT_SELECT_WEAPON",
+            "INPUT_LOOK_UD"
+          ]
+        }
+      }
+    },
+    "MouseSettings": {
+      "OnFootMinMouseSensitivity": {
+        "@_value": 0.1
+      },
+      "OnFootMaxMouseSensitivity": {
+        "@_value": 5
+      },
+      "OnFootMouseSensitivityPower": {
+        "@_value": 2.5
+      },
+      "InVehicleMinMouseSensitivity": {
+        "@_value": 1
+      },
+      "InVehicleMaxMouseSensitivity": {
+        "@_value": 5
+      },
+      "InVehicleMouseSensitivityPower": {
+        "@_value": 2.5
+      }
+    }
+  }
+}

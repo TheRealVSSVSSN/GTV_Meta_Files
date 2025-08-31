@@ -1,0 +1,3342 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDeformableObjectManager": {
+    "DeformableObjects": {
+      "Item": [
+        {
+          "objectName": "P_Dumpster_SDT",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_Dumpster_1",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Dumpster_2",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Dumpster_3",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Dumpster_4",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Dumpster_5",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Dumpster_6",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_Dumpster_SDT"
+        },
+        {
+          "objectName": "P_Barrel_SDT",
+          "objectStrength": {
+            "@_value": 500
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_Barrel_1",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.3
+                },
+                "damageVelThreshold": {
+                  "@_value": 2
+                }
+              },
+              {
+                "boneName": "P_Barrel_2",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.3
+                },
+                "damageVelThreshold": {
+                  "@_value": 2
+                }
+              },
+              {
+                "boneName": "P_Barrel_3",
+                "strength": {
+                  "@_value": 1
+                },
+                "radius": {
+                  "@_value": 0.3
+                },
+                "damageVelThreshold": {
+                  "@_value": 2
+                }
+              }
+            ]
+          },
+          "@_key": "P_Barrel_SDT"
+        },
+        {
+          "objectName": "rickdamage_s",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "rickdamage_s_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "rickdamage_s_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "rickdamage_s_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "rickdamage_s_Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "rickdamage_s"
+        },
+        {
+          "objectName": "Prop_Fnc_OMesh_01a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_Fnc_OMesh_01a"
+        },
+        {
+          "objectName": "Prop_FncLink_01a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_01a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_01a"
+        },
+        {
+          "objectName": "Prop_FncLink_01c",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_01c_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01c_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01c_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_01c"
+        },
+        {
+          "objectName": "Prop_FncLink_01d",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_01d_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01d_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01d_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01d_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_01d_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_01d"
+        },
+        {
+          "objectName": "Prop_FncLink_02b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02b_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02b_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02b_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02b"
+        },
+        {
+          "objectName": "Prop_FncLink_02c",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02c_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02c_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02c_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02c"
+        },
+        {
+          "objectName": "Prop_FncLink_02f",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02f_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02f_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02f_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02f"
+        },
+        {
+          "objectName": "Prop_FncLink_02g",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02g_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02g_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02g"
+        },
+        {
+          "objectName": "Prop_FncLink_02h",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02h_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02h_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02h_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02h"
+        },
+        {
+          "objectName": "Prop_FncLink_02m",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02m_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02m_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02m_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02m"
+        },
+        {
+          "objectName": "Prop_FncLink_02n",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02n_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02n_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02n_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02n_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02n"
+        },
+        {
+          "objectName": "Prop_FncLink_02a_SDT",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_02a_SDT_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02a_SDT_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_02a_SDT_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_02a_SDT"
+        },
+        {
+          "objectName": "Prop_FncLink_03a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03a"
+        },
+        {
+          "objectName": "Prop_FncLink_03b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03b"
+        },
+        {
+          "objectName": "Prop_FncLink_03d",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03d_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03d_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03d"
+        },
+        {
+          "objectName": "Prop_FncLink_03f",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03f_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03f_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03f_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03f"
+        },
+        {
+          "objectName": "Prop_FncLink_03e",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03e_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03e_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03e_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03e"
+        },
+        {
+          "objectName": "Prop_FncLink_03g",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03g_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03g_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03g_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03g_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03g_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03g"
+        },
+        {
+          "objectName": "Prop_FncLink_03Gate3",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_03Gate3_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_03Gate3_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_03Gate3"
+        },
+        {
+          "objectName": "Prop_FncLink_04a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_04a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04a_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_04a"
+        },
+        {
+          "objectName": "Prop_FncLink_04b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_04b_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04b_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_04b"
+        },
+        {
+          "objectName": "Prop_FncLink_04c",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_04c_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04c_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04c_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_04c"
+        },
+        {
+          "objectName": "Prop_FncLink_04f_frag_",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": {
+              "boneName": "Prop_FncLink_04f_frag__Bone_1",
+              "strength": {
+                "@_value": 0.1
+              },
+              "radius": {
+                "@_value": 0.5
+              },
+              "damageVelThreshold": {
+                "@_value": 1.5
+              }
+            }
+          },
+          "@_key": "Prop_FncLink_04f_frag_"
+        },
+        {
+          "objectName": "Prop_FncLink_04g",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_04g_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04g_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_04g"
+        },
+        {
+          "objectName": "Prop_FncLink_04h",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_04h_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_04h_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_04h"
+        },
+        {
+          "objectName": "Prop_FncLink_05a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_05a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05a_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_05a"
+        },
+        {
+          "objectName": "Prop_FncLink_05b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_05b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_05b_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_05b"
+        },
+        {
+          "objectName": "Prop_FncLink_06a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_06a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06a_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06a_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_06a"
+        },
+        {
+          "objectName": "Prop_FncLink_06b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_06b_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06b_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_06b"
+        },
+        {
+          "objectName": "Prop_FncLink_06c",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_06c_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06c_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06c_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06c_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06c_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_06c"
+        },
+        {
+          "objectName": "Prop_FncLink_06d",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_06d_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06d_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06d_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06d_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_06d_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_06d"
+        },
+        {
+          "objectName": "Prop_FncLink_07a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_07a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_07a"
+        },
+        {
+          "objectName": "Prop_FncLink_07b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_07b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_07b"
+        },
+        {
+          "objectName": "Prop_FncLink_07c",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_07c_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07c_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07c_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_07c"
+        },
+        {
+          "objectName": "Prop_FncLink_07d",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_07d_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07d_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07d_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07d_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_07d_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_07d"
+        },
+        {
+          "objectName": "Prop_FncLink_09a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_09a_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09a_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09a_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09a_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09a_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_09a"
+        },
+        {
+          "objectName": "Prop_FncLink_09b",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_FncLink_09b_frag__Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09b_frag__Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09b_frag__Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09b_frag__Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_FncLink_09b_frag__Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_FncLink_09b"
+        },
+        {
+          "objectName": "Prop_Rub_Binbag_SD_01",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_Rub_Binbag_01_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Rub_Binbag_01_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Rub_Binbag_01_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Rub_Binbag_01_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_Rub_Binbag_SD_01"
+        },
+        {
+          "objectName": "Prop_Fnc_OMesh_01a",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Fnc_OMesh_01a_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_Fnc_OMesh_01a"
+        },
+        {
+          "objectName": "Prop_Rub_Binbag_SD_02",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Binbag_Top_Bone",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Binbag_Bottom_Bone",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_Rub_Binbag_SD_02"
+        },
+        {
+          "objectName": "P_DefDump_01_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_6",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Dumpster_01a_Bone_3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_01_S"
+        },
+        {
+          "objectName": "P_DefDump_02_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_DefDump_02_S_Bone_010",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_02_S_Bone_009",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_02_S_Bone_007",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_02_S_Bone_012",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_02_S_Bone_008",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_02_S_Bone_011",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_02_S"
+        },
+        {
+          "objectName": "P_DefDump_03_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_DefDump_03_S_Bone_020",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_03_S_Bone_018",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_03_S_Bone_016",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_03_S_Bone_022",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_03_S_Bone_017",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_03_S_Bone_021",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_03_S"
+        },
+        {
+          "objectName": "P_DefDump_04_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_DefDump_04_S_Bone_019",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_04_S_Bone_015",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_04_S_Bone_013",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_04_S_Bone_024",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_04_S_Bone_014",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_04_S_Bone_023",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_04_S"
+        },
+        {
+          "objectName": "P_DefDump_05_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_DefDump_05_S_Bone_032",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_05_S_Bone_030",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_05_S_Bone_028",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_05_S_Bone_034",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_05_S_Bone_029",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_05_S_Bone_033",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_05_S"
+        },
+        {
+          "objectName": "P_DefDump_06_S",
+          "objectStrength": {
+            "@_value": 300
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_DefDump_06_S_Bone_031",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_06_S_Bone_027",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_06_S_Bone_025",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_06_S_Bone_036",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_06_S_Bone_026",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_DefDump_06_S_Bone_035",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 1
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_DefDump_06_S"
+        },
+        {
+          "objectName": "Prop_Container_LD_D",
+          "objectStrength": {
+            "@_value": 10
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "Prop_Cont_LD_D_B_00",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_01",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_02",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_03",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_04",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_05",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_06",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_07",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_08",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_09",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_10",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_11",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_12",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "Prop_Cont_LD_D_B_13",
+                "strength": {
+                  "@_value": 10
+                },
+                "radius": {
+                  "@_value": 0.75
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "Prop_Container_LD_D"
+        },
+        {
+          "objectName": "P_Rub_Binbag_TEST",
+          "objectStrength": {
+            "@_value": 1
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone1",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone2",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone3",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone4",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone5",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_Rub_Binbag_TEST_bone6",
+                "strength": {
+                  "@_value": 0.1
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_Rub_Binbag_TEST"
+        },
+        {
+          "objectName": "P_ccar_dmg_S",
+          "objectStrength": {
+            "@_value": 1
+          },
+          "DeformableBones": {
+            "Item": [
+              {
+                "boneName": "P_ccar_dmg_S_bone01",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone02",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone03",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone04",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone05",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone06",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone07",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone08",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone09",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone10",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone11",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone13",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone14",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone15",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone16",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone17",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone18",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone19",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone20",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              },
+              {
+                "boneName": "P_ccar_dmg_S_bone21",
+                "strength": {
+                  "@_value": 0.05
+                },
+                "radius": {
+                  "@_value": 0.5
+                },
+                "damageVelThreshold": {
+                  "@_value": 1.5
+                }
+              }
+            ]
+          },
+          "@_key": "P_ccar_dmg_S"
+        }
+      ]
+    }
+  }
+}

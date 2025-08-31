@@ -1,0 +1,328 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CDataFileMgr__ContentsOfDataFileXml": {
+    "disabledFiles": "",
+    "includedXmlFiles": {
+      "Item": [
+        {
+          "xi:include": {
+            "@_href": "COMMON:/DATA/common.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        },
+        {
+          "xi:include": {
+            "@_href": "COMMON:/DATA/common_anim.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        },
+        {
+          "xi:include": {
+            "@_href": "COMMON:/DATA/LEVELS/COMMON/common_testlevel.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        },
+        {
+          "xi:include": {
+            "@_href": "COMMON:/DATA/LEVELS/stripped/images.meta",
+            "@_xpointer": "xpointer(/dataFiles)"
+          }
+        }
+      ]
+    },
+    "includedDataFiles": {
+      "Item": "COMMON:/DATA/common_cutscene.meta"
+    },
+    "dataFiles": {
+      "Item": [
+        {
+          "filename": "platform:/levels/gta5/generic/gtxd.rpf",
+          "fileType": "RPF_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/TESTBED/SCRIPT/SCRIPT.RPF",
+          "fileType": "RPF_FILE"
+        },
+        {
+          "filename": "PLATFORM:/DATA/EFFECTS/PTFX.RPF",
+          "fileType": "RPF_FILE"
+        },
+        {
+          "filename": "common:/DATA/LEVELS/stripped/WATER.XML",
+          "fileType": "WATER_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/LEVELS/GTA5/TIME.XML",
+          "fileType": "TIME_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/LEVELS/GTA5/WEATHER.XML",
+          "fileType": "WEATHER_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/TIMECYCLE/UNDERWATER_DEEP.xml",
+          "fileType": "TIMECYCLE_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/TIMECYCLE/TIMECYCLE_MODS_1.XML",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/TIMECYCLE/TIMECYCLE_MODS_2.XML",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/TIMECYCLE/TIMECYCLE_MODS_3.XML",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "COMMON:/DATA/TIMECYCLE/TIMECYCLE_MODS_4.XML",
+          "fileType": "TIMECYCLEMOD_FILE"
+        },
+        {
+          "filename": "common:/data/materials/procedural.dat",
+          "fileType": "PROCOBJ_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_industrial.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_retail.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_residential.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_lev_des.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_corporate.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_medical.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/interiors/int_props/int_club.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/commercial/v_garage.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/commercial/v_office.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/residential/v_electrical.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/residential/v_kitchen.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/residential/v_bathroom.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/residential/v_garden.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/roadside/v_utility.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/rural/v_farm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/stripped/stripped.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/GTA5/GENERIC/PROCOBJ.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/GTA5/GENERIC/ICONS.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/building/v_rooftop.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_bar.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/commercial/v_fastfood.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_bush.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_crops.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_ext_veg.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_fanpalm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_palm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_rocks.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_trees.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_palm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/vegetation/v_fanpalm.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/procedural/v_proc1.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/industrial/v_airport.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/industrial/v_industrial.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/residential/v_electrical.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_bins.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_construction.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_fences.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_fences_2.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_rubbish.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_seating_tables.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_signs.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_storage.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/roadside/v_traffic_lights.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/Lev_Des.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/v_lev_doors.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/Lev_Des/P_V_Lev_Des_skin.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/levels/gta5/props/lev_des/v_set_pieces.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "PLATFORM:/LEVELS/gta5/props/roadside/v_minigame.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_showroom.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_fbowl.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_tvsmash.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/destruction/interior/des_frenchdoors.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "common:/data/levels/gta5/vehicles.meta",
+          "fileType": "VEHICLE_METADATA_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/props/recreational/v_sports.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "platform:/levels/gta5/cloudhats/v_clouds.ityp",
+          "fileType": "PERMANENT_ITYP_FILE"
+        },
+        {
+          "filename": "common:/data/materials/procedural.meta",
+          "fileType": "PROC_META_FILE"
+        },
+        {
+          "filename": "common:/data/levels/stripped/NavmeshIndexMapping.dat",
+          "fileType": "NAVMESH_INDEXREMAPPING_FILE"
+        },
+        {
+          "filename": "common:/data/levels/stripped/NavnodeIndexMapping.dat",
+          "fileType": "NAVNODE_INDEXREMAPPING_FILE"
+        },
+        {
+          "filename": "common:/data/levels/stripped/AudmeshIndexMapping.dat",
+          "fileType": "AUDIOMESH_INDEXREMAPPING_FILE"
+        }
+      ]
+    }
+  }
+}

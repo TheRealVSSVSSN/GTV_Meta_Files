@@ -1,0 +1,1155 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": {
+      "Item": {
+        "Name": "VALKYRIE_ANIM_RATE_SET",
+        "NormalEntry": {
+          "SPRate": {
+            "@_value": 1
+          },
+          "MPRate": {
+            "@_value": 2
+          }
+        },
+        "AnimCombatEntry": {
+          "SPRate": {
+            "@_value": 1
+          },
+          "MPRate": {
+            "@_value": 2
+          }
+        },
+        "NoAnimCombatEntry": {
+          "SPRate": {
+            "@_value": 1.5
+          },
+          "MPRate": {
+            "@_value": 2
+          }
+        },
+        "ForcedEntry": {
+          "SPRate": {
+            "@_value": 1.2
+          },
+          "MPRate": {
+            "@_value": 1.35
+          }
+        },
+        "CombatJackEntry": {
+          "SPRate": {
+            "@_value": 1
+          },
+          "MPRate": {
+            "@_value": 1.35
+          }
+        },
+        "NormalExit": {
+          "SPRate": {
+            "@_value": 1
+          },
+          "MPRate": {
+            "@_value": 1.35
+          }
+        },
+        "NoAnimCombatExit": {
+          "SPRate": {
+            "@_value": 1.35
+          },
+          "MPRate": {
+            "@_value": 1.35
+          }
+        },
+        "@_type": "CAnimRateSet"
+      }
+    },
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@ps@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@ps@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@ps@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit_front",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit_front",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit_rear",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit_rear",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@enter_exit_front",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@enter_exit_front",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@enter_exit_rear",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@enter_exit_rear",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@enter_exit",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_REAR_LEFT_TURRET",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rds@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_REAR_RIGHT_TURRET",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@valkyrie@rps@enter_exit",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": {
+      "Item": {
+        "Name": "VALKYRIE_COVER_OFFSET_INFO",
+        "ExtraSideOffset": {
+          "@_value": 0.1
+        },
+        "ExtraForwardOffset": {
+          "@_value": 1.1
+        },
+        "ExtraBackwardOffset": {
+          "@_value": 0
+        },
+        "ExtraZOffset": {
+          "@_value": 1
+        },
+        "CoverBoundInfos": {
+          "Item": [
+            {
+              "Name": "NOSE",
+              "Position": {
+                "@_x": 0,
+                "@_y": 3.8,
+                "@_z": -0.5
+              },
+              "Length": {
+                "@_value": 2.5
+              },
+              "Width": {
+                "@_value": 2.06
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": {
+                "Item": [
+                  "HARDPOINTS",
+                  "BODY"
+                ]
+              }
+            },
+            {
+              "Name": "CABIN",
+              "Position": {
+                "@_x": 0,
+                "@_y": 2.08,
+                "@_z": -0.5
+              },
+              "Length": {
+                "@_value": 0.95
+              },
+              "Width": {
+                "@_value": 2.425
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": {
+                "Item": [
+                  "HARDPOINTS",
+                  "BODY"
+                ]
+              }
+            },
+            {
+              "Name": "DOORS",
+              "Position": {
+                "@_x": 0,
+                "@_y": 1.225,
+                "@_z": -1
+              },
+              "Length": {
+                "@_value": 0.77
+              },
+              "Width": {
+                "@_value": 2.425
+              },
+              "Height": {
+                "@_value": 0.9
+              },
+              "ActiveBoundExclusions": {
+                "Item": "BODY"
+              }
+            },
+            {
+              "Name": "HARDPOINTS",
+              "Position": {
+                "@_x": 0,
+                "@_y": -0.11,
+                "@_z": -0.9
+              },
+              "Length": {
+                "@_value": 1.9
+              },
+              "Width": {
+                "@_value": 4.4
+              },
+              "Height": {
+                "@_value": 1
+              },
+              "ActiveBoundExclusions": {
+                "Item": [
+                  "NOSE",
+                  "CABIN"
+                ]
+              }
+            },
+            {
+              "Name": "BODY",
+              "Position": {
+                "@_x": 0,
+                "@_y": -1.505,
+                "@_z": -0.42
+              },
+              "Length": {
+                "@_value": 0.885
+              },
+              "Width": {
+                "@_value": 2.065
+              },
+              "Height": {
+                "@_value": 2
+              },
+              "ActiveBoundExclusions": {
+                "Item": [
+                  "NOSE",
+                  "CABIN",
+                  "DOORS"
+                ]
+              }
+            }
+          ]
+        },
+        "@_type": "CVehicleCoverBoundOffsetInfo"
+      }
+    },
+    "EntryAnimVariations": {
+      "Item": [
+        {
+          "Name": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_FRONT",
+          "Flags": "",
+          "Conditions": "",
+          "EntryAnims": "",
+          "JackingAnims": "",
+          "ExitAnims": {
+            "Item": {
+              "ClipSet": "clipset@veh@valkyrie@rds@skydive_front",
+              "AssociatedSpeech": "",
+              "Conditions": "",
+              "ActionFlags": "IsSkyDive",
+              "@_type": "CConditionalClipSet"
+            }
+          },
+          "@_type": "CEntryAnimVariations"
+        },
+        {
+          "Name": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_REAR",
+          "Flags": "",
+          "Conditions": "",
+          "EntryAnims": "",
+          "JackingAnims": "",
+          "ExitAnims": {
+            "Item": {
+              "ClipSet": "clipset@veh@valkyrie@rds@skydive_rear",
+              "AssociatedSpeech": "",
+              "Conditions": "",
+              "ActionFlags": "IsSkyDive",
+              "@_type": "CConditionalClipSet"
+            }
+          },
+          "@_type": "CEntryAnimVariations"
+        },
+        {
+          "Name": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_FRONT",
+          "Flags": "",
+          "Conditions": "",
+          "EntryAnims": "",
+          "JackingAnims": "",
+          "ExitAnims": {
+            "Item": {
+              "ClipSet": "clipset@veh@valkyrie@rps@skydive_front",
+              "AssociatedSpeech": "",
+              "Conditions": "",
+              "ActionFlags": "IsSkyDive",
+              "@_type": "CConditionalClipSet"
+            }
+          },
+          "@_type": "CEntryAnimVariations"
+        },
+        {
+          "Name": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_REAR",
+          "Flags": "",
+          "Conditions": "",
+          "EntryAnims": "",
+          "JackingAnims": "",
+          "ExitAnims": {
+            "Item": {
+              "ClipSet": "clipset@veh@valkyrie@rps@skydive_rear",
+              "AssociatedSpeech": "",
+              "Conditions": "",
+              "ActionFlags": "IsSkyDive",
+              "@_type": "CConditionalClipSet"
+            }
+          },
+          "@_type": "CEntryAnimVariations"
+        }
+      ]
+    },
+    "VehicleDriveByInfos": {
+      "Item": [
+        {
+          "Name": "DRIVEBY_HELI_VALKYRIE_TURRET_LEFT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -88
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 88
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": -180
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "DriveByAnimInfos": "",
+          "DriveByCamera": "V_HELI_REAR_LEFT_AIM_CAMERA",
+          "DriveByFlags": "DampenRecoil UseThreeAnimIntroOutro",
+          "@_type": "CVehicleDriveByInfo"
+        },
+        {
+          "Name": "DRIVEBY_HELI_VALKYRIE_TURRET_RIGHT",
+          "MinAimSweepHeadingAngleDegs": {
+            "@_value": -88
+          },
+          "MaxAimSweepHeadingAngleDegs": {
+            "@_value": 88
+          },
+          "MinRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 0
+          },
+          "MaxRestrictedAimSweepHeadingAngleDegs": {
+            "@_value": 180
+          },
+          "MinSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSmashWindowAngleDegs": {
+            "@_value": 0
+          },
+          "MaxSpeedParam": {
+            "@_value": 0.5
+          },
+          "MaxLongitudinalLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "MaxLateralLeanBlendWeightDelta": {
+            "@_value": 0.25
+          },
+          "ApproachSpeedToWithinMaxBlendDelta": {
+            "@_value": 1
+          },
+          "SpineAdditiveBlendInDelay": {
+            "@_value": 0.05
+          },
+          "SpineAdditiveBlendInDurationStill": {
+            "@_value": 0.15
+          },
+          "SpineAdditiveBlendInDuration": {
+            "@_value": 0.75
+          },
+          "SpineAdditiveBlendOutDelay": {
+            "@_value": 0
+          },
+          "SpineAdditiveBlendOutDuration": {
+            "@_value": 0.5
+          },
+          "DriveByAnimInfos": "",
+          "DriveByCamera": "V_HELI_REAR_RIGHT_AIM_CAMERA",
+          "DriveByFlags": "DampenRecoil UseThreeAnimIntroOutro",
+          "@_type": "CVehicleDriveByInfo"
+        }
+      ]
+    },
+    "VehicleSeatInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_HELI_VALKYRIE_FRONT_LEFT",
+          "SeatBoneName": "seat_dside_f",
+          "ShuffleLink": "SEAT_STANDARD_FRONT_RIGHT",
+          "RearSeatLink": "SEAT_STANDARD_REAR_LEFT",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsFrontSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": -0.275
+          },
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_HELI_VALKYRIE_FRONT_RIGHT",
+          "SeatBoneName": "seat_pside_f",
+          "ShuffleLink": "SEAT_STANDARD_FRONT_LEFT",
+          "RearSeatLink": "SEAT_STANDARD_REAR_RIGHT",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "IsFrontSeat KeepOnHeadProp",
+          "HairScale": {
+            "@_value": -0.275
+          },
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_HELI_VALKYRIE_TURRET_LEFT",
+          "SeatBoneName": "seat_dside_r2",
+          "ShuffleLink": "SEAT_HELI_VALKYRIE_TURRET_RIGHT",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "KeepOnHeadProp PedInSeatTargetable",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        },
+        {
+          "Name": "SEAT_HELI_VALKYRIE_TURRET_RIGHT",
+          "SeatBoneName": "seat_pside_r2",
+          "ShuffleLink": "SEAT_HELI_VALKYRIE_TURRET_LEFT",
+          "RearSeatLink": "",
+          "DefaultCarTask": "TASK_DRIVE_WANDER",
+          "SeatFlags": "KeepOnHeadProp PedInSeatTargetable",
+          "HairScale": {
+            "@_value": 0
+          },
+          "ShuffleLink2": "",
+          "@_type": "CVehicleSeatInfo"
+        }
+      ]
+    },
+    "VehicleSeatAnimInfos": {
+      "Item": [
+        {
+          "Name": "SEAT_ANIM_HELI_VALKYRIE_FRONT_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_HELI_FRONT_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT"
+          },
+          "PanicClipSet": "clipset@veh@valkyrie@ps@idle_panic",
+          "AgitatedClipSet": "",
+          "LowLODIdleAnim": "HELI_FRONT_PS_IDLE",
+          "SeatAmbientContext": "",
+          "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+          "SeatAnimFlags": "WeaponAttachedToLeftHand UseStandardInVehicleAnims HasPanicAnims PreventShuffleJack",
+          "SteeringSmoothing": {
+            "@_value": 0.1
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_HELI_VALKYRIE_TURRET_LEFT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_HELI_VALKYRIE_TURRET_LEFT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "LowLODIdleAnim": "VALKYRIE_TURRET_IDLE",
+          "SeatAmbientContext": "IN_CAR_STANDARD",
+          "InVehicleMoveNetwork": "VEHICLE_TURRET_SEATED",
+          "SeatAnimFlags": "UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown NoShunts",
+          "SteeringSmoothing": {
+            "@_value": 0.04
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "@_type": "CVehicleSeatAnimInfo"
+        },
+        {
+          "Name": "SEAT_ANIM_HELI_VALKYRIE_TURRET_RIGHT",
+          "DriveByInfo": {
+            "@_ref": "DRIVEBY_HELI_VALKYRIE_TURRET_RIGHT"
+          },
+          "InsideClipSetMap": {
+            "@_ref": "INSIDE_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT"
+          },
+          "PanicClipSet": "",
+          "AgitatedClipSet": "",
+          "DuckedClipSet": "",
+          "LowLODIdleAnim": "VALKYRIE_TURRET_IDLE",
+          "SeatAmbientContext": "IN_CAR_STANDARD",
+          "InVehicleMoveNetwork": "VEHICLE_TURRET_SEATED",
+          "SeatAnimFlags": "UseStandardInVehicleAnims RagdollWhenVehicleUpsideDown NoShunts",
+          "SteeringSmoothing": {
+            "@_value": 0.04
+          },
+          "ExitToAimInfoName": "",
+          "MaleGestureClipSetId": "",
+          "FemaleGestureClipSetId": "",
+          "@_type": "CVehicleSeatAnimInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_FRONT_LEFT",
+          "DoorBoneName": "door_dside_f",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "handle_dside_f",
+          "WindowId": "FRONT_LEFT",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_HELI_VALKYRIE_FRONT_LEFT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_STD_LEFT"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady",
+          "BlockJackReactionSides": {
+            "Item": "SIDE_LEFT"
+          },
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_FRONT_RIGHT",
+          "DoorBoneName": "door_pside_f",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "handle_pside_f",
+          "WindowId": "FRONT_RIGHT",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_HELI_VALKYRIE_FRONT_RIGHT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "EXTRA_VEHICLE_POINTS_STD_RIGHT"
+          },
+          "Flags": "BlockJackReactionUntilJackerIsReady",
+          "BlockJackReactionSides": {
+            "Item": "SIDE_RIGHT"
+          },
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_FRONT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_HELI_VALKYRIE_TURRET_LEFT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_REAR",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "",
+          "VehicleSide": "SIDE_LEFT",
+          "AccessableSeats": {
+            "Item": {
+              "@_ref": "SEAT_HELI_VALKYRIE_TURRET_LEFT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "BlockJackReactionSides": "",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_FRONT",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Seat": {
+              "@_ref": "SEAT_HELI_VALKYRIE_TURRET_RIGHT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "@_type": "CVehicleEntryPointInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_REAR",
+          "DoorBoneName": "",
+          "SecondDoorBoneName": "",
+          "DoorHandleBoneName": "",
+          "WindowId": "",
+          "VehicleSide": "SIDE_RIGHT",
+          "AccessableSeats": {
+            "Seat": {
+              "@_ref": "SEAT_HELI_VALKYRIE_TURRET_RIGHT"
+            }
+          },
+          "VehicleExtraPointsInfo": {
+            "@_ref": "NULL"
+          },
+          "Flags": "",
+          "@_type": "CVehicleEntryPointInfo"
+        }
+      ]
+    },
+    "VehicleEntryPointAnimInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_ANIM_HELI_VALKYRIE_FRONT_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_HELI_VALKYRIE_FRONT_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.466,
+            "@_y": -0.396,
+            "@_z": -0.2301
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForWaterEntry": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "JackIncludesGetIn UsesNoDoorTransitionForEnter UsesNoDoorTransitionForExit UseGetUpAfterJack DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELICOPTER_ANNIHILATOR_FRONT_RIGHT"
+          },
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_FRONT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_FRONT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.17,
+            "@_y": 0.815,
+            "@_z": 0.054
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 2.15
+          },
+          "ExtraZForWaterEntry": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_FRONT"
+          },
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_REAR",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_LEFT_REAR"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.15,
+            "@_y": 0.695,
+            "@_z": 0.054
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -2.25
+          },
+          "ExtraZForWaterEntry": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_LEFT_REAR"
+          },
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_FRONT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_FRONT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -1.17,
+            "@_y": 0.815,
+            "@_z": 0.054
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -2.15
+          },
+          "ExtraZForWaterEntry": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_FRONT"
+          },
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_REAR",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_TRUCK_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_HELI_VALKYRIE_TURRET_RIGHT_REAR"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 1.15,
+            "@_y": 0.695,
+            "@_z": 0.054
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 2.25
+          },
+          "ExtraZForWaterEntry": {
+            "@_value": 0
+          },
+          "EntryPointFlags": "JackIncludesGetIn UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "ENTRY_ANIM_VARIATIONS_HELI_VALKYRIE_TURRET_RIGHT_REAR"
+          },
+          "@_type": "CVehicleEntryPointAnimInfo"
+        }
+      ]
+    },
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_HELI_VALKYRIE",
+        "Seats": {
+          "Item": [
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_HELI_VALKYRIE_FRONT_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_HELI_FRONT_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_HELI_VALKYRIE_FRONT_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_HELI_VALKYRIE_FRONT_RIGHT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_HELI_VALKYRIE_TURRET_LEFT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_HELI_VALKYRIE_TURRET_LEFT"
+              }
+            },
+            {
+              "SeatInfo": {
+                "@_ref": "SEAT_HELI_VALKYRIE_TURRET_RIGHT"
+              },
+              "SeatAnimInfo": {
+                "@_ref": "SEAT_ANIM_HELI_VALKYRIE_TURRET_RIGHT"
+              }
+            }
+          ]
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_ANNIHILATOR_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_VALKYRIE_FRONT_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_FRONT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_FRONT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_FRONT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_FRONT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_TURRET_LEFT_REAR"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_LEFT_REAR"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_HELI_VALKRYIE_TURRET_RIGHT_REAR"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_HELI_VALKYRIE_TURRET_RIGHT_REAR"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims UseFinerAlignTolerance Use2DBodyBlend",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "VALKYRIE_ANIM_RATE_SET"
+        },
+        "HandsUpClipSetId": "busted_vehicle_std",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    }
+  }
+}

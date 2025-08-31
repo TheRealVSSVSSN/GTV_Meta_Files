@@ -1,0 +1,1943 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CMotionTaskDataManager": {
+    "aMotionTaskData": {
+      "Item": [
+        {
+          "Name": "STANDARD_PED",
+          "onFoot": {
+            "Type": "PED_ON_FOOT",
+            "JumpClipSetHash": "ANIM_GROUP_NEW_PED_JUMP",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "ANIM_GROUP_NEW_PED_FALL",
+            "SlopeScrambleClipSetHash": "ANIM_GROUP_SLOPE_SCRAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "Type": "PED_IN_WATER",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": true
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Player_Zero",
+          "onFoot": {
+            "Type": "PED_ON_FOOT",
+            "JumpClipSetHash": "ANIM_GROUP_NEW_PED_JUMP",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "ANIM_GROUP_NEW_PED_FALL",
+            "SlopeScrambleClipSetHash": "ANIM_GROUP_SLOPE_SCRAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "Type": "PED_IN_WATER",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": true
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Player_One",
+          "onFoot": {
+            "Type": "PED_ON_FOOT",
+            "JumpClipSetHash": "ANIM_GROUP_NEW_PED_JUMP",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "ANIM_GROUP_NEW_PED_FALL",
+            "SlopeScrambleClipSetHash": "ANIM_GROUP_SLOPE_SCRAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "Type": "PED_IN_WATER",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 0.9
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": true
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Player_Two",
+          "onFoot": {
+            "Type": "PED_ON_FOOT",
+            "JumpClipSetHash": "ANIM_GROUP_NEW_PED_JUMP",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "ANIM_GROUP_NEW_PED_FALL",
+            "SlopeScrambleClipSetHash": "ANIM_GROUP_SLOPE_SCRAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "Type": "PED_IN_WATER",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 0.95
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": true
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Chickenhawk",
+          "onFoot": {
+            "Type": "BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "PlayerBirdFlappingSpeedMultiplier": {
+              "@_value": "2.08f"
+            },
+            "PlayerBirdGlidingSpeedMultiplier": {
+              "@_value": "2.73f"
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Cormorant",
+          "onFoot": {
+            "Type": "BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "PlayerBirdFlappingSpeedMultiplier": {
+              "@_value": "1.08f"
+            },
+            "PlayerBirdGlidingSpeedMultiplier": {
+              "@_value": "1.42f"
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Crow",
+          "onFoot": {
+            "Type": "BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "PlayerBirdFlappingSpeedMultiplier": {
+              "@_value": "1.72f"
+            },
+            "PlayerBirdGlidingSpeedMultiplier": {
+              "@_value": "2.25f"
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Pigeon",
+          "onFoot": {
+            "Type": "BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "PlayerBirdFlappingSpeedMultiplier": {
+              "@_value": "2.85f"
+            },
+            "PlayerBirdGlidingSpeedMultiplier": {
+              "@_value": "2.07f"
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Seagull",
+          "onFoot": {
+            "Type": "BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "PlayerBirdFlappingSpeedMultiplier": {
+              "@_value": "2.53f"
+            },
+            "PlayerBirdGlidingSpeedMultiplier": {
+              "@_value": "1.67f"
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "FLIGHTLESS_BIRD",
+          "onFoot": {
+            "Type": "FLIGHTLESS_BIRD_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "horse",
+          "onFoot": {
+            "Type": "HORSE_ON_FOOT",
+            "JumpClipSetHash": "HORSE_JUMP",
+            "JumpNetworkName": "TaskJumpHorse",
+            "UseQuadrupedJump": {
+              "@_value": true
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "ANIM_GROUP_SLOPE_SCRAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "rottweiler",
+          "onFoot": {
+            "Type": "ROTTWEILER_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.142
+            },
+            "RunTurnRate": {
+              "@_value": 2.156
+            },
+            "SprintTurnRate": {
+              "@_value": 1.271
+            },
+            "MotionAnimRateScale": {
+              "@_value": 0.8
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.2
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": true
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "retriever",
+          "onFoot": {
+            "Type": "RETRIEVER_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "BOAR",
+          "onFoot": {
+            "Type": "BOAR_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "COW",
+          "onFoot": {
+            "Type": "COW_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "COUGAR",
+          "onFoot": {
+            "Type": "COUGAR_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.256194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.270796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1.5
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 2.5
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1.5
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1.5
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "COYOTE",
+          "onFoot": {
+            "Type": "COYOTE_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1.7
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 2
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1.7
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 2
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "PIG",
+          "onFoot": {
+            "Type": "PIG_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "RAT",
+          "onFoot": {
+            "Type": "RAT_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": false
+            },
+            "HasRunStarts": {
+              "@_value": false
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "Fish",
+          "onFoot": {
+            "Type": "FISH_IN_WATER",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "DEER",
+          "onFoot": {
+            "Type": "DEER_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.241593
+            },
+            "RunTurnRate": {
+              "@_value": 3.241593
+            },
+            "SprintTurnRate": {
+              "@_value": 3.241593
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.2
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.5
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1.6
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 2.4
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "CAT",
+          "onFoot": {
+            "Type": "CAT_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.530727
+            },
+            "SprintTurnRate": {
+              "@_value": 1.745329
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1.7
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 2
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1.5
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1.7
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 2
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        },
+        {
+          "Name": "RABBIT",
+          "onFoot": {
+            "Type": "RABBIT_ON_FOOT",
+            "JumpClipSetHash": "",
+            "JumpNetworkName": "TaskJump",
+            "UseQuadrupedJump": {
+              "@_value": false
+            },
+            "FallClipSetHash": "",
+            "SlopeScrambleClipSetHash": "CLIP_SET_SLOPE_SCAMBLE",
+            "WalkTurnRate": {
+              "@_value": 3.141593
+            },
+            "RunTurnRate": {
+              "@_value": 2.356194
+            },
+            "SprintTurnRate": {
+              "@_value": 1.570796
+            },
+            "MotionAnimRateScale": {
+              "@_value": 1
+            },
+            "QuadWalkRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunWalkTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadRunSprintTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadSprintRunTransitionTime": {
+              "@_value": 0.25
+            },
+            "QuadWalkTurnScaleFactor": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactor": {
+              "@_value": 1.25
+            },
+            "QuadSprintTurnScaleFactor": {
+              "@_value": 1.5
+            },
+            "QuadWalkTurnScaleFactorPlayer": {
+              "@_value": 1
+            },
+            "QuadRunTurnScaleFactorPlayer": {
+              "@_value": 1.25
+            },
+            "QuadSprintTurnScaleFactorPlayer": {
+              "@_value": 1.5
+            },
+            "HasWalkStarts": {
+              "@_value": true
+            },
+            "HasRunStarts": {
+              "@_value": true
+            },
+            "HasQuickStops": {
+              "@_value": false
+            },
+            "CanTrot": {
+              "@_value": false
+            },
+            "@_type": "sMotionTaskData"
+          },
+          "inWater": {
+            "@_type": "NULL"
+          },
+          "HasLowLodMotionTask": {
+            "@_value": false
+          },
+          "@_type": "CMotionTaskDataSet"
+        }
+      ]
+    }
+  }
+}

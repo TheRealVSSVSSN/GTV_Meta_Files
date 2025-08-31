@@ -1,0 +1,580 @@
+{
+  "?xml": {
+    "@_version": 1,
+    "@_encoding": "UTF-8"
+  },
+  "CVehicleMetadataMgr": {
+    "AnimRateSets": "",
+    "ClipSetMaps": {
+      "Item": [
+        {
+          "Name": "INSIDE_CLIPSET_MAP_RROCKET_FRONT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@base",
+              "VarClipSetId": "InsideVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@ds",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_RROCKET_FRONT_LEFT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@ds",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@ps",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_RROCKET_FRONT_RIGHT",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@ps",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@rear",
+              "VarClipSetId": "EntryVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        },
+        {
+          "Name": "EXIT_CLIPSET_MAP_RROCKET_FRONT_REAR",
+          "Maps": {
+            "Item": {
+              "ClipSetId": "clipset@veh@bike@hemi_trike@front@rear",
+              "VarClipSetId": "ExitVarClipSet",
+              "ConditionFlags": "",
+              "InformationFlags": ""
+            }
+          },
+          "@_type": "CClipSetMap"
+        }
+      ]
+    },
+    "VehicleCoverBoundOffsetInfos": {
+      "Item": {
+        "Name": "RROCKET_COVER_OFFSET_INFO",
+        "ExtraSideOffset": {
+          "@_value": 0
+        },
+        "ExtraForwardOffset": {
+          "@_value": 0
+        },
+        "ExtraBackwardOffset": {
+          "@_value": 0
+        },
+        "ExtraZOffset": {
+          "@_value": 0
+        },
+        "CoverBoundInfos": {
+          "Item": [
+            {
+              "Name": "Front",
+              "Position": {
+                "@_x": 0,
+                "@_y": 1.52,
+                "@_z": 0.2
+              },
+              "Length": {
+                "@_value": 2.2
+              },
+              "Width": {
+                "@_value": 0.6
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": ""
+            },
+            {
+              "Name": "BODY",
+              "Position": {
+                "@_x": 0,
+                "@_y": -0.28,
+                "@_z": 0.2
+              },
+              "Length": {
+                "@_value": 1.4
+              },
+              "Width": {
+                "@_value": 1
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": ""
+            },
+            {
+              "Name": "Back",
+              "Position": {
+                "@_x": 0,
+                "@_y": -1.3,
+                "@_z": 0.2
+              },
+              "Length": {
+                "@_value": 0.9
+              },
+              "Width": {
+                "@_value": 1.75
+              },
+              "Height": {
+                "@_value": 1.5
+              },
+              "ActiveBoundExclusions": ""
+            }
+          ]
+        },
+        "@_type": "CVehicleCoverBoundOffsetInfo"
+      }
+    },
+    "BicycleInfos": "",
+    "POVTuningInfos": "",
+    "EntryAnimVariations": "",
+    "VehicleExtraPointsInfos": "",
+    "DrivebyWeaponGroups": "",
+    "VehicleDriveByAnimInfos": {
+      "Item": {
+        "Name": "RROCKET_DB_ANIM_INFO_ONE_HANDED_DS_FPS",
+        "WeaponGroup": {
+          "@_ref": "DRIVEBY_BIKE_ONE_HANDED"
+        },
+        "DriveByClipSet": "drive_by_bike_freeway@std_ds",
+        "FirstPersonDriveByClipSet": "driveby@first_person@bike@driver@1H",
+        "AltFirstPersonDriveByClipSets": "",
+        "RestrictedDriveByClipSet": "",
+        "VehicleMeleeClipSet": "drive_by_bike_police@veh_melee_1h",
+        "FirstPersonVehicleMeleeClipSet": "drive_by_bike@fp_veh_melee_1h",
+        "Network": "STD_CAR_DRIVEBY",
+        "UseOverrideAngles": {
+          "@_value": false
+        },
+        "OverrideAnglesInThirdPersonOnly": {
+          "@_value": false
+        },
+        "OverrideMinAimAngle": {
+          "@_value": 0
+        },
+        "OverrideMaxAimAngle": {
+          "@_value": 0
+        },
+        "OverrideMinRestrictedAimAngle": {
+          "@_value": 0
+        },
+        "OverrideMaxRestrictedAimAngle": {
+          "@_value": 0
+        },
+        "@_type": "CVehicleDriveByAnimInfo"
+      }
+    },
+    "VehicleDriveByInfos": {
+      "Item": {
+        "Name": "DRIVEBY_BIKE_RROCKET_WITH_FIRST_PERSON_DRIVEBY",
+        "MinAimSweepHeadingAngleDegs": {
+          "@_value": -190
+        },
+        "MaxAimSweepHeadingAngleDegs": {
+          "@_value": 190
+        },
+        "FirstPersonMinAimSweepHeadingAngleDegs": {
+          "@_value": -180
+        },
+        "FirstPersonMaxAimSweepHeadingAngleDegs": {
+          "@_value": 180
+        },
+        "FirstPersonUnarmedMinAimSweepHeadingAngleDegs": {
+          "@_value": -90
+        },
+        "FirstPersonUnarmedMaxAimSweepHeadingAngleDegs": {
+          "@_value": 90
+        },
+        "MinRestrictedAimSweepHeadingAngleDegs": {
+          "@_value": -190
+        },
+        "MaxRestrictedAimSweepHeadingAngleDegs": {
+          "@_value": 190
+        },
+        "MinSmashWindowAngleDegs": {
+          "@_value": 0
+        },
+        "MaxSmashWindowAngleDegs": {
+          "@_value": 0
+        },
+        "MinSmashWindowAngleFirstPersonDegs": {
+          "@_value": 0
+        },
+        "MaxSmashWindowAngleFirstPersonDegs": {
+          "@_value": 0
+        },
+        "MaxSpeedParam": {
+          "@_value": 0.25
+        },
+        "MaxLongitudinalLeanBlendWeightDelta": {
+          "@_value": 0.25
+        },
+        "MaxLateralLeanBlendWeightDelta": {
+          "@_value": 0.25
+        },
+        "ApproachSpeedToWithinMaxBlendDelta": {
+          "@_value": 1
+        },
+        "SpineAdditiveBlendInDelay": {
+          "@_value": 0.05
+        },
+        "SpineAdditiveBlendInDurationStill": {
+          "@_value": 0.15
+        },
+        "SpineAdditiveBlendInDuration": {
+          "@_value": 0.75
+        },
+        "SpineAdditiveBlendOutDelay": {
+          "@_value": 0
+        },
+        "SpineAdditiveBlendOutDuration": {
+          "@_value": 0.5
+        },
+        "MinUnarmedDrivebyYawIfWindowRolledUp": {
+          "@_value": -3.14
+        },
+        "MaxUnarmedDrivebyYawIfWindowRolledUp": {
+          "@_value": 3.14
+        },
+        "DriveByAnimInfos": {
+          "Item": [
+            {
+              "@_ref": "FREEWAY_DB_ANIM_INFO_MELEE_DS"
+            },
+            {
+              "@_ref": "FREEWAY_DB_ANIM_INFO_UNARMED_DS"
+            },
+            {
+              "@_ref": "RROCKET_DB_ANIM_INFO_ONE_HANDED_DS_FPS"
+            },
+            {
+              "@_ref": "FREEWAY_DB_ANIM_INFO_THROW_DS"
+            }
+          ]
+        },
+        "DriveByCamera": "",
+        "PovDriveByCamera": "",
+        "DriveByFlags": "UseMountedProjectileTask UseSpineAdditive",
+        "@_type": "CVehicleDriveByInfo"
+      }
+    },
+    "VehicleSeatInfos": "",
+    "VehicleSeatAnimInfos": {
+      "Item": {
+        "Name": "SEAT_ANIM_BIKE_RROCKET",
+        "DriveByInfo": {
+          "@_ref": "DRIVEBY_BIKE_RROCKET_WITH_FIRST_PERSON_DRIVEBY"
+        },
+        "InsideClipSetMap": {
+          "@_ref": "INSIDE_CLIPSET_MAP_RROCKET_FRONT"
+        },
+        "PanicClipSet": "",
+        "AgitatedClipSet": "",
+        "DuckedClipSet": "",
+        "FemaleClipSet": "",
+        "LowriderLeanClipSet": "clipset@veh@bike@police@front@base",
+        "AltLowriderLeanClipSet": "anim@veh@sit_variations@police_chimera@front@idle_a",
+        "LowLODIdleAnim": "FREEWAY_BIKE_FRONT_IDLE",
+        "SeatAmbientContext": "",
+        "InVehicleMoveNetwork": "VEHICLE_DEFAULT",
+        "SeatAnimFlags": "CanDetachViaRagdoll UseBikeInVehicleAnims SupportsInAirState FallsOutWhenDead",
+        "SteeringSmoothing": {
+          "@_value": 0.1
+        },
+        "ExitToAimInfoName": "",
+        "MaleGestureClipSetId": "",
+        "FemaleGestureClipSetId": "",
+        "FPSMinSteeringRateOverride": {
+          "@_value": -1
+        },
+        "FPSMaxSteeringRateOverride": {
+          "@_value": -1
+        },
+        "SeatCollisionBoundsOffset": {
+          "@_x": 0,
+          "@_y": 0,
+          "@_z": 0
+        },
+        "@_type": "CVehicleSeatAnimInfo"
+      }
+    },
+    "VehicleEntryPointInfos": {
+      "Item": {
+        "Name": "ENTRY_POINT_BIKE_RROCKET_FRONT_REAR",
+        "DoorBoneName": "",
+        "SecondDoorBoneName": "",
+        "DoorHandleBoneName": "",
+        "WindowId": "INVALID",
+        "VehicleSide": "SIDE_REAR",
+        "AccessableSeats": {
+          "Item": {
+            "@_ref": "SEAT_BIKE_FRONT"
+          }
+        },
+        "VehicleExtraPointsInfo": {
+          "@_ref": "NULL"
+        },
+        "Flags": "",
+        "BlockJackReactionSides": "",
+        "BreakoutTestPoint": "POINT_TYPE_MAX",
+        "@_type": "CVehicleEntryPointInfo"
+      }
+    },
+    "VehicleEntryPointAnimInfos": {
+      "Item": [
+        {
+          "Name": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_LEFT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BIKE_HIGH_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_LEFT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_RROCKET_FRONT_LEFT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": -0.67,
+            "@_y": 0.7788,
+            "@_z": 0.2808
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": -1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "MOTOBIKE",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_RIGHT",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BIKE_HIGH_RIGHT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_RIGHT"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_RROCKET_FRONT_RIGHT"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 0.6507,
+            "@_y": 0.8062,
+            "@_z": 0.2808
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 1.57
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        },
+        {
+          "Name": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_REAR",
+          "CommonClipSetMap": {
+            "@_ref": "COMMON_CLIPSET_MAP_BIKE_HIGH_LEFT"
+          },
+          "EntryClipSetMap": {
+            "@_ref": "ENTRY_CLIPSET_MAP_RROCKET_FRONT_REAR"
+          },
+          "ExitClipSetMap": {
+            "@_ref": "EXIT_CLIPSET_MAP_RROCKET_FRONT_REAR"
+          },
+          "AlternateTryLockedDoorClipId": "",
+          "AlternateForcedEntryClipId": "",
+          "AlternateJackFromOutSideClipId": "",
+          "AlternateBeJackedFromOutSideClipId": "",
+          "AlternateEntryPointClipSetId": "",
+          "EnterVehicleMoveNetwork": "ENTER_VEHICLE_STD",
+          "EntryTranslation": {
+            "@_x": 0.025,
+            "@_y": -0.52,
+            "@_z": 0.3973
+          },
+          "OpenDoorTranslation": {
+            "@_x": 0,
+            "@_y": 0
+          },
+          "OpenDoorHeadingChange": {
+            "@_value": 0
+          },
+          "EntryHeadingChange": {
+            "@_value": 0
+          },
+          "ExtraZForMPPlaneWarp": {
+            "@_value": -2
+          },
+          "EntryPointFlags": "JackIncludesGetIn FixUpMoverToEntryPointOnExit UseGetUpAfterJack JackVariationsIncludeGetIn DeadJackIncludesGetIn",
+          "EntryAnimVariations": {
+            "@_ref": "NULL"
+          },
+          "NMJumpFromVehicleTuningSet": "",
+          "@_type": "CVehicleEntryPointAnimInfo"
+        }
+      ]
+    },
+    "VehicleExplosionInfos": "",
+    "VehicleLayoutInfos": {
+      "Item": {
+        "Name": "LAYOUT_BIKE_RROCKET",
+        "Seats": {
+          "Item": {
+            "SeatInfo": {
+              "@_ref": "SEAT_BIKE_FRONT"
+            },
+            "SeatAnimInfo": {
+              "@_ref": "SEAT_ANIM_BIKE_RROCKET"
+            }
+          }
+        },
+        "EntryPoints": {
+          "Item": [
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BIKE_FRONT_LEFT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_LEFT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BIKE_FRONT_RIGHT"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_RIGHT"
+              }
+            },
+            {
+              "EntryPointInfo": {
+                "@_ref": "ENTRY_POINT_BIKE_RROCKET_FRONT_REAR"
+              },
+              "EntryPointAnimInfo": {
+                "@_ref": "ENTRY_POINT_ANIM_BIKE_RROCKET_FRONT_REAR"
+              }
+            }
+          ]
+        },
+        "LayoutFlags": "StreamAnims BikeLeansUnlessMoving UsePickUpPullUp UseStillToSitTransition UseFinerAlignTolerance DisableFastPoseWhenDrivebying",
+        "BicycleInfo": {
+          "@_ref": "NULL"
+        },
+        "AnimRateSet": {
+          "@_ref": "NULL"
+        },
+        "HandsUpClipSetId": "busted_vehicle_bike_police",
+        "SteeringWheelOffset": {
+          "@_x": 0,
+          "@_y": 0.35,
+          "@_z": 0.32
+        },
+        "MaxXAcceleration": {
+          "@_value": 25
+        },
+        "BodyLeanXApproachSpeed": {
+          "@_value": 15
+        },
+        "BodyLeanXSmallDelta": {
+          "@_value": 0.1
+        },
+        "LookBackApproachSpeedScale": {
+          "@_value": 1
+        },
+        "FirstPersonAdditiveIdleClipSets": "",
+        "FirstPersonRoadRageClipSets": "",
+        "CellphoneClipsets": {
+          "CellphoneClipsetDS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS",
+          "CellphoneClipsetPS": "ANIM_GROUP_CELLPHONE_IN_CAR_PS",
+          "CellphoneClipsetDS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS",
+          "CellphoneClipsetPS_FPS": "ANIM_GROUP_CELLPHONE_IN_CAR_DS_FPS"
+        },
+        "@_type": "CVehicleLayoutInfo"
+      }
+    },
+    "VehicleScenarioLayoutInfos": "",
+    "SeatOverrideAnimInfos": "",
+    "InVehicleOverrideInfos": "",
+    "FirstPersonDriveByLookAroundData": ""
+  }
+}
